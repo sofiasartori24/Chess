@@ -1,0 +1,30 @@
+[Event "TCEC Season 21 - VVLTC Bonus"]
+[Site "https://tcec-chess.com"]
+[Date "2021.08.14"]
+[Round "3.1"]
+[White "Stockfish 14_202108051641"]
+[Black "LCZero 0.28-dev+_69722-vf2"]
+[Result "*"]
+[WhiteElo "3639"]
+[BlackElo "3623"]
+[ECO "B07"]
+[GameDuration "10:02:57"]
+[GameEndTime "2021-08-14T19:10:32.640 UTC"]
+[GameStartTime "2021-08-14T09:07:34.741 UTC"]
+[Opening "Pirc"]
+[PlyCount "109"]
+[TerminationDetails "White mates"]
+[TimeControl "21600+60"]
+[Variation "Ufimtsev-Pytel variation"]
+[Annotator "archive"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 c6 4. f4 Qa5 5. Bd3 e5 6. Nf3 Nbd7 7. O-O Be7 8. Kh1
+Qc7 9. Qe2 O-O 10. dxe5 dxe5 11. a4 b6 12. Bd2 a6 13. f5 Bb7 14. g4 b5 15. Rae1
+Rad8 16. g5 Nh5 17. f6 Bd6 18. fxg7 Nxg7 19. Nh4 Nc5 20. Rf3 Kh8 21. Ref1 Bc8
+22. Nf5 Nxd3 23. cxd3 b4 24. Nxg7 bxc3 25. Bxc3 Kxg7 26. Rf6 Be6 27. Qh5 Qe7
+28. d4 Rd7 29. Qh6+ Kg8 30. d5 Bxd5 31. exd5 Bb8 32. b4 Rxd5 33. g6 hxg6 34.
+R6f3 Bd6 35. Rh3 f6 36. Qxg6+ Qg7 37. Qf5 Kf7 38. Rh7 Qxh7 39. Qxh7+ Ke6 40.
+Qb7 c5 41. bxc5 Rxc5 42. Qb3+ Ke7 43. Bb4 Rfc8 44. Rd1 R8c7 45. Qd3 Rc1 46.
+Bxd6+ Kf7 47. Bxc7 Rxd1+ 48. Qxd1 Kg6 49. Qd7 Kg5 50. Kg2 Kf4 51. Kf2 Kg5 52.
+Qh7 Kg4 53. h3+ Kf4 54. Qh4+ Kf5 55. Qg4# *
+

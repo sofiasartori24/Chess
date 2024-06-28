@@ -1,0 +1,52 @@
+[Event "CCC 17 Bullet: Qualification (2|1)"]
+[Site "?"]
+[Date "2022.04.10"]
+[Round "1"]
+[White "Stoofvlees"]
+[Black "Igel"]
+[Result "1-0"]
+[ECO "A01"]
+[GameDuration "00:07:21"]
+[GameEndTime "2022-04-10T04:37:39.156 PDT"]
+[GameStartTime "2022-04-10T04:30:17.855 PDT"]
+[Opening "Nimzovich-Larsen attack"]
+[PlyCount "157"]
+[TimeControl "120+1"]
+[Variation "Modern Variation"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 d5 { All of these moves were mandatory. } 4. Bb5 Bd6
+5. f4 f6 ( 5... exf4 6. Bxg7 ) 6. Qh5+ g6 7. Qh4 exf4 8. Nf3
+{ a first sacrifice } ( 8. exf4 Qe7+ 9. Ne2 ) 8... fxe3 { greedy } 9. O-O Bd7 (
+9... exd2 10. Nbxd2 Bd7 11. Rae1+ Kf7 12. c4 ) 10. Nc3 Nce7 11. dxe3 c6 12. Bd3
+Qc7 13. e4 O-O-O 14. exd5 cxd5 15. Kh1 $3 { such a computer move } 15... h5 16.
+a4 { Igel - \"-0.97\" } 16... a6 17. b4 g5
+{ Igel - \"-1.14\" Stoofvlees - \"+.33\" } ( 17... Nh6 ) 18. Qf2 Bxb4
+{ greedier } 19. Nb5 $3
+{ Stoofvlees - \"+1.12\" a first piece sacrifice to open the
+a-file in the long term. }
+19... axb5 20. axb5 b6 { virtually forced. } 21. Ra6
+{ Prparing to double, and of course, the b-pawn is a target. } 21... Kb7 22.
+Bd4 Nc8 ( 22... Bc5 23. Rfa1 Nc8 24. c3 Re8 25. Ra8 Nge7 26. Qa2 ) 23. c3 Ba5 (
+23... Bc5 24. Rfa1 ) 24. c4 g4 25. Rxa5
+{ a second piece sacrifice and a
+double offering - as Tal once noted, the opponent can only accept one sacrifice
+at a time. }
+25... bxa5 ( 25... gxf3 26. Raa1 fxg2+ 27. Qxg2 Re8 28. Qa2 ) 26. b6 Qd6 27. c5
+{ Stoofvlees - \"-1.26\" and Igel - \"-3.07\" } 27... Qc6 28. Nd2 a4 29. Nb3 $3
+{ a third piece sacrifice! } 29... axb3 30. Ra1 Nd6 31. Ra7+ Kb8 32. cxd6 Qc1+
+33. Bf1 Nh6 34. Qe2 Qc6 35. Qa6 b2 36. Qa2 { Igel - \"2.47\" } ( 36. Bxb2 Rde8
+) 36... b1=Q ( 36... Nf5 37. b7 ) 37. Qxb1 Nf5 38. b7
+{ Technically another
+piece sacrifice? } 38... Nxd6 ( 38... Nxd4 39. Ra8# ) 39.
+Ra6 { basically trapping
+the queen. } 39... Nxb7 ( 39... Qxb7 40. Rb6 Bc8 41.
+Ba6 Qxb6 42. Qxb6+ Nb7 43. Be3 ) 40. Rxc6 Bxc6 41. Bxf6 Kc7 42. Kg1 ( 42. Bxh8
+Rxh8 43. Qg6 { also plus minus,
+but White need not cash in yet. } ) 42... Rh6
+43. Bg5 Rdd6 44. Bf4 Re6 45. Qa1 Re4 46. Bg3 Ra4 47. Qh8 Kb6 48. Bxd6 Nxd6 49.
+Qxh5 Nc4 ( 49... Re4 ) 50. Qxg4 Ne3 51. Qe6 Nxf1 52. Kxf1 Kb5 53. Qd6 Re4 54.
+g3 Re8 55. h4 Rh8 56. Qf6 Rh7 57. g4 Kc5 58. h5 Bb5+ 59. Kf2 Bd3 60. Ke3 Be4
+61. Qf8+ Kc4 62. h6 Kb3 63. g5 Rb7 64. Qd6 Rh7 65. Kd4 Rh8 66. g6 Rxh6 67. Qb8+
+Kc2 68. g7 Bh7 69. g8=Q Bxg8 70. Qxg8 Rd6 71. Qf8 Rd7 72. Qf5+ Kd1 73. Qxd7 Ke1
+74. Kxd5 Kf1 75. Ke4 Kg2 76. Qg4+ Kf2 77. Kd3 Kf1 78. Ke3 Ke1 79. Qe2# 1-0
+

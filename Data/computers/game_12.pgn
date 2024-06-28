@@ -1,0 +1,28 @@
+[Event "Stockfish+NNUE vs Lc0 (3|2)"]
+[Site "?"]
+[Date "2020.07.20"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish NNUE"]
+[Result "1-0"]
+[ECO "C34"]
+[GameDuration "00:10:46"]
+[GameEndTime "2020-07-20T11:46:27.510 PDT"]
+[GameStartTime "2020-07-20T11:35:40.614 PDT"]
+[Opening "King's knight's gambit"]
+[PlyCount "149"]
+[TimeControl "180+2"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 h5 4. d4 g5 5. h4 g4 6. Ng5 f6 7. Bxf4 fxg5 8. Bxg5
+Be7 9. Qd2 d6 10. Nc3 Rh7 11. Bc4 Rg7 12. Bxg8 Rxg8 13. Nd5 Rxg5 14. hxg5 Bxg5
+15. Qd3 c6 16. Rxh5 Nd7 17. e5 Nf8 18. Rh8 Be6 19. Qg6+ Kd7 20. Qg7+ Be7 21.
+Nf6+ Kc7 22. O-O-O Kb6 23. d5 Bxf6 24. exf6 Bxd5 25. g3 a5 26. Re1 c5 27. f7
+Bc6 28. Rg8 Bd7 29. Re8 Bxe8 30. Qxf8 Bxf7 31. Qxd8+ Rxd8 32. Rxd8 Kc6 33. Rc8+
+Kb6 34. Rf8 Bd5 35. Kd2 Bxa2 36. Rf4 Be6 37. Rf6 Bd7 38. Rxd6+ Kc7 39. Rg6 a4
+40. c4 b6 41. Ke3 Bf5 42. Rg7+ Kc6 43. Rf7 Bc8 44. Ra7 b5 45. Ra5 b4 46. Rxa4
+Bf5 47. Ra6+ Kd7 48. Rf6 Bb1 49. Kf4 Kd8 50. Ke5 Ke7 51. Rf4 Bc2 52. Rxg4 Kd7
+53. Rf4 Kc7 54. g4 Kb6 55. g5 Ka5 56. Kd5 Ka4 57. Rf3 Bh7 58. Rg3 Bg6 59. Kxc5
+Bf5 60. g6 Be6 61. g7 Bg8 62. Kb6 Bxc4 63. b3+ Bxb3 64. Rxb3 Kxb3 65. g8=Q+ Kc2
+66. Qc4+ Kd2 67. Qxb4+ Ke3 68. Kc5 Kf3 69. Kd4 Kf4 70. Qf8+ Kg4 71. Ke4 Kg3 72.
+Qf3+ Kh4 73. Qg2 Kh5 74. Kf5 Kh6 75. Qg6# 1-0
+

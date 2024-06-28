@@ -1,0 +1,25 @@
+[Event "CCC 16 Rapid: Main (15|3)"]
+[Site "?"]
+[Date "2021.11.04"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stoofvlees"]
+[Result "1-0"]
+[ECO "A48"]
+[GameDuration "00:21:35"]
+[GameEndTime "2021-11-04T07:21:06.657 PDT"]
+[GameStartTime "2021-11-04T06:59:31.063 PDT"]
+[Opening "King's Indian"]
+[PlyCount "97"]
+[TimeControl "900+3"]
+[Variation "East Indian defense"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 c6 5. Qd2 Bf5 6. Ne5 Nfd7 7. f3 Bg7 8. e4
+Be6 9. Nxd7 Nxd7 10. exd5 cxd5 11. Nb5 O-O 12. h4 Qb6 13. O-O-O Rac8 14. h5 Rc6
+15. Na3 Rfc8 16. g4 a6 17. c3 Qa5 18. Kb1 Rxc3 19. bxc3 Qxa3 20. Rc1 Nb6 21.
+Qb2 Qa5 22. Bd2 Rc6 23. Ka1 Na4 24. Qxb7 Nxc3 25. Rxc3 Rxc3 26. Qb8+ Bc8 27.
+Bc4 Qd8 28. Bxc3 dxc4 29. Qf4 h6 30. hxg6 fxg6 31. Rb1 a5 32. Rb8 a4 33. Kb2
+a3+ 34. Kc1 Qd7 35. Ra8 h5 36. Qb8 Kh7 37. Qxc8 Qd5 38. gxh5 Qxf3 39. hxg6+ Kh6
+40. Bd2+ Kxg6 41. Qe6+ Kh7 42. Qg8+ Kg6 43. Ra6+ e6 44. Rxe6+ Kf5 45. Qf7+ Bf6
+46. Qxf6+ Kg4 47. Qg5+ Kh3 48. Rh6+ Qh5 49. Rxh5# 1-0
+

@@ -1,0 +1,32 @@
+[Event "More Chesse-Play: Stockfish vs Lc0 vs Stockfish+NNUE (3|2)"]
+[Site "?"]
+[Date "2020.07.25"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish NNUE"]
+[Result "1-0"]
+[ECO "A22"]
+[GameDuration "00:10:08"]
+[GameEndTime "2020-07-25T03:21:13.746 PDT"]
+[GameStartTime "2020-07-25T03:11:05.000 PDT"]
+[Opening "English Opening"]
+[PlyCount "133"]
+[TimeControl "180+2"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e4 Bb4 5. d3 d6 6. a3 Bc5 7. b4 Bb6 8. Be3
+Nd4 9. Bxd4 exd4 10. Ne2 a5 11. g3 ( 11. Nexd4 Ng4 ) 11... Bg4 12. Bg2 Nd7 13.
+O-O Ne5 14. Nxe5 dxe5 15. c5 Ba7 16. f3 Bd7 17. f4 Bb8 18. b5 ( 18. fxe5 c6 )
+18... O-O ( 18... Bxb5 19. fxe5 c6 20. e6 ) 19. Rc1 exf4 ( 19... Bxb5 20. fxe5
+c6 21. e6 fxe6 22. Rxf8+ Qxf8 23. Nxd4 ) ( 19... c6 20. b6 ) 20. c6 bxc6 21.
+bxc6 Bg4 22. Rxf4 Qg5 23. h4 Qh5 24. Kf2 $1 Be6 25. Bf3 Qb5 26. Bg4 Bb3 ( 26...
+Bxg4 27. Rxg4 f5 ) 27. Qd2 Qa4 28. Bf5 Kh8 29. Rg4 f6 30. h5 Qxa3 31. Rh1 Qb4
+32. Qf4 Qb5 33. Qf3 Ba7 34. Nf4 Bf7 ( 34... a4 35. Ng6+ hxg6 36. hxg6+ Kg8 37.
+Rgh4 ) 35. Ng6+ Bxg6 36. hxg6 Qb2+ ( 36... h6 37. Rxh6+ gxh6 38. Qf4 Kg7 39.
+Qxc7+ ) 37. Kg1 Qc1+ 38. Kg2 Qd2+ 39. Kh3 h6 40. Qf4 $3 Qxf4 ( 40... Qe3 41.
+Rh4 Rfe8 42. Rxh6+ gxh6 43. Qxc7 ) ( 40... Qxd3 41. Rh4 Rfb8 42. Rxh6+ gxh6 43.
+Qxh6+ Kg8 44. Be6# ) 41. gxf4 Bc5 42. Rgg1 Rab8 43. Rb1 Bb4 44. Be6 f5 ( 44...
+Rfd8 45. Kg4 ) 45. e5 a4 46. Ba2 a3 47. Kg3 Rfe8 48. Kf3 Rb6 49. Rhc1 Rc8 50.
+Rc4 Ba5 51. Rxb6 Bxb6 52. Ra4 Bc5 53. Ra5 Bb4 54. Rd5 Be7 55. Rd7 Bb4 56. e6
+Be1 57. e7 Bh4 58. Rxc7 Re8 59. Bf7 a2 60. Ra7 a1=Q 61. Rxa1 Rb8 62. c7 Rc8 63.
+Rb1 Bxe7 64. Rb8 Rf8 65. Rxf8+ Bxf8 66. c8=Q h5 67. Qxf8# 1-0
+

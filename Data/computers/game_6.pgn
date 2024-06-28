@@ -1,0 +1,42 @@
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "Chess.com"]
+[Date "2020.08.05"]
+[Round "106"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "E73"]
+[GameDuration "00:40:48"]
+[GameEndTime "2020-08-05T17:34:48.928 PDT"]
+[GameStartTime "2020-08-05T16:54:00.487 PDT"]
+[Opening "King's Indian"]
+[PlyCount "304"]
+[TimeControl "600+5"]
+[Variation "5.Be2"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 e5 6. dxe5 dxe5 7. Qxd8+ Kxd8 8.
+Nf3 Nc6 9. Be3 Be6 10. O-O-O+ Nd7 11. Ng5 Nd4 12. Nxe6+ fxe6 13. Kb1 Ke7 14.
+Rhe1 c5 15. f3 h5 16. Bd3 h4 17. h3 Bh6 18. Bf2 Bf4 19. Bf1 Bg3 20. Bxg3 hxg3
+21. Rd2 Rad8 22. Nb5 a6 23. Nc3 Nf6 24. Nd1 Rd6 25. Ne3 Rf8 26. Red1 Rh8 27.
+Re1 Ra8 28. Red1 Rf8 29. Kc1 Rfd8 30. Be2 Kf8 31. Kb1 Kg7 32. Nf1 Nh5 33. Ne3
+Nf4 34. Bf1 g5 35. Ng4 Ng6 36. Rd3 Kf7 37. Ne3 Nf4 38. R3d2 a5 39. Ng4 Ng6 40.
+Rd3 Ke8 41. Ne3 Nf4 42. R3d2 Ke7 43. Ng4 Ng6 44. Kc1 Rb6 45. Kb1 Rbd6 46. Kc1
+a4 47. Rd3 Nf4 48. R3d2 Ng6 49. Rd3 a3 50. bxa3 Kd7 51. Re3 Kc8 52. Ree1 Rf8
+53. Kb2 Kc7 54. Re3 Kb8 55. Rd2 Ka7 56. a4 Kb8 57. a5 Kc7 58. Kb1 Rb8 59. Ra3
+Nb5 60. Rad3 Nd4 61. Ra3 Rbd8 62. Kb2 Rf8 63. Kc1 Ra6 64. Kb1 Rh8 65. Kc1 Rf8
+66. Kb1 Rfa8 67. Nf6 Nf4 68. Ng4 Kd6 69. Rb2 b6 70. Kc1 bxa5 71. Kb1 R6a7 72.
+Kc1 Rf8 73. Rb6+ Kc7 74. Rb2 Ng6 75. Rb1 Kd6 76. Rb6+ Ke7 77. Ne3 a4 78. Rb2
+Rd8 79. Ng4 Kf7 80. Rb1 Kg7 81. Rb6 Kf7 82. Rb1 Rh8 83. Rb2 Kg7 84. Rb1 Rf8 85.
+Rb2 Kf7 86. Rb6 Ke7 87. Rb1 Rd8 88. Rb2 Kf8 89. Ne3 Nf4 90. Ng4 Ra6 91. Ne3 Ra7
+92. Ng4 Kf7 93. Nxe5+ Kf6 94. Ng4+ Kg7 95. Ne3 Kg6 96. Ng4 Kg7 97. Ne5 Kh7 98.
+Rb6 Kg7 99. Nd3 Rad7 100. Nxf4 gxf4 101. Rd3 Kf6 102. Rb1 a3 103. Rb6 Ra7 104.
+Rd2 Ke5 105. Rd1 Raa8 106. Rd3 Ra4 107. Kb1 Rc8 108. Rd2 Raa8 109. Kc1 Rcb8
+110. Rxb8 Rxb8 111. h4 Rh8 112. Be2 Rxh4 113. Bf1 Rh2 114. Rd3 Rh1 115. Rd1 Rh7
+116. Rd2 Rb7 117. Bd3 Rb8 118. Bf1 Rh8 119. Rd3 Nc6 120. Kb1 Nb4 121. Rd2 Rh1
+122. Rd1 Rh7 123. Rd8 Rb7 124. Ra8 Nd5+ 125. Kc1 Ne3 126. Rxa3 Nxf1 127. Ra5
+Kd4 128. Rb5 Rh7 129. Kb2 Rh2 130. Ka3 Rxg2 131. Rb7 Kxc4 132. Rb1 Rf2 133.
+Rc1+ Kb5 134. Rb1+ Ka5 135. Rc1 g2 136. Rxc5+ Kb6 137. Rg5 Ng3 138. Kb4 g1=Q
+139. Rb5+ Kc6 140. Rc5+ Kd7 141. Rc3 Nxe4 142. fxe4 Rd2 143. Kb5 Qd4 144. Rh3
+Rb2+ 145. Rb3 Rxb3+ 146. axb3 Qxe4 147. b4 f3 148. Ka4 f2 149. Ka5 f1=Q 150. b5
+Kc7 151. b6+ Kc6 152. b7 Qb5# 0-1
+

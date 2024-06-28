@@ -1,0 +1,23 @@
+[Event "TCEC Season 23 - Chess Bonus"]
+[Site "https://tcec-chess.com"]
+[Date "2022.08.11"]
+[Round "2.18"]
+[White "Stockfish dev16_202208061357"]
+[Black "Winter 0.9.9"]
+[Result "1-0"]
+[Annotator "archive"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5
+8. Rxe5 O-O 9. d4 Bf6 10. Re1 Nf5 11. c3 c6 12. Nd2 d5 13. Nf3 Nd6 14. Bf4 Bf5
+15. a4 a5 16. h3 h6 17. Qb3 Be4 18. Ne5 Re8 19. Re2 Bg5 20. Bg3 Bh4 21. Bh2 Re7
+22. Rae1 Bg5 23. Qa3 Rc8 24. c4 Nf5 25. Rd1 Nh4 26. c5 Ng6 27. Qb3 Nf8 28. Ree1
+Ra8 29. Bd3 Bxd3 30. Qxd3 Qe8 31. Bg3 Ng6 32. Qc3 Bf6 33. f4 Nf8 34. f5 Nd7 35.
+Kh2 Nf8 36. Qb3 Rc8 37. Rd3 Ra8 38. Qd1 Nd7 39. Rde3 Qd8 40. Bf4 Bh4 41. g3 Bf6
+42. Qg4 Kh8 43. Kg2 Bxe5 44. dxe5 f6 45. exf6 Nxf6 46. Rxe7 Nxg4 47. hxg4 d4
+48. Bd6 d3 49. g5 hxg5 50. Rh1+ Kg8 51. f6 gxf6 52. Reh7 Qe8 53. Rh8+ Kf7 54.
+Rxe8 Rxe8 55. Rd1 Re2+ 56. Kf3 Rxb2 57. Rxd3 Rb4 58. Ra3 Rc4 59. Re3 Rb4 60.
+Re7+ Kg6 61. Re4 Rb3+ 62. Re3 Rb1 63. g4 Rh1 64. Re6 Rf1+ 65. Kg2 Rc1 66. Be5
+Kh7 67. Rxf6 Rxc5 68. Rf5 Kg6 69. Kf3 Rc4 70. Rf6+ Kh7 71. Rf7+ Kg6 72. Rg7+
+Kh6 73. Rxb7 Rxa4 74. Rb3 Rb4 75. Rxb4 axb4 76. Ke4 Kg6 77. Bd4 b3 78. Ke5 c5
+79. Bb2 Kf7 80. Kf5 c4 81. Kxg5 1-0
+

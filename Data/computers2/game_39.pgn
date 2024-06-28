@@ -1,0 +1,254 @@
+[Event "CCC23 Blitz: Semifinals (3|2)"]
+[Site "Chess.com"]
+[Date "2024.06.27"]
+[Round "11"]
+[White "Caissa"]
+[Black "Obsidian"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[GameDuration "00:09:33"]
+[GameEndTime "2024-06-27T02:25:02.005 PDT"]
+[GameStartTime "2024-06-27T02:15:28.843 PDT"]
+[Opening "Caro-Kann"]
+[PlyCount "132"]
+[Termination "adjudication"]
+[TimeControl "180+2"]
+[Variation "Exchange Variation"]
+
+1. e4 { book } 1... c6 { book } 2. d4 { book } 2... d5 { book } 3. exd5
+{ book } 3... cxd5 { book } 4. Nf3 { book } 4... Nf6 { book } 5. Bd3 { book }
+5... Nc6 { book } 6. h3 { book } 6... h6 { book } 7. O-O { book } 7... Nb4
+{ book } 8. Bb5+ { book } 8... Nc6 { book } 9. Bf4
+{ +0.86/35 15s, ev=0.86, d=35, pd=e6, mt=00:00:14, tl=00:02:47, s=230388 kN/s, n=3449150024, pv=Bf4 e6 Nbd2 Nh5 Bh2 Nf6 c3 Bd6 Ne5 O-O Bd3 Bd7 Bf4 Be8 Re1 b5 Qe2 b4 Qe3 bxc3, tb=1, R50=48, wv=0.86 }
+9... e6
+{ -0.82/32 21s, ev=-0.82, d=32, pd=Re1, mt=00:00:20, tl=00:02:41, s=180181 kN/s, n=3760563167, pv=e6 Re1 Be7 Nbd2 Bd7 a4 O-O c3 Be8 Bd3 a5 Bb1 Rc8 Ne5 Qb6 Nd3 Qd8 Qf3 Kh8 Qe3 Bd6 Bxd6 Qxd6 Ne5 Ne7 Ng4 Neg8 Nf3 Qb6 Nxf6 Nxf6 Qd2 Kg8 Ne5 Rc7 Ng4, tb=59, R50=48, wv=0.82 }
+10. Nbd2
+{ +0.77/35 6.2s, ev=0.77, d=35, pd=Nh5, mt=00:00:06, tl=00:02:42, s=257650 kN/s, n=1589413948, pv=Nbd2 Nh5 Bh2 Nf6 c3 Bd6 Ne5 Bd7 Bd3 O-O Bf4 Be8 Qf3 Rc8 Rfe1 Bb8 Rad1 Nxe5 dxe5 Nd7, tb=0, R50=50, wv=0.77 }
+10... Nh5
+{ -0.77/32 14s, ev=-0.77, d=32, pd=Bh2, mt=00:00:13, tl=00:02:29, s=182064 kN/s, n=2541064509, pv=Nh5 Bh2 Nf6 c3 Bd6 Ne5 Bd7 Bd3 O-O Re1 Be8 Bf4 Qc7 Qe2 Nh7 Bg3 a5 a3 Kh8 Rac1 f6 Nxc6 Bxg3 fxg3 bxc6 Qxe6 Qxg3 Qe3 Qxe3+ Rxe3, tb=3, R50=50, wv=0.77 }
+11. Bh2
+{ +0.89/37 11s, ev=0.89, d=37, pd=bxc6, mt=00:00:11, tl=00:02:33, s=248234 kN/s, n=2848251930, pv=Bxc6+ bxc6 Bh2 Nf6 c4 Bd6 Ne5 Bc7 Rc1 O-O Bg3 Bb7 c5 Nh7 Rc3 f6 Ng6 Re8 Qa4 Qd7, tb=0, R50=49, wv=0.89 }
+11... Nf6
+{ -0.77/29 4.0s, ev=-0.77, d=29, pd=c3, mt=00:00:03, tl=00:02:27, s=194579 kN/s, n=770919745, pv=Nf6 c3 Bd6 Bxd6 Qxd6 Ne5 O-O f4 Ne7 Bd3 b5 a3 a5 Qe2 Rb8 Nb3 Ne4 Bxe4 dxe4 Qxe4 Bb7 Qc2 b4 Nc4 Qc7 Ncxa5 bxc3 Qxc3 Qxc3 bxc3 Bd5 Nd2 Rfc8 c4 Ba8 Rab1 Nf5 Rxb8 Rxb8 Ndb3 Ne3, tb=0, R50=49, wv=0.77 }
+12. c4
+{ +0.85/37 22s, ev=0.85, d=37, pd=Bd6, mt=00:00:22, tl=00:02:13, s=238517 kN/s, n=5281871357, pv=c3 Bd6 Ne5 Bd7 Bd3 O-O Re1 Qc7 Bf4 Be8 Qe2 Kh8 Bg3 a5 Rac1 Nh7 Nf1 Rb8 Nf3 Nf6, tb=13, R50=48, wv=0.85 }
+12... Bd6
+{ -0.59/27 4.4s, ev=-0.59, d=27, pd=Bxd6, mt=00:00:04, tl=00:02:24, s=198676 kN/s, n=871589573, pv=Bd6 Bxd6 Qxd6 Rc1 O-O cxd5 Nd8 dxe6 Nxe6 Nb3 a6 Bc4 b5 Bxe6 Bxe6 Nc5 Bd5 Rc3 Rfe8 Re1 b4 Rxe8+ Rxe8 Re3 Rxe3 fxe3 Ne4 Nxe4 Bxe4 Nd2 Bd5, tb=1, R50=50, wv=0.59 }
+13. Bxc6+
+{ +0.66/37 9.1s, ev=0.66, d=37, pd=bxc6, mt=00:00:09, tl=00:02:06, s=262679 kN/s, n=2391314323, pv=Bxc6+ bxc6 Ne5 Nd7 c5 Bc7 Ndf3 Nxe5 Nxe5 O-O Re1 a5 Rc1 f6 Ng6 Re8 Bxc7 Qxc7 f4 Qf7, tb=47, R50=50, wv=0.66 }
+13... bxc6
+{ -0.79/32 11s, ev=-0.79, d=32, pd=Ne5, mt=00:00:10, tl=00:02:15, s=189043 kN/s, n=2043554580, pv=bxc6 Ne5 Nd7 c5 Bxe5 Bxe5 Ba6 Re1 Nxe5 dxe5 Bd3 b4 Bg6 Nb3 O-O a3 Qc7 Rc1 a6 Rc3 Kh8 Qd4 Be4 Rce3 Rfd8 Na5 Rab8 Qd2 Rf8 Nb3 Bh7 Rc3 Rb7 Na5 Rbb8 Rf3 Be4, tb=2, R50=50, wv=0.79 }
+14. Ne5
+{ +0.69/38 6.2s, ev=0.69, d=38, pd=Nd7, mt=00:00:06, tl=00:02:01, s=300079 kN/s, n=1859577842, pv=Ne5 Nd7 c5 Bc7 Ndf3 Nxe5 Nxe5 O-O Re1 a5 Qc2 Re8 Re3 f6 Ng6 Bxh2+ Kxh2 Qd7 f4 e5, tb=90, R50=50, wv=0.69 }
+14... Nd7
+{ -0.75/32 4.8s, ev=-0.75, d=32, pd=c5, mt=00:00:04, tl=00:02:13, s=193303 kN/s, n=926113133, pv=Nd7 c5 Bc7 Ndf3 Nxe5 Nxe5 O-O Re1 a5 Qc2 f6 Ng6 Re8 Bxc7 Qxc7 f4 a4 Re3 Qa5 Rd1 Ra7 h4 Rb7 h5 Qb4 Rd2 e5 a3 Qa5 fxe5 Bf5 Qc1 Bxg6 hxg6, tb=4, R50=50, wv=0.75 }
+15. c5
+{ +0.65/34 4.3s, ev=0.65, d=34, pd=Bc7, mt=00:00:04, tl=00:01:59, s=281567 kN/s, n=1202847290, pv=c5 Bc7 Ndf3 Nxe5 Nxe5 O-O Re1 a5 Qc2 Re8 Re3 f6 Ng6 Bxh2+ Kxh2 Qd7 f4 e5 fxe5 Qf5, tb=79, R50=49, wv=0.65 }
+15... Bxe5
+{ -0.71/33 7.3s, ev=-0.71, d=33, pd=Bxe5, mt=00:00:07, tl=00:02:07, s=195913 kN/s, n=1424287987, pv=Bxe5 Bxe5 Nxe5 dxe5 Rb8 Qc2 O-O Rfe1 Rb4 Qc3 Rf4 Qe3 Rb4 b3 f5 Qc3 Rh4 Nf3 Re4 b4 Qc7 Nd2 Rh4 Rab1 g5 Nf3 Re4 a4 a6 Nd2 Rh4 b5 axb5 axb5 cxb5 Rxb5 Qg7 Rb4 Rxb4 Qxb4 g4, tb=9, R50=50, wv=0.71 }
+16. Bxe5
+{ +0.98/30 1.3s, ev=0.98, d=30, pd=Nxe5, mt=00:00:01, tl=00:02:00, s=301150 kN/s, n=371078148, pv=Bxe5 Nxe5 dxe5 O-O Re1 Rb8 Qc2 Rb4 Qc3 Rh4 b3 f5 Nf3 Re4 b4 Kh7 Nd2 Rh4 a3 a5, tb=1, R50=50, wv=0.98 }
+16... Nxe5
+{ -0.85/34 9.5s, ev=-0.85, d=34, pd=dxe5, mt=00:00:09, tl=00:02:00, s=196234 kN/s, n=1866185828, pv=Nxe5 dxe5 Rb8 Qc2 O-O Rfe1 Rb4 Qc3 a5 a3 d4 Qc1 Rb8 Ne4 Ba6 Nd6 f5 b4 Qh4 Qb2 Kh7 Rab1 Qf4 Qb3 d3 Qc3 Rfd8 Re3 Rd7 Rb2 axb4 axb4 Ra7 Rb1 Rd7 Rf3 Qh4 Rb3 Qg5 Rb2 Ra7 Kh2, tb=171, R50=50, wv=0.85 }
+17. dxe5
+{ +0.75/29 1.1s, ev=0.75, d=29, pd=Rb8, mt=00:00:01, tl=00:02:01, s=299387 kN/s, n=337441292, pv=dxe5 Rb8 Qc2 O-O Rfe1 Rb4 Qc3 Rf4 Qe3 Rb4 b3 f5 a3 Rh4 Nf3 Re4 Qc3 a5 Rab1 Qc7, tb=1, R50=50, wv=0.75 }
+17... Rb8
+{ -0.67/35 19s, ev=-0.67, d=35, pd=Qc2, mt=00:00:18, tl=00:01:43, s=191619 kN/s, n=3597845330, pv=Rb8 Qc2 O-O Rfe1 Rb4 Qc3 a5 b3 f5 a3 Rh4 Nf3 Re4 b4 Kh7 Nd4 Qc7 Qd2 Bd7 f4 Ra8 Kh2 Rxe1 Qxe1 axb4 axb4 Qb7 Rxa8 Qxa8 Qd1 Qa2 Qc2 Qa1 Qd2 Qa4 g4 g6 gxf5 gxf5 Qb2, tb=228, R50=50, wv=0.67 }
+18. Qc2
+{ +0.81/31 4.4s, ev=0.81, d=31, pd=O-O, mt=00:00:04, tl=00:01:58, s=276080 kN/s, n=1205397879, pv=Qc2 O-O Rfe1 Rb4 Qc3 a5 a3 Rh4 Nb3 a4 Nd4 f6 Rad1 Bd7 Rd3 fxe5 Rxe5 Qf6 Qe1 Rf4, tb=36, R50=50, wv=0.81 }
+18... O-O
+{ -0.82/31 6.7s, ev=-0.82, d=31, pd=Rfe1, mt=00:00:06, tl=00:01:38, s=198802 kN/s, n=1324813095, pv=O-O Rfe1 Rb4 Qc3 a5 b3 f6 Nf3 Rf4 Rad1 fxe5 Rxe5 Qf6 Qe3 Qg6 Kh2 Qc2 Rd2 Qc1 Rd4 Qxe3 fxe3 R4f7 Ra4 Ra7 e4 Bd7 Nd4 Rc8 g4 Kf7 h4 Rb8 exd5 cxd5 c6 Bc8 Kg3 Ke7, tb=295, R50=50, wv=0.82 }
+19. Rfe1
+{ +0.91/40 6.2s, ev=0.91, d=40, pd=Rb4, mt=00:00:06, tl=00:01:54, s=263630 kN/s, n=1624294801, pv=Rfe1 Rb4 Qc3 a5 a3 Rh4 Nb3 a4 Nd4 f6 Rad1 Bd7 Re3 Kh7 Re2 Kg8 Rdd2 Rf7 Re1 Qe7, tb=12, R50=49, wv=0.91 }
+19... Rb4
+{ -0.75/35 6.6s, ev=-0.75, d=35, pd=Qc3, mt=00:00:06, tl=00:01:34, s=192506 kN/s, n=1266300938, pv=Rb4 Qc3 a5 a3 d4 Qc1 Rb8 Nc4 Ba6 Nd6 f6 Qd2 d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 Nd6 Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qxf6 gxf6 Rd4 h5 f3 Kg6 h4 f5 Nc4 Bxc4 Rxc4 Rb8 b4 Ra8 Rd4 Kf6 Kf2 axb4 axb4 Ra2+ Kg3 Rb2 Rd6 Rxb4 Rxc6, tb=4079, R50=49, wv=0.75 }
+20. Qc3
+{ +0.84/31 3.2s, ev=0.84, d=31, pd=a5, mt=00:00:03, tl=00:01:53, s=273190 kN/s, n=856972466, pv=Qc3 a5 a3 Rh4 Rad1 f6 Nb3 a4 Nd4 Bd7 Re3 Qe8 exf6 Rxf6 Nf3 Rc4 Qa5 Rc2 Qa7 Rxb2, tb=22, R50=48, wv=0.84 }
+20... a5
+{ -0.65/34 6.3s, ev=-0.65, d=34, pd=a3, mt=00:00:06, tl=00:01:29, s=189961 kN/s, n=1193331940, pv=a5 a3 d4 Qc1 Rb8 Ne4 Ba6 Nd6 f6 Qd2 d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Kh7 Rd1 Bc4 Nd6 Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qxf6 gxf6 Rd4 h5 f3 Kg6 Kf2 Bb3 Ne4 Bd5 Nc3 Rb8 b4 axb4 Rxb4 Ra8 Ra4 Rb8 Nxd5 cxd5 Rb4 Rc8 Rb5 h4 a4 e5 Ke3 Kf5, tb=1868, R50=48, wv=0.65 }
+21. a3
+{ +1.03/33 3.2s, ev=1.03, d=33, pd=Rh4, mt=00:00:03, tl=00:01:52, s=281234 kN/s, n=887835944, pv=a3 Rh4 Nb3 a4 Nd4 Bd7 Rad1 f6 Re2 Qe7 Rde1 f5 Kh2 Re4 f3 Rxe2 Rxe2 Ra8 Qb4 Qd8, tb=21, R50=50, wv=1.03 }
+21... d4
+{ -0.67/34 4.7s, ev=-0.67, d=34, pd=Qc1, mt=00:00:04, tl=00:01:27, s=198449 kN/s, n=938859413, pv=d4 Qc1 Rb8 Nc4 Ba6 Nd6 f6 Qd2 d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 Nd6 Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qxf6 gxf6 Rd4 h5 h4 Kg6 f3 f5 Nc4 Bxc4 Rxc4 Rb8 b4 axb4 Rxb4 Ra8 Rb6 Kf6 Rxc6 Rxa3 Kf2 Rc3 Rc8 Rc2+ Kg3 Rc3 Kh3 Rc1 c6 Ke5 Kh2 Rc4, tb=2887, R50=50, wv=0.67 }
+22. Qc1
+{ +0.94/32 4.6s, ev=0.94, d=32, pd=Rb8, mt=00:00:04, tl=00:01:49, s=285668 kN/s, n=1307972371, pv=Qc1 Rb8 Ne4 Ba6 Nd6 f6 Qd2 d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 Nd6 Bd5, tb=55, R50=50, wv=0.94 }
+22... Rb8
+{ -0.62/35 4.2s, ev=-0.62, d=35, pd=Nc4, mt=00:00:04, tl=00:01:25, s=197539 kN/s, n=818991913, pv=Rb8 Nc4 Ba6 Nd6 f6 Qd2 d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 f3 Bb3 Rd2 a4 Kh2 Bc2 g4 Rb7 Qxe6 Qd7 Qe5 Qf7 Kg3 Re7 Qd4 Qe8 Nd6 Qg6 h4 h5 Ne4 hxg4 Ng5+ Kg8 Qc4+ Kh8 Qxg4 Re1 Qc8+ Re8 Qd7 Re1 Qd8+ Qe8 Qxe8+ Rxe8 Ne4 Rb8, tb=3693, R50=50, wv=0.62 }
+23. Nc4
+{ +0.64/37 11s, ev=0.64, d=37, pd=Ba6, mt=00:00:11, tl=00:01:40, s=262288 kN/s, n=3010823887, pv=Ne4 Ba6 Nd6 f6 Qd2 d3 Qc3 fxe5 Rad1 Qh4 Ne4 Qd8 b3 Qd4 Qxa5 Ra8 Qb4 Qxb4 axb4 Rfb8, tb=650, R50=49, wv=0.64 }
+23... Ba6
+{ -0.62/37 7.0s, ev=-0.62, d=37, pd=Nd6, mt=00:00:07, tl=00:01:20, s=187879 kN/s, n=1314210713, pv=Ba6 Nd6 f6 Qd2 d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 f3 Bb3 Rd2 a4 Kh2 Bc2 g4 Rb7 Qxe6 Qd7 Qxd7 Rxd7 Kg3 Rb7 Nf2 Rb3 Kf4 Rxb2 Nxd3 Rb3 Nb4 Bg6 Nxc6 Rxa3 Rd4 Rc3 Rxa4 Be8 Ra6 Rc4+ Ke3 Rxc5 Nd4 Rc3+ Kf4 Rc4, tb=14814, R50=49, wv=0.62 }
+24. Nd6
+{ +0.54/34 4.1s, ev=0.54, d=34, pd=f6, mt=00:00:04, tl=00:01:38, s=286496 kN/s, n=1159657431, pv=Nd6 f6 Qd2 d3 Qc3 fxe5 f3 a4 Rxe5 Rf4 Rxe6 Rb3 Qd2 Qg5 Rae1 Qxc5+ Kh1 Qg5 R1e5 Rf5, tb=134, R50=48, wv=0.54 }
+24... f6
+{ -0.67/36 4.8s, ev=-0.67, d=36, pd=Qd2, mt=00:00:04, tl=00:01:17, s=191789 kN/s, n=920582215, pv=f6 Qd2 d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 Nd6 Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qxf6 gxf6 Rd4 h5 f3 Kg6 Kf2 f5 g3 e5 Rxd5 cxd5 c6 Ra7 b4 axb4 axb4 d4 b5 Ra2+ Ke1 Rc2 Kd1 d3 h4 e4 fxe4 fxe4 Nxe4 Kf5, tb=12504, R50=48, wv=0.67 }
+25. Qd2
+{ +0.47/34 4.1s, ev=0.47, d=34, pd=d3, mt=00:00:04, tl=00:01:36, s=288005 kN/s, n=1171401601, pv=Qd2 d3 Qc3 fxe5 Rad1 Qh4 Ne4 Qd8 b3 Qd4 Qxa5 Ra8 Qc7 Qd5 Re3 Kh8 Rde1 Rfc8 Qd6 Rd8, tb=980, R50=50, wv=0.47 }
+25... d3
+{ -0.58/36 6.1s, ev=-0.58, d=36, pd=Qc3, mt=00:00:06, tl=00:01:13, s=184652 kN/s, n=1128405510, pv=d3 Qc3 fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Kh7 Rd1 Bc4 f3 Bb3 Rd2 a4 Nf2 Bc2 Qe4+ Kh8 Qxc6 Qg5 Ne4 Qe5 Qd7 Qxb2 c6 Qb6+ Nf2 Rd8 Qb7 Rb8 Qxb6 Rxb6 Nxd3 Bxd3 c7 Rc6 Rxd3 Rxc7 Rd4 Ra7 h4 Kg8 Re4 Kf7 Rf4+ Kg8 Kf2 Ra5 Kg3 h5 Kf2 Ra7 Re4 Kf7 Ke3 Ra5 Rf4+ Kg8 Rb4 Kf7 Kf2, tb=16171, R50=50, wv=0.58 }
+26. Qc3
+{ +0.73/38 4.6s, ev=0.73, d=38, pd=fxe5, mt=00:00:04, tl=00:01:33, s=288307 kN/s, n=1324323120, pv=Qc3 fxe5 Rad1 Qh4 Ne4 Qd8 b3 Qd4 Qxa5 Ra8 Qb4 Qxb4 axb4 Rfb8 Ra1 Rxb4 f3 Rxb3 Ra2 Rbb8, tb=1556, R50=50, wv=0.73 }
+26... fxe5
+{ -0.77/36 6.7s, ev=-0.77, d=36, pd=Re4, mt=00:00:06, tl=00:01:08, s=181776 kN/s, n=1212443889, pv=fxe5 Re4 Rf4 Qxe5 Rxe4 Nxe4 Kh7 Rd1 Bc4 f3 Bb3 Rd2 Bc2 g4 Rb7 Nd6 Rc7 Qe4+ Kh8 Qxe6 Qf8 Kg2 Re7 Qc8 Qxc8 Nxc8 Rb7 Nb6 g5 Kf2 Re7 Nc8 Rb7 Ke3 Rxb2 Ne7 Rb7 Nxc6 Rc7 Ne5 Rxc5 Nxd3 Bxd3 Rxd3 Rc4 Ke2 Ra4, tb=12055, R50=50, wv=0.77 }
+27. Re4
+{ +0.43/36 11s, ev=0.43, d=36, pd=Qg5, mt=00:00:11, tl=00:01:24, s=265039 kN/s, n=2933619601, pv=Re4 Qg5 Rg4 Qf6 Ne4 Qf5 f3 h5 Rg5 Qf4 Rxe5 Rb3 Qd4 d2 Rg5 Qe3+ Qxe3 Rxe3 Nxd2 Rf5, tb=25151, R50=50, wv=0.43 }
+27... Rf4
+{ -0.63/35 4.1s, ev=-0.63, d=35, pd=Qxe5, mt=00:00:04, tl=00:01:06, s=185479 kN/s, n=764541523, pv=Rf4 Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 f3 Bb3 Rd2 a4 Kf2 Qh4+ g3 Qd8 g4 Bc4 g5 Bd5 Rxd3 Rb5 Rd2 Qe7 Qf4 Bxe4 Qxe4+ g6 Qxc6 Qxc5+ Qxc5 Rxc5 Rd7+ Kh8 Ra7 Rc2+ Kg3 hxg5 Rxa4 Rxb2 Ra7 Kg8 a4, tb=18751, R50=50, wv=0.63 }
+28. Qxe5
+{ +0.51/32 4.5s, ev=0.51, d=32, pd=Rxe4, mt=00:00:04, tl=00:01:21, s=267654 kN/s, n=1196392423, pv=Qxe5 Rxe4 Nxe4 Bc4 Rd1 Kh7 f3 Bb3 Rd2 Bc4 Qd6 Bd5 Rxd3 Qe8 Qe5 Rb5 Nc3 Rxc5 Rd4 Qe7, tb=2861, R50=49, wv=0.51 }
+28... Rxe4
+{ -0.70/35 4.2s, ev=-0.70, d=35, pd=Nxe4, mt=00:00:04, tl=00:01:04, s=191448 kN/s, n=799482151, pv=Rxe4 Nxe4 Bc4 Rd1 Kh7 f3 Bb3 Rd2 a4 Kh2 Bc2 g4 Rb7 Qxe6 Qd7 Qe5 Qf7 Kg3 Re7 Qd4 Qf8 f4 Qg8 Kf3 Qe8 Nd6 Qd8 Kg3 Re1 Nf5 Qf6 Qxf6 gxf6 Nd4 Re3+ Kf2 Rxh3 Nxc6 h5 Nd4 hxg4, tb=10355, R50=50, wv=0.70 }
+29. Nxe4
+{ +0.41/36 3.4s, ev=0.41, d=36, pd=Bc4, mt=00:00:03, tl=00:01:20, s=288803 kN/s, n=966276877, pv=Nxe4 Bc4 Rd1 Kh7 Nd6 Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qc3 Rb8 Rg3 Qxc3 bxc3 Ba2 h4 Rb1+, tb=2020, R50=50, wv=0.41 }
+29... Kh7
+{ -0.66/35 5.6s, ev=-0.66, d=35, pd=Rd1, mt=00:00:05, tl=00:01:00, s=184843 kN/s, n=1039923655, pv=Kh7 Rd1 Bc4 f3 Bb3 Rd2 a4 Kh2 Bc2 g4 Rb7 Nd6 Rd7 f4 Qh4 Qe4+ Kh8 Rg2 Ra7 Qe3 Bb3 g5 Kg8 Rg4 Qh5 Qxd3 Bd5 gxh6 Qxh6 Qe3 Ra8 Qe5 Rf8 Rg5 Ra8 Kg1 Rf8 h4 Qf6 Qxf6 Rxf6 f5 Kh7 Rg4 exf5 Rxa4, tb=19492, R50=50, wv=0.66 }
+30. Rd1
+{ +0.64/35 12s, ev=0.64, d=35, pd=Bc4, mt=00:00:12, tl=00:01:10, s=256800 kN/s, n=3119077087, pv=Rd1 Bc4 Kh2 Bb3 Rd2 Bc2 f3 Qe8 g4 Rd8 Nd6 Qg6 Kg3 Kg8 f4 Qf6 Qe4 g5 Rf2 Rf8, tb=15524, R50=50, wv=0.64 }
+30... Bc4
+{ -0.56/32 4.2s, ev=-0.56, d=32, pd=Nd6, mt=00:00:04, tl=00:00:58, s=185287 kN/s, n=768197876, pv=Bc4 Nd6 Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qxf6 gxf6 Rd4 h5 h4 Kg6 Kf1 f5 Nc4 Bxc4+ Rxc4 Kf6 Ra4 Rb8 b4 axb4 axb4 Ke5 g3 Rb5 Ke2 Ke4 Kd2, tb=14009, R50=49, wv=0.56 }
+31. Nd6
+{ +0.71/37 14s, ev=0.71, d=37, pd=Bd5, mt=00:00:14, tl=00:00:58, s=260630 kN/s, n=3649439586, pv=Nd6 Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qc3 Rb8 Rg3 h5 Qc2+ Kg8 Ne4 Qxb2 Qxb2 Rxb2 Nf6+ Kf7, tb=34723, R50=49, wv=0.71 }
+31... Bd5
+{ -0.53/31 3.7s, ev=-0.53, d=31, pd=Nf7, mt=00:00:03, tl=00:00:56, s=188338 kN/s, n=686300174, pv=Bd5 Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qd4 Rb8 b4 axb4 axb4 Qxd4 Rxd4 g5 h4 Kg7 Rg4 Kf6 f3 Ra8 Ne4+ Bxe4 Rxe4 Ra1+ Kf2 Ra2+ Re2 Ra4 hxg5+ hxg5 Rb2 Ke5 Ke3 Ra3+ Ke2 Ra4 Kf2 Ra3 Ke1 Ra4 b5 cxb5 Rxb5 g4, tb=65004, R50=48, wv=0.53 }
+32. Nf7
+{ +0.55/36 2.1s, ev=0.55, d=36, pd=Qf8, mt=00:00:02, tl=00:00:58, s=330208 kN/s, n=679280204, pv=Nf7 Qf8 Rxd3 Ra8 Nd6 Qf6 Qc3 Rb8 Rg3 h5 Qc2+ Kg8 Ne4 Qxb2 Qxb2 Rxb2 Nf6+ Kf7 Nxh5 g6, tb=3025, R50=48, wv=0.55 }
+32... Qf8
+{ -0.57/34 3.8s, ev=-0.57, d=34, pd=Rxd3, mt=00:00:03, tl=00:00:54, s=192486 kN/s, n=727018110, pv=Qf8 Rxd3 Ra8 Nd6 Qf6 Qxf6 gxf6 Rd4 h5 g3 Kg6 Kf1 Bb3 Nc4 e5 Rh4 Bxc4+ Rxc4 Rb8 b4 axb4 axb4 Ra8 Ke2 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 h4 Ra2+ Ke3 Ra4 Rb2 Ra3+ Ke2 Ra4 b5 cxb5 Rxb5 Ra2+ Kf3 Ra3+ Kg2 Rc3 Rb6+ Kf5 c6 e4 Kf1, tb=101693, R50=47, wv=0.57 }
+33. Rxd3
+{ +0.37/34 2.7s, ev=0.37, d=34, pd=Ra8, mt=00:00:02, tl=00:00:57, s=335570 kN/s, n=889575898, pv=Rxd3 Ra8 Nd6 Qf6 Qc3 Rb8 Rg3 h5 Qc2+ Kg8 Ne4 Qxb2 Qxb2 Rxb2 Nf6+ Kf7 Nxh5 g6 Nf4 Be4, tb=15011, R50=47, wv=0.37 }
+33... Ra8
+{ -0.52/34 3.1s, ev=-0.52, d=34, pd=Nd6, mt=00:00:03, tl=00:00:53, s=191987 kN/s, n=587476817, pv=Ra8 Nd6 Qf6 Qxf6 gxf6 Rd4 h5 Kf1 Kg6 g3 Bb3 Nc4 e5 Rh4 Bxc4+ Rxc4 Rb8 b4 Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 Rxc6 h4 Kc3 Ra4 Rb6 hxg3 fxg3 f5 Rb4 Ra3+ Rb3 Ra4 Kd2 Ra2+ Kd3 Ra4 c6 Kd8 Rc3, tb=103450, R50=50, wv=0.52 }
+34. Nd6
+{ +0.48/39 5.0s, ev=0.48, d=39, pd=Qf6, mt=00:00:05, tl=00:00:54, s=279698 kN/s, n=1395673317, pv=Nd6 Qf6 Qxf6 gxf6 Rd4 h5 f3 a4 Kf2 Ra5 Nb7 Ra8 g4 hxg4 hxg4 Kg6 Rb4 f5 Nd6 Ra5, tb=31344, R50=50, wv=0.48 }
+34... Qf6
+{ -0.47/31 2.3s, ev=-0.47, d=31, pd=Qxf6, mt=00:00:02, tl=00:00:53, s=199232 kN/s, n=458230612, pv=Qf6 Qxf6 gxf6 Rd4 h5 Ra4 Bb3 Rf4 Kg6 Rf3 Bd5 Rg3+ Kh6 b3 Rb8 h4 Bxb3 Ne4 f5 Nf6 Bd5 Rg5 Rb3 Nd7 Rb7 Nb6 Rb8 Kh2 f4 Nd7 Rb7 Ne5 Rb3 Ng6 e5 Ne7 Rxa3 Rxe5 f3 g4 hxg4, tb=54822, R50=49, wv=0.47 }
+35. Qxf6
+{ +0.29/33 2.8s, ev=0.29, d=33, pd=gxf6, mt=00:00:02, tl=00:00:53, s=304275 kN/s, n=854973685, pv=Qxf6 gxf6 Rd4 h5 f3 Kg6 h4 f5 Nc4 Bxc4 Rxc4 Rb8 b4 axb4 Rxb4 Ra8 Rb6 Kf6 Kf2 Rxa3, tb=19325, R50=49, wv=0.29 }
+35... gxf6
+{ -0.53/33 5.2s, ev=-0.53, d=33, pd=Rd4, mt=00:00:05, tl=00:00:50, s=185605 kN/s, n=958275593, pv=gxf6 Rd4 h5 f3 Kg6 Kf2 f5 g3 Kf6 Ra4 Bb3 Rf4 Rb8 Ke3 Bd5 b4 axb4 Rxb4 Ra8 a4 e5 Ke2 Be6 Rh4 Kg6 Nc4 Bxc4+ Rxc4 Ra5 Kd3 Kf7 Rh4 Ke6 Kd2 Ra8 Ke2 Ra5 Rxh5 Rxa4 Rh6+ Kd5, tb=327843, R50=50, wv=0.53 }
+36. Rd4
+{ +0.32/34 3.0s, ev=0.32, d=34, pd=h5, mt=00:00:02, tl=00:00:52, s=307160 kN/s, n=903632085, pv=Rd4 h5 f3 Kg6 Kf2 f5 Ra4 Bb3 Rf4 Rb8 g3 Bd5 b4 Ra8 a4 Bb3 Nb7 e5 Rh4 Bxa4, tb=34017, R50=50, wv=0.32 }
+36... h5
+{ -0.50/33 2.5s, ev=-0.50, d=33, pd=Kf1, mt=00:00:02, tl=00:00:49, s=194925 kN/s, n=478926509, pv=h5 Kf1 Kg6 g3 Bb3 Nc4 e5 Rh4 Bxc4+ Rxc4 Rb8 b4 Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 f5 Rxc6 Rc2 Rc8 Kd7 Rf8 Ke6 Re8+ Kd5 Rd8+ Ke6 Rd6+ Ke7 Rc6 Rc3+ Kd2 Rf3 Ke2 Rc3 Rc8 Rc2+ Kf3 Rc3+ Kg2, tb=269994, R50=50, wv=0.50 }
+37. Kf1
+{ +0.32/39 9.8s, ev=0.32, d=39, pd=Kg6, mt=00:00:09, tl=00:00:44, s=283882 kN/s, n=2770521341, pv=Kf1 Kg6 g4 Bb3 gxh5+ Kxh5 Ne4 Kg6 Nc3 Rb8 Ke1 Bd5 b4 axb4 Rxb4 Ra8 Ra4 Rd8 Ke2 e5, tb=165349, R50=50, wv=0.32 }
+37... Kg6
+{ -0.43/35 2.3s, ev=-0.43, d=35, pd=Nc4, mt=00:00:02, tl=00:00:49, s=192468 kN/s, n=440171374, pv=Kg6 Nc4 Bxc4+ Rxc4 Rb8 b4 axb4 axb4 e5 g3 Ra8 Ke2 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 Rc2 Rxc6 f5 Kf3 Rc3+ Ke2 Rc2+ Ke3 Rc3+ Kd2 Rf3 Ke1 Rc3 Rc8 Rc2 Rc7+ Ke6 Rc6+ Ke7 Rh6 Rxc5 Rxh5 Kf6 Rh6+, tb=378772, R50=50, wv=0.43 }
+38. g3
+{ +0.38/39 9.4s, ev=0.38, d=39, pd=Bb3, mt=00:00:09, tl=00:00:37, s=293363 kN/s, n=2756295732, pv=g3 Bb3 Nc4 e5 Rh4 Bxc4+ Rxc4 Rb8 b4 Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6, tb=192094, R50=49, wv=0.38 }
+38... Bb3
+{ -0.41/33 2.4s, ev=-0.41, d=33, pd=f4, mt=00:00:02, tl=00:00:49, s=182907 kN/s, n=437327289, pv=Bb3 f4 e5 Re4 Bd5 f5+ Kg5 h4+ Kh6 Re2 a4 Rd2 Rg8 Rd3 Ba2 Ke1 Bd5 Rc3 Rd8 Re3 Rb8 Re2 Kg7 Rd2 Bh1 Nc4 Rb3 Rd7+ Kf8 Nb6 Rxb2 Ra7 e4 Nd7+ Kf7 Ne5+, tb=145503, R50=50, wv=0.41 }
+39. Nc4
+{ +0.17/43 5.5s, ev=0.17, d=43, pd=e5, mt=00:00:05, tl=00:00:34, s=317060 kN/s, n=1731803988, pv=Nc4 e5 Rh4 Bxc4+ Rxc4 Rb8 b4 Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4, tb=157212, R50=50, wv=0.17 }
+39... e5
+{ -0.41/47 4.6s, ev=-0.41, d=47, pd=Rh4, mt=00:00:04, tl=00:00:46, s=185236 kN/s, n=845785461, pv=e5 Rh4 Bxc4+ Rxc4 Rb8 b4 Ra8 Rc2 axb4 axb4 Ra1+ Kg2 Rb1 Rd2 h4 g4 Rxb4 Rd6 Rb2 Rxc6 e4 Rb6 Rc2 Re6 Rxc5 Rxe4 Ra5 Rf4 Rb5 Rf3 Ra5 Rb3 Rc5 Rb6 Kf7 Rb8 Kg7 Re8 Ra5 Rc8 Rb5 Rc7+ Kh6 Ra7 Rc5 Rd7 Kg6 Re7 Ra5 Rc7 Rb5 Rc6 Kf7 Ra6 Rc5, tb=2941846, R50=49, wv=0.41 }
+40. Rh4
+{ +0.29/41 2.7s, ev=0.29, d=41, pd=Bxc4+, mt=00:00:02, tl=00:00:33, s=398495 kN/s, n=1055606437, pv=Rh4 Bxc4+ Rxc4 Rb8 b4 axb4 axb4 Ra8 Ke2 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Kf5, tb=82140, R50=50, wv=0.29 }
+40... Bxc4+
+{ -0.39/32 2.3s, ev=-0.39, d=32, pd=Rxc4, mt=00:00:02, tl=00:00:46, s=208701 kN/s, n=484181485, pv=Bxc4+ Rxc4 Rb8 b4 Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 Rc2 Rxc6 f5 Kf3 Rc3+ Ke2 Rc2+ Ke3 Rc3+ Kd2 Rf3 Ke2 Rc3 Rc8 Rc2+ Ke1 Kd7 Rh8 Rxc5 Rxh5 Ke6 Rh6+ Kf7 Ra6 e4 Ke2 Rc2+ Ke3 Rc3+ Kd2 Rb3 h5 f4 Ra7+ Kg8 g4 Rb2+ Ke1 e3 fxe3, tb=21099, R50=50, wv=0.39 }
+41. Rxc4
+{ +0.29/34 0.73s, ev=0.29, d=34, pd=Rb8, mt=00:00:00, tl=00:00:34, s=392479 kN/s, n=282725149, pv=Rxc4 Rb8 b4 Ra8 Rc1 axb4 axb4 Ra4 Rb1 Kf5 Rb3 Ke4 Re3+ Kf5 Rf3+ Kg6 Rb3 Kf5 Ke2 Ke6, tb=32155, R50=50, wv=0.29 }
+41... Rb8
+{ -0.35/35 2.4s, ev=-0.35, d=35, pd=b4, mt=00:00:02, tl=00:00:45, s=210586 kN/s, n=506664650, pv=Rb8 b4 Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 f5 Rxc6 Rb3+ Ke2 Rc3 Rc8 Rc2+ Ke1 Kd7 Rh8 Rxc5 Rxh5 Ke6 Rh6+ Kf7 Kd2 Ra5 Rd6 e4 Ke3 Ra3+ Ke2 Rc3 h5 Kg7 Rg6+ Kf7 Ra6 Kg7 Kd2 Rf3, tb=80853, R50=50, wv=0.35 }
+42. b4
+{ +0.15/36 2.3s, ev=0.15, d=36, pd=Ra8, mt=00:00:02, tl=00:00:34, s=344381 kN/s, n=780010506, pv=b4 Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ra2+ Ke3 Ke7 h4 f5 b5 cxb5 Rxb5 Ra3+, tb=236307, R50=50, wv=0.15 }
+42... Ra8
+{ -0.35/37 2.8s, ev=-0.35, d=37, pd=Ke2, mt=00:00:02, tl=00:00:45, s=199893 kN/s, n=549506742, pv=Ra8 Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 f5 Rxc6 Rc2 Kf3 Rc3+ Kg2 Rc2 Rc7+ Ke6 Rc8 e4 Kf1 Kd7 Rh8 Rxc5 Rxh5 Ke6 Rh6+ Kf7 Rd6 Rc1+ Ke2 Rc2+ Rd2 Rc6 Kf1 Rc5 Kg2 Kg7 Rd6 Rc2, tb=557671, R50=50, wv=0.35 }
+43. Ke2
+{ +0.10/40 6.6s, ev=0.10, d=40, pd=axb4, mt=00:00:06, tl=00:00:29, s=352104 kN/s, n=2324423463, pv=Ke2 axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 b5 cxb5 c6 Ra8 Rc5 Ke6 Rxb5 Ra2+ Ke1 Ra1+ Ke2 Ra2+, tb=731581, R50=50, wv=0.10 }
+43... axb4
+{ -0.35/37 2.6s, ev=-0.35, d=37, pd=axb4, mt=00:00:02, tl=00:00:44, s=194305 kN/s, n=494309603, pv=axb4 axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 f5 Rxc6 Rc2 Kf3 Rc3+ Ke2 Rc2+ Ke1 Rc3 Kf1 Rc1+ Kg2 Rc2 Rh6 Rxc5 Rxh5 Kf6 Rh6+ Kg7 Rb6 e4 Rb2 Rc1 Rb3 Kg6 Rb6+ Kg7 Rd6 Rc5 Kf1 Rc3 Ke2 Ra3 h5, tb=650057, R50=49, wv=0.35 }
+44. axb4
+{ +0.10/35 1.5s, ev=0.10, d=35, pd=Ra3, mt=00:00:01, tl=00:00:30, s=407940 kN/s, n=589423855, pv=axb4 Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ra2+ Ke3 Ke7 h4 f5 b5 cxb5 Rxb5 Ra3+ Ke2 Ra2+ Kf1 Rc2, tb=133402, R50=50, wv=0.10 }
+44... Ra3
+{ -0.30/43 5.5s, ev=-0.30, d=43, pd=Kd2, mt=00:00:05, tl=00:00:40, s=188401 kN/s, n=1042422050, pv=Ra3 Kd2 Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 f5 Rxc6 Rc2 Kf3 Rc3+ Ke2 Rc2+ Ke1 Rc3 Kd2 Rf3 Ke2 Rc3 Rc8 Rc2+ Ke1 Kd7 Rh8 Rxc5 Rxh5 Ke6 Rh6+ Kf7 Rh7+ Kg6 Re7 e4 Re6+ Kf7 Ra6 Rb5 Ra3 Kg6 Kf1 Rb1+ Ke2 Rb2+ Ke3 Kh5 Ra8 Rb3+ Ke2 Rb2+ Kf1, tb=3243684, R50=50, wv=0.30 }
+45. Kd2
+{ +0.10/42 1.4s, ev=0.10, d=42, pd=Kf7, mt=00:00:01, tl=00:00:30, s=376942 kN/s, n=530371803, pv=Kd2 Kf7 Rc3 Ra4 Rb3 Ra2+ Ke3 Ke7 h4 f5 b5 cxb5 Rxb5 Ra3+ Ke2 Ra2+ Kf1 Rc2 Rb7+ Ke6, tb=228761, R50=50, wv=0.10 }
+45... Kf7
+{ -0.30/46 2.5s, ev=-0.30, d=46, pd=Rc3, mt=00:00:02, tl=00:00:40, s=189023 kN/s, n=464427496, pv=Kf7 Rc3 Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 Rc2 Rxc6 f5 Kf3 Rc3+ Ke2 Rc2+ Ke1 Rc3 Rc7+ Ke6 c6 Kd5 Rf7 Ke6 Rh7 Rxc6 Rxh5 Rc2 Rh6+ Kf7 Rd6 e4 Rd5 Ke6 Rb5 Kf6 Rb6+ Kg7 Kf1 Rc3 Rb7+ Kf6 Rb2 Rc1+ Kg2 Rc5 Rd2 Rc3 Ra2 Kg7 Rb2 Kf6 Rb6+ Kg7 Rd6, tb=1972807, R50=49, wv=0.30 }
+46. Rc3
+{ +0.10/45 1.7s, ev=0.10, d=45, pd=Ra4, mt=00:00:01, tl=00:00:31, s=340019 kN/s, n=571087007, pv=Rc3 Ra4 Rb3 Ra2+ Ke1 Ra1+ Ke2 Ra2+ Ke3 Ke7 h4 f5 b5 cxb5 Rxb5 Ra3+ Ke2 Ra2+ Kf1 Rc2, tb=361434, R50=49, wv=0.10 }
+46... Ra4
+{ -0.30/48 2.7s, ev=-0.30, d=48, pd=Rb3, mt=00:00:02, tl=00:00:39, s=185230 kN/s, n=499747144, pv=Ra4 Rb3 Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 Rc2 Rxc6 f5 Kf3 Rc3+ Ke2 Rc2+ Ke1 Rc3 Rc7+ Ke6 c6 Kd5 Rf7 Ke6 Rh7 Rxc6 Rxh5 Rc2 Rh6+ Kf7 Rh7+ Kg6 Rd7 e4 Rd8 Rc1+ Kd2 Rc5 Ke2 Rc6 Rd7 Rc2+ Rd2 Rc6 Kf1 Rc1+ Kg2 Kf6 Rd6+ Kg7 Rb6 Rc5 Rb4 Kg6 Rd4 Rc3 Rd6+, tb=3097508, R50=48, wv=0.30 }
+47. Rb3
+{ +0.08/38 3.9s, ev=0.08, d=38, pd=Ra2+, mt=00:00:03, tl=00:00:29, s=355001 kN/s, n=1378604685, pv=Rb3 Ra2+ Ke1 Ra1+ Ke2 Ra2+ Ke3 Ke7 h4 f5 b5 cxb5 Rxb5 Ra3+ Ke2 Ra2+ Kf1 Rc2 Rb7+ Ke6, tb=1004918, R50=48, wv=0.08 }
+47... Ke6
+{ -0.30/49 5.1s, ev=-0.30, d=49, pd=Rd3, mt=00:00:05, tl=00:00:36, s=188243 kN/s, n=962485141, pv=Ke6 Rd3 Rxb4 Rd6+ Ke7 h4 Rb2+ Ke3 Rc2 Rxc6 f5 Kf3 Rc3+ Ke2 Rc2+ Ke1 Rc3 Rc7+ Ke6 Kd2 Rf3 Ke2 Rc3 c6 Rc2+ Kf3 Kd5 Rh7 Rxc6 Rxh5 Rc3+ Kg2 Ke6 Rh6+ Kf7 Rb6 e4 Rb7+ Kf6 Rb2 Kg6 Re2 Kf7 Kh3 Kf6 Rb2 Kg6 Kg2 Kf6 Ra2 Kg6 Ra6+ Kf7 Ra7+ Kf6 Ra8 Kg7 Ra1 Kf6 Kf1, tb=4897064, R50=47, wv=0.30 }
+48. h4
+{ +0.03/43 6.0s, ev=0.03, d=43, pd=Ra2+, mt=00:00:06, tl=00:00:25, s=324638 kN/s, n=1947468292, pv=h4 Ra2+ Ke3 Ra4 b5 cxb5 Rxb5 Ra3+ Ke2 Ra2+ Kf1 Rc2 Rb6+ Kf5 Rc6 e4 Ke1 Ke5 Rc8 f5, tb=1657630, R50=47, wv=0.03 }
+48... Ra2+
+{ -0.24/37 2.0s, ev=-0.24, d=37, pd=Ke3, mt=00:00:01, tl=00:00:36, s=198305 kN/s, n=388079824, pv=Ra2+ Ke3 Ra4 Kf3 f5 Kg2 e4 b5 cxb5 Rxb5 Ra2 Rb6+ Ke5 Rb8 Rc2 Rc8 Ke6 Kf1 Kd5 Rd8+ Ke5 Rh8 Rxc5 Rxh5 Rc1+ Kg2 Kf6 Rh6+ Kf7 Rh7+ Kg6 Rd7 Rc3 Rb7 Rc2 Rb6+ Kf7 Kf1 Rc1+ Ke2 Rc3, tb=168066, R50=50, wv=0.24 }
+49. Kc1
+{ +0.03/47 3.5s, ev=0.03, d=47, pd=Ra4, mt=00:00:03, tl=00:00:23, s=335904 kN/s, n=1184867764, pv=Kc1 Ra4 Kc2 e4 Rb1 Ra2+ Rb2 Ra3 Kd1 Ra4 b5 cxb5 Rxb5 f5 Rb6+ Ke5 Rb8 Ra1+ Ke2 Ra2+, tb=665838, R50=50, wv=0.03 }
+49... Rxf2
+{ 0.00/41 2.1s, ev=0.00, d=41, pd=Rd3, mt=00:00:02, tl=00:00:36, s=187977 kN/s, n=394183723, pv=Rxf2 Rd3 e4 Rd6+ Kf5 b5 Rf1+ Rd1 Rf3 bxc6 Rc3+ Kb2 Rxc5 Rc1 Rb5+ Kc2 Rb8 Kc3 Kg4 Kd4 f5 Rc3 Rc8 c7 f4 gxf4 Kxf4 Rc1 e3 Kd3 Ke5 Rc2 Kd5 Ra2 Rxc7 Ra5+ Ke6 Kxe3, tb=1001453, R50=49, wv=-0.00 }
+50. Rd3
+{ 0.00/44 2.3s, ev=0.00, d=44, pd=Rf1+, mt=00:00:02, tl=00:00:23, s=366743 kN/s, n=847750032, pv=Rd3 Rf1+ Kc2 Ke7 Rd6 Rf2+ Kc3 Rg2 Rxc6 Rxg3+ Kc2 Rg2+ Kd1 Rg1+ Ke2 Rg2+ Kf3 Rb2 Rb6 f5, tb=263109, R50=50, wv=0.00 }
+50... e4
+{ 0.00/45 2.8s, ev=0.00, d=45, pd=Rd6+, mt=00:00:02, tl=00:00:35, s=189946 kN/s, n=531085182, pv=e4 Rd6+ Kf5 b5 Rf1+ Kc2 Rf2+ Kb3 Rf3+ Kb4 e3 Rd1 e2 Re1 Rf1 Rxe2 Rb1+ Kc4 Rxb5 Rf2+ Ke6 Rd2 Rb1 Rd6+ Kf5 Rxc6 Kg4 Rb6 Rc1+ Kd4 Kxg3 Rb3+ Kxh4 Rc3 Re1 c6 Re8 c7 Rc8 Ke3 Kg4 Rc5 Kg3 Ke2 f5 Kf1 f4 Rc3+ f3 Rc6 h4 Rg6+ Kf4 Rg7 Kf5 Rf7+ Ke6 Rxf3, tb=1725391, R50=50, wv=-0.00 }
+51. Rd6+
+{ 0.00/44 3.3s, ev=0.00, d=44, pd=Kf5, mt=00:00:03, tl=00:00:22, s=356110 kN/s, n=1184048023, pv=Rd6+ Kf5 b5 Rf1+ Rd1 Rf3 bxc6 Rc3+ Kb1 Rxc5 Rc1 Rb5+ Kc2 Rb8 c7 Rc8 Kd1 Ke5 Ke2 f5, tb=1100990, R50=50, wv=0.00 }
+51... Kf5
+{ 0.00/47 2.5s, ev=0.00, d=47, pd=b5, mt=00:00:02, tl=00:00:35, s=194118 kN/s, n=489368990, pv=Kf5 b5 Rf1+ Rd1 Rf3 bxc6 Rc3+ Kb2 Rxc5 Rc1 Rb5+ Kc3 Rc5+ Kb2, tb=1147812, R50=50, wv=-0.00 }
+52. Rxc6
+{ 0.00/52 5.3s, ev=0.00, d=52, pd=e3, mt=00:00:05, tl=00:00:18, s=309886 kN/s, n=1647066941, pv=Rxc6 e3 Kd1 Rd2+ Ke1 Rb2 Rb6 Rc2 b5 Rxc5 Ke2 Ke4 Re6+ Kd4 Rxe3 Rxb5 Kf3 Rf5+ Ke2 Ra5, tb=4139514, R50=49, wv=0.00 }
+52... e3
+{ 0.00/56 2.2s, ev=0.00, d=56, pd=Kd1, mt=00:00:02, tl=00:00:35, s=193860 kN/s, n=421253684, pv=e3 Kd1 Rb2 Rb6 Ke4 Re6+ Kf3 Rxf6+ Kxg3 Re6 Rxb4 Rxe3+ Kxh4, tb=2904573, R50=50, wv=-0.00 }
+53. Kd1
+{ 0.00/43 0.52s, ev=0.00, d=43, pd=Rd2+, mt=00:00:00, tl=00:00:20, s=336477 kN/s, n=155148400, pv=Kd1 Rd2+ Ke1 Rb2 Rc8 Ke4 Rf8 f5 c6 f4 gxf4 Kf3 Rd8 Rb1+ Rd1 Rxb4 Rc1 Rxf4 Rc5 Rxh4, tb=460018, R50=50, wv=0.00 }
+53... Rd2+
+{ 0.00/64 3.4s, ev=0.00, d=64, pd=Ke1, mt=00:00:03, tl=00:00:33, s=194174 kN/s, n=663688661, pv=Rd2+ Ke1 Rb2 Rb6 Kg4 Rxf6 Kxg3 b5 Rxb5 Ke2 Kxh4 Kf3 Rxc5, tb=7596256, R50=50, wv=-0.00 }
+54. Ke1
+{ 0.00/46 0.58s, ev=0.00, d=46, pd=Rb2, mt=00:00:00, tl=00:00:21, s=345129 kN/s, n=185242313, pv=Ke1 Rb2 Rc8 Rxb4 c6 Ke4 c7 Kf3 Rb8 Ra4 Rd8 Ra1+ Rd1 Rxd1+ Kxd1 Kf2 c8=Q e2+ Kc2 e1=Q, tb=628878, R50=49, wv=0.00 }
+54... Rb2
+{ 0.00/74 3.2s, ev=0.00, d=74, pd=Rb6, mt=00:00:03, tl=00:00:32, s=197554 kN/s, n=621698770, pv=Rb2 Rb6 Kg4 Rxf6 Kxg3 b5 Rxb5 Ke2 Rxc5 Kxe3, tb=5703459, R50=49, wv=-0.00 }
+55. Rd6
+{ 0.00/55 3.2s, ev=0.00, d=55, pd=Rc2, mt=00:00:03, tl=00:00:20, s=322215 kN/s, n=1022048391, pv=Rb6 Rc2 Rd6 Ke5 Rd8 Ke4 Kd1 Rb2 c6 Kf3 Re8 Rxb4 c7 Rd4+ Ke1 Ra4 Rd8 Ra1+ Rd1 Rxd1+, tb=3219906, R50=48, wv=0.00 }
+55... Rxb4
+{ 0.00/69 6.6s, ev=0.00, d=69, pd=Ke2, mt=00:00:06, tl=00:00:27, s=195619 kN/s, n=1290694216, pv=Rxb4 Ke2 Rc4 Kxe3 Rxc5 Rb6 Rc3+ Kf2 Rc2+ Kf3 Kg6 Re6 Rc1 Re4 Rb1 Kf2 Kf7 Rc4 Rb2+ Ke3 Rb3+ Kf4 Ra3 g4 Rh3 Rc7+ Kg6 Rc5 Rxh4 Rxh5, tb=12009470, R50=48, wv=-0.00 }
+56. Ke2
+{ 0.00/57 4.2s, ev=0.00, d=57, pd=Rc4, mt=00:00:04, tl=00:00:18, s=389034 kN/s, n=1615759847, pv=Ke2 Rc4 Kf3 Ke5 Rd3 Rxc5 Kxe3 Ke6 Kf3 Rf5+ Ke3 Ra5 Rd4 Rf5 Rc4 Kd7 Rc3 Ke6 Kd4 Ra5, tb=6020247, R50=50, wv=0.00 }
+56... Rc4
+{ 0.00/78 2.7s, ev=0.00, d=78, pd=Kxe3, mt=00:00:02, tl=00:00:27, s=220656 kN/s, n=586939319, pv=Rc4 Kxe3 Rxc5 Rb6 Rc3+ Kf2 Rc2+ Kf3 Kg6 Re6 Rc1 Re4 Rb1 Kf2 Kf7 Rc4 Rb2+ Ke3 Rb3+ Kf4 Ra3 g4 Rh3 Rc7+ Kg6 Rc5 Rxh4 Rxh5, tb=4162967, R50=50, wv=-0.00 }
+57. Kf3
+{ 0.00/57 3.0s, ev=0.00, d=57, pd=Rxc5, mt=00:00:03, tl=00:00:17, s=401163 kN/s, n=1210795101, pv=Kf3 Rxc5 Rb6 Rc3 Ke2 Ke5 Ra6 Kf5 Ra4 Kg6 Rf4 Rc2+ Kf3 Kf7 Kxe3 Rg2 Kf3 Rc2 Rb4 Kg7, tb=2817492, R50=49, wv=0.00 }
+57... e2
+{ 0.00/72 2.3s, ev=0.00, d=72, pd=Kxe2, mt=00:00:02, tl=00:00:26, s=222216 kN/s, n=511314642, pv=e2 Kxe2 Rxc5 Kd2 Rc4 Rd8 Kg4 Rh8 Rc6 Kd1 Rc5 Rg8+ Kf3 Rg6 Rf5 Kd2 Ke4 Ke2 Kd5 Rg7 Re5+ Kd3 Ke6 Rh7 Ra5 Ke4 Rc5 Kd4 Rb5 Kc4 Ra5 Kd3 Re5 Rh8 Kf7 Rd8 Re1 Rd7+ Kg6 Kd2 Rg1 Rd3 Rf1 Ke2 Rc1 Kf3 f5 Rd5 Rc2 Rd6+ Kg7 Rd8 Rc5 Kg2 Rc3 Kf2 Rc6 Re8 Rc1 Kg2 Rc2+ Kf3 Rc3+ Kf4 Rc4+ Kxf5 Rg4 Re7+ Kg8 Re3 Kf7 Rb3 Kg7, tb=4067101, R50=49, wv=-0.00 }
+58. Kxe2
+{ 0.00/52 1.7s, ev=0.00, d=52, pd=Rc2+, mt=00:00:01, tl=00:00:17, s=410073 kN/s, n=696453985, pv=Kxe2 Rc2+ Kf3 Rxc5 Kf2 Rc2+ Ke1 Rc1+ Kf2 Kg6 Kf3 Rc3+ Kf2 Rc2+ Kg1 Rc8 Rd7 Re8 Kf2 Re5, tb=1609140, R50=50, wv=0.00 }
+58... Rxc5
+{ 0.00/75 2.3s, ev=0.00, d=75, pd=Kd2, mt=00:00:02, tl=00:00:26, s=224686 kN/s, n=508459945, pv=Rxc5 Kd2 Rc4 Rd8 Kg4 Rh8 Rc6 Ke1 Rc5 Rg8+ Kf3 Rg6 Ke3 Kf1 Rc1+ Kg2 f5 Re6+ Kd4 Kf3 Ra1 Rf6 Ke5 Rf8 Ra3+ Kg2 Ra2+ Kh3 Ra1 Rg8 Rc1 Kg2 Rc5 Re8+ Kd6 Re3 Rc2+ Kf3 Rc4 Re8 f4 gxf4 Rc3+ Re3 Rc5 Kg2 Rc2+ Kg3 Rc4 f5 Rg4+ Kf3 Rxh4, tb=2859750, R50=50, wv=-0.00 }
+59. Kd3
+{ 0.00/56 3.4s, ev=0.00, d=56, pd=Re5+, mt=00:00:03, tl=00:00:16, s=402814 kN/s, n=1349461798, pv=Ke3 Re5+ Kf3 Ra5 Rc6 Kg6 Kf2 Ra2+ Kf1 Rb2 Rd6 Kf7 Rd7+ Kg6 Rd4 Rb5 Kf2 Kh6 Ke3 Rb3+, tb=5559327, R50=50, wv=0.00 }
+59... Rc1
+{ 0.00/67 2.6s, ev=0.00, d=67, pd=Ke3, mt=00:00:02, tl=00:00:25, s=222458 kN/s, n=585950453, pv=Rc1 Ke3 Rc3+ Kf2 Ke5 Rd7 Ke6 Rh7 Rc2+ Kf3 Rc5 Rh6 Rf5+ Kg2 Kf7 Rh7+ Kg6 Re7 Kh6 Re6 Kg7 Rd6 Kf7 Rd8 Ke7 Rg8 Ra5 Rg7+ Ke8 Kh3 Rc5 Rg8+ Kd7 Kg2 Rc2+ Kg1 Rc1+ Kh2 Ke6 Rg7 Rc5 Kh3 Kf5 Kg2 Rc2+ Kf3 Rc1 Kf2 Rc3 Rh7 Kg6 Ra7 Rc2+ Ke3 Kf5 Rd7 Rc5 Rd4 Ke6 Kf3 Rf5+ Rf4 Re5 Kf2 Ra5 Rf3 Ra2+, tb=3537021, R50=50, wv=-0.00 }
+60. Ke3
+{ 0.00/54 2.1s, ev=0.00, d=54, pd=Rc8, mt=00:00:02, tl=00:00:16, s=408598 kN/s, n=856552644, pv=Ke3 Rc8 Kf3 Rg8 Rb6 Rd8 Rb5+ Kg6 Kf2 Rg8 Kf3 Ra8 Ke3 Ra3+ Kf2 Kh6 Rb7 Kg6 Rb4 Ra5, tb=1776678, R50=49, wv=0.00 }
+60... Ra1
+{ 0.00/67 2.4s, ev=0.00, d=67, pd=Kf3, mt=00:00:02, tl=00:00:25, s=230042 kN/s, n=554626239, pv=Ra1 Kf3 Ra3+ Kf2 Kg6 Rd4 f5 Ke1 Re3+ Kd2 Rxg3 Ke2 Rg4 Rd6+ Kf7 Rd8 Ke7 Rh8 Ke6 Rxh5, tb=1911564, R50=49, wv=-0.00 }
+61. Kf2
+{ 0.00/52 2.7s, ev=0.00, d=52, pd=Kg6, mt=00:00:02, tl=00:00:15, s=394415 kN/s, n=1043703661, pv=Kf3 Kg6 Rb6 Kf7 Rb7+ Ke6 Rh7 Ra5 Kf2 Re5 Kf3 Kd6 Rh8 Ke7 Rh7+ Kf8 Rc7 Rf5+ Ke2 Re5+, tb=2972546, R50=48, wv=0.00 }
+61... Rb1
+{ 0.00/66 2.1s, ev=0.00, d=66, pd=Rd8, mt=00:00:02, tl=00:00:25, s=234250 kN/s, n=493325172, pv=Rb1 Rd8 Kg4 Rg8+ Kh3 Rh8 Rb5 Kf3 Ra5 Rh6 Ra3+ Kf4 Ra4+ Kf5 Kxg3 Rxh5, tb=565530, R50=48, wv=-0.00 }
+62. Rd3
+{ 0.00/54 2.3s, ev=0.00, d=54, pd=Ke6, mt=00:00:02, tl=00:00:15, s=401208 kN/s, n=898587165, pv=Rd5+ Ke6 Rxh5 Rb2+ Kf1 Rb3 Kf2 f5 Rh6+ Ke5 Rc6 Rb2+ Kg1 f4 h5 Rb1+ Kg2 Rb2+ Kg1 Rb1+, tb=3457151, R50=47, wv=0.00 }
+62... Ra1
+{ 0.00/64 2.2s, ev=0.00, d=64, pd=Kf3, mt=00:00:02, tl=00:00:25, s=229329 kN/s, n=497182014, pv=Ra1 Kf3 Ra5 Kg2 Kg6 Kf1 Kf7 Rd8 Rc5 Ke2 Ke6 Kf3 f5 Rh8 Rc3+ Kg2 Rc2+ Kh3 Kf6 Rh6+ Ke5 Rxh5 Rc3 Rh6 Rb3 h5 f4 Rh8 Rc3 Re8+ Kf5 Kg2 fxg3, tb=548074, R50=47, wv=-0.00 }
+63. Rf3+
+{ 0.00/55 2.3s, ev=0.00, d=55, pd=Kg6, mt=00:00:02, tl=00:00:14, s=416425 kN/s, n=961302654, pv=Kf3 Kg6 Kg2 Ra5 Rc3 Ra8 Rd3 Re8 Kf3 Ra8 Ke3 Kf7 Kf3 Ra5 Ke3 Ra8 Kf3 Ra5 Ke3 Ra8, tb=2216281, R50=46, wv=0.00 }
+63... Kg4
+{ 0.00/80 2.2s, ev=0.00, d=80, pd=Rxf6, mt=00:00:02, tl=00:00:25, s=239387 kN/s, n=514203856, pv=Kg4 Rxf6 Kh3 Rg6 Rb1 Kf3 Rb2 Rg5 Rc2 Ke4 Rf2 Ke3 Kg2 Kd4 Rf3 Ke4 Rf1 Rg6 Kh3 Ke3 Rc1 Rg7 Rc3+ Kd4 Rxg3, tb=915749, R50=46, wv=-0.00 }
+64. Rxf6
+{ 0.00/81 5.1s, ev=0.00, d=81, pd=Ra3, mt=00:00:05, tl=00:00:11, s=393491 kN/s, n=1951086271, pv=Rxf6 Ra3 Rf4+ Kh3 Rf3 Ra2+ Ke3 Ra8 Rf4 Ra5 Kf3 Ra3+ Kf2 Ra2+ Ke3 Ra3+ Kf2 Ra2+ Ke3 Ra3+, tb=26120340, R50=45, wv=0.00 }
+64... Ra2+
+{ 0.00/137 3.4s, ev=0.00, d=137, pd=Ke3, mt=00:00:03, tl=00:00:23, s=251220 kN/s, n=851380177, pv=Ra2+ Ke3 Kxg3, tb=3279824, R50=50, wv=-0.00 }
+65. Ke1
+{ 0.00/75 3.8s, ev=0.00, d=75, pd=Ra8, mt=00:00:03, tl=00:00:10, s=389029 kN/s, n=1459985504, pv=Ke3 Ra8 Rf4+ Kh3 Rd4 Ra3+ Kf2 Ra2+ Ke3 Ra3+ Kf2 Ra2+ Ke3 Ra3+, tb=17510873, R50=50, wv=0.00 }
+65... Ra1+
+{ 0.00/153 4.3s, ev=0.00, d=153, pd=Ke2, mt=00:00:04, tl=00:00:21, s=248658 kN/s, n=1055795497, pv=Ra1+ Ke2 Kxg3, tb=3223936, R50=49, wv=-0.00 }
+66. Ke2
+{ 0.00/81 4.0s, ev=0.00, d=81, pd=Kxg3, mt=00:00:04, tl=00:00:07, s=375721 kN/s, n=861927079, pv=Ke2 Kxg3, tb=8765539, R50=49, wv=0.00 }
+66... Kxg3
+{ 0.00/242 4.5s, ev=0.00, d=242, mt=00:00:04, tl=00:00:18, s=239321 kN/s, n=1072869851, pv=Kxg3, tb=5015693, R50=48, wv=-0.00, Draw by adjudication: SyzygyTB }
+1/2-1/2
+

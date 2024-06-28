@@ -1,0 +1,33 @@
+[Event "More Chesse-Play: Stockfish vs Lc0 vs Stockfish+NNUE (3|2)"]
+[Site "Chess.com"]
+[Date "2020.07.26"]
+[Round "504"]
+[White "Stockfish NNUE"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "B23"]
+[GameDuration "00:10:34"]
+[GameEndTime "2020-07-26T10:10:44.377 PDT"]
+[GameStartTime "2020-07-26T10:00:09.482 PDT"]
+[Opening "Sicilian"]
+[PlyCount "146"]
+[TimeControl "180+2"]
+[Variation "Closed, 2...Nc6"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 e5 4. Bc4 Be7 5. d3 d6 6. Nd2 Bg5 7. h4 Bh6 8. Qh5
+g6 9. Qd1 Nf6 10. Nf1 Bxc1 11. Qxc1 Be6 12. Qh6 $5 Nh5 13. a4 Qd7 14. Ne3 O-O-O
+15. Ncd5 Kb8 16. c3 Rhf8 17. O-O-O ( 17. Qxh7 $2 Rh8 $1 $19 ) 17... a6 18. g4
+Nf4 $1 19. Nf6 $6 ( 19. Nxf4 exf4 20. Qxf4 Ne5 $1 21. f3 ( 21. Bxe6 fxe6 $19 )
+21... Qxa4 $13 ) 19... Qe7 20. g5 $2 ( 20. Nxh7 Rh8 $19 ) 20... Qc7 21. Kd2 (
+21. Qxh7 $4 Rh8 22. Qg7 Bxc4 23. dxc4 Ne6 $19 ) ( 21. h5 $1 Na5 $15 ) 21... Qb6
+22. b3 Qa5 { with the idea of ...Nd4. } 23. Ra1 Ka7 24. Bd5 Rb8 25. Rab1 Ne7
+26. Qg7 Qc7 27. Bc4 Qd8 28. Rbg1 Nc6 29. Bd5 Nd4 $3 30. Rb1 ( 30. cxd4 Qa5+ 31.
+Kc2 cxd4 $19 ) 30... Bxd5 31. Nfxd5 Nh5 32. Qh6 Ne6 $19 33. f3 Nef4 34. Kc2 Rg8
+35. b4 cxb4 36. Rxb4 Qc8 37. Rc4 Qd7 38. a5 Rh8 39. Nb6 Qe6 40. Rh2 Rbd8 41.
+Ned5 Nxd5 42. Nxd5 Rc8 43. Ra4 Qe8 44. Ra3 Rc5 45. c4 Qd8 46. Nb6 d5 $3 47.
+exd5 Qd6 $1 48. Rh1 Rxd5 49. Nxd5 Qxa3 50. Rb1 Qxa5 51. Nc3 Qc5 52. Ne4 Qe3 53.
+Rb3 Qxf3 54. Nd6 b6 55. Ne4 Qe2+ 56. Kb1 b5 57. c5 a5 58. Kc1 b4 59. Nd2 Ka6
+60. Rb2 Qxd3 61. Qxh5 gxh5 62. c6 Rc8 63. Rc2 a4 64. c7 a3 65. Kd1 e4 66. Rc6+
+Kb5 67. Ke1 Kxc6 68. Nc4 Kxc7 69. Ne5 Qc2 70. Nc4 a2 71. Nd2 a1=Q+ 72. Ke2 Qg1
+73. g6 Qd3# 0-1
+

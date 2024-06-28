@@ -1,0 +1,2395 @@
+[Event "CCC13: Semifinals (10|5)"]
+[Site "?"]
+[Date "2020.04.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Komodo"]
+[Result "1-0"]
+[ECO "A63"]
+[Annotator "Rensch, Daniel"]
+[PlyCount "261"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2019.09.13"]
+[TimeControl "600+5"]
+
+{In perhaps the most instructive (mindblowing?) endgame of the year to date, our
+friendly neighborhood Fish defeated the dragon in the 13th edition of
+Chess.com's Computer Chess Championship. I have analyzed the endgame below for
+my blog here, and you can enjoy Grandaster Dejan Bojkov's notes (with a few of
+my own comments sprinkled in) before move 43.} 1. d4 Nf6 2. c4 g6 3. g3 Bg7 4.
+Bg2 O-O 5. Nc3 d6 6. Nf3 c5 7. d5 e6 8. O-O exd5 9. cxd5 Re8 10. Re1 a6 11. a4
+Nbd7 12. Bf4 ({Two top grandmasters recently discussed the consequences of the
+line:} 12. e4 Ng4 13. Nd2 Nge5 14. Re3 Nb6 15. Qf1 a5 16. h3 c4 17. Kh2 Bd7 18.
+f4 Nd3 19. Nxc4 Nxc1 20. Rxc1 Nxc4 21. Qxc4 Qb6 {Ding,L (2805)-Navara,D (2734)
+Prague 2019}) 12... Ng4 13. a5 Nde5 14. Ne4 h6 15. Qc1 g5 16. Bxe5 Nxe5 17. Nxe5
+Bxe5 18. Nd2 Qf6 {N A novelty upon (not-suprisingly) an email game.} ({An
+earlier, also engine-generated game saw:} 18... Bd7 19. Nc4 Qe7 20. Ra3 Bg7 21.
+Re3 Qf8 22. Rb3 Bb5 23. e4 Rab8 24. Bh3 Bd4 25. Bf5 Qe7 {and eventually ended in
+a draw, Malchev,E (2437)-Fischer,W (2439) ICCF email 2018}) 19. Nc4 Bd7 20. Ra3
+(20. Nb6 {only pushes the bishop to a better position:} 20... Bb5) 20... Bb5 21.
+Nxe5 Rxe5 {The opening is over and Black seemingly cannot complain of the
+outcome. In the Benoni the trades give Black enough room to maneuver and here he
+(sorry, it) can easily build kingside blockade.} 22. e4 Rae8 23. Rae3 {White's
+play is on the kingside, therefore:} 23... g4! 24. h3 ({The opening of the
+opposite wing only helps Black:} 24. b4 cxb4 25. Qb1 Rc8 26. Qxb4 Rc2) 24... h5
+25. Qc3 {Now both sides prepare for the opening of the f-file.} 25... Qg7 26. h4
+({Not much is changed after:} 26. Kh2 R8e7) 26... R8e7 27. Kh2 {A curious
+position. Black does not have such a large choice as it seems.} 27... Qh8 ({To
+start with, he cannot move the rooks:} 27... Re8?! 28. b4 cxb4 29. Qxb4 Qf6 30.
+f4 gxf3 31. Rxf3 Qe7 32. Qd2 {is advantageous for the first player as Black lost
+stability on the kingside.}) ({More interesting seems the human approach to
+clarify things once and for all with:} 27... f5!? 28. exf5 Rxe3 29. fxe3 Qxc3
+30. bxc3 Kf7 {White won a pawn, but after:} 31. e4 Kf6 {followed by Kf6-e5 and
+Re7-f7 the position seems a fortress to me.}) (27... Kh8 {is not as good as the
+game move as the pawn on h5 is not sufficiently defended in the line:} 28. f4
+gxf3 29. Bxf3) 28. Qd2 Qg7 29. Qc3 Qh8 30. Qd2 {Now that is interesting!
+Stockfish repeats the moves once, like a human being. Is he trying to win some
+time on his clock? Or frustrate his opponent??} 30... Qg7 31. Qd1 f5 {And Black
+does not stand the pressure and starts attacking! This is what I would have
+written maybe, had this been played by mere mortals.} 32. Qc1 ({Not yet:} 32.
+exf5?! Rxe3 33. fxe3 Qxb2) 32... fxe4 33. Rxe4 Rxe4 ({More accurate than} 33...
+Bd3 34. Rxe5 Rxe5 35. Qd2 ({Not much yields:} 35. Rxe5 Qxe5 36. Qh6 Kf7 {as the
+squares around the king are well defended.}) 35... Bb5 36. Rxe5 Qxe5 37. Qh6
+{and without the black bishop on the b1-h7 diagonal this is unpleasant for
+Black.}) 34. Rxe4 Rxe4 35. Bxe4 Qe5 36. Qf4! {A very clever decision.} ({Nothing
+promises:} 36. f3 Be2) 36... Qxf4 37. gxf4 {The endgame is difficult for Black
+as the majority of his pawns are fixed on light squares and can be attacked.
+This is far more imporatnt than the double f-pawn that White created himself.}
+37... Be8 (37... Bc4? {loses instantly to:} 38. Bg6 Bxd5 39. Bxh5) 38. Bf5
+{Eyeing the queenside pawns.} ({Weaker would be:} 38. f3 gxf3 39. Bxf3 Kg7)
+38... Bf7 39. f3! ({The moves cannot be transposed as in the line:} 39. Be6 Bxe6
+40. dxe6 d5 41. Kg3 d4 {The g4 pawn is a huge obstruction for the white pieces.
+In particular:} 42. f3? {Loses to:} 42... d3 43. Kf2 g3+!) 39... gxf3 ({Just as
+before, the endgame:} 39... Bxd5 40. fxg4 hxg4 41. Kg3 {favors White thanks to
+his more active king.}) 40. Be6 {Now White can offer the swap of the bishops.}
+40... f2 ({As the pawn endgame after:} 40... Bxe6 41. dxe6 d5 42. Kg3 {Is lost
+for the second player due to White's better quality pawns:} 42... Kf8 43. Kxf3
+Ke7 44. f5 Kf6 45. Kf4 d4 46. Ke4 Ke7 47. b4!) 41. Kg2 Kg7 42. Kxf2 Kf6 {Please
+note that much of the comments and notes previous to this move 43 should be
+attributed to GM Dejan Bojkov.} 43. f5 {You could argue the beginning of the
+\"instruction\" starts here. Stockfish and Komodo do what computers do best for
+the better part of the next 50 moves: completely confuse us! I must admit that
+as a fan of the CCC and these high level computer battles, I often begin to
+\"tune out\" during this stage of things since, normally speaking, it's merely
+nothing more than their \"contempt\" for the draw forcing them to play on (for
+those who don't speak computer, \"contempt\" is something we, as human
+programmers, have often built into computers, and even Neural Nets, that makes
+them HATE draws more than anything, so unless they see a clear reason they are
+losing, they will amost always keep playing and avoid repetitions).} 43... Be8
+44. Ke3 Ke5 45. Bc8 Bb5 ({The a-pawn marches through in the line:} 45... Kxd5?
+46. Bxb7+ Ke5 47. Bxa6 Kxf5 48. Bb7 {and wins.}) 46. f6! {The b7-pawn is a
+sitting duck. It is much more important to gain space for the king. Regardless
+of whether the endgame is \"certainly winning\" at this point yet or not, this
+is already an instructive takeaway for viewers and fans.} (46. Bxb7? Kxf5 47.
+Kf3 Ke5 {should be a draw since not only are the d5 and h5 pawns equally weak,
+most importantly Black's king has not surrendered any critical ground.}) 46...
+Kxf6 47. Kf4 Be2 48. Bxb7 Bc4 49. Bc6 Bf1 50. Be8 Be2 51. Ke3 {Strange for
+Stockfish to return his more active king's position by giving back the
+e5-square. While much analysis of this game suggests that Black wants to keep
+the king close to the h5-pawn anyway at this point (ie, explaining Komodo's
+choice to go ...Kg7 instead of ...Ke5 when given the chance), I'm not sure it
+really makes sense.} 51... Bg4 52. Ba4 {The bishop is transferred to the f1-a6
+diagonal.} ({Note that tricks with} 52. Bb5?? {are too soon after} 52... axb5
+53. a6 Bc8 54. a7 Bb7 {and Black wins.}) 52... Kg7!? {The king hangs around the
+h5 pawn, however, as my notes to 52...Ke5 suggest, it was no worse a move.}
+(52... Ke5 {Would have been better, in my mind, since the worst that can happen
+to Komodo is a transposition to the game after} 53. Bb3 Kf6 (53... Bd7 54. Bc4
+Bc8 55. Be2) 54. Bc4 Bc8 55. Be2 Kg6 {where Stockfish (we think?) is still
+winning if/when the engine finds the idea it did in the game (#spoileralert ie,
+trade off the b2-pawn for the c5-pawn and then when the time is right, sacrifice
+the d5-pawn all together), but still, other than Komodo himself not wanting to
+repeat moves either, I can't really say that 52...Kg7 was any more than
+52...Ke5.}) 53. Be8 (53. Bb3 Kg6 54. Bc4 Bc8 {defending both weaknesses.}) 53...
+Kf6 54. Ba4 Kg6 55. Bc6 Bc8 56. Be8+ Kh6 57. Kf4 Bg4 58. Bc6 Kg6 59. Ke3 Bc8 60.
+Be8+ Kh6 61. Kf4 Bg4 62. Ba4 Kg6 63. Ke3 Bh3 64. Be8+ Kh6 65. Ba4 {And if were
+still watching this game with ANY excitement live, that's likely a sign of you
+being bored out of your mind -- #stayhome #staysane #COVID19 -- or that you're a
+profit of the highest level and should consider telling people's fortunes for a
+living... But seriously, what gives? The pressure has improved by precisely zero
+margin over the last dozen or so moves, and any attempts to call Stockfish's
+play \"brilliant\" are \"result-bias\" purely because we know the outcome. It
+seems at this time very hard for White to justify that Black's two pawn
+weaknesses (ie a6 and h5) could ever really be worth much more than White's
+d5-pawn.} 65... Kg7 66. Kf4 Kf6 67. Bd1 Kg6 68. Be2 Bc8 {Ultimately White comes
+back to this set-up. But how to improve further?} 69. Bd3+ Kf6 70. Be2 Kg6 71.
+Bd3+ Kf6 72. Bf1 {While some might claim the three-step maneuver was usedr to
+force zugzwang here, it's not really the case when Black still has useful
+moves.} 72... Kg6 73. Be2 {Yay! Zugzwang, right!?} 73... Bb7 {No! Stumped
+again!} 74. Bd3+ Kf6 75. Be2 ({One key point to be made early, is that
+sacrificing the d5-pawn as a means of entry (ie, the game idea... sorry for the
+spoilers!) isn't possible without the plan that preceeded it (ie, trading off b2
+for c5) in view of} 75. Bf5 Bxd5 76. Bd3 c4! {and Black is doing just fine!})
+75... Kg6 76. Ke4 Bc8 77. Ke3 Bb7 78. Ke4 Bc8 79. Ke3 {Where is this king going?
+Has the computer's own contempt for contempt finally caught up with the
+position?} 79... Bb7 80. Kd2! {Finally, progress (or a bluff!?) is revealed! On
+the one hand, I will still admit I viewed the idea of trading b4 for c5 as
+further contempt at its best. More maneuvers will lead to three-fold repetition
+(or maybe even a 50-move draw at some point), so a pawn exchange that opens no
+new avenues can hardly be seen as real progress to the unbiased critic.
+Regardless, the plan is set in motion and we will not have a draw for now at
+least...} 80... Bc8 ({It's good to remind everyone why d5 is not capturable,
+with the variation} 80... Bxd5 81. Bxa6 Kf5 82. Bc8+ Kf4 83. a6 Bc4 (83... Kg3
+84. Bb7) 84. Bb7 ({NOT} 84. a7 Bd5 {!!! And Black is holding all roads to a8!})
+84... Bxa6 85. Bxa6 Kg3 86. Ke3 d5 87. Be2 Kxh4 88. Kf4 d4 89. Bf1 {is a fun
+Zugzwang where Black loses!}) 81. Kc3 Kh6 82. b4 {Ok, you can trade these...But
+how does this help you? The weaknesses are defended, the position is blocked...}
+82... cxb4+ 83. Kxb4 Kg6 84. Kb3 Bb7 (84... Kf5! 85. Bxh5 Ke5 86. Kc3 (86. Bf3?!
+Kf4 87. Be2 Ke5 88. h5? Kf6 (88... Kxd5 89. h6 Bf5 90. Bxa6 {wins.}) 89. Kc3 Kg5
+90. Kd4 Kh6 91. Ke4 Kg5 92. Bf3 Bf5+ 93. Kd4 Bc8 94. Ke3 Bd7 95. Be2 Bc8 96. Kd3
+Kh6 97. Ke4 Kg5 98. Ke3 Kf5 99. Kf3 Kg5 100. Ke4 Bf5+ 101. Kd4 Bc8 102. Kc3 Kh6
+103. Kd2 Kg5 104. Ke3) 86... Kxd5 87. Bg6 Ke5 88. h5 d5 89. h6 Kf6 90. Bd3 Bb7
+91. Kd4 {wins in similar fashion as to the game!}) 85. Kc4 Bc8 86. Kb3 Bb7 87.
+Kc3 Kh6 88. Bd3 Kg7 89. Kd4 Bc8 90. Be2 Kg6 91. Bd3+ Kg7 92. Be2 Kg6 93. Kd3 Kh6
+94. Ke4 Kg6 95. Kf4 {Only with hindsight is it fair to say that Black is in
+Zugzwang here... and we will discuss more on that soon after the brilliant 99th
+move! However, the question remains (that I'm not sure I can totally answer) as
+to whether there was ever a way -- perhaps much, MUCH earlier??? -- to prevent
+this incoming doom. While my initial evaluation was surely this must have been a
+draw, yet having reviewed it now for longer than I should, I'm not sure Komodo
+was ever fully capable or preventing White's plan.} 95... Bb7 ({Not} 95... Kh6
+{since} 96. Bd3! Bb7 97. Kf5 {is easy.}) 96. Bd3+ Kf6 97. Bc4 {and if you needed
+any other reason to understand WHY we (the world!) were all shocked when move
+99.!! came to the board, White had repeated yet again here... what else were we
+to expect!?} 97... Bc8 98. Bd3 Bb7 99. Bf5!! {Bananas. Pure bananas. As many
+said, if you were watching this game live, you might only suspect the contempt
+for a draw pushed SF on. But indeed, the idea is more brilliant than just
+passing time, running up the Chess.com Server bill at the CCC! After many, many
+hours I'm here to proclaim with certainty: White is winning here and infact,
+White was likely winning this endgame the entire time.} 99... Bxd5 {What else to
+do?} 100. Bd3 Bb7 {The only difference between this position and what we've been
+watching is that the d5-pawn is now gone! How brilliant is that!? Somehow, by
+true miracle, White ONLY wins because the d5-pawn has left the board.} 101. Bc4
+{Now another fine zugzwang play starts.} 101... Kg6 (101... Bc8 {would soon lead
+to the same.}) (101... d5 102. Be2 Kg6 103. Ke5) 102. Be2 {To highlight Black's
+difficulties: The king wants to stay on g6 in order to both guard h5 and prevent
+Kf5, but doing so while also keeping the pawn on d6 (to guard entry via e5) and
+the bishop on b7 (to prevent White's next move) is impossible.} 102... Bc8
+(102... Kf6 {Doesn't hold any better after} 103. Bxh5 Bc8 104. Be2 Bb7 105. Bd3
+Bc8 106. h5 (106. Ke4 Bb7+ 107. Kd4 Kg7 108. Be4! {(the pawn endgame is winning
+now)} 108... Bc8 109. Bc6 {and Black's pieces have too many tasks: Defending a6,
+preventing Kd5-d6 and eyeing the h-pawn.}) 106... Bb7 107. h6 Bc8 108. Ke3 Bb7
+109. Kd4 Kf7 110. Be4 Bc8 111. Bc6 ({Not} 111. Kd5 Bb7+! 112. Kd4 Bc8) 111...
+Kg6 112. Kd5 Kxh6 113. Kxd6 {wins.}) 103. Bf3! {This forces the black bishop out
+of the c8-a6 diagonal.} (103. Ke4?! {does not work:} 103... Bb7+ 104. Kd4 Kh6!
+{and White no longer has Kf5.}) 103... Bf5 ({Sitting tight here fails to} 103...
+Kh6 104. Be4! {where after} 104... Be6 105. Bd3 Bc8 106. Ke4! {Black can't deal
+with the threat of Kd5 without allowing the king to enter into f5.} 106... Bb7+
+(106... Kg6 107. Kd5+ {winning d6 and then a6 soon after.}) 107. Kf5 {wins.})
+104. Ke3 Bc8 105. Kd4 Bg4 ({While I obviously respected Komodo's \"depth\" when
+making the decision to immediately abandon the \"blockade ship\" with the
+approach taken in the game (ie, run your king as fast as you can to the
+queenside), I had to anlayze as deeply as I could (to prove to my own weak,
+feeble human brain) that just \"sitting tight\" was indeed losing for Black. The
+complicated variations below (and my teaching concepts in the video) hopefully
+shed some light on just why Black was already lost here.} 105... Kh6 {is the
+most stubborn way to say \"prove the pawn sac\", and already puts White in a
+\"must find\" only move that wins situation (see notes to all moves that are NOT
+16.Bc6!). The variations below show the delicate nature of White's advantage,
+and prove that with the feature of \"rook pawns\" being present, even when it
+looks easy, Black still has some stalemate tricks.} 106. Bc6! {is key, and needs
+to be played now. White is threatening to bring the king to d5, and Black is a
+tempo behind because 106...Kf5 is not possible! Trying to get there through g6
+allows} (106. Be2? Bb7! {and Black is holding both a6 and the d5-square.}) (106.
+Kd5?? Bb7+ {and Black wins the bishop on f3.}) (106. Be4?! {doesn't lose the
+advantage, but also doesn't make progress after} 106... Kg7 107. Bf3 Kh6) 106...
+Kg6 (106... Be6 107. Bb7 {wins a6.}) ({Though note that with this idea of
+running the black king BACK to the queenside to setup a rook-pawn drawn king and
+pawn endgame, White has to follow one key line to win with:} 106... Bg4 107. Bb7
+Be2 108. Bc8 Kg6 109. Kd5 Kf6 110. Kxd6 {the Black king is forbidden perfectly
+from both f5 and e5! Still, it's tricky after} 110... Bd3 111. Kc5 Ke5 112. Kb6
+Kd5 113. Bb7+ Kd6 {when only} 114. Bf3! {is winning! Taking a6 was again a draw,
+but now, Black is overworked.}) 107. Be8+! {and the Black king must go back. The
+variations are still crazy complex however, and I tried to illustrate a few key
+points here:} 107... Kh6 108. Kd5 Bg4 109. Kxd6 Be2 {Note that in this line,
+Black has officially estbalished the bishop on its ideal post: guarding both a6
+and h5. Impatient technique can still lead to a draw in some variations below.}
+110. Ke5! {is not the only winning move, but to me, illustrates the key winning
+idea in the most clear way: centralize the king and make Black choose which pawn
+he wants to part with! If the Black king retreats in variations below, White is
+often marching King-f5-g5 and then winning h5. If Black stays put, White now has
+the time (with the powerful king) to play Bishop d7-c8 and only THEN run the
+White king BACK to b6 to win a6.} ({A rushed variation like this can show
+Black's drawing attempt after:} 110. Kc5?! Kg7! 111. Kb6?? ({And to win, White
+might have to find the counter-intuitive retreaing king idea of} 111. Kd4 Kf6
+112. Ke3! Ke7! 113. Kxe2?? ({Though} 113. Bg6! Bg4 114. Bd3 Bc8 115. Be2 {does
+still win.}) 113... Kxe8 = {Black has long range opposition and holds the
+draw!}) 111... Kf6 112. Bd7 Ke5 113. Bc8 Kd5! 114. Bxa6 Bxa6 115. Kxa6 Kc6 =
+{draw!}) (110. Bc6 {is also winning, but only with the same idea after} 110...
+Kg6 {of king centralization with} 111. Ke5 {and with Be8 check coming, it's
+similar to other variations where White wins.}) (110. Bd7 Kg6 111. Bc8 (111.
+Ke5! {is still key to winning! Keep the Black king improsined until your bishop
+is on the ideal square of c8: guarding f5 and attacking a6!} 111... Kf7 112. Bf5
+({Not} 112. Kf5 Bg4+) 112... Ke7 113. Be4 Kd7 114. Kf4 Kd6 115. Kg5 Kc5 116. Bg6
+Kb4 117. Bxh5 Bc4 118. Bg4 Bf7 119. Bf5 Kxa5 120. Bg6 Bg8 121. h5 Kb4 122. Kf6
+(122. h6 a5 123. Kf6 a4 124. Kg7 a3 125. Bb1 Kb3 126. Kxg8 Kb2 127. h7 Kxb1 128.
+h8=Q a2 = {is also still a draw!}) 122... a5 123. Kg7 Be6 124. h6 a4 125. h7
+{and White wins.}) 111... Kf6 112. Kc6 (112. Kc5 Ke5 113. Bb7 Ke6 114. Kd4 Kd6
+115. Ke3 Bc4 116. Bf3 Kc5 117. Bxh5 Kb4 {and it's likely a race that leads to a
+tie for first!}) 112... Ke5 113. Kb6 Kd5 {but here Black is drawing because the
+bishop maintains protection over h5!} 114. Bb7+ Kd6 115. Bc8 Kd5 = {and how to
+make progress?}) 110... Bf1 ({Note that} 110... Bd3 {doesn't help after} 111.
+Kf6 Be2 112. Bc6! Bd3 113. Bd5 (113. Bb7 Be2 114. Bc8 Bd3 115. Ke5 Kg6 116. Kd4
+Bf1 117. Kc5 Kf6 118. Kb6 Ke5 119. Bxa6) 113... Be2 114. Bb7 Bd3 115. Ke5 Kg6
+116. Kd4 Bf1 117. Kc5 {see 1110...Bf1 line for how White is winning.}) 111. Bc6
+Be2 112. Bb7 {And Black is faced with another tough question: Keep the king
+where he is and try to maintain the f1-a6 diagonal with the bishop (see how
+112...Bf1 loses below) or try to bring the king to the queenside now, risking
+Kf5-g5 and winning h5.} 112... Kg7 (112... Bf1 {Now White has improved much from
+a few moves ago: The bishop is on b7 hitting a6, and the White king is close
+enough to reach a6 before the Black king gets counterplay!} 113. Kd4! Kg6 114.
+Kc5 Kf5 115. Kb6 {and now White is actually threatening to take a6 because there
+are no stalemate tricks of trapping the White king on the a-file.} ({Also
+winning is} 115. Bf3 Kf4 116. Bxh5 Kg3 117. Kb6 Kxh4 118. Bf3 Kg3 119. Bb7 Kf4
+120. Bxa6 {if you really wanted to get rid of the h-pawns first.}) 115... Kg4
+116. Bxa6 Bg2 117. Bc8+ Kxh4 118. a6 {followed by Bb7 is lights out!}) 113. Kf5
+Bb5 114. Kg5 Be2 115. Be4 Kf7 116. Bg6+ Ke6 117. Bxh5 {easily wins as Black is
+way behind in the race to reach a5.}) ({First, the obvious failing to any move
+that takes away the \"skewer threat\" on b7 is just losing because the d5-pawn
+no longer stands in White's way.} 105... Bd7 {or any more that is NOT ...Be6
+allows Kd5!} 106. Kd5 {d6 falls, a6 is not far behind it, and it's game over.}
+106... Bg4 (106... Kf5 107. Bxh5 {is too much for Black.}) (106... Bc8 107. Kxd6
+Bg4 108. Be4+ Kf6 109. Bd3 Bc8 110. Kc7 {wins.}) 107. Be4+) (105... Be6 {along
+with ...Bf5 allows} 106. Bb7 {winning a6 and the game.}) 106. Be4+ ({Note that}
+106. Bb7 {allows Black's bishop the ideal \"defend both pawns\" diagonal with}
+106... Be2! {and further aggressive attempts by White might go too far, for
+example} 107. Be4+ Kf6 108. Kd5 Ke7 109. Kc6 Ke6 110. Kb6 d5 {and suddenly the
+tables have turned!}) 106... Kf7 (106... Bf5 107. Bb7 {is winning.}) (106... Kh6
+107. Bd3! Bc8 108. Kd5 Kg7 109. Kxd6 Kf6 110. Kc7 {and a6 falls.}) 107. Bd3!
+{The most valuable Black pawn drops and with it Komodo's hopes.} (107. Kd5?
+{allows} 107... Ke7 108. Bd3 Kd7! 109. Bxa6 Bf3+ 110. Kd4 Kc6 {and Black is more
+active than in the game. This is probably a draw.}) 107... Ke8 ({Perhaps the
+most key line to illustrate the \"purpose\" of the d5-pawn sacrifice is seen
+after} 107... Bc8 108. Kd5! ({Also winning is} 108. Be2 Kg6 109. Kd5 {where d6
+and a6 will fall soon, and the bishop on e2 prevents the Black king from coming
+up without dropping the h-pawn.}) 108... Ke7 109. Kc6 {and the pawn will soon
+fall anyway.} 109... d5 110. Kc7! {Full entry!} 110... Bg4 111. Bxa6 {and with
+White's king shielding the Black king from the queenside, the a-pawn is too
+strong.}) 108. Bxa6 Kd8 109. Ke4 Kc7 110. Bb5 Kb8 111. Kf4 Kc7 112. Be8 d5
+({Sitting tight isn't an option with the h5-pawn falling. For example,} 112...
+Kb8 113. Kg5 d5 114. Bxh5 {and the white king is the square of the pawn.} 114...
+Bc8 115. Be2 {and the h-pawn marches.}) 113. Ke5 Bf3 114. Bb5 Kb7 115. Kd6 Kb8
+116. Kc6 {Threatening mate after Kc6-b6, followed by a5 pawn-march and Bb5-c6.}
+116... Ka7 ({Doesn't help after} 116... d4+ 117. Kc5 Kc7 118. Kxd4 Kd6 {Yay!
+I've achieved opposition...} 119. a6 {Uhoh, now I have to go back and stop the
+pawn...} 119... Kc7 120. Kc5 Bg4 121. Bc6 Bc8 122. a7 {wins.}) 117. Bd3 Kb8 118.
+Kb6 Be4 119. Bb5 d4 120. a6 d3 ({Keeping the bishop on the long diagonal doesn't
+help either, since you can't maintain both the protection of h1-a8 and the
+h-pawn at the same time. For example,} 120... Bg2 121. a7+ Ka8 122. Be2 {and
+h5-falls.}) 121. a7+ Ka8 122. Ba6 d2 123. Be2 d1=N 124. Bxd1 Bb7 125. Bxh5 Bc6
+126. Bd1 Bh1 127. h5 Bg2 128. h6 Bh1 129. h7 Bd5 130. h8=Q+ Bg8 131. Qxg8# 1-0
+
+[Event "CCC13: Finals (15|5)"]
+[Site "?"]
+[Date "2020.04.13"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish"]
+[Result "1-0"]
+[ECO "A83"]
+[Annotator "danie"]
+[PlyCount "251"]
+[EventDate "2020.??.??"]
+[Source "ChessBase"]
+
+1. d4 f5 2. e4 {The romantic Staunton gambit, is not a common opening choice
+these days, but it's a good test of the engine's attacking abilities. Further,
+one could argue the \"postional principles\" behind White's approach agaisnt any
+Dutch (to ultimately challenge on the central light-squares) is only accelerated
+in fine (AlphaZeroish?) fasion here! As someone who's personally been playing
+the Staunton Gambit himself for years, believing in its ideals of directly
+opening up Black's weakest diagonals, I was rather excited (dare I say proud?)
+to see this on the board!} 2... fxe4 3. Nc3 Nf6 4. Bg5 g6 (4... Nc6 {Is more
+common for human players.} 5. d5 Ne5 6. Qe2 ({The move of choice for me was} 6.
+Qd4 {though I ultimately struggled to prove it at this particular SPICE Cup
+invitiational, I do believe White's initiative to be worth a lot, especially in
+rapid and blitz games.} 6... Nf7 7. h4!? e5 8. dxe6 dxe6 9. Qxd8+ Nxd8 10. O-O-O
+Bd7 11. Nge2 (11. Nb5 {may have been an improvement from my game vs Antal.})
+11... Nf7 12. Ng3 Nd6 13. Be2 Bc6 14. Rhe1 Be7 15. Bxf6 Bxf6 16. Bg4 Bxc3 17.
+bxc3 Ke7 18. c4 b6 19. f3 Raf8 20. fxe4 Nxc4 21. Rd4 Ne5 22. Bd1 Rd8 23. Rd2
+Rxd2 24. Kxd2 Rf8 25. Ke3 Bb5 26. Bf3 Rd8 27. h5 Nc4+ 28. Kf4 Rf8+ 29. Kg5 Ne5
+30. Nf5+ Kf7 31. Nd4 Bc4 32. h6 c5 33. Bh5+ g6 34. Nf3 Nc6 35. Bg4 Ke7 36. Kh4
+b5 37. Ng5 Ne5 38. Bf3 a5 39. a3 a4 40. Rb1 Rb8 41. Ra1 Nf7 42. Nxh7 Rh8 43. Ng5
+Rxh6+ 44. Kg4 Ne5+ 45. Kf4 Kf6 46. Rd1 Rh4+ 47. g4 Nxg4 48. Bxg4 Rxg4+ 49. Kxg4
+Be2+ 50. Kf4 e5+ {0-1 (50) Rensch,D (2392)-Antal,G (2479) Lubbuck USA 2009})
+6... Nf7 7. Bxf6 exf6 8. Nxe4 Bb4+ 9. c3 Be7 10. d6 cxd6 11. Qd2 Qc7 12. Ne2 d5
+13. Qxd5 O-O 14. Nd4 g6 15. Nb5 Qb6 16. O-O-O Kg7 17. Bc4 d6 18. Rhe1 Ne5 19.
+Bb3 Bd7 20. Nd4 f5 21. f4 fxe4 22. fxe5 e3 23. Kb1 Bf5+ 24. Ka1 a5 25. exd6 Bf6
+26. Nxf5+ gxf5 27. Qxf5 Kh8 28. Bc2 Rf7 29. Qe6 Raf8 30. Rxe3 Qc5 31. Rh3 b5 32.
+Qe4 {1-0 (32) Ivanisevic,I (2630)-Drazic,S (2487) Kragujevac SRB 2011}) (4...
+d5? {Is blunder that, you might be surprised to hear, many strong players have
+fallen for. A victory I had over Grandmaster Gabriel Schwartsman long ago on a
+lonely night in Reno followed} 5. Bxf6 exf6 6. Qh5+ g6 7. Qxd5 Qxd5 8. Nxd5 Bd6
+9. Nxf6+ Kf7 10. Nxe4 Re8 11. Bd3 Bf5 12. f3 {and White is just ahead a clear
+two pawns.}) (4... e6 5. Nxe4 Be7 6. Bxf6 Bxf6 7. Nf3 {is also a common position
+reached (especially against non-prepared Dutch players surprised by the Staunton
+approach), where White has very natural, easy attacking chances. Almost like a
+Classical French where Black has \"accidentally\" traded the f-pawn rather than
+the d-pawn in the center, making all natural moves likek Bd3, Qe2, h4, Neg5, etc
+easy as cake!}) 5. Bc4 ({The most common \"blitz\" approach is definitely} 5.
+f3!? {to really get jiggy with it! One aggressive game by GM Illescas Cordoba is
+included below.} 5... exf3 6. Nxf3 Bg7 7. Bc4 d6 8. Qe2 c6 9. O-O-O d5 10. Bd3
+Bg4 11. Rhf1 O-O 12. h3 Bxf3 13. Rxf3 Nbd7 14. Qe6+ Rf7 15. g4 Nf8 16. Qe2 Qd7
+17. Re1 Re8 18. Bf4 Ne4 19. Bxe4 dxe4 20. Nxe4 Qxd4 21. c3 Qd5 22. Kb1 Ne6 23.
+Bc1 Rxf3 24. Qxf3 Nc5 25. Ng5 Qxf3 26. Nxf3 e5 27. Be3 Nd3 28. Rd1 Nf4 29. Rd7
+e4 30. Ng1 Ng2 31. Bxa7 e3 32. Ne2 g5 33. Kc2 Nf4 34. Kd1 Nxh3 35. Rxb7 Nf2+ 36.
+Kc2 Nxg4 37. a4 h5 38. a5 h4 39. a6 Be5 40. Bd4 Bxd4 41. cxd4 {1-0 (41) Illescas
+Cordoba,M (2600)-Vallejo Pons,F (2415) Dos Hermanas 1998}) 5... Bg7 (5... d5 6.
+Bxf6 exf6 7. Bxd5 f5 8. Qd2 {and White will quickly castle long, where as
+BLack's king might have some trouble if the center opens up with f3 soon.}) 6.
+Nge2 ({Stockfish's choice in the next game was} 6. f3 {and while we saw another
+exciting game, the final result was not nearly as pleasing to the fans!} 6...
+Nc6 7. Qd2 d5 8. Bxf6 exf6 9. Nxd5 f5 10. Ne2 exf3 11. Qe3+ Kf8 12. Qxf3 Nxd4
+13. Nxd4 Qh4+ 14. Qg3 Qxg3+ 15. hxg3 Bxd4 16. Nxc7 Rb8 17. O-O-O Bb6 18. Nb5 Kg7
+19. Rhe1 Bc5 20. a4 Kf6 21. Nd6 b6 22. g4 Bxd6 23. Rxd6+ Kg5 24. gxf5 Bxf5 25.
+Re7 h5 26. Rxa7 Rhd8 27. Rxd8 Rxd8 28. Bd3 Bxd3 29. cxd3 Rxd3 30. a5 bxa5 31.
+Rxa5+ Kf4 32. b4 g5 33. b5 g4 34. Kc2 Rd8 35. b6 h4 36. Ra3 Rb8 37. Kd2 Rxb6 38.
+Ke2 Rb1 39. Rc3 Ke4 40. Ra3 Rc1 41. Ra4+ Kf5 42. Ra5+ Ke4 43. Ra3 Rb1 44. Rc3
+Ra1 45. Rc4+ Kf5 46. Rc3 Kf4 47. Rb3 Ke4 48. Rb4+ Kf5 49. Rb5+ Kf4 50. Rb3 Rc1
+51. Ra3 Rb1 52. Rd3 Kf5 53. Ra3 Ke4 54. Ra4+ Kf5 55. Ra5+ Kf4 56. Ra3 Rc1 57.
+Rb3 Ra1 58. Rd3 Ke4 59. Re3+ Kf5 60. Rc3 Rb1 61. Ke3 Rb5 62. Ra3 Rc5 63. Rb3 Ra5
+64. Rc3 Kg5 65. Ke4 Ra2 66. Rc5+ Kh6 67. Rc6+ Kh5 68. Rc5+ Kh6 69. Rc6+ Kg5 70.
+Rc5+ Kg6 71. Rc6+ Kh5 72. Rc5+ Kg6 73. Rc6+ Kf7 74. Rh6 Re2+ 75. Kf4 Kg7 76.
+Rxh4 {adjudication 1/2-1/2 (76) Stockfish-Lc0 CCC13: Finals (15|5) 2020}) (6.
+Qe2 {Is also interesting and along the principled lines of the Staunton.}) 6...
+c6 {An early novelty, but a logical one. Black aims to play d5 to dominate the
+center, block the a2-g8 diagonal and protect the e4 pawn. However, it comes at a
+price of slowing the queenside development. A price that Leela drives through
+the roof!} (6... Nc6 7. a3 d5 8. Bxf6 exf6 9. Nxd5 f5 10. c3 Qd6 11. Qb3 b6 12.
+Ndf4 Na5 13. Bf7+ Ke7 14. Qa2 Rf8 15. Bc4 Nxc4 16. Qxc4 g5 17. Nd5+ Kd8 18. Nb4
+Bb7 19. d5 Qc5 20. Qxc5 bxc5 21. Nc6+ Kd7 22. Na5 Ba6 23. h4 Rab8 24. b4 g4 25.
+Nb3 Kd6 26. Nxc5 Bxe2 27. Kxe2 Bxc3 28. Rab1 a5 29. Na6 Rb6 30. b5 Be5 31. Rhd1
+f4 32. a4 f3+ 33. gxf3 exf3+ 34. Ke3 Re8 35. Ke4 h5 36. Kf5 Bh2 37. Rbc1 Rf8+
+38. Ke4 Rf4+ 39. Ke3 Rxa4 40. Rc6+ Ke5 41. Nxc7 Bf4+ 42. Kd3 Rd4+ 43. Kc2 Rxc6+
+44. dxc6 Rxd1 45. Kxd1 a4 46. Na6 a3 47. Nb4 Kd6 48. b6 g3 49. fxg3 Bxg3 50. Kd2
+Bh2 51. Ke1 Bg1 52. b7 Ba7 53. Kd2 Bb8 54. Ke3 Kc5 55. Na6+ Kxc6 56. Nxb8+ Kxb7
+57. Nd7 Kc6 58. Ne5+ Kc7 {0-1 (58) Matuszewski,M (2416)-Sandipan,C (2597) Warsaw
+POL 2014}) 7. d5! {An important push to prevent Black from creating a dominant
+pawn chain from b7-e4.} 7... e6 {Stockfish fights for the d5 square.} (7... cxd5
+8. Bxd5 Nxd5 9. Qxd5 Nc6 10. Nxe4 {with threats like Nd6+! White's position is
+so much fun to look at!}) 8. Nxe4 {And we have a position on the board worthy of
+a Computer Chess Championship! These artificialy intelligent giants continue to
+reach original positions much earlier than many of the world's elite human
+players. While not always \"improvements\" over main line theory, at the very
+least chess fans (and maybe even some professional players) still have
+interesting, creative chess to look at in the advanced these days!} (8. dxe6 d5!
+{is the key point. Black is totally fine with a quick captures back on e6 and
+castling.}) 8... O-O {A good choice! If Black leaves the king in the center for
+another move, there won't be a chance to castle.} (8... exd5 9. Nd6+ {Prevents
+Black from castling and gives White good play for the pawn.}) (8... cxd5 9. Bxd5
+exd5 10. Bxf6 Bxf6 11. Qxd5 {Gives White a very strong attack. Immediate threats
+include Nd6+, and long term ideas include 0-0-0, Rhe1 and Nf4 with White playing
+\"up pieces\" where it matters, despite being down a minor.}) 9. d6!? {An
+unusual, but strong attacking idea. White aims to keep the queenside blocked to
+prevent pieces from developing. As we said when ...c6 was first played (it came
+with the price of delaying queenside development), Leela wants to ensure that
+Stockfish pays up for this misstep. Chess fundamentals have preached
+development, activity, coordination, etc as assets to value over small amounts
+of material for years, and the love child (can I say that?) of Open-Source
+engine development and AlphaZero (Lc0) continues to drive home the romantic
+style that our forefathers played with!} (9. dxe6 d5 10. Bb3 a5 {is roughly
+even. Lc0's choice is more dynamic.}) 9... Qa5+ 10. Bd2 Qe5 11. Nxf6+ Qxf6 12.
+f4 {Um.... what!? You can't just KEEP a one track mind of breaking through the
+light-squares just because we know it's the principled thing to do against a
+Dutch... can you!?} (12. O-O {Is a move that may be safer and would maybe apeal
+to a human player. It's likely to transpose to the game.}) 12... Qxb2 13. Rb1
+Qf6 14. O-O {White has sacrificed the b2 pawn for a significant lead in
+development. This sort of hard to evaluate sacrifice demonstrates the difference
+between a standard engine like Stockfish and a neural network like Lc0. Both
+sides evaluate this position as in their favor.} 14... Qf5 {Activating the queen
+and preparing Qc5+.} 15. Kh1 {White avoids the check.} 15... Qc5 16. f5!! {Um...
+what!? Even though there's no check, White still gives up the bishop (and all
+forms of sanity!) to stick with the principled positional anti-Dutch
+breakthrough! I will have my light-squares, screams Leela!Black has so few
+pieces developed that it's difficult to defend. At this point Stockfish started
+to realize that White's attack is strong, and if you give the strongest versions
+of Komodo enough time to think (as I did during analysis), even the fire
+breathing Lizard eventually agrees that White has compensation.} 16... Qxc4
+(16... Rxf5 {Initially looks like a good defense, but White has an ingenious and
+winning attack.} 17. Rxf5 gxf5 18. Ng1!! Qxc4 19. Qh5 {Gives White a winning
+attack.} 19... Qd4 20. Qe8+ Bf8 21. Rb3 {White's queen, rook and bishop will
+force mate or win substantial material.}) 17. Rf4! {A key move to bring another
+piece into the attack. Everything else allows Black to convert the material
+advantage.} (17. Rb4 Qd5 18. fxg6 Rxf1+ 19. Qxf1 hxg6 {and the main difference
+is that another rook has been traded and White's d2-bishop is under fire,
+slowing down desirable ideas like Rg4 to attack.}) 17... Qd5 18. fxg6 hxg6
+({Trying to get some pieces off the board doesn't help after} 18... Rxf4? 19.
+Nxf4 Qxd6 20. gxh7+ Kxh7 21. Qh5+ Kg8 22. Rb3 {followed by Rg3 and a crushing
+attack ensues...}) 19. Rg4 {White continues to make threats. Black has no
+opportunity to finish development.} 19... Rf6 ({Stockfish, Komodo and others
+initially suggest} 19... Rf2 {but with time they realize giving up g6 isn't a
+good idea with} 20. Rxg6 Qe4 {attacks e2 and keeps an eye on g2, but after the
+amazing} ({Developing now is too late after} 20... Na6 21. Qe1 Rf7 22. Bh6 {with
+Qg3, Nf4, Rb3 and so many other things coming.}) 21. Rxg7+! Kxg7 {and then} 22.
+Nf4!! {White is threatening both Bc3+ and Qg4 or h5 to finish the game. And even
+the incredble variation where White has nothing left to attack with but the lady
+and a g-pawn shows just how awesome Leela's understanding of White's potential
+attack was...} 22... Rxf4 23. Bxf4 Qxf4 24. Rb3 Na6 25. Rg3+ Kh6 26. Rf3 Qg5 27.
+Rh3+ Kg7 28. Rg3 Qxg3 29. hxg3 b5 30. Qd4+ Kf7 31. g4 c5 32. Qf4+ Kg8 33. Qe4
+Rb8 34. Qg6+ Kf8 35. g5 Bb7 36. Qh6+ Kg8 37. g6 {is mate.}) 20. Nc3 {White
+continues to develop. The knight will soon dominate the game from e4.} 20... Qh5
+21. Ne4 Rf7 22. Ng3 Qh7 {Stockfish clings to the g6-pawn, but every piece is
+pushed back to passive squares.} (22... Qe5 23. Rxg6 Na6 (23... b5 {desperately
+trying to develop is too slow now with lines like} 24. Nh5 Bb7 25. Rg5! (25. Qg4
+{is also winning, but not as flashy in variations like} 25... Na6 26. Bh6 Qf5
+27. Rxg7+ Kh8 28. Qxf5 Rxf5 29. g4 c5+ 30. Kg1 Rd5 (30... Rxh5 31. gxh5 Rg8 32.
+Rxg8+ Kxg8 33. Rxb5 {wins easily, but hey, it's an endgame.}) 31. Nf6 {and mate
+on h7.}) 25... Qd4 26. Nxg7 Rxg7 27. Rxg7+ Qxg7 28. Rb3 {and Black is going to
+lose the queen.}) 24. Qg4 Nc5 25. Bh6 Kh7 26. Bxg7 Rxg7 27. Rxg7+ Qxg7 28. Qh4+
+Kg8 29. Rf1 {and threats of Nh5, Qd8, etc have White announcing
+mates-in-single-digits...}) 23. Bg5 {White is fully developed and Black is
+passsive. Even Stockfish realizes that Black is in trouble.} 23... c5 {Finally
+preparing to develop the knight, but Black's queen is trapped.} (23... Be5 {or
+other bishop moves are really the last critical \"check points\" to ensure
+Leela's attack was unstoppable. Indeed after} 24. Rh4 Qg7 {the lady lives, but
+the game is quickly over after} 25. Ne4 Rf5 26. Bh6 Qh7 {and the incredible,
+subtle} (26... Qf7 27. g4 Rf3 28. Ng5 {game over.}) 27. Qe2 {overwhelms Black's
+defenses in view of g4, Ng5 and eventually Rf1 coming.} 27... b5 28. g4 Rf7 29.
+Ng5 Qh8 30. Nxf7 Kxf7 31. Rf1+ Ke8 32. Qxe5 Qxe5 33. Rf8#) 24. Rh4 {Trapping the
+Black queen. The rest of the game isn't in doubt in a game between engines, but
+Lc0's technique is still instructive.} 24... Qxh4 25. Bxh4 Nc6 26. Qg4 Ne5 27.
+Qa4 b6 28. Rxb6 {Demonstrating that Black doesn't have everything defended.}
+28... Nc4 (28... axb6 29. Qxa8 {Wins for White.}) 29. Rb1 Nxd6 {Stockfish
+finally eliminates the d6 pawn, but it's come at too high a cost.} 30. Qg4 Bb7
+{Giving White the g6 pawn, but there's nothing better.} (30... Kh7 31. Be7!
+{Keeps up a strong attack.}) 31. Qxg6 Bc6 32. h3 Nf5 33. Nxf5 exf5 34. Re1 Be4
+35. Rxe4! {White correctly judges that the endgame with queen against two rooks
+can be won. Black's exposed king makes it very difficult for the rooks to
+coordinate without allowing forks.} 35... fxe4 36. Qxe4 Rb8 37. Bg3 Rb2 38. Qc4
+{The queen is perfectly placed on c4, defending two pawns, attacking c5 and
+pinning the f7-rook.} 38... Bd4 {Defending c5 and threating Rb1+ with a
+perpetual.} 39. Kh2 Kg7 40. h4 {Giving the king some breathing room and starting
+to advance the passed pawns that should eventually win the game.} 40... Rb6 41.
+c3 Bf6 (41... Be3 42. Be5+ {gives White a powerful attack on the Black king.})
+42. Qxc5 Re7 (42... Rc6 43. Qxa7 {Is no better.}) 43. Bf2 Rc6 44. Qd5 Be5+ 45.
+g3 Rd6 46. Qc5 Rde6 47. Bd4 {White forces another trade, simplifying to a
+winning ending.} 47... Bxd4 48. cxd4 Kf6 49. Kh3 Re1 50. Qxa7 Rh1+ 51. Kg2 Rhe1
+52. Qc5 Ke6 53. Kf2 Kf7 54. Qc2 R1e6 55. a4 {With pawns running on both sides of
+the board, Black is lost. Lc0 is of course very deliberate converting the
+advantage, as engines are.} 55... d5 56. Qb3 Rd6 57. Qb4 Rc6 58. Qb3 Rd7 59. Kg2
+Rc4 60. Qb5 Rd6 61. Qb8 Rd7 62. Qb5 Rd6 63. Qb8 Rd7 64. Qe5 Rc6 (64... Rxa4 65.
+h5 Ra6 66. g4 {Wins for White.}) 65. Qf5+ Ke7 66. Qg5+ Kf7 67. Qd2 Ke8 68. a5
+Kd8 69. Kh3 Kc7 70. Qe2 Rd8 71. a6 Kb6 72. a7 Ra8 73. Qf3 {Black can prevent the
+a-pawn from queening, but now every Black piece is on the queenside, far from
+the g and h pawns.} 73... Rd6 74. h5 Rxa7 75. Qf8 Rad7 76. Qb8+ Kc6 77. Qe8 Kb5
+78. Qc8 Rd8 79. Qc5+ Ka4 80. g4 {Slowly the pawns continue to march down the
+board.} 80... Rh6 81. Qc1 Rb6 82. Qc7 Rdd6 83. g5 Rb3+ 84. Kg4 Rdb6 85. Qxb6 {If
+White were a human, you could think of this as showing off. For an engine, it's
+just the most direct way to reach checkmate. Black's rooks can't stop the passed
+pawns.} 85... Rxb6 86. g6 Ka5 87. g7 Rb1 88. Kf5 Rf1+ 89. Ke6 Rg1 90. h6 Kb4 91.
+h7 Rxg7 92. h8=Q {The endgame is winning, but Stockfish fights to the bitter
+end.} 92... Rg5 93. Qh6 Rg2 94. Kxd5 Rg8 95. Ke5 Re8+ 96. Kf4 Re1 97. d5 Rf1+
+98. Ke3 Re1+ 99. Kd2 Re4 100. d6 Kb5 101. d7 {A human player would likely aim to
+keep the pawn, but Lc0 will have no trouble winning the queen vs rook ending.}
+101... Rd4+ 102. Ke3 Rxd7 103. Qe6 Ra7 104. Kd4 Rc7 105. Qe5+ Kb6 106. Qd6+ Kb7
+107. Kd5 Kc8 108. Qe5 Kb7 109. Kd6 Rc6+ 110. Kd7 Rb6 111. Qa5 {White reaches a
+well known zugzwang. Black must move the rook away from teh king where it will
+be picked up by a queen fork.} 111... Rh6 112. Qd5+ Kb6 113. Qf5 {Black has no
+safe checks and no square for his rook or king that will avoid losing the rook
+in the next few moves.} 113... Kb7 114. Qe4+ Ka6 115. Kc7 {Threatening mate on
+a4.} 115... Ka5 116. Qe5+ Kb4 (116... Ka6 117. Qe2+ Ka5 118. Qd2+ Kb5 119. Qxh6)
+117. Qf4+ {White picks up the rook and will soon mate.} 117... Kc5 118. Qxh6 Kd4
+119. Qh1 Ke3 120. Kd6 Kd2 121. Qf3 Kc1 122. Kd5 Kb1 123. Kc4 Ka2 124. Qb7 Ka1
+125. Kc3 Ka2 126. Qb2# {An amazing attacking game by Lc0!} 1-0
+
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.06"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish"]
+[Result "1-0"]
+[ECO "C47"]
+[GameDuration "00:26:38"]
+[GameEndTime "2020-08-06T10:14:12.335 PDT"]
+[GameStartTime "2020-08-06T09:47:33.427 PDT"]
+[Opening "Four knights"]
+[PlyCount "141"]
+[TimeControl "600+5"]
+[Variation "Scotch, 4...exd4"]
+
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 exd4 5.Nxd4 Bb4 6.Nxc6 bxc6 7.Bd3 O-O 8.O-O d5 9.exd5 cxd5 10.h3 c6 11.Bf4 Re8 12.Qf3 Bd6 13.Rfe1 Be6 14.Ne2 Bxf4 15.Nxf4 Qb6 16.b3 Bd7 17.Nh5 Nxh5 18.Qxh5 g6 19.Qh4 c5 20.Qg5 Qd6 21.Qd2 d4 22.h4 
+    {Harry!}
+22...Bc6 23.a4 
+    {'Arry!}
+23...h5 24.Qg5 Kg7 25.f4 Rxe1+ 26.Rxe1 Re8 27.Re5 Rxe5 28.fxe5 Qe6 29.a5 Bd5 30.Kf2 Kf8 31.Qf6 $3 Qxf6+ 
+    ( 31...Kg8 32.Qxe6 Bxe6 33.Kf3 Kf8 34.b4 )
+32.exf6 Ke8 
+    ( 32...Bb7 33.Bb5 Be4 )
+    ( 32...Bc6 33.g3 Ke8 34.Ke2 Kd7 35.Bc4 )
+33.Kg3 Kd7 34.Kf4 Kd6 
+    ( 34...Bxg2 $1 35.Bc4 
+        ( 35.Ke5 Ke8 )
+    35...Ke8 36.Ke5 g5 37.hxg5 h4 )
+35.g4 hxg4 36.Kxg4 Ke6 37.Kg5 Bc6 
+    ( 37...Bf3 38.Bxg6 fxg6 39.Kxg6 )
+38.a6 
+    ( 38.Bxg6 fxg6 39.Kxg6 Be8+ )
+38...Be8 
+    ( 38...Bd5 39.Bxg6 )
+39.Bc4+ Ke5 40.b4 $3 cxb4 41.Bb3 
+    {ZUGZWANG}
+41...Ke4 42.Kh6 Ke3 43.Kg7 Kd2 44.Kf8 
+    ( 44.Bxf7 Bxf7 45.Kxf7 Kxc2 46.Kg8 d3 47.f7 d2 48.f8=Q d1=Q )
+44...Kc3 45.Kxe8 d3 46.Kxf7 
+    ( 46.cxd3 Kxb3 47.Kxf7 Kc2 48.Kg8 b3 49.f7 b2 50.f8=Q b1=Q )
+46...d2 47.Kg8 d1=Q 48.f7 Qd6 49.f8=Q Qxa6 50.Qc5+ Kb2 51.Qxb4 Qc8+ 52.Kg7 Qc7+ 53.Bf7+ Kc1 54.Qd4 a5 55.c4 a4 56.c5 a3 57.Qd6 Qa7 58.Kf6 Qa5 59.c6 Qc3+ 60.Ke7 Qe3+ 61.Kd7 Qh3+ 62.Be6 Qc3 63.c7 a2 64.Bxa2 Qg7+ 65.Kc6 Qh8 66.Be6 Qxh4 67.c8=Q Qa4+ 68.Kb6+ Kb1 69.Qd3+ Qc2 70.Qcxc2+ Ka1 71.Qb1# 1-0
+
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.06"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish"]
+[Result "1-0"]
+[ECO "D86"]
+[GameDuration "00:27:52"]
+[GameEndTime "2020-08-06T00:46:59.662 PDT"]
+[GameStartTime "2020-08-06T00:19:07.096 PDT"]
+[Opening "Gruenfeld"]
+[PlyCount "147"]
+[TimeControl "600+5"]
+[Variation "Exchange, Simagin's improved Variation"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 7.Bc4 O-O 8.Ne2 Nc6 9.O-O b6 10.Bg5 Na5 11.Bd3 c5 12.Rc1 cxd4 13.cxd4 Qd7 14.Qc2 e6 15.Qc7 Qxc7 16.Rxc7 Bb7 17.h4 Rfc8 18.Rfc1 Bf8 19.e5 Bc6 20.Rxc8 Rxc8 21.Ba6 Rb8 22.Bd2 Bd5 23.Rc7 Bxa2 24.h5 Bb3 25.Nc3 Bb4 26.h6 Kf8 27.f3 Ra8 28.Kf2 Be7 29.Ne4 Bd8 30.Nf6 Bxf6 31.exf6 Kg8 32.Bb5 Bd5 33.Bxa5 bxa5 34.Ba4 a6 35.Rc5 Rb8 36.Rxa5 Bb7 37.Rc5 Kf8 38.Rc7 a5 39.Ke3 Bd5 40.Rc5 Ra8 41.Kf4 Bb7 42.Ke5 Rd8 43.Rxa5 g5 44.Bc2 Bd5 45.Bxh7 Bb3 46.Ra7 Rd5+ 47.Ke4 Rd8 48.Ke3 e5 49.dxe5 Re8 50.f4 gxf4+ 51.Kxf4 Bd5 52.g4 Rb8 53.Kg5 Re8 54.Kf4 Rb8 55.Kg5 Re8 56.Rc7 Ba2 57.Kf4 Rd8 58.g5 Rb8 59.Ra7 Bd5 60.Bf5 Kg8 61.e6 Bxe6 62.Bxe6 Kh7 63.Bd5 Kh8 64.Ra8 Rxa8 65.Bxa8 Kg8 66.h7+ Kh8 67.g6 fxg6 68.f7 g5+ 69.Kxg5 Kxh7 70.f8=R Kg7 71.Rf1 Kh8 72.Kh6 Kg8 73.Bd5+ Kh8 74.Rf8# 1-0
+
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.07"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish"]
+[Result "1-0"]
+[ECO "E60"]
+[GameDuration "00:33:01"]
+[GameEndTime "2020-08-07T04:10:56.942 PDT"]
+[GameStartTime "2020-08-07T03:37:55.819 PDT"]
+[Opening "King's Indian, 3.Nf3"]
+[PlyCount "195"]
+[TimeControl "600+5"]
+
+1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.h3 O-O 5.Nc3 d5 6.cxd5 Nxd5 7.e4 Nxc3 8.bxc3 c5 9.Be2 b6 10.Be3 Bb7 11.Qd3 e6 12.O-O Qd6 13.h4 Rd8 14.h5 cxd4 15.cxd4 Nc6 16.Rad1 Qb4 17.Bg5 Rd7 18.h6 Bxd4 19.Qb5 Qc5 20.Rc1 Qxb5 21.Bxb5 Rc8 22.Rfd1 e5 23.Nh2 Rd6 24.Ng4 Bc5 25.Nf6+ Kh8 26.Bc4 Nd4 27.Ng4 Kg8 28.Nxe5 Ne6 29.Bxe6 Rxe6 30.Nd7 Bxe4 31.Nf6+ Kh8 32.Rd7 Bc6 33.Rxf7 Re7 34.Rxe7 Bxe7 35.Re1 Bf8 36.Kh2 Bd6+ 37.Kh3 Bb5 38.g4 Ba4 39.Re4 Bc6 40.Re6 Bf8 41.Kh4 Bb5 42.Re5 Rc5 43.Re1 Rc4 44.f3 Ba4 45.Re3 Bb5 46.Re1 Ba4 47.Re3 Bb5 48.Re5 Ba4 49.Rd5 Rc8 50.Re5 Rc4 51.Re1 Ba3 52.Re6 Rc7 53.Nd5 Rf7 54.Be7 Bxe7+ 55.Nxe7 Rxf3 56.Kg5 Rf8 57.Nd5 Re8 58.Rd6 Rb8 59.Nf6 Rc8 60.Re6 Rc7 61.Kh4 Bb5 62.Re1 g5+ 63.Kxg5 Ba4 64.Kh4 a6 65.Re6 Rc8 66.Rxb6 Ra8 67.Rb7 Bc2 68.Rc7 Bg6 69.a4 Bb1 70.a5 Bd3 71.Kg3 Bg6 72.Kf4 Bb1 73.Ke5 Bd3 74.Kd4 Bb1 75.Kc5 Bd3 76.Kb6 Rb8+ 77.Ka7 Rf8 78.g5 Rd8 79.Re7 Rf8 80.Rd7 Bf5 81.Rc7 Bd3 82.Kb7 Rd8 83.Re7 Rf8 84.Nd7 Rg8 85.Ne5 Be4+ 86.Kxa6 Ra8+ 87.Kb6 Rb8+ 88.Kc5 Ra8 89.a6 Kg8 90.a7 Kf8 91.Rg7 Bf5 92.g6 Rc8+ 93.Kb6 Ra8 94.Nd7+ Ke8 95.Nf6+ Kd8 96.gxh7 Bxh7 97.Rxh7 Rb8+ 98.axb8=Q# 1-0
+
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "Chess.com"]
+[Date "2020.08.05"]
+[Round "106"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "E73"]
+[GameDuration "00:40:48"]
+[GameEndTime "2020-08-05T17:34:48.928 PDT"]
+[GameStartTime "2020-08-05T16:54:00.487 PDT"]
+[Opening "King's Indian"]
+[PlyCount "304"]
+[TimeControl "600+5"]
+[Variation "5.Be2"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 e5 6.dxe5 dxe5 7.Qxd8+ Kxd8 8.Nf3 Nc6 9.Be3 Be6 10.O-O-O+ Nd7 11.Ng5 Nd4 12.Nxe6+ fxe6 13.Kb1 Ke7 14.Rhe1 c5 15.f3 h5 16.Bd3 h4 17.h3 Bh6 18.Bf2 Bf4 19.Bf1 Bg3 20.Bxg3 hxg3 21.Rd2 Rad8 22.Nb5 a6 23.Nc3 Nf6 24.Nd1 Rd6 25.Ne3 Rf8 26.Red1 Rh8 27.Re1 Ra8 28.Red1 Rf8 29.Kc1 Rfd8 30.Be2 Kf8 31.Kb1 Kg7 32.Nf1 Nh5 33.Ne3 Nf4 34.Bf1 g5 35.Ng4 Ng6 36.Rd3 Kf7 37.Ne3 Nf4 38.R3d2 a5 39.Ng4 Ng6 40.Rd3 Ke8 41.Ne3 Nf4 42.R3d2 Ke7 43.Ng4 Ng6 44.Kc1 Rb6 45.Kb1 Rbd6 46.Kc1 a4 47.Rd3 Nf4 48.R3d2 Ng6 49.Rd3 a3 50.bxa3 Kd7 51.Re3 Kc8 52.Ree1 Rf8 53.Kb2 Kc7 54.Re3 Kb8 55.Rd2 Ka7 56.a4 Kb8 57.a5 Kc7 58.Kb1 Rb8 59.Ra3 Nb5 60.Rad3 Nd4 61.Ra3 Rbd8 62.Kb2 Rf8 63.Kc1 Ra6 64.Kb1 Rh8 65.Kc1 Rf8 66.Kb1 Rfa8 67.Nf6 Nf4 68.Ng4 Kd6 69.Rb2 b6 70.Kc1 bxa5 71.Kb1 R6a7 72.Kc1 Rf8 73.Rb6+ Kc7 74.Rb2 Ng6 75.Rb1 Kd6 76.Rb6+ Ke7 77.Ne3 a4 78.Rb2 Rd8 79.Ng4 Kf7 80.Rb1 Kg7 81.Rb6 Kf7 82.Rb1 Rh8 83.Rb2 Kg7 84.Rb1 Rf8 85.Rb2 Kf7 86.Rb6 Ke7 87.Rb1 Rd8 88.Rb2 Kf8 89.Ne3 Nf4 90.Ng4 Ra6 91.Ne3 Ra7 92.Ng4 Kf7 93.Nxe5+ Kf6 94.Ng4+ Kg7 95.Ne3 Kg6 96.Ng4 Kg7 97.Ne5 Kh7 98.Rb6 Kg7 99.Nd3 Rad7 100.Nxf4 gxf4 101.Rd3 Kf6 102.Rb1 a3 103.Rb6 Ra7 104.Rd2 Ke5 105.Rd1 Raa8 106.Rd3 Ra4 107.Kb1 Rc8 108.Rd2 Raa8 109.Kc1 Rcb8 110.Rxb8 Rxb8 111.h4 Rh8 112.Be2 Rxh4 113.Bf1 Rh2 114.Rd3 Rh1 115.Rd1 Rh7 116.Rd2 Rb7 117.Bd3 Rb8 118.Bf1 Rh8 119.Rd3 Nc6 120.Kb1 Nb4 121.Rd2 Rh1 122.Rd1 Rh7 123.Rd8 Rb7 124.Ra8 Nd5+ 125.Kc1 Ne3 126.Rxa3 Nxf1 127.Ra5 Kd4 128.Rb5 Rh7 129.Kb2 Rh2 130.Ka3 Rxg2 131.Rb7 Kxc4 132.Rb1 Rf2 133.Rc1+ Kb5 134.Rb1+ Ka5 135.Rc1 g2 136.Rxc5+ Kb6 137.Rg5 Ng3 138.Kb4 g1=Q 139.Rb5+ Kc6 140.Rc5+ Kd7 141.Rc3 Nxe4 142.fxe4 Rd2 143.Kb5 Qd4 144.Rh3 Rb2+ 145.Rb3 Rxb3+ 146.axb3 Qxe4 147.b4 f3 148.Ka4 f2 149.Ka5 f1=Q 150.b5 Kc7 151.b6+ Kc6 152.b7 Qb5# 0-1
+
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.07"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "B24"]
+[GameDuration "00:35:36"]
+[GameEndTime "2020-08-07T14:24:01.448 PDT"]
+[GameStartTime "2020-08-07T13:48:25.045 PDT"]
+[Opening "Sicilian"]
+[PlyCount "228"]
+[TimeControl "600+5"]
+[Variation "Closed"]
+
+1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.d3 d6 5.Bg2 Bg7 6.Bg5 Rb8 7.a4 a6 8.Nge2 b5 9.axb5 axb5 10.O-O b4 11.Na4 Nf6 12.c3 O-O 13.d4 cxd4 14.cxd4 Ba6 15.Re1 e5 16.dxe5 Nxe5 17.Nf4 h6 18.Bxf6 Qxf6 19.Nd5 Qd8 20.Bf1 Bc8 21.Rc1 Be6 22.Be2 g5 23.b3 f5 24.exf5 Rxf5 25.Nc7 Bf7 26.Na6 Rb7 27.N4c5 Rb6 28.Nd3 Nxd3 29.Qxd3 Rd5 30.Qf3 Re5 31.Red1 d5 32.Bf1 Re7 33.Bh3 Rf6 34.Qd3 Qa5 35.Bf1 Re8 36.Rd2 Kh8 37.Rc5 Qb6 38.Ra2 Bg6 39.Qxd5 Rd6 40.Qc4 Rd4 41.Qb5 Qxb5 42.Bxb5 Red8 43.Rc1 Bf7 44.Bf1 Bf8 45.Rb2 g4 46.Rbb1 Rd2 47.Rc7 Bd5 48.Nc5 Bd6 49.Rd7 Rxd7 50.Nxd7 Bf3 51.Rc1 Rb2 52.Bc4 Kg7 53.Be6 h5 54.Kf1 h4 55.Bc4 h3 56.Ra1 Bc7 57.Ke1 Bd8 58.Kf1 Rc2 59.Re1 Rd2 60.Be6 Rd6 61.Kg1 Be2 62.Bf5 Rd2 63.Rc1 Bf6 64.Nc5 Bb2 65.Rb1 Bd4 66.Ne6+ Kf6 67.Nxd4 Rxd4 68.Bh7 Rd2 69.Rc1 Ke5 70.Bg6 Kd4 71.Bf5 Ra2 72.Bh7 Rb2 73.Bg8 Kd3 74.Ra1 Kd2 75.Bf7 Bd1 76.Be6 Bxb3 77.Bxg4 Ra2 78.Rf1 Bc4 79.Rd1+ Kc2 80.f4 b3 81.Rd7 Kc3 82.Bxh3 Ra5 83.Bg2 Ra1+ 84.Kf2 Ra2+ 85.Kg1 Rd2 86.Rxd2 Kxd2 87.Be4 b2 88.Bb1 Kc1 89.Bg6 Bb3 90.Kg2 Bc2 91.f5 b1=Q 92.f6 Be4+ 93.Kh3 Bg2+ 94.Kxg2 Qxg6 95.Kf3 Qxf6+ 96.Ke4 Qf2 97.g4 Qxh2 98.g5 Kd2 99.Kf5 Qd6 100.g6 Ke3 101.g7 Qd5+ 102.Kg6 Kf4 103.Kh7 Qh5+ 104.Kg8 Kf5 105.Kf8 Kf6 106.g8=N+ Kg6 107.Ke8 Kg7+ 108.Kd7 Kxg8 109.Kc6 Qa5 110.Kd7 Kf7 111.Kd6 Qb5 112.Kc7 Ke7 113.Kc8 Kd6 114.Kd8 Qb8# 0-1
+
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.07"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "A49"]
+[GameDuration "00:28:55"]
+[GameEndTime "2020-08-07T17:51:49.552 PDT"]
+[GameStartTime "2020-08-07T17:22:54.331 PDT"]
+[Opening "King's Indian"]
+[PlyCount "138"]
+[TimeControl "600+5"]
+[Variation "Fianchetto without c4"]
+
+1.d4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 d5 5.O-O O-O 6.c4 c6 7.cxd5 cxd5 8.Ne5 Ne4 9.Nc3 Bf5 10.Bf4 Nxc3 11.bxc3 Nc6 12.Qb3 e6 13.Qxb7 Nxe5 14.Bxe5 Bxe5 15.dxe5 Qa5 16.c4 Rab8 17.Qe7 dxc4 18.Qh4 Bc2 19.Qxc4 Rfc8 20.Qd4 Rb5 21.f4 Rb4 22.Qe3 Ra4 23.Rfc1 Rc3 24.Qd2 Qc5+ 25.Kf1 Rd4 26.Qe1 h5 27.Qf2 a5 28.Kg1 Qb4 29.a3 Qc4 30.Bf1 Rd8 31.a4 Kg7 32.Qe1 Qc5+ 33.Qf2 Qb4 34.Qe1 Rdc8 35.Bh3 h4 36.Bg2 R8c4 37.Ba8 h3 38.Kf1 Rc8 39.Bh1 R8c5 40.Ra2 Qd4 41.Raa1 Be4 42.Rd1 Qc4 43.Kf2 g5 44.Qf1 g4 45.Bxe4 Qxe4 46.Ra2 Rd5 47.Raa1 Rd4 48.f5 exf5 49.e6 Rb4 50.Ra2 Qxe6 51.Kg1 f4 52.Qe1 Re3 53.Kf1 Qxa2 54.Qd2 Qe6 55.Qd8 Re5 56.Qd6 Qf5 57.Qd3 Qf6 58.gxf4 Rxf4+ 59.Ke1 Re6 60.Rb1 Rd4 61.Qg3 Qf5 62.Rc1 Qd5 63.Qf2 Rd2 64.Qf1 Qd3 65.Qxf7+ Kxf7 66.Rc7+ Kf6 67.Rf7+ Kxf7 68.Kf2 Rexe2+ 69.Kg1 Qb1# 0-1
+
+[Event "More Chesse-Play: Stockfish vs Lc0 vs Stockfish+NNUE (3|2)"]
+[Site "?"]
+[Date "2020.07.25"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish NNUE"]
+[Result "1-0"]
+[ECO "A22"]
+[GameDuration "00:10:08"]
+[GameEndTime "2020-07-25T03:21:13.746 PDT"]
+[GameStartTime "2020-07-25T03:11:05.000 PDT"]
+[Opening "English Opening"]
+[PlyCount "133"]
+[TimeControl "180+2"]
+
+1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.e4 Bb4 5.d3 d6 6.a3 Bc5 7.b4 Bb6 8.Be3 Nd4 9.Bxd4 exd4 10.Ne2 a5 11.g3 
+    ( 11.Nexd4 Ng4 )
+11...Bg4 12.Bg2 Nd7 13.O-O Ne5 14.Nxe5 dxe5 15.c5 Ba7 16.f3 Bd7 17.f4 Bb8 18.b5 
+    ( 18.fxe5 c6 )
+18...O-O 
+    ( 18...Bxb5 19.fxe5 c6 20.e6 )
+19.Rc1 exf4 
+    ( 19...Bxb5 20.fxe5 c6 21.e6 fxe6 22.Rxf8+ Qxf8 23.Nxd4 )
+    ( 19...c6 20.b6 )
+20.c6 bxc6 21.bxc6 Bg4 22.Rxf4 Qg5 23.h4 Qh5 24.Kf2 $1 Be6 25.Bf3 Qb5 26.Bg4 Bb3 
+    ( 26...Bxg4 27.Rxg4 f5 )
+27.Qd2 Qa4 28.Bf5 Kh8 29.Rg4 f6 30.h5 Qxa3 31.Rh1 Qb4 32.Qf4 Qb5 33.Qf3 Ba7 34.Nf4 Bf7 
+    ( 34...a4 35.Ng6+ hxg6 36.hxg6+ Kg8 37.Rgh4 )
+35.Ng6+ Bxg6 36.hxg6 Qb2+ 
+    ( 36...h6 37.Rxh6+ gxh6 38.Qf4 Kg7 39.Qxc7+ )
+37.Kg1 Qc1+ 38.Kg2 Qd2+ 39.Kh3 h6 40.Qf4 $3 Qxf4 
+    ( 40...Qe3 41.Rh4 Rfe8 42.Rxh6+ gxh6 43.Qxc7 )
+    ( 40...Qxd3 41.Rh4 Rfb8 42.Rxh6+ gxh6 43.Qxh6+ Kg8 44.Be6# )
+41.gxf4 Bc5 42.Rgg1 Rab8 43.Rb1 Bb4 44.Be6 f5 
+    ( 44...Rfd8 45.Kg4 )
+45.e5 a4 46.Ba2 a3 47.Kg3 Rfe8 48.Kf3 Rb6 49.Rhc1 Rc8 50.Rc4 Ba5 51.Rxb6 Bxb6 52.Ra4 Bc5 53.Ra5 Bb4 54.Rd5 Be7 55.Rd7 Bb4 56.e6 Be1 57.e7 Bh4 58.Rxc7 Re8 59.Bf7 a2 60.Ra7 a1=Q 61.Rxa1 Rb8 62.c7 Rc8 63.Rb1 Bxe7 64.Rb8 Rf8 65.Rxf8+ Bxf8 66.c8=Q h5 67.Qxf8# 1-0
+
+[Event "More Chesse-Play: Stockfish vs Lc0 vs Stockfish+NNUE (3|2)"]
+[Site "Chess.com"]
+[Date "2020.07.26"]
+[Round "504"]
+[White "Stockfish NNUE"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "B23"]
+[GameDuration "00:10:34"]
+[GameEndTime "2020-07-26T10:10:44.377 PDT"]
+[GameStartTime "2020-07-26T10:00:09.482 PDT"]
+[Opening "Sicilian"]
+[PlyCount "146"]
+[TimeControl "180+2"]
+[Variation "Closed, 2...Nc6"]
+
+1.e4 c5 2.Nc3 Nc6 3.Nf3 e5 4.Bc4 Be7 5.d3 d6 6.Nd2 Bg5 7.h4 Bh6 8.Qh5 g6 9.Qd1 Nf6 10.Nf1 Bxc1 11.Qxc1 Be6 12.Qh6 $5 Nh5 13.a4 Qd7 14.Ne3 O-O-O 15.Ncd5 Kb8 16.c3 Rhf8 17.O-O-O 
+    ( 17.Qxh7 $2 Rh8 $1 $19 )
+17...a6 18.g4 Nf4 $1 19.Nf6 $6 
+    ( 19.Nxf4 exf4 20.Qxf4 Ne5 $1 21.f3 
+        ( 21.Bxe6 fxe6 $19 )
+    21...Qxa4 $13 )
+19...Qe7 20.g5 $2 
+    ( 20.Nxh7 Rh8 $19 )
+20...Qc7 21.Kd2 
+    ( 21.Qxh7 $4 Rh8 22.Qg7 Bxc4 23.dxc4 Ne6 $19 )
+    ( 21.h5 $1 Na5 $15 )
+21...Qb6 22.b3 Qa5 
+    {with the idea of ...Nd4.}
+23.Ra1 Ka7 24.Bd5 Rb8 25.Rab1 Ne7 26.Qg7 Qc7 27.Bc4 Qd8 28.Rbg1 Nc6 29.Bd5 Nd4 $3 30.Rb1 
+    ( 30.cxd4 Qa5+ 31.Kc2 cxd4 $19 )
+30...Bxd5 31.Nfxd5 Nh5 32.Qh6 Ne6 $19 33.f3 Nef4 34.Kc2 Rg8 35.b4 cxb4 36.Rxb4 Qc8 37.Rc4 Qd7 38.a5 Rh8 39.Nb6 Qe6 40.Rh2 Rbd8 41.Ned5 Nxd5 42.Nxd5 Rc8 43.Ra4 Qe8 44.Ra3 Rc5 45.c4 Qd8 46.Nb6 d5 $3 47.exd5 Qd6 $1 48.Rh1 Rxd5 49.Nxd5 Qxa3 50.Rb1 Qxa5 51.Nc3 Qc5 52.Ne4 Qe3 53.Rb3 Qxf3 54.Nd6 b6 55.Ne4 Qe2+ 56.Kb1 b5 57.c5 a5 58.Kc1 b4 59.Nd2 Ka6 60.Rb2 Qxd3 61.Qxh5 gxh5 62.c6 Rc8 63.Rc2 a4 64.c7 a3 65.Kd1 e4 66.Rc6+ Kb5 67.Ke1 Kxc6 68.Nc4 Kxc7 69.Ne5 Qc2 70.Nc4 a2 71.Nd2 a1=Q+ 72.Ke2 Qg1 73.g6 Qd3# 0-1
+
+[Event "Stockfish+NNUE vs Lc0 (3|2)"]
+[Site "?"]
+[Date "2020.07.20"]
+[Round "1"]
+[White "Stockfish NNUE"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "C34"]
+[GameDuration "00:06:34"]
+[GameEndTime "2020-07-20T11:35:10.291 PDT"]
+[GameStartTime "2020-07-20T11:28:35.418 PDT"]
+[Opening "King's knight's gambit"]
+[PlyCount "95"]
+[TimeControl "180+2"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 h5 4.d4 g5 5.h4 g4 6.Ng5 f6 7.Bxf4 fxg5 8.Bxg5 Be7 9.Qd2 d6 10.Nc3 Be6 11.Bd3 Bxg5 12.hxg5 Nd7 13.O-O Qe7 14.Nb5 O-O-O 15.Qc3 c6 16.Nxa7+ Kb8 17.Nxc6+ bxc6 18.Qb4+ Ka7 19.Qa5+ Kb8 20.Ba6 Ka7 21.Rad1 Ra8 22.Qc7+ Kxa6 23.Qxc6+ Ka7 24.Rd3 Kb8 25.Rf5 Ra7 26.Rb5+ Nb6 27.Rxb6+ Rb7 28.Rxb7+ Qxb7 29.Qxd6+ Qc7 30.Qxe6 Ne7 31.Rb3+ Ka7 32.Ra3+ Kb8 33.Qa6 Qc6 34.Qa7+ Kc8 35.Qxe7 Re8 36.Ra8+ Qxa8 37.Qxe8+ Kb7 38.Qxa8+ Kxa8 39.g6 h4 40.g7 h3 41.g8=Q+ Kb7 42.Qg7+ Kc6 43.c4 h2+ 44.Kh1 g3 45.b3 Kd6 46.c5+ Kc6 47.Qa7 Kb5 48.Qa4# 1-0
+
+[Event "Stockfish+NNUE vs Lc0 (3|2)"]
+[Site "?"]
+[Date "2020.07.20"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish NNUE"]
+[Result "1-0"]
+[ECO "C34"]
+[GameDuration "00:10:46"]
+[GameEndTime "2020-07-20T11:46:27.510 PDT"]
+[GameStartTime "2020-07-20T11:35:40.614 PDT"]
+[Opening "King's knight's gambit"]
+[PlyCount "149"]
+[TimeControl "180+2"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 h5 4.d4 g5 5.h4 g4 6.Ng5 f6 7.Bxf4 fxg5 8.Bxg5 Be7 9.Qd2 d6 10.Nc3 Rh7 11.Bc4 Rg7 12.Bxg8 Rxg8 13.Nd5 Rxg5 14.hxg5 Bxg5 15.Qd3 c6 16.Rxh5 Nd7 17.e5 Nf8 18.Rh8 Be6 19.Qg6+ Kd7 20.Qg7+ Be7 21.Nf6+ Kc7 22.O-O-O Kb6 23.d5 Bxf6 24.exf6 Bxd5 25.g3 a5 26.Re1 c5 27.f7 Bc6 28.Rg8 Bd7 29.Re8 Bxe8 30.Qxf8 Bxf7 31.Qxd8+ Rxd8 32.Rxd8 Kc6 33.Rc8+ Kb6 34.Rf8 Bd5 35.Kd2 Bxa2 36.Rf4 Be6 37.Rf6 Bd7 38.Rxd6+ Kc7 39.Rg6 a4 40.c4 b6 41.Ke3 Bf5 42.Rg7+ Kc6 43.Rf7 Bc8 44.Ra7 b5 45.Ra5 b4 46.Rxa4 Bf5 47.Ra6+ Kd7 48.Rf6 Bb1 49.Kf4 Kd8 50.Ke5 Ke7 51.Rf4 Bc2 52.Rxg4 Kd7 53.Rf4 Kc7 54.g4 Kb6 55.g5 Ka5 56.Kd5 Ka4 57.Rf3 Bh7 58.Rg3 Bg6 59.Kxc5 Bf5 60.g6 Be6 61.g7 Bg8 62.Kb6 Bxc4 63.b3+ Bxb3 64.Rxb3 Kxb3 65.g8=Q+ Kc2 66.Qc4+ Kd2 67.Qxb4+ Ke3 68.Kc5 Kf3 69.Kd4 Kf4 70.Qf8+ Kg4 71.Ke4 Kg3 72.Qf3+ Kh4 73.Qg2 Kh5 74.Kf5 Kh6 75.Qg6# 1-0
+
+[Event "Stockfish+NNUE vs Lc0 (3|2)"]
+[Site "?"]
+[Date "2020.07.20"]
+[Round "1"]
+[White "Stockfish NNUE"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "C23"]
+[GameDuration "00:07:25"]
+[GameEndTime "2020-07-20T23:31:32.703 PDT"]
+[GameStartTime "2020-07-20T23:24:07.249 PDT"]
+[Opening "Bishop's Opening"]
+[PlyCount "103"]
+[TimeControl "180+2"]
+[Variation "Calabrese counter-gambit"]
+
+1.e4 e5 2.Bc4 f5 3.d4 exd4 4.Nh3 Nf6 
+    ( 4...fxe4 5.Qh5+ g6 6.Qe5+ )
+5.e5 Ng4 6.O-O Nc6 
+    ( 6...Nxe5 7.Re1 Nc6 8.f4 )
+7.Re1 Be7 8.Bb3 
+    ( 8.Nd2 Ncxe5 9.Bb3 )
+8...Ngxe5 9.Nd2 a5 10.Nf3 d6 
+    ( 10...Nxf3+ 11.Qxf3 d6 12.Ng5 )
+11.a4 Kf8 12.Nxd4 Nxd4 13.Qxd4 Bf6 14.Qe3 c6 15.Bd2 h6 16.Rad1 g5 17.Qg3 f4 18.Nxf4 $3 gxf4 19.Bxf4 Qe7 20.h3 $3 
+    ( 20.Rxd6 $2 Qxd6 $19 )
+    ( 20.Bxh6+ $2 Ke8 21.f4 Bh4 $13 )
+    ( 20.Rxe5 $2 Bxe5 21.Rxd6 Qxd6 22.Bxe5 Qd1# )
+20...h5 21.Rxe5 Bxe5 
+    ( 21...dxe5 22.Bh6+ Rxh6 
+        ( 22...Bg7 23.Rd8+ Qxd8 24.Qxg7+ Ke8 25.Qf7# )
+    23.Qg8# )
+22.Rxd6 $3 Bxf4 
+    ( 22...Qxd6 23.Bxe5 Qd1+ 24.Kh2 $18 )
+    ( 22...Bxd6 23.Bxd6 $18 )
+23.Qxf4+ Ke8 
+    ( 23...Kg7 24.Qd4+ Kh7 25.Qd3+ Kg7 26.Qg6+ Kf8 27.Rd8+ $1 Qxd8 28.Qf7# )
+24.Bf7+ $1 Qxf7 25.Qe5+ Be6 
+    ( 25...Kf8 26.Qxh8+ Ke7 27.Qd8# )
+26.Rxe6+ Kd7 27.Qd6+ Kc8 28.Re7 Qxe7 29.Qxe7 Kb8 30.Qe5+ Ka7 31.Qxa5+ Kb8 32.Qe5+ Ka7 33.Qd4+ Ka6 34.Qc5 b6 35.Qxc6 Rac8 36.Qb5+ Ka7 37.a5 bxa5 38.Qxa5+ Kb7 39.b4 Rxc2 40.Qb5+ $1 Kc7 41.Qe5+ Kb6 42.Qxh8 h4 43.Qb8+ Kc6 44.Qc8+ Kd6 45.Qxc2 Kd5 46.b5 Ke5 47.Qc6 Kf5 48.b6 Ke5 49.b7 Kd4 50.b8=Q Kd3 51.Qd8+ Ke2 52.Qe4# 1-0
+
+[Event "Stockfish+NNUE vs Lc0 (3|2)"]
+[Site "?"]
+[Date "2020.07.21"]
+[Round "1"]
+[White "Stockfish NNUE"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "E73"]
+[GameDuration "00:12:46"]
+[GameEndTime "2020-07-21T08:21:46.010 PDT"]
+[GameStartTime "2020-07-21T08:08:59.668 PDT"]
+[Opening "King's Indian"]
+[PlyCount "221"]
+[TimeControl "180+2"]
+[Variation "Semi-Averbakh system"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 O-O 6.Be3 Nc6 7.Nf3 e5 8.d5 Ne7 9.Nd2 Ne8 10.Qb3 f5 11.f3 c5 12.g4 Bf6 13.O-O-O f4 14.Bf2 g5 15.h4 gxh4 16.Bxh4 Bxh4 17.Rxh4 Ng6 18.Rh6 Nh8 19.Rdh1 Rf7 20.Bd1 Rg7 21.Qa3 Nf7 22.R6h4 a6 23.Ba4 Nf6 24.Kb1 Ng5 25.Qb3 Nf7 26.Qd1 Rg6 27.Nb3 Rb8 28.Nc1 Qa5 29.Qc2 Kf8 30.a3 Ng5 31.Nb3 Qc7 32.Qe2 Nf7 33.Nc1 Qa5 34.Nb3 Qc7 35.Nd2 h6 36.Kc2 Bd7 37.Bxd7 Nxd7 38.Qf1 Kg7 39.R4h2 Kh7 40.b3 Nf6 41.Qa1 b6 42.a4 a5 43.Nb5 Qe7 44.Rh4 Kg7 45.Qf1 Kf8 46.Nb1 Kg7 47.Kb2 Rh8 48.R1h2 Rb8 49.N1a3 Qd7 50.Nc2 Rg8 51.Ne1 Kf8 52.Nd3 Ke7 53.Nf2 Kd8 54.Qe2 Kc8 55.Nd3 Kb7 56.Qf1 Rh8 57.Rg2 Rhg8 58.Rhh2 Ne8 59.Rh3 Ng5 60.Rh1 Nf7 61.Ne1 Rg5 62.Rgh2 Nf6 63.Ng2 Kb8 64.Ka3 Qd8 65.Nh4 h5 66.gxh5 Nxh5 67.Qh3 Ng7 68.Rg2 Rxg2 69.Nxg2 Ng5 70.Qg4 Ne8 71.Ne1 Nc7 72.Rg1 Nxb5+ 73.axb5 Rg7 74.Qh5 Ka7 75.Rg4 Qg8 76.Nd3 Kb7 77.Qh6 Rg6 78.Rxg5 Rxg5 79.Qxd6 Qe8 80.Qc6+ Qxc6 81.bxc6+ Kc7 82.Ka4 Rh5 83.Kb5 Rg5 84.Nb2 Rg8 85.Na4 Rb8 86.Nc3 Rg8 87.Ka4 Rg1 88.Nb5+ Kd8 89.Nd6 Kc7 90.Nf7 Rb1 91.Nxe5 Ra1+ 92.Kb5 Ra3 93.Nd7 Rxb3+ 94.Ka6 a4 95.e5 Rd3 96.Nxb6 a3 97.Na8+ Kc8 98.d6 a2 99.Nb6+ Kd8 100.c7+ Ke8 101.c8=Q+ Kf7 102.Qd7+ Kg6 103.Qa4 Rd2 104.d7 Rxd7 105.Nxd7 Kf5 106.Qxa2 Ke6 107.Qc2 Kxd7 108.Qh7+ Kd8 109.e6 Ke8 110.Qd7+ Kf8 111.Qf7# 1-0
+
+[Event "AlphaZero - Stockfish"]
+[Site "London ENG"]
+[Date "2017.12.04"]
+[Round "?"]
+[White "AlphaZero (Computer)"]
+[Black "Stockfish (Computer)"]
+[Result "1-0"]
+[ECO "E15"]
+[PlyCount "119"]
+
+1.Nf3 Nf6 2.c4 b6 3.d4 e6 4.g3 Ba6 5.Qc2 c5 6.d5 exd5 7.cxd5 Bb7 8.Bg2 Nxd5 9.O-O Nc6 10.Rd1 Be7 11.Qf5 Nf6 12.e4 g6 13.Qf4 O-O 14.e5 Nh5 15.Qg4 Re8 $146 16.Nc3 Qb8 17.Nd5 Bf8 18.Bf4 Qc8 19.h3 Ne7 20.Ne3 Bc6 21.Rd6 $1 Ng7 22.Rf6 $1 Qb7 23.Bh6 Nd5 24.Nxd5 Bxd5 25.Rd1 Ne6 $6 26.Bxf8 Rxf8 27.Qh4 Bc6 28.Qh6 Rae8 29.Rd6 Bxf3 30.Bxf3 Qa6 31.h4 $1 
+    ( 31.Rxd7 Qb5 32.Rd2 Qc4 )
+31...Qa5 32.Rd1 c4 33.Rd5 Qe1+ 34.Kg2 c3 35.bxc3 Qxc3 36.h5 $1 Re7 37.Bd1 $1 Qe1 38.Bb3 Rd8 39.Rf3 Qe4 
+    ( 39...a5 40.hxg6 hxg6 
+        ( 40...fxg6 41.Rxd7 $3 Rexd7 42.Bxe6+ )
+    41.Re3 Qb4 42.Rd1 )
+40.Qd2 Qg4 41.Bd1 Qe4 42.h6 $1 Nc7 43.Rd6 Ne6 44.Bb3 $3 Qxe5 45.Rd5 Qh8 $2 
+    ( 45...Qc7 $1 46.Rfd3 )
+46.Qb4 Nc5 
+    ( 46...Ree8 47.Qa4 $18 )
+47.Rxc5 $3 bxc5 48.Qh4 $1 Rde8 49.Rf6 $1 Rf8 50.Qf4 a5 51.g4 d5 52.Bxd5 Rd7 53.Bc4 a4 
+    ( 53...Rd4 54.Rxf7 Rxf4 55.Rg7# )
+54.g5 a3 55.Qf3 Rc7 56.Qxa3 Qxf6 
+    {Surrender.}
+57.gxf6 Rfc8 58.Qd3 Rf8 59.Qd6 Rfc8 60.a4 1-0
+
+[Event "More Chesse-Play: Stockfish vs Lc0 vs Stockfish+NNUE (3|2)"]
+[Site "Chess.com"]
+[Date "2020.07.25"]
+[Round "413"]
+[White "Lc0"]
+[Black "Stockfish NNUE"]
+[Result "0-1"]
+[ECO "E98"]
+[GameDuration "00:08:24"]
+[GameEndTime "2020-07-25T17:32:07.285 PDT"]
+[GameStartTime "2020-07-25T17:23:42.694 PDT"]
+[Opening "King's Indian"]
+[PlyCount "122"]
+[TimeControl "180+2"]
+[Variation "Orthodox, Aronin-Taimanov, 9.Ne1"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.O-O Nc6 8.d5 Ne7 9.Ne1 Nd7 10.Be3 f5 11.f3 f4 12.Bf2 g5 13.b4 Nf6 14.c5 Ng6 15.a4 h5 16.c6 Kh8 17.cxb7 Bxb7 18.Kh1 Bc8 19.Nb5 a6 20.Na7 g4 21.Nxc8 g3 22.Bg1 Qxc8 23.b5 Nh7 24.a5 h4 25.b6 h3 26.Qc2 Ng5 27.Ra2 hxg2+ 28.Nxg2 Qh3 29.Bxa6 Rxa6 30.b7 Rb8 31.Qxc7 Rxb7 32.Qxb7 Rxa5 33.Rc2 Rc5 34.Qb2 Rxc2 35.Qxc2 Kh7 36.Qe2 Qh5 37.Qa6 Nh3 38.Qb6 Kh6 39.Ne1 Bf6 40.Qb2 Bd8 41.Qa2 Nxg1 42.Rxg1 Ba5 43.Qb2 Bxe1 44.Rxe1 Nh4 45.Re2 Qxf3+ 46.Kg1 Qd3 47.hxg3 Qxg3+ 48.Kf1 Qh3+ 49.Kf2 Qg2+ 50.Ke1 Nf3+ 51.Kd1 Qf1+ 52.Kc2 Qxe2+ 53.Kc3 Qxb2+ 54.Kxb2 Nd4 55.Kb1 f3 56.Kb2 f2 57.Kc3 f1=Q 58.Kb2 Qe2+ 59.Kc3 Qc2+ 60.Kb4 Qb3+ 61.Ka5 Qb5# 0-1
+
+[Event "TCEC 19 Superfinal"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "18"]
+[White "Stockfish 12"]
+[Black "Leela"]
+[Result "1-0"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. g4 h6 7. h4 a6 8. Nxc6
+bxc6 9. Qd3 Nf6 10. g5 hxg5 11. Bxg5 Qb6 12. O-O-O a5 13. Qf3 Bd7 14. Bc4 Rb8
+15. Bb3 c5 16. h5 a4 17. Nxa4 Qa5 18. Bxf6 gxf6 19. Nc3 Qb6 20. Qd3 Ke7 21. a3
+Bh6+ 22. Kb1 Rhc8 23. Qc4 Rc6 24. Rhe1 Rc7 25. Rd3 Bf4 26. Nd5+ exd5 27. exd5+
+Be5 28. Qh4 Kd8 29. Rxe5 dxe5 30. Rf3 Kc8 31. h6 Kb7 32. Bc4 Ba4 33. Rxf6 Qa5
+34. Qe4 Bb5 35. d6+ Bc6 36. Qxe5 Re8 37. Qf5 Rd7 38. Rxf7 Qd8 39. Rg7 Kb6 40. b4
+cxb4 41. axb4 Rxg7 42. Qc5+ Kb7 43. hxg7 Re1+ 44. Kb2 Qf6+ 45. c3 Qxg7 46. b5
+Be4 47. Bd5+ Bxd5 48. Qxd5+ Ka7 1-0
+
+[Event "CCC15: Preliminary Round (1|1)"]
+[Site "?"]
+[Date "2020.08.18"]
+[Round "1"]
+[White "Stoofvlees"]
+[Black "Stockfish"]
+[Result "1-0"]
+[ECO "C11"]
+[GameDuration "00:05:58"]
+[GameEndTime "2020-08-18T20:53:15.275 PDT"]
+[GameStartTime "2020-08-18T20:47:16.681 PDT"]
+[Opening "French"]
+[PlyCount "161"]
+[TimeControl "60+1"]
+[Variation "Steinitz, Boleslavsky Variation"]
+
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6 7.Be3 cxd4 8.Nxd4 Qb6 9.Qd2 Qxb2 
+    {Critical move.}
+10.Rb1 Qa3 11.Bb5 Nxd4 12.Bxd4 
+    {Critical move.}
+12...a6 13.Bxd7+ Bxd7 14.Rb3 Qe7 
+    {Critical move.}
+15.Rxb7 Rc8 
+    {INACCURACY (+1.00)}
+    ( {(0.00) The best move was} 15...Qh4+ 16.Bf2 Qd8 17.Bb6 Qh4+ )
+16.O-O Qd8 17.f5 exf5 18.Rfb1 Qa5 19.Qg5 Be6 20.R1b6 Rxc3 21.h3 $2 $17 
+    {MISTAKE (-1.58) Critical mistake.}
+    ( {(0.00) The best move was} 21.Qd2 Bc5 22.Rb8+ Kd7 23.R8b7+ Kc8 24.Rb8+ )
+21...Rc8 22.c3 
+    {INACCURACY (-2.44)}
+    ( {(-1.02) The best move was} 22.Qh5 Bd7 23.Rxd7 g6 24.Qh4 Bc5 25.Rbb7 Bxd4+ 26.Qxd4 O-O 27.Kh1 Rc4 28.Qxd5 Qxd5 29.Rxd5 )
+22...Qa4 $2 $12 
+    {MISTAKE (0.00) Critical mistake.}
+    ( {(-2.44) The best move was} 22...Qa3 23.Rb8 Qe7 24.Qh5 g6 25.Qd1 Qd8 26.Qa4+ Bd7 27.Rxc8 Qxc8 28.Qb3 Bb5 29.e6 fxe6 30.Bxh8 Bc5+ 31.Bd4 Bxb6 32.Bxb6 Qc4 33.Bd4 Qxb3 34.axb3 Kf8 35.Kh2 )
+23.Kh2 $2 $17 
+    {MISTAKE (-2.22) Critical mistake.}
+    ( {(0.00) The best move was} 23.Qh5 Rc6 24.Rb8+ Kd7 25.Qg5 Rc8 26.R6b7+ Ke8 27.Bb6 Qd1+ 28.Kf2 f6 29.exf6 Qc2+ 30.Kf1 Qd3+ 31.Kg1 Qb1+ 32.Kf2 )
+23...Qa3 $2 $12 
+    {MISTAKE (0.00) Critical mistake.}
+    ( {(-2.22) The best move was} 23...Qc4 24.Qh5 Rc6 25.Rb8+ Kd7 26.Rxc6 Qxc6 27.Qe2 Kc7 28.Qb2 h5 29.Ba7 Kd7 30.Rb6 Qa8 31.Rb8 Qxa7 32.Rb7+ Qxb7 33.Qxb7+ Ke8 )
+24.Ra7 $2 $17 
+    {MISTAKE (-2.67)}
+    ( {(0.00) The best move was} 24.Qh5 g6 25.Qh4 Be7 26.Qh6 Bf8 )
+24...a5 
+    {Critical move.}
+25.Rab7 f4 $2 $16 
+    {MISTAKE (+1.61)}
+    ( {(0.00) The best move was} 25...Rd8 26.Ra7 Rc8 27.Rab7 )
+26.Ra7 $12 
+    {INACCURACY (+0.55)}
+    ( {(+1.61) The best move was} 26.Rxe6+ fxe6 27.Qh5+ g6 28.Qg4 Rc6 29.Qxf4 Be7 30.Rb8+ Bd8 31.Qf6 Qe7 32.Qxh8+ Kd7 33.a3 Rc8 34.Rxc8 Kxc8 35.Bb6 a4 36.Bxd8 Qxd8 37.Qxh7 Qe8 )
+26...a4 27.Rba6 $16 f3 28.Qh5 g6 29.Qxf3 Be7 
+    {Critical move.}
+30.Rxa4 Qb2 $2 
+    {MISTAKE (+3.63) Critical mistake.}
+    ( {(0.00) The best move was} 30...Qc1 31.Rxe7+ Kxe7 32.Qf6+ Kd7 33.Ra7+ Rc7 34.Rxc7+ Kxc7 35.Qe7+ Kc8 36.Qc5+ Kd8 37.Qd6+ Kc8 )
+31.R4a6 
+    {Critical move.}
+31...Qb8 
+    {INACCURACY (+4.09)}
+    ( {(+3.01) The best move was} 31...Bf5 32.Qxd5 O-O 33.Rxe7 Qd2 34.Qf3 Bxh3 35.Qxh3 Qf4+ 36.g3 Qd2+ 37.Qg2 Qh6+ 38.Kg1 Rb8 39.Qc2 Qg5 40.Rf6 Qxg3+ 41.Kf1 Qh3+ 42.Ke2 Qh1 43.Kd3 Qh3+ 44.Ke4 )
+32.Rxe7+ Kxe7 33.Qf6+ Kd7 34.Rd6+ Qxd6 35.exd6 Rhe8 36.Qf1 Rc4 37.a4 Bf5 38.a5 Ra8 39.g4 Be6 40.Qb1 Kxd6 41.Qb6+ Rc6 42.Be5+ Kxe5 43.Qxc6 Rc8 44.Qb5 Rxc3 45.a6 Kf4 46.a7 Rc2+ 47.Kg1 Rc8 48.Qb8+ Ke3 49.a8=Q Rxb8 50.Qxb8 d4 51.Qe5+ Kd3 52.Kf2 h6 53.Kf3 Bb3 54.Qb5+ Kc3 55.Qa5+ Kc4 56.Qc7+ Kd3 57.Qd6 h5 58.gxh5 g5 $4 
+    {BLUNDER (+59.86)}
+    ( {(+5.53) The best move was} 58...Bd1+ 59.Kf4 Bxh5 60.Qa6+ Kc3 61.Qf6 Be2 62.Qxf7 d3 63.Qf6+ Kb3 64.Qd4 Bf1 65.Qd6 Be2 66.Ke3 Ka4 67.Qd4+ Ka5 68.Ke4 Ka6 69.Ke5 Kb7 70.Kf6 Kc6 )
+59.h6 g4+ 60.hxg4 f6 61.h7 f5 62.h8=Q fxg4+ 63.Kxg4 Bd1+ 64.Kg3 Bb3 65.Qhxd4+ Kc2 66.Qb2+ Kxb2 67.Qc7 Bd1 68.Kf2 Kb3 69.Ke1 Bh5 70.Qh7 Bf3 71.Qd3+ Kb4 72.Qxf3 Kc5 73.Kd2 Kd6 74.Qf7 Ke5 75.Kd3 Kd6 76.Kd4 Kc6 77.Qe7 Kb6 78.Qd7 Ka5 79.Kc5 Ka6 80.Qe7 Ka5 81.Qa7# 1-0
+
+[Event "\"CCC13: Triangular (Bullet Test) (1|1)\""]
+[Site "\"Chess.com\""]
+[Date "\"2020.03.18\""]
+[Round "\"31\""]
+[White "\"Komodo\""]
+[Black "\"Scorpio\""]
+[Result "1-0"]
+[ECO "\"C23\""]
+[EventDate "\"2020.??.??\""]
+[Annotator "\"Usuario\""]
+[PlyCount "\"47\""]
+
+ 1. e4 e5 2. Bc4 Bc5 3. Nf3 d6 4. c3 Qe7
+5. d4 Bb6 6. Ng5 Nh6 7. O-O Nc6 8. a4 exd4 9. a5 Bxa5 10. cxd4 Bb6 11. Nc3 Bxd4
+12. Nd5 Qd8 13. Ra3 O-O 14. Rg3 Kh8 15. Qh5 Be6 16. Nxh7 Kxh7 17. Bd3 Rh8 18.
+Bg5 Qc8 19. e5+ Kg8 20. Bxh6 Bxe5 21. Qxe5 dxe5 22. Rxg7+ Kf8 23. Rg8+ Kxg8 24.
+Nf6# 1-0
+
+[Event "TCEC 18"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "65"]
+[White "Leela"]
+[Black "Stockfish 11"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Be7 6. e4 d5 7. e5 Nfd7 8. Bd3
+c5 9. h4 g6 10. O-O Nc6 11. Nb3 Bxh4 12. Bh6 Re8 13. Re1 cxd4 14. Qc2 dxc4 15.
+Bxc4 Nb6 16. Rad1 Bd7 17. Nc5 Rc8 18. b4 Nxc4 19. Qxc4 Be7 20. Ne4 Nxb4 21. Qxb4
+Bxb4 22. axb4 f5 23. Nf6+ Kh8 24. Rxd4 Rc7 25. Red1 Re7 26. b5 b6 27. Kh2 Rb7
+28. Ng5 Qc8 29. R1d2 Rc7 30. Rd6 Rb7 31. R2d4 Rc7 32. Rd1 Rb7 33. R6d4 Rc7 34.
+f4 Rb7 35. Nxe6 Rxe6 36. Nxd7 Kg8 37. Nf6+ Kf7 38. Rd8 Qc5 39. Nxh7 Re8 40. e6+
+Rxe6 41. Ng5+ Kf6 42. Rf8+ Qxf8 43. Bxf8 Rc7 44. Rd4 Rb7 45. Kg3 Rc7 46. Rd3 Rb7
+47. Kh4 Rc7 48. Kg3 Rc4 49. Rd7 Re3+ 50. Kf2 Rxf4+ 51. Kxe3 Ra4 52. Be7+ Ke5 53.
+Kf3 *
+
+[Event "CCC13: Semifinals (10|5)"]
+[Site "?"]
+[Date "2020.04.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Komodo"]
+[Result "1-0"]
+[ECO "A63"]
+[EventDate "2020.??.??"]
+[Annotator "Rensch, Daniel"]
+[PlyCount "261"]
+[SourceVersionDate "2019.09.13"]
+[TimeControl "600+5"]
+
+{In perhaps the most instructive (mindblowing $2) endgame of the year to date, our friendly neighborhood Fish defeated the dragon in the 13th edition of Chess.com's Computer Chess Championship. I have analyzed the endgame below for my blog here, and you can enjoy Grandaster Dejan Bojkov's notes (with a few of my own comments sprinkled in) before move 43.} 
+1.d4 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2 O-O 5.Nc3 d6 6.Nf3 c5 7.d5 e6 8.O-O exd5 9.cxd5 Re8 10.Re1 a6 11.a4 Nbd7 12.Bf4 
+    ( {Two top grandmasters recently discussed the consequences of the line:} 12.e4 Ng4 13.Nd2 Nge5 14.Re3 Nb6 15.Qf1 a5 16.h3 c4 17.Kh2 Bd7 18.f4 Nd3 19.Nxc4 Nxc1 20.Rxc1 Nxc4 21.Qxc4 Qb6 {Ding,L (2805)-Navara,D (2734) Prague 2019} )
+12...Ng4 13.a5 Nde5 14.Ne4 h6 15.Qc1 g5 16.Bxe5 Nxe5 17.Nxe5 Bxe5 18.Nd2 Qf6 
+    {$146 A novelty upon (not-suprisingly) an email game.}
+    ( {An earlier, also engine-generated game saw:} 18...Bd7 19.Nc4 Qe7 20.Ra3 Bg7 21.Re3 Qf8 22.Rb3 Bb5 23.e4 Rab8 24.Bh3 Bd4 25.Bf5 Qe7 {and eventually ended in a draw, Malchev,E (2437)-Fischer,W (2439) ICCF email 2018} )
+19.Nc4 Bd7 20.Ra3 
+    ( 20.Nb6 {only pushes the bishop to a better position:} 20...Bb5 )
+20...Bb5 21.Nxe5 Rxe5 
+    {The opening is over and Black seemingly cannot complain of the outcome. In the Benoni the trades give Black enough room to maneuver and here he (sorry, it) can easily build kingside blockade.}
+22.e4 Rae8 23.Rae3 
+    {White's play is on the kingside, therefore:}
+23...g4 $1 24.h3 
+    ( {The opening of the opposite wing only helps Black:} 24.b4 cxb4 25.Qb1 Rc8 26.Qxb4 Rc2 )
+24...h5 25.Qc3 
+    {Now both sides prepare for the opening of the f-file.}
+25...Qg7 26.h4 
+    ( {Not much is changed after:} 26.Kh2 R8e7 )
+26...R8e7 27.Kh2 
+    {A curious position. Black does not have such a large choice as it seems.}
+27...Qh8 
+    ( {To start with, he cannot move the rooks:} 27...Re8 $6 28.b4 cxb4 29.Qxb4 Qf6 30.f4 gxf3 31.Rxf3 Qe7 32.Qd2 {is advantageous for the first player as Black lost stability on the kingside.} )
+    ( {More interesting seems the human approach to clarify things once and for all with:} 27...f5 $5 28.exf5 Rxe3 29.fxe3 Qxc3 30.bxc3 Kf7 {White won a pawn, but after:} 31.e4 Kf6 {followed by Kf6-e5 and Re7-f7 the position seems a fortress to me.} )
+    ( 27...Kh8 {is not as good as the game move as the pawn on h5 is not sufficiently defended in the line:} 28.f4 gxf3 29.Bxf3 )
+28.Qd2 Qg7 29.Qc3 Qh8 30.Qd2 
+    {Now that is interesting $1 Stockfish repeats the moves once, like a human being. Is he trying to win some time on his clock $2 Or frustrate his opponent $4}
+30...Qg7 31.Qd1 f5 
+    {And Black does not stand the pressure and starts attacking $1 This is what I would have written maybe, had this been played by mere mortals.}
+32.Qc1 
+    ( {Not yet:} 32.exf5 $6 Rxe3 33.fxe3 Qxb2 )
+32...fxe4 33.Rxe4 Rxe4 
+    ( {More accurate than} 33...Bd3 34.Rxe5 Rxe5 35.Qd2 
+        ( {Not much yields:} 35.Rxe5 Qxe5 36.Qh6 Kf7 {as the squares around the king are well defended.} )
+    35...Bb5 36.Rxe5 Qxe5 37.Qh6 {and without the black bishop on the b1-h7 diagonal this is unpleasant for Black.} )
+34.Rxe4 Rxe4 35.Bxe4 Qe5 36.Qf4 $1 
+    {A very clever decision.}
+    ( {Nothing promises:} 36.f3 Be2 )
+36...Qxf4 37.gxf4 
+    {The endgame is difficult for Black as the majority of his pawns are fixed on light squares and can be attacked. This is far more imporatnt than the double f-pawn that White created himself.}
+37...Be8 
+    ( 37...Bc4 $2 {loses instantly to:} 38.Bg6 Bxd5 39.Bxh5 )
+38.Bf5 
+    {Eyeing the queenside pawns.}
+    ( {Weaker would be:} 38.f3 gxf3 39.Bxf3 Kg7 )
+38...Bf7 39.f3 $1 
+    ( {The moves cannot be transposed as in the line:} 39.Be6 Bxe6 40.dxe6 d5 41.Kg3 d4 {The g4 pawn is a huge obstruction for the white pieces. In particular:} 42.f3 $2 {Loses to:} 42...d3 43.Kf2 g3+ $1 )
+39...gxf3 
+    ( {Just as before, the endgame:} 39...Bxd5 40.fxg4 hxg4 41.Kg3 {favors White thanks to his more active king.} )
+40.Be6 
+    {Now White can offer the swap of the bishops.}
+40...f2 
+    ( {As the pawn endgame after:} 40...Bxe6 41.dxe6 d5 42.Kg3 {Is lost for the second player due to White's better quality pawns:} 42...Kf8 43.Kxf3 Ke7 44.f5 Kf6 45.Kf4 d4 46.Ke4 Ke7 47.b4 $1 )
+41.Kg2 Kg7 42.Kxf2 Kf6 
+    {Please note that much of the comments and notes previous to this move 43 should be attributed to GM Dejan Bojkov.}
+43.f5 
+    {You could argue the beginning of the \"instruction\" starts here. Stockfish and Komodo do what computers do best for the better part of the next 50 moves: completely confuse us $1 I must admit that as a fan of the CCC and these high level computer battles, I often begin to \"tune out\" during this stage of things since, normally speaking, it's merely nothing more than their \"contempt\" for the draw forcing them to play on (for those who don't speak computer, \"contempt\" is something we, as human programmers, have often built into computers, and even Neural Nets, that makes them HATE draws more than anything, so unless they see a clear reason they are losing, they will amost always keep playing and avoid repetitions).}
+43...Be8 44.Ke3 Ke5 45.Bc8 Bb5 
+    ( {The a-pawn marches through in the line:} 45...Kxd5 $2 46.Bxb7+ Ke5 47.Bxa6 Kxf5 48.Bb7 {and wins.} )
+46.f6 $1 
+    {The b7-pawn is a sitting duck. It is much more important to gain space for the king. Regardless of whether the endgame is \"certainly winning\" at this point yet or not, this is already an instructive takeaway for viewers and fans.}
+    ( 46.Bxb7 $2 Kxf5 47.Kf3 Ke5 {should be a draw since not only are the d5 and h5 pawns equally weak, most importantly Black's king has not surrendered any critical ground.} )
+46...Kxf6 47.Kf4 Be2 48.Bxb7 Bc4 49.Bc6 Bf1 50.Be8 Be2 51.Ke3 
+    {Strange for Stockfish to return his more active king's position by giving back the e5-square. While much analysis of this game suggests that Black wants to keep the king close to the h5-pawn anyway at this point (ie, explaining Komodo's choice to go ...Kg7 instead of ...Ke5 when given the chance), I'm not sure it really makes sense.}
+51...Bg4 52.Ba4 
+    {The bishop is transferred to the f1-a6 diagonal.}
+    ( {Note that tricks with} 52.Bb5 $4 {are too soon after} 52...axb5 53.a6 Bc8 54.a7 Bb7 {and Black wins.} )
+52...Kg7 $5 
+    {The king hangs around the h5 pawn, however, as my notes to 52...Ke5 suggest, it was no worse a move.}
+    ( 52...Ke5 {Would have been better, in my mind, since the worst that can happen to Komodo is a transposition to the game after} 53.Bb3 Kf6 
+        ( 53...Bd7 54.Bc4 Bc8 55.Be2 )
+    54.Bc4 Bc8 55.Be2 Kg6 {where Stockfish (we think $2) is still winning if/when the engine finds the idea it did in the game (#spoileralert ie, trade off the b2-pawn for the c5-pawn and then when the time is right, sacrifice the d5-pawn all together), but still, other than Komodo himself not wanting to repeat moves either, I can't really say that 52...Kg7 was any more than 52...Ke5.} )
+53.Be8 
+    ( 53.Bb3 Kg6 54.Bc4 Bc8 {defending both weaknesses.} )
+53...Kf6 54.Ba4 Kg6 55.Bc6 Bc8 56.Be8+ Kh6 57.Kf4 Bg4 58.Bc6 Kg6 59.Ke3 Bc8 60.Be8+ Kh6 61.Kf4 Bg4 62.Ba4 Kg6 63.Ke3 Bh3 64.Be8+ Kh6 65.Ba4 
+    {And if were still watching this game with ANY excitement live, that's likely a sign of you being bored out of your mind -- #stayhome #staysane #COVID19 -- or that you're a profit of the highest level and should consider telling people's fortunes for a living... But seriously, what gives $2 The pressure has improved by precisely zero margin over the last dozen or so moves, and any attempts to call Stockfish's play \"brilliant\" are \"result-bias\" purely because we know the outcome. It seems at this time very hard for White to justify that Black's two pawn weaknesses (ie a6 and h5) could ever really be worth much more than White's d5-pawn.}
+65...Kg7 66.Kf4 Kf6 67.Bd1 Kg6 68.Be2 Bc8 
+    {Ultimately White comes back to this set-up. But how to improve further $2}
+69.Bd3+ Kf6 70.Be2 Kg6 71.Bd3+ Kf6 72.Bf1 
+    {While some might claim the three-step maneuver was usedr to force zugzwang here, it's not really the case when Black still has useful moves.}
+72...Kg6 73.Be2 
+    {Yay $1 Zugzwang, right $5}
+73...Bb7 
+    {No $1 Stumped again $1}
+74.Bd3+ Kf6 75.Be2 
+    ( {One key point to be made early, is that sacrificing the d5-pawn as a means of entry (ie, the game idea... sorry for the spoilers $1) isn't possible without the plan that preceeded it (ie, trading off b2 for c5) in view of} 75.Bf5 Bxd5 76.Bd3 c4 $1 {and Black is doing just fine $1} )
+75...Kg6 76.Ke4 Bc8 77.Ke3 Bb7 78.Ke4 Bc8 79.Ke3 
+    {Where is this king going $2 Has the computer's own contempt for contempt finally caught up with the position $2}
+79...Bb7 80.Kd2 $1 
+    {Finally, progress (or a bluff $5) is revealed $1 On the one hand, I will still admit I viewed the idea of trading b4 for c5 as further contempt at its best. More maneuvers will lead to three-fold repetition (or maybe even a 50-move draw at some point), so a pawn exchange that opens no new avenues can hardly be seen as real progress to the unbiased critic. Regardless, the plan is set in motion and we will not have a draw for now at least...}
+80...Bc8 
+    ( {It's good to remind everyone why d5 is not capturable, with the variation} 80...Bxd5 81.Bxa6 Kf5 82.Bc8+ Kf4 83.a6 Bc4 
+        ( 83...Kg3 84.Bb7 )
+    84.Bb7 
+        ( {NOT} 84.a7 Bd5 {$3 $1 And Black is holding all roads to a8 $1} )
+    84...Bxa6 85.Bxa6 Kg3 86.Ke3 d5 87.Be2 Kxh4 88.Kf4 d4 89.Bf1 {is a fun Zugzwang where Black loses $1} )
+81.Kc3 Kh6 82.b4 
+    {Ok, you can trade these...But how does this help you $2 The weaknesses are defended, the position is blocked...}
+82...cxb4+ 83.Kxb4 Kg6 84.Kb3 Bb7 
+    ( 84...Kf5 $1 85.Bxh5 Ke5 86.Kc3 
+        ( 86.Bf3 $6 Kf4 87.Be2 Ke5 88.h5 $2 Kf6 
+            ( 88...Kxd5 89.h6 Bf5 90.Bxa6 {wins.} )
+        89.Kc3 Kg5 90.Kd4 Kh6 91.Ke4 Kg5 92.Bf3 Bf5+ 93.Kd4 Bc8 94.Ke3 Bd7 95.Be2 Bc8 96.Kd3 Kh6 97.Ke4 Kg5 98.Ke3 Kf5 99.Kf3 Kg5 100.Ke4 Bf5+ 101.Kd4 Bc8 102.Kc3 Kh6 103.Kd2 Kg5 104.Ke3 )
+    86...Kxd5 87.Bg6 Ke5 88.h5 d5 89.h6 Kf6 90.Bd3 Bb7 91.Kd4 {wins in similar fashion as to the game $1} )
+85.Kc4 Bc8 86.Kb3 Bb7 87.Kc3 Kh6 88.Bd3 Kg7 89.Kd4 Bc8 90.Be2 Kg6 91.Bd3+ Kg7 92.Be2 Kg6 93.Kd3 Kh6 94.Ke4 Kg6 95.Kf4 
+    {Only with hindsight is it fair to say that Black is in Zugzwang here... and we will discuss more on that soon after the brilliant 99th move $1 However, the question remains (that I'm not sure I can totally answer) as to whether there was ever a way -- perhaps much, MUCH earlier $4 $2 -- to prevent this incoming doom. While my initial evaluation was surely this must have been a draw, yet having reviewed it now for longer than I should, I'm not sure Komodo was ever fully capable or preventing White's plan.}
+95...Bb7 
+    ( {Not} 95...Kh6 {since} 96.Bd3 $1 Bb7 97.Kf5 {is easy.} )
+96.Bd3+ Kf6 97.Bc4 
+    {and if you needed any other reason to understand WHY we (the world $1) were all shocked when move 99. $3 came to the board, White had repeated yet again here... what else were we to expect $5}
+97...Bc8 98.Bd3 Bb7 99.Bf5 $3 
+    {Bananas. Pure bananas. As many said, if you were watching this game live, you might only suspect the contempt for a draw pushed SF on. But indeed, the idea is more brilliant than just passing time, running up the Chess.com Server bill at the CCC $1 After many, many hours I'm here to proclaim with certainty: White is winning here and infact, White was likely winning this endgame the entire time.}
+99...Bxd5 
+    {What else to do $2}
+100.Bd3 Bb7 
+    {The only difference between this position and what we've been watching is that the d5-pawn is now gone $1 How brilliant is that $5 Somehow, by true miracle, White ONLY wins because the d5-pawn has left the board.}
+101.Bc4 
+    {Now another fine zugzwang play starts.}
+101...Kg6 
+    ( 101...Bc8 {would soon lead to the same.} )
+    ( 101...d5 102.Be2 Kg6 103.Ke5 )
+102.Be2 
+    {To highlight Black's difficulties: The king wants to stay on g6 in order to both guard h5 and prevent Kf5, but doing so while also keeping the pawn on d6 (to guard entry via e5) and the bishop on b7 (to prevent White's next move) is impossible.}
+102...Bc8 
+    ( 102...Kf6 {Doesn't hold any better after} 103.Bxh5 Bc8 104.Be2 Bb7 105.Bd3 Bc8 106.h5 
+        ( 106.Ke4 Bb7+ 107.Kd4 Kg7 108.Be4 $1 {(the pawn endgame is winning now)} 108...Bc8 109.Bc6 {and Black's pieces have too many tasks: Defending a6, preventing Kd5-d6 and eyeing the h-pawn.} )
+    106...Bb7 107.h6 Bc8 108.Ke3 Bb7 109.Kd4 Kf7 110.Be4 Bc8 111.Bc6 
+        ( {Not} 111.Kd5 Bb7+ $1 112.Kd4 Bc8 )
+    111...Kg6 112.Kd5 Kxh6 113.Kxd6 {wins.} )
+103.Bf3 $1 
+    {This forces the black bishop out of the c8-a6 diagonal.}
+    ( 103.Ke4 $6 {does not work:} 103...Bb7+ 104.Kd4 Kh6 $1 {and White no longer has Kf5.} )
+103...Bf5 
+    ( {Sitting tight here fails to} 103...Kh6 104.Be4 $1 {where after} 104...Be6 105.Bd3 Bc8 106.Ke4 $1 {Black can't deal with the threat of Kd5 without allowing the king to enter into f5.} 106...Bb7+ 
+        ( 106...Kg6 107.Kd5+ {winning d6 and then a6 soon after.} )
+    107.Kf5 {wins.} )
+104.Ke3 Bc8 105.Kd4 Bg4 
+    ( {While I obviously respected Komodo's \"depth\" when making the decision to immediately abandon the \"blockade ship\" with the approach taken in the game (ie, run your king as fast as you can to the queenside), I had to anlayze as deeply as I could (to prove to my own weak, feeble human brain) that just \"sitting tight\" was indeed losing for Black. The complicated variations below (and my teaching concepts in the video) hopefully shed some light on just why Black was already lost here.} 105...Kh6 {is the most stubborn way to say \"prove the pawn sac\", and already puts White in a \"must find\" only move that wins situation (see notes to all moves that are NOT 16.Bc6 $1). The variations below show the delicate nature of White's advantage, and prove that with the feature of \"rook pawns\" being present, even when it looks easy, Black still has some stalemate tricks.} 106.Bc6 $1 {is key, and needs to be played now. White is threatening to bring the king to d5, and Black is a tempo behind because 106...Kf5 is not possible $1 Trying to get there through g6 allows} 
+        ( 106.Be2 $2 Bb7 $1 {and Black is holding both a6 and the d5-square.} )
+        ( 106.Kd5 $4 Bb7+ {and Black wins the bishop on f3.} )
+        ( 106.Be4 $6 {doesn't lose the advantage, but also doesn't make progress after} 106...Kg7 107.Bf3 Kh6 )
+    106...Kg6 
+        ( 106...Be6 107.Bb7 {wins a6.} )
+        ( {Though note that with this idea of running the black king BACK to the queenside to setup a rook-pawn drawn king and pawn endgame, White has to follow one key line to win with:} 106...Bg4 107.Bb7 Be2 108.Bc8 Kg6 109.Kd5 Kf6 110.Kxd6 {the Black king is forbidden perfectly from both f5 and e5 $1 Still, it's tricky after} 110...Bd3 111.Kc5 Ke5 112.Kb6 Kd5 113.Bb7+ Kd6 {when only} 114.Bf3 $1 {is winning $1 Taking a6 was again a draw, but now, Black is overworked.} )
+    107.Be8+ $1 {and the Black king must go back. The variations are still crazy complex however, and I tried to illustrate a few key points here:} 107...Kh6 108.Kd5 Bg4 109.Kxd6 Be2 {Note that in this line, Black has officially estbalished the bishop on its ideal post: guarding both a6 and h5. Impatient technique can still lead to a draw in some variations below.} 110.Ke5 $1 {is not the only winning move, but to me, illustrates the key winning idea in the most clear way: centralize the king and make Black choose which pawn he wants to part with $1 If the Black king retreats in variations below, White is often marching King-f5-g5 and then winning h5. If Black stays put, White now has the time (with the powerful king) to play Bishop d7-c8 and only THE$146 run the White king BACK to b6 to win a6.} 
+        ( {A rushed variation like this can show Black's drawing attempt after:} 110.Kc5 $6 Kg7 $1 111.Kb6 $4 
+            ( {And to win, White might have to find the counter-intuitive retreaing king idea of} 111.Kd4 Kf6 112.Ke3 $1 Ke7 $1 113.Kxe2 $4 
+                ( {Though} 113.Bg6 $1 Bg4 114.Bd3 Bc8 115.Be2 {does still win.} )
+            113...Kxe8 $12 {Black has long range opposition and holds the draw $1} )
+        111...Kf6 112.Bd7 Ke5 113.Bc8 Kd5 $1 114.Bxa6 Bxa6 115.Kxa6 Kc6 $12 {draw $1} )
+        ( 110.Bc6 {is also winning, but only with the same idea after} 110...Kg6 {of king centralization with} 111.Ke5 {and with Be8 check coming, it's similar to other variations where White wins.} )
+        ( 110.Bd7 Kg6 111.Bc8 
+            ( 111.Ke5 $1 {is still key to winning $1 Keep the Black king improsined until your bishop is on the ideal square of c8: guarding f5 and attacking a6 $1} 111...Kf7 112.Bf5 
+                ( {Not} 112.Kf5 Bg4+ )
+            112...Ke7 113.Be4 Kd7 114.Kf4 Kd6 115.Kg5 Kc5 116.Bg6 Kb4 117.Bxh5 Bc4 118.Bg4 Bf7 119.Bf5 Kxa5 120.Bg6 Bg8 121.h5 Kb4 122.Kf6 
+                ( 122.h6 a5 123.Kf6 a4 124.Kg7 a3 125.Bb1 Kb3 126.Kxg8 Kb2 127.h7 Kxb1 128.h8=Q a2 $12 {is also still a draw $1} )
+            122...a5 123.Kg7 Be6 124.h6 a4 125.h7 {and White wins.} )
+        111...Kf6 112.Kc6 
+            ( 112.Kc5 Ke5 113.Bb7 Ke6 114.Kd4 Kd6 115.Ke3 Bc4 116.Bf3 Kc5 117.Bxh5 Kb4 {and it's likely a race that leads to a tie for first $1} )
+        112...Ke5 113.Kb6 Kd5 {but here Black is drawing because the bishop maintains protection over h5 $1} 114.Bb7+ Kd6 115.Bc8 Kd5 $12 {and how to make progress $2} )
+    110...Bf1 
+        ( {Note that} 110...Bd3 {doesn't help after} 111.Kf6 Be2 112.Bc6 $1 Bd3 113.Bd5 
+            ( 113.Bb7 Be2 114.Bc8 Bd3 115.Ke5 Kg6 116.Kd4 Bf1 117.Kc5 Kf6 118.Kb6 Ke5 119.Bxa6 )
+        113...Be2 114.Bb7 Bd3 115.Ke5 Kg6 116.Kd4 Bf1 117.Kc5 {see 1110...Bf1 line for how White is winning.} )
+    111.Bc6 Be2 112.Bb7 {And Black is faced with another tough question: Keep the king where he is and try to maintain the f1-a6 diagonal with the bishop (see how 112...Bf1 loses below) or try to bring the king to the queenside now, risking Kf5-g5 and winning h5.} 112...Kg7 
+        ( 112...Bf1 {Now White has improved much from a few moves ago: The bishop is on b7 hitting a6, and the White king is close enough to reach a6 before the Black king gets counterplay $1} 113.Kd4 $1 Kg6 114.Kc5 Kf5 115.Kb6 {and now White is actually threatening to take a6 because there are no stalemate tricks of trapping the White king on the a-file.} 
+            ( {Also winning is} 115.Bf3 Kf4 116.Bxh5 Kg3 117.Kb6 Kxh4 118.Bf3 Kg3 119.Bb7 Kf4 120.Bxa6 {if you really wanted to get rid of the h-pawns first.} )
+        115...Kg4 116.Bxa6 Bg2 117.Bc8+ Kxh4 118.a6 {followed by Bb7 is lights out $1} )
+    113.Kf5 Bb5 114.Kg5 Be2 115.Be4 Kf7 116.Bg6+ Ke6 117.Bxh5 {easily wins as Black is way behind in the race to reach a5.} )
+    ( {First, the obvious failing to any move that takes away the \"skewer threat\" on b7 is just losing because the d5-pawn no longer stands in White's way.} 105...Bd7 {or any more that is NOT ...Be6 allows Kd5 $1} 106.Kd5 {d6 falls, a6 is not far behind it, and it's game over.} 106...Bg4 
+        ( 106...Kf5 107.Bxh5 {is too much for Black.} )
+        ( 106...Bc8 107.Kxd6 Bg4 108.Be4+ Kf6 109.Bd3 Bc8 110.Kc7 {wins.} )
+    107.Be4+ )
+    ( 105...Be6 {along with ...Bf5 allows} 106.Bb7 {winning a6 and the game.} )
+106.Be4+ 
+    ( {Note that} 106.Bb7 {allows Black's bishop the ideal \"defend both pawns\" diagonal with} 106...Be2 $1 {and further aggressive attempts by White might go too far, for example} 107.Be4+ Kf6 108.Kd5 Ke7 109.Kc6 Ke6 110.Kb6 d5 {and suddenly the tables have turned $1} )
+106...Kf7 
+    ( 106...Bf5 107.Bb7 {is winning.} )
+    ( 106...Kh6 107.Bd3 $1 Bc8 108.Kd5 Kg7 109.Kxd6 Kf6 110.Kc7 {and a6 falls.} )
+107.Bd3 $1 
+    {The most valuable Black pawn drops and with it Komodo's hopes.}
+    ( 107.Kd5 $2 {allows} 107...Ke7 108.Bd3 Kd7 $1 109.Bxa6 Bf3+ 110.Kd4 Kc6 {and Black is more active than in the game. This is probably a draw.} )
+107...Ke8 
+    ( {Perhaps the most key line to illustrate the \"purpose\" of the d5-pawn sacrifice is seen after} 107...Bc8 108.Kd5 $1 
+        ( {Also winning is} 108.Be2 Kg6 109.Kd5 {where d6 and a6 will fall soon, and the bishop on e2 prevents the Black king from coming up without dropping the h-pawn.} )
+    108...Ke7 109.Kc6 {and the pawn will soon fall anyway.} 109...d5 110.Kc7 $1 {Full entry $1} 110...Bg4 111.Bxa6 {and with White's king shielding the Black king from the queenside, the a-pawn is too strong.} )
+108.Bxa6 Kd8 109.Ke4 Kc7 110.Bb5 Kb8 111.Kf4 Kc7 112.Be8 d5 
+    ( {Sitting tight isn't an option with the h5-pawn falling. For example,} 112...Kb8 113.Kg5 d5 114.Bxh5 {and the white king is the square of the pawn.} 114...Bc8 115.Be2 {and the h-pawn marches.} )
+113.Ke5 Bf3 114.Bb5 Kb7 115.Kd6 Kb8 116.Kc6 
+    {Threatening mate after Kc6-b6, followed by a5 pawn-march and Bb5-c6.}
+116...Ka7 
+    ( {Doesn't help after} 116...d4+ 117.Kc5 Kc7 118.Kxd4 Kd6 {Yay $1 I've achieved opposition...} 119.a6 {Uhoh, now I have to go back and stop the pawn...} 119...Kc7 120.Kc5 Bg4 121.Bc6 Bc8 122.a7 {wins.} )
+117.Bd3 Kb8 118.Kb6 Be4 119.Bb5 d4 120.a6 d3 
+    ( {Keeping the bishop on the long diagonal doesn't help either, since you can't maintain both the protection of h1-a8 and the h-pawn at the same time. For example,} 120...Bg2 121.a7+ Ka8 122.Be2 {and h5-falls.} )
+121.a7+ Ka8 122.Ba6 d2 123.Be2 d1=Q 124.Bxd1 Bb7 125.Bxh5 Bc6 126.Bd1 Bh1 127.h5 Bg2 128.h6 Bh1 129.h7 Bd5 130.h8=Q+ Bg8 131.Qxg8# 1-0
+
+[Event "BGN Computer Qualifier"]
+[Site "Cadaques ESP"]
+[Date "2001.04.25"]
+[EventDate "2001.04.24"]
+[Round "3"]
+[Result "0-1"]
+[White "Deep Fritz (Computer)"]
+[Black "Deep Junior (Computer)"]
+[ECO "B67"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "138"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6
+7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6
+12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 h5 15. f5 Qc5 16. Rf1 b4
+17. Ne2 e5 18. Nc1 a5 19. Nb3 Qb6 20. Bc4 a4 21. Nc1 Rg8
+22. Qe2 Rg4 23. Bd5 Rc8 24. Rfe1 Bf8 25. h3 Rg3 26. Rd3 h4
+27. Rxg3 hxg3 28. Bxc6+ Qxc6 29. Qd3 Bh6 30. Ne2 Ke7 31. Rd1
+Qc5 32. Nxg3 a3 33. Ne2 axb2 34. Kxb2 Rc7 35. h4 Rc8 36. g4
+Qc6 37. Rg1 Be3 38. Rg2 Qa4 39. Kb1 Ra8 40. Qb3 Qa7 41. Rg3
+Bf2 42. Rh3 Qc7 43. Rh2 Ra3 44. Qd5 Ra5 45. Qd2 Qa7 46. Qxb4
+Rxa2 47. Rxf2 Ra4 48. Qb3 Ra1+ 49. Kb2 Rh1 50. Qg3 Qa1+
+51. Kb3 Rb1+ 52. Kc4 d5+ 53. exd5 Qa6+ 54. Kc3 Qa5+ 55. Kd3
+Rd1+ 56. Ke4 Qxd5+ 57. Ke3 Qc5+ 58. Kf3 Qc6+ 59. Ke3 Qb6+
+60. Ke4 Qb7+ 61. Ke3 Qa7+ 62. Kf3 Qa8+ 63. Ke3 Qa3+ 64. Ke4
+Rd4+ 65. Nxd4 Qxg3 66. Nc6+ Kd6 67. Nxe5 fxe5 68. Rd2+ Kc6
+69. Rd8 Qf4+ 0-1
+
+[Event "CCC3: Rapid Redux Stage 3 (30|5)"]
+[Site "Chess.com"]
+[Date "2019.01.07"]
+[Round "25"]
+[White "Stockfish"]
+[Black "Komodo"]
+[Result "1-0"]
+[ECO "B32"]
+[GameDuration "00:57:45"]
+[GameEndTime "2019-01-07T13:43:33.530 PST"]
+[GameStartTime "2019-01-07T12:45:47.548 PST"]
+[Opening "Sicilian defense"]
+[PlyCount "121"]
+[TimeControl "1800+5"]
+
+1. e4 {book} 1... c5 {book} 2. Nf3 {book} 2... Nc6 {book} 3. d4 {book} 3... cxd4
+{book} 4. Nxd4 {+0.62/30 35s, ev$120.62, d$1230, pd$12Nf6, mt$1200:00:34, tl$1200:29:30,
+s$1288093 k$146/s, n$123060981179, pv$12Nxd4 Nf6 Nc3 e5 Ndb5 d6 Nd5 Nxd5 exd5 Nb8 c4 Be7
+Bd3 O-O O-O Bd7 a4 Na6 Be3 f5 Be2 f4 Bxa7 Bxb5 axb5 Rxa7 bxa6 Rxa6 Rxa6 bxa6 b4
+g6 Qb3 Kg7 Rc1 Bg5 Qc3, tb$1254, R50$1250, wv$120.62} 4... e6 {-0.32/32 51s, ev$12-0.32,
+d$1232, pd$12Be2, mt$1200:00:51, tl$1200:29:13, s$1262029 k$146/s, n$123163839500, pv$12e6 Be2
+Nf6 Nc3 d5 exd5 exd5 O-O Bc5 Bb5 Bxd4 Qxd4 O-O Bxc6 bxc6 Re1 Bf5 Bg5 Bxc2 Rac1
+Bg6 Na4 h6 Bh4 Re8 Rxe8+ Qxe8 Bxf6 gxf6 Qxf6 Qe6 Qxe6 fxe6 Nc5 Kf7 f3 d4 Kf2
+Rb8, tb$124, R50$1250, wv$120.32} 5. Nc3 {+0.48/32 62s, ev$120.48, d$1232, pd$12Nf6,
+mt$1200:01:02, tl$1200:28:33, s$1287737 k$146/s, n$125442812503, pv$12Nc3 Nf6 Nxc6 bxc6 e5
+Nd5 Ne4 Qc7 f4 Qa5+ c3 Be7 Bd3 Ba6 O-O Qb6+ Kh1 Bxd3 Qxd3 f5 exf6 Nxf6 b3 Nxe4
+Qxe4 O-O c4 Rad8 Be3 Bc5 Bxc5 Qxc5 Rad1 a5 Qe2 a4 bxa4 Qa5 g3 c5 Kg2 Qxa4 Rd6
+Qa5, tb$1214, R50$1250, wv$120.48} 5... Nf6 {-0.30/35 47s, ev$12-0.30, d$1235, pd$12Be2,
+mt$1200:00:46, tl$1200:28:32, s$1267634 k$146/s, n$123145666112, pv$12Nf6 Be2 d5, tb$12216,
+R50$1250, wv$120.30} 6. Nxc6 {+0.74/32 23s, ev$120.74, d$1232, pd$12bxc6, mt$1200:00:23,
+tl$1200:28:14, s$1290234 k$146/s, n$122116259979, pv$12Nxc6 bxc6 e5 Nd5 Ne4 Qc7 f4 Qa5+ Bd2
+Qb6 Bd3 Be7 Qe2 f5 exf6 Nxf6 Bc3 O-O Nxf6+ Bxf6 Bxf6 Rxf6 O-O-O d5 Kb1 Bb7 Rhf1
+c5 c4 Rd8 g3 a5 g4 Rh6 g5 Rh4 Qf2 dxc4 Bxc4 Be4+ Ka1 Rxd1+ Rxd1 Rg4 Rd8+ Qxd8
+Bxe6+ Kh8 Bxg4 Qd5 Be2, tb$1260, R50$1249, wv$120.74} 6... bxc6 {-0.09/34 55s,
+ev$12-0.09, d$1234, pd$12Bd3, mt$1200:00:54, tl$1200:27:42, s$1263950 k$146/s, n$123487554588,
+pv$12bxc6 Bd3 e5, tb$120, R50$1250, wv$120.09} 7. e5 {+0.92/31 14s, ev$120.92, d$1231,
+pd$12Nd5, mt$1200:00:13, tl$1200:28:05, s$1291941 k$146/s, n$121280649195, pv$12e5 Nd5 Ne4 Qc7
+f4 Qb6 c4 Ne3 Qd3 Bb4+ Bd2 O-O Rc1 Nxf1 Rxf1 Be7 Bc3 Bb7 Rd1 Rfd8 Qe2 a5 f5 exf5
+Rxf5 Qg1+ Kd2 Qxh2 Rdf1 Qh6+ Kd3 Rf8 Bd4 Qg6 Bc5 Bxc5 Nxc5 Rab8 Kd2, tb$127,
+R50$1250, wv$120.92} 7... Nd5 {0.00/36 51s, ev$120.00, d$1236, pd$12Nxd5, mt$1200:00:51,
+tl$1200:26:56, s$1265011 k$146/s, n$123332246461, pv$12Nd5 Nxd5 cxd5 Bd3 Qc7 Qe2 Bb4+ Kf1
+Rb8 Bf4 Bc5 c3 O-O b4 Bb6 Rc1 f6 Qh5 g6 Bxg6 d6 exd6 Qc4+ Ke1 hxg6 Qxg6+ Kh8
+Qh5+ Kg8 Qg4+ Kh8 Qh4+ Kg8 Qg4+, tb$12221, R50$1250, wv$12-0.00} 8. Ne4 {+0.66/33 32s,
+ev$120.66, d$1233, pd$12Qc7, mt$1200:00:31, tl$1200:27:39, s$1290499 k$146/s, n$122871544585,
+pv$12Ne4 Qc7 f4 Qb6 c4 Ne3 Qd3 Nf5 Bd2 Bb7 O-O-O Rd8 Qc3 c5 Bd3 Be7 Rhe1 d5 exd6
+Bxe4 Bxe4 Bf6 Qc2 Nxd6 Bd3 g6 Bc3 Bxc3 Qxc3 O-O Kb1 a5 g4 Qb4 Qxb4 axb4 Re5 Rc8
+Rde1 Kh8, tb$1211, R50$1250, wv$120.66} 8... Qc7 {-0.17/34 58s, ev$12-0.17, d$1234, pd$12f4,
+mt$1200:00:57, tl$1200:26:03, s$1268306 k$146/s, n$123958033330, pv$12Qc7 f4 f5, tb$122562,
+R50$1249, wv$120.17} 9. f4 {+0.74/32 16s, ev$120.74, d$1232, pd$12Qb6, mt$1200:00:15,
+tl$1200:27:28, s$1293152 k$146/s, n$121475252574, pv$12f4 Qb6 c4 Ne3 Qd3 Nf5 g4 Nd4 Rb1 a5
+Kf2 c5 Bg2 Bb7 Be3 h5 g5 Nf5 Rhd1 Qc7 Rd2 Rd8 Rbd1 h4 Bf3 h3 Qe2 Be7 Nc3 O-O Nb5
+Qb6 Bxb7 Qxb7, tb$1228, R50$1249, wv$120.74} 9... f5 {-0.25/34 84s, ev$12-0.25, d$1234,
+pd$12exf6, mt$1200:01:23, tl$1200:24:44, s$1268477 k$146/s, n$125735273293, pv$12f5 exf6 gxf6
+Bd2 Rb8 Bc4 h5 O-O f5 Bxd5 cxd5 Bc3 Rh6 Ng5 Ba6 Rf3 Rc8 Rf2 Bc5 Bd4 Bxd4 Qxd4
+Qb6 Qxb6 axb6 Nf3 Rc4 g3 Ra4 Rd2 Rh8 c3 Ke7 Kf2 Rc8 a3 Kf6 Rad1 Rc7 Rd4 Bc4 Re1
+Ra5 Nd2 Ra8 Nxc4 Rxc4 Rxc4 dxc4 Ke3 b5 Kd4, tb$123507, R50$1250, wv$120.25} 10. exf6
+{+1.37/31 22s, ev$121.37, d$1231, pd$12gxf6, mt$1200:00:21, tl$1200:27:11, s$1294199 k$146/s,
+n$122032174204, pv$12exf6 gxf6 Bd2 Be7 Qh5+ Kd8 c4 Nxf4 Qh6 Ng6 Bc3 d5 O-O-O Rb8 Qd2
+Qb7 Nxf6 Bb4 b3 Bxc3 Qxc3 Qb4 Qg3 Rb7 Kb1 Qe7 Qg5 Rf8 Nxh7 Qxg5 Nxg5 Nh4 g3 Nf5
+Bd3 Rg7 Bxf5 Rxg5 Bd3 e5 Rhe1 Ke7 Rc1 Bd7 cxd5 cxd5, tb$12466, R50$1250, wv$121.37}
+10... gxf6 {-0.64/33 58s, ev$12-0.64, d$1233, pd$12Bd2, mt$1200:00:57, tl$1200:23:52,
+s$1269599 k$146/s, n$124022735335, pv$12gxf6 Bd2 Rb8, tb$125987, R50$1250, wv$120.64} 11. Bd2
+{+1.20/33 37s, ev$121.20, d$1233, pd$12Be7, mt$1200:00:37, tl$1200:26:39, s$1294024 k$146/s,
+n$123482462650, pv$12Bd2 Be7 Qh5+ Kd8 c4 Nxf4 Qh6 Ng6 O-O-O d5 Bc3 a5 Kb1 Qf4 Qxf4
+Nxf4 Nxf6 e5 Bxe5 Bf5+ Kc1 Rf8 Bxf4 Rxf6 cxd5 Bg4 Rd4 Rxf4 Rxf4 Bg5 g3 Bf3 Rg1
+Kc7 h4 Bxf4+ gxf4 Bxd5 Bd3 Rf8 Rg7+ Kd6 f5 h5 a3 Ke5 Kd2 Kd4 Rh7 Rg8 f6 Rg2+
+Be2, tb$124888, R50$1250, wv$121.20} 11... Rb8 {-0.53/33 61s, ev$12-0.53, d$1233, pd$12c4,
+mt$1200:01:00, tl$1200:22:56, s$1271997 k$146/s, n$124371093638, pv$12Rb8 c4 Nxf4, tb$129593,
+R50$1250, wv$120.53} 12. c4 {+1.41/32 18s, ev$121.41, d$1232, pd$12Nxf4, mt$1200:00:18,
+tl$1200:26:26, s$1298159 k$146/s, n$121768643771, pv$12c4 Nxf4 Qf3 Ng6 Nxf6+ Kd8 O-O-O Be7
+Qc3 e5 Ne4 d5 Bg5 Bxg5+ Nxg5 d4 Qa3 c5 g3 Qe7 Ne4 Bb7 Bg2 Bxe4 Bxe4 Rf8 Rd2 Rb6
+Re1 Rbf6 Rde2 Rf1 Qa5+ Qc7 Qd2 R8f6 Bd3 Rxe1+ Rxe1 Rf3 Bxg6 hxg6 Qg5+ Qe7 Qxe5
+Qxe5 Rxe5 Rf1+ Kc2 Rf2+ Kd3 Rxb2 Rd5+ Ke7 Rxc5, tb$123588, R50$1250, wv$121.41} 12...
+Nxf4 {-0.78/34 47s, ev$12-0.78, d$1234, pd$12Qf3, mt$1200:00:46, tl$1200:22:14, s$1272704
+k$146/s, n$123406866564, pv$12Nxf4 Qf3 Ng6, tb$1226369, R50$1250, wv$120.78} 13. Qf3
+{+1.63/33 20s, ev$121.63, d$1233, pd$12Ng6, mt$1200:00:20, tl$1200:26:11, s$1299017 k$146/s,
+n$122022631415, pv$12Qf3 Ng6 Nxf6+ Kd8 O-O-O Be7 Qc3 e5 Ne4 d5 Bg5 Bxg5+ Nxg5 d4 Qa3
+Re8 Bd3 Bg4 Rd2 Qe7 Qxe7+ Rxe7 Re1 Kc7 Bxg6 hxg6 h3 Bd7 Rxd4 Rf8 Rd2 Rf4 b3 e4
+Rde2 e3 Rxe3 Rxe3 Rxe3 Rf2 g4 Rxa2 Re7 Kd6 Rg7, tb$123200, R50$1250, wv$121.63} 13...
+Ng6 {-0.90/34 44s, ev$12-0.90, d$1234, pd$12Nxf6+, mt$1200:00:43, tl$1200:21:36, s$1271740
+k$146/s, n$123122740991, pv$12Ng6 Nxf6+ Kd8, tb$12101898, R50$1250, wv$120.90} 14. Nxf6+
+{+1.61/32 36s, ev$121.61, d$1232, pd$12Kd8, mt$1200:00:35, tl$1200:25:40, s$1298384 k$146/s,
+n$123509873979, pv$12Nxf6+ Kd8 O-O-O Be7 Qc3 e5 Ne4 d5 Bg5 Bxg5+ Nxg5 d4 Qa3 c5 g3
+Rb6 Bd3 Qe7 Ne4 Bb7 Rhe1 Bxe4 Bxe4 Rf8 Rd2 Rbf6 h4 Qc7 Qd3 R8f7 Kb1 Qa5 Bd5 Rf8
+h5 Ne7 Bg2 Rf2 Ree2 Rxe2 Rxe2, tb$1216443, R50$1249, wv$121.61} 14... Kd8 {-1.10/32
+40s, ev$12-1.10, d$1232, pd$12O-O-O, mt$1200:00:39, tl$1200:21:01, s$1272227 k$146/s,
+n$122877981139, pv$12Kd8 O-O-O Be7 g4 d5 Kb1 Ne5 Qf2 h6 h4 Qb6 Be3 Qxb2+ Qxb2 Rxb2+
+Kxb2 Bxf6 Kc2 Nxg4 Bxa7 Bd7 Be2 h5 Rdf1 Be5 Bc5 Kc7 Rf7 Ra8 a3 Nh6 Rf8 Rxf8 Bxf8
+Nf5 Bxh5 Ng3 Re1 Bf6 Bg6 Bxh4 Rd1 Nf5 Bc5 Nd6 Rh1 Bg3 cxd5 cxd5, tb$12310122,
+R50$1250, wv$121.10} 15. O-O-O {+1.41/35 44s, ev$121.41, d$1235, pd$12Be7, mt$1200:00:43,
+tl$1200:25:01, s$1299309 k$146/s, n$124352744940, pv$12O-O-O Be7 g4 Ne5 Qf2 Qb6 Qxb6+ axb6
+g5 Kc7 Bc3 d6 Bxe5 dxe5 h4 Bxf6 gxf6 Rf8 Rg1 Rb7 c5 b5 Be2 Rxf6 Rg7+ Kb8 Rxb7+
+Kxb7 Rg1 Rf7 Kd2 e4 Ke3 e5 Rg5 Kc7 b3 b4 Rxe5 h6 Rxe4 Rf5 Rxb4 Rxc5 Rf4 Re5+ Kd2
+Rd5+ Ke1 Bd7 Rf7 Rd6, tb$1227877, R50$1250, wv$121.41} 15... Bg7 {-1.04/35 72s,
+ev$12-1.04, d$1235, pd$12Qc3, mt$1200:01:11, tl$1200:19:54, s$1274023 k$146/s, n$125298373344,
+pv$12Bg7 Qc3 h6, tb$12239224, R50$1249, wv$121.04} 16. Qc3 {+2.22/30 19s, ev$122.22, d$1230,
+pd$12Ba6, mt$1200:00:18, tl$1200:24:48, s$1298834 k$146/s, n$121834174639, pv$12Qc3 Ba6 g4 c5
+g5 Rb6 Qe3 Qe5 Qxe5 Nxe5 Bf4 Bxf6 gxf6 Nf7 Be3 e5 Bh3 Bc8 Bxc5 Rxf6 Rhf1 Rc6
+Rxf7 Rxc5 b3 Ke8 Rg7 Kf8 Rg2 Ke8 Rgd2 Rc7 Rd5 e4 Kd2 Rf8 Bf5 d6 Bxc8 Rxc8 Ke3
+Rf3+ Kxe4 Rf2 a4 Rxh2, tb$126695, R50$1249, wv$122.22} 16... h6 {-0.86/36 60s,
+ev$12-0.86, d$1236, pd$12Bd3, mt$1200:01:00, tl$1200:18:59, s$1277412 k$146/s, n$124654011432,
+pv$12h6 Bd3 Rf8, tb$12419019, R50$1248, wv$120.86} 17. g4 {+2.51/29 19s, ev$122.51, d$1229,
+pd$12Rf8, mt$1200:00:19, tl$1200:24:34, s$12101271 k$146/s, n$121935703013, pv$12g4 Rf8 g5 c5
+Rg1 Bb7 Qe3 Kc8 Bc3 Bc6 Qxc5 hxg5 Nxd7 Rf5 Qd6 Qxd6 Rxd6 Bxd7 Bxg7 Nf4 Bd4 Rb7
+Be3 Rc7 Kb1 Re5 Bd2 Rf5 b4 Rc6 Rxc6+ Bxc6 b5 Bf3 Kb2 Kb7 Be3 Be4, tb$1222348,
+R50$1250, wv$122.51} 17... d5 {-1.83/33 107s, ev$12-1.83, d$1233, pd$12h4, mt$1200:01:46,
+tl$1200:17:17, s$1272530 k$146/s, n$127751295190, pv$12d5 h4 Qe5 Qxe5 Nxe5 Nh5 Nxc4 Bxc4
+Bxb2+ Kc2 e5 Rb1 Bxg4 Ng3 dxc4 Rxb2 Rb5 Re1 Rf8 Rxb5 cxb5 Rxe5 Rf3 Ne4 Rf5 Nd6
+Rxe5 Nf7+ Kc7 Ba5+ Kb7 Nxe5 Bf5+ Kc3 h5 Kb4 Ka6 Bd8 Kb7 Nf3 a6 Nd4 Bh3 Ba5 Bg4
+Kc5 Bd7 Nf3 Bf5 Ne5 Bh3 a3 Be6 Bb4 Bf5 Bc3 Be4 Ba5, tb$122136563, R50$1250, wv$121.83}
+18. g5 {+3.36/33 51s, ev$123.36, d$1233, pd$12hxg5, mt$1200:00:50, tl$1200:23:48, s$12101904
+k$146/s, n$125146698280, pv$12g5 hxg5 Bxg5 Bh6 Bxh6 Rxh6 Rd2 Qe5 Qa5+ Qc7 Qa3 Ne7 Ne4
+Rh8 Nd6 Rf8 c5 Nf5 Rg1 Nxd6 cxd6 Qf7 Bd3 Rb7 Ba6 Rb8 Rf1 Qg7 Rxf8+ Qxf8 d7 Qxa3
+dxc8$12Q+ Rxc8 bxa3 Rc7 h4 Rg7 Rh2 e5 h5 Ke7 Kb2 Kf6 Kc3 Rh7 Kb4, tb$12208229,
+R50$1250, wv$123.36} 18... Nf4 {-2.12/33 79s, ev$12-2.12, d$1233, pd$12h4, mt$1200:01:18,
+tl$1200:16:03, s$1273843 k$146/s, n$125820235287, pv$12Nf4 h4 hxg5, tb$121648025, R50$1250,
+wv$122.12} 19. Rg1 {+4.06/35 61s, ev$124.06, d$1235, pd$12hxg5, mt$1200:01:00,
+tl$1200:22:52, s$12106042 k$146/s, n$126449512272, pv$12Rg1 hxg5 h4 Rxh4 cxd5 exd5 Re1 Rh8
+Rxg5 Ne6 Bh3 Nxg5 Bxg5 Bxh3 Qxh3 Qe7 Rxe7 Rxh3 Re8+ Kc7 Bf4+ Kb7 Rxb8+ Ka6 Nd7
+Bd4 Bd6 Rh8 Rxh8 Bxh8 Kc2 Bd4 b4 Bf2 a4 Kb7 Nc5+ Kb6 Nd3 Bh4 Bc5+ Kb7 Bd4 Bd8
+Nc5+ Kc8 a5 Be7 Kc3, tb$121541927, R50$1250, wv$124.06} 19... hxg5 {-2.49/35 43s,
+ev$12-2.49, d$1235, pd$12h4, mt$1200:00:42, tl$1200:15:26, s$1278126 k$146/s, n$123321090138,
+pv$12hxg5 h4 Rxh4 Rxg5 Nh5 cxd5 exd5 Rxg7 Qxg7 Qe5 Nxf6 Qxb8 Qc7 Qxc7+ Kxc7 Bg5
+Ra4 Bxf6 Rxa2 Kc2 Bg4 Be5+ Kb6 Rd4 Bf5+ Kc3 a5 Rf4 Bg6 Rf6 Be8 Bd4+ Kc7 Bc5 Ra1
+Bd3 Rh1 Rf8 Bd7 Rf7 Rh4 Rh7 Rxh7 Bxh7 Bg4 Bd3 Bd1 Kd4 a4 Be7 Kb6 Bd8+ Kb7 Kc5
+Bb3 Bg5, tb$123762581, R50$1249, wv$122.49} 20. h4 {+4.24/32 14s, ev$124.24, d$1232,
+pd$12Rxh4, mt$1200:00:14, tl$1200:22:43, s$12111802 k$146/s, n$121585246909, pv$12h4 Rxh4 cxd5
+cxd5 Qxc7+ Kxc7 Ne8+ Kb7 Nxg7 Bd7 Re1 a5 Rxg5 a4 Bc3 Rf8 Kb1 Rf7 Rg1 d4 Bxd4 Nd3
+Bxd3 Rxd4 Re3 e5 Rg6 Re7 Rg5 Rf7 Kc2 a3 bxa3 Rd6 Rexe5 Rf2+ Re2 Rdf6 Be4+ Kc7
+Rxf2, tb$12451643, R50$1250, wv$124.24} 20... Rxh4 {-2.61/37 48s, ev$12-2.61, d$1237,
+pd$12Rxg5, mt$1200:00:48, tl$1200:14:43, s$1281030 k$146/s, n$123898797946, pv$12Rxh4 Rxg5 Nh5
+cxd5 exd5 Rxg7 Qxg7 Qe5 Nxf6 Qxb8 Qc7 Qxc7+ Kxc7 Bg5 Ra4 Bxf6 Rxa2 Kc2 Ra4 Rd4
+Bf5+ Kc3 Ra1 Rf4 Bg6 Be5+ Kb6 Rf6 Bh5 Bd4+ Kc7 Bd3 a5 Bc5 Rc1+ Kd4 Rd1 Rf1 Rd2
+Kc3 Rg2 Re1 Bf3 Re7+ Kd8 Ra7 Be4 Bxe4 dxe4 Rxa5 Kd7 b4 Ke6 Kd4 e3 Kxe3 Ke5 Bd4+
+Kd6 Rh5 Kd7, tb$125335924, R50$1250, wv$122.61} 21. cxd5 {+4.26/34 24s, ev$124.26, d$1234,
+pd$12exd5, mt$1200:00:24, tl$1200:22:24, s$12110678 k$146/s, n$122710079011, pv$12cxd5 exd5 Re1
+Rh8 Rxg5 Ne6 Bh3 Nxg5 Bxg5 Bxh3 Qxh3 Qe7 Rxe7 Rxh3 Re8+ Kc7 Bf4+ Kb6 Rxb8+ Kc5
+Nd7+ Kc4 Rc8 Kd3 Nc5+ Kc4 Rxc6 Bd4 Ne6+ Kd3 Kb1 Rh1+ Bc1 Bb6 Rc8 Bf2 Rc3+ Ke4
+Kc2 Ke5 Ng5 Bb6 Bd2 Ra1 a3 Rf1 Rc6 Rf2 Kd3 Rg2 Bc3+ Kf5 Nf3 Rg3 Rf6+ Kg4 Ke2,
+tb$121397525, R50$1250, wv$124.26} 21... cxd5 {-2.78/32 61s, ev$12-2.78, d$1232, pd$12Qxc7+,
+mt$1200:01:00, tl$1200:13:47, s$1276446 k$146/s, n$124648607091, pv$12cxd5 Qxc7+ Kxc7 Ne8+
+Kd8 Nxg7 Bd7 Rxg5 Ke7 Rg1 Kf7 Bc3 Rc8 Kb1 Ng6 Bd3 Nf4 Ba6 Rc6 Bf1 Rxc3 bxc3 e5
+Bc4 Ke7 Bb5 Rh2 Bxd7 Ne2 Rd2 Nxc3+ Kc2 Rxd2+ Kxd2 Ne4+ Ke3 Kxd7 Rg6 Nd6 Kd3 a5
+Nh5 Kc6 Re6, tb$125014621, R50$1250, wv$122.78} 22. Qxc7+ {+4.50/34 50s, ev$124.50,
+d$1234, pd$12Kxc7, mt$1200:00:50, tl$1200:21:38, s$12111256 k$146/s, n$125607329977, pv$12Qxc7+
+Kxc7 Ne8+ Kb7 Nxg7 Bd7 Re1 Rh2 Bc3 Rf8 Rxg5 Rf2 Kb1 Rf3 Be5 Kc6 Rc1+ Kb6 Rg4 a5
+Nf5 exf5 Rxf4 Rxf4 Bc7+ Kb7 Bxf4 Rc8 Rxc8 Bxc8 Kc2 Kc6 Kc3 Kc5 Be3+ d4+ Bxd4+
+Kd6 Bd3 f4 a3 Bb7 Bb6, tb$122884938, R50$1250, wv$124.50} 22... Kxc7 {-1.74/5 0.002s,
+ev$12-1.74, d$125, pd$12Ne8+, mt$1200:00:00, tl$1200:13:52, s$12688 k$146/s, n$121378, pv$12Kxc7
+Ne8+ Kd7 Nxg7 Ke7 Rxg5, tb$120, R50$1250, wv$121.74} 23. Ne8+ {+4.61/30 45s, ev$124.61,
+d$1230, pd$12Kd7, mt$1200:00:44, tl$1200:20:59, s$12112209 k$146/s, n$125006549141, pv$12Ne8+ Kd7
+Nxg7 Rh2 Rxg5 Ne2+ Bxe2 Rxe2 Nh5 Kc6 Nf4 Re4 Rg8 Ra8 Rh1 Bb7 Rg7 Kb6 Rh3 Rc8+
+Kb1 Ba6 Rb3+ Kc5 Ra3 Rc6 Rxa7 Bc4 Rd7 Ra6 Rc3 Kb6 b3 Bb5 Re7 Ra7, tb$121749808,
+R50$1250, wv$124.61} 23... Kd7 {-3.01/32 68s, ev$12-3.01, d$1232, pd$12Nxg7, mt$1200:01:07,
+tl$1200:12:49, s$1275044 k$146/s, n$125083579085, pv$12Kd7 Nxg7 Rh2, tb$124542221, R50$1250,
+wv$123.01} 24. Nxg7 {+4.84/31 30s, ev$124.84, d$1231, pd$12Nh3, mt$1200:00:30,
+tl$1200:20:33, s$12111868 k$146/s, n$123376515396, pv$12Nxg7 Nh3 Bxh3 Rxh3 Rxg5 Rf3 Re1 Rb6
+Nh5 Rf7 Nf4 Kc7 Nd3 Kb7 Ne5 Rc7+ Kb1 Rb5 Nf3 Ka6 Nd4 Rb6 Bf4 Rcb7 b3 Rf7 Be5 Bd7
+Rc1 Rb7 Kb2 Rf2+ Ka3 Rd2 Rg7 Rd3, tb$121816766, R50$1249, wv$124.84} 24... Rb7
+{-3.36/34 88s, ev$12-3.36, d$1234, pd$12Rxg5, mt$1200:01:27, tl$1200:11:26, s$1275654 k$146/s,
+n$126635506438, pv$12Rb7 Rxg5 Ke7, tb$129269026, R50$1250, wv$123.36} 25. Rxg5 {+5.40/31
+19s, ev$125.40, d$1231, pd$12Ke7, mt$1200:00:19, tl$1200:20:19, s$12111171 k$146/s,
+n$122158840134, pv$12Rxg5 Ke7 Rg3 Kd6 Re1 Bd7 Rg5 a5 Bxa5 Bb5 Kb1 Bxf1 Rxf1 Nd3 b3
+Re4 Rg3 Rf4 Rd1 Nc5 Rg6 Rff7 Bc3 Rbe7 Rdg1 Nd3 Bf6 Rb7 R1g5 Kd7 Nxe6 Kxe6 Bd8+
+Kd7 Rxd5+ Kc8 Rc6+ Kb8 Rxd3 Rf1+ Kc2 Rf2+ Rd2 Rxd2+ Kxd2, tb$121064455, R50$1250,
+wv$125.40} 25... Ke7 {-3.80/34 53s, ev$12-3.80, d$1234, pd$12Re1, mt$1200:00:53,
+tl$1200:10:38, s$1277071 k$146/s, n$124101045394, pv$12Ke7 Re1 Kf7 Rg3 Rb6 Rc3 Bd7 Rf3 e5
+Rxe5 Rf6 Rg5 Nd3+ Rxd3 Rxf1+ Kc2 Rc4+ Bc3 Rf2+ Kc1 Rh4 Rgxd5 Rh1+ Rd1 Rxd1+ Kxd1
+Bg4+ Kc1 Rf1+ Kc2 Kg6 Rd6+ Kg5 Ne6+ Kh4 Ra6 Kg3 Bd4 Rf3 Nc5 Rf7 b4 Bc8 Rh6 Kg4
+Rh8 Bf5+ Kc3 Rc7 Rg8+ Kf4 Kb3 Rf7 Rh8, tb$125386768, R50$1250, wv$123.80} 26. Rg3
+{+5.70/31 31s, ev$125.70, d$1231, pd$12Bd7, mt$1200:00:30, tl$1200:19:53, s$12112103 k$146/s,
+n$123464105817, pv$12Rg3 Bd7 Re1 Kd6 Rg5 Bb5 Bxf4+ Rxf4 Rxe6+ Kc5 Bg2 Rc7 Ne8 Rc6
+Bxd5 Rxe6 Bxe6+ Kc6 Bd5+ Kd7 Ng7 Ke7 Nh5 Rd4 Ng3 Kd8 Ne4 a5 Kc2 Kc7 Rg7+ Kd8 Nf6
+Rf4 Ne4 Rf5 Nc3 Bd7 Kb3 Rh5 Rg6 Kc8, tb$122168733, R50$1250, wv$125.70} 26... Kf7
+{-4.00/33 65s, ev$12-4.00, d$1233, pd$12Re1, mt$1200:01:05, tl$1200:09:38, s$1276753 k$146/s,
+n$125018285361, pv$12Kf7 Re1 Rb6 Rc3 Bd7 Rf3 e5 Rxe5 Rf6 Rg5 Nd3+ Rxd3 Rxf1+ Kc2
+Rc4+ Bc3 Rf2+ Kc1 Rg4 Rxg4 Bxg4 Rxd5 a6 Ra5 Be2 Kd2 Bb5+ Ke3 Re2+ Kf3 Re7 Nf5
+Re6 Nd4 Rf6+ Ke3 Bd7 Rd5 Ke7 Be1 Rg6 Bh4+ Ke8 Re5+ Kf8 Be1 Bg4 Bc3 Bh3 Rh5 Bg4
+Rd5 Bh3 Re5 Bg4 Bb4+ Kf7 Bc3 Kf6, tb$1213288845, R50$1249, wv$124.00} 27. Re1
+{+6.15/29 15s, ev$126.15, d$1229, pd$12Rb6, mt$1200:00:14, tl$1200:19:43, s$12113467 k$146/s,
+n$121658216038, pv$12Re1 Rb6 Bc3 Ng6 Bd3 Nf4 Rf3 Rc6 Nxe6 Rxe6 Ref1 Ke7 Rxf4 Rxf4
+Rxf4 Rh6 Bb4+ Ke6 Rf8 Bb7 Re8+ Kf6 Bc5 Bc6 Rf8+ Ke6 Bxa7 Kd6 Kd2 Bd7 Bb8+ Kc5
+Rd8 Bb5 Ba7+ Kc6 Rc8+ Kb7 Rb8+ Kxa7 Rxb5, tb$12743844, R50$1249, wv$126.15} 27... e5
+{-4.38/33 77s, ev$12-4.38, d$1233, pd$12Rxe5, mt$1200:01:16, tl$1200:08:26, s$1279983 k$146/s,
+n$126125122540, pv$12e5 Rxe5 Ng6 Nf5 Nxe5 Nxh4 d4 Bf4 Kf6 Bg5+ Ke6 Bh3+ Kd6 Bxc8
+Rc7+ Kb1 Rxc8 Nf5+ Ke6 Nxd4+ Kd5 Nb5 a6 Nc3+ Ke6 Bf4 Nc6 Rg5 Nb4 Re5+ Kf7 Nd5
+Nc6 Rf5+ Ke6 Rh5 a5 Bd2 Rg8 Nf4+ Kd7 Bxa5 Nxa5 Rxa5 Kc6 Kc2 Kb6 b4 Rh8 Nd5+ Kb7
+Kc3 Rh2 Kd4, tb$1212186305, R50$1248, wv$124.38} 28. Rxe5 {+6.71/30 21s, ev$126.71,
+d$1230, pd$12Rb6, mt$1200:00:20, tl$1200:19:28, s$12116071 k$146/s, n$122386769831, pv$12Rxe5 Rb6
+Ne8 Rh1 Rf3 Re6 Rxe6 Bxe6 Rxf4+ Kxe8 Kc2 Kd7 Bd3 Kc7 Rf6 Kd7 Rg6 a6 Rg7+ Kc6 Ra7
+Bc8 Bxa6 Bxa6 Rxa6+ Kb5 Ra5+ Kc4 b3+ Kd4 Bc3+ Ke3 Rxd5 Rh2+ Kc1 Rh1+ Rd1 Rh7 Kb2
+Kf4 Re1, tb$121898024, R50$1250, wv$126.71} 28... Ng6 {-4.91/34 117s, ev$12-4.91, d$1234,
+pd$12Nf5, mt$1200:01:57, tl$1200:06:34, s$1278719 k$146/s, n$129219427407, pv$12Ng6 Nf5 Nxe5
+Nxh4 Rc7+ Kb1 d4 Bf4 Re7 Bg2 a6 Bd5+ Be6 Be4 Bd7 Bc2 Ng4 Nf3 Re2 Nxd4 Re1+ Bc1
+Rh1 b3 Ne5 Kb2 Rh5 Nf3 Ke6 Ng5+ Kf6 Ne4+ Kf7 Be3 Bc6 Ng5+ Kf6 Bf4 Rh4 Nh7+ Ke6
+Nf8+ Kf7 Bxe5 Kxf8 Rc3 Bb7 Rc7 Be4 Bd6+ Kg8 Rc4, tb$1226976290, R50$1250, wv$124.91}
+29. Nf5 {+6.91/30 21s, ev$126.91, d$1230, pd$12Nxe5, mt$1200:00:20, tl$1200:19:12,
+s$12116349 k$146/s, n$122431232953, pv$12Nf5 Nxe5 Nxh4 d4 Bf4 Kf6 Nf3 Nxf3 Rxf3 Be6 Bd6+
+Bf5 Bg3 Kg5 Be5 d3 Kd2 Be4 Re3 Bf5 Rg3+ Kh5 Bxd3 Rd7 Kc2 Rd5 Bc3 Rc5 b4 Bxd3+
+Kxd3 Rc6 a4 Re6 Kc4 a6, tb$121737010, R50$1250, wv$126.91} 29... Nxe5 {-4.90/32 52s,
+ev$12-4.90, d$1232, pd$12Nxh4, mt$1200:00:51, tl$1200:05:47, s$12100101 k$146/s, n$125202896430,
+pv$12Nxe5 Nxh4 d4 Bf4 Kf6 Bg5+ Ke6 Bh3+ Kf7 Bxc8 Rc7+ Kb1 Rxc8 Nf5 Ke6 Nxd4+ Kd5
+Nb5 a6 Nc3+ Ke6 Bf4 Nc6 Rg5 Nb4 Re5+ Kf7 Nd5 Nc6 Rf5+ Ke6 Rh5 a5 Bd2 Kd6 Nb6 Rf8
+Nc4+ Kd7 Bxa5 Nxa5 Rxa5 Kc6 Rg5 Rh8 a4 Rh1+ Kc2 Rh7 Kc3 Kb7 b3 Ka7 Ra5+ Kb8 Rd5
+Ka7 Rg5, tb$1212096477, R50$1249, wv$124.90} 30. Nxh4 {+7.15/31 32s, ev$127.15, d$1231,
+pd$12Nc6, mt$1200:00:32, tl$1200:18:45, s$12116818 k$146/s, n$123767153719, pv$12Nxh4 Nc6 Rf3+
+Kg8 Rf6 Bd7 Bc3 Ne7 Ng6 Nxg6 Rxg6+ Kf8 Bd3 Bb5 Bxb5 Rxb5 Ra6 Rb7 Kd2 Rc7 Be5 Rh7
+Bd4 Rh2+ Kd3 Ke7 Bc5+ Kd7 b4 Rh3+ Kd4 Rh2 Kxd5 Kc8 Rxa7, tb$123139795, R50$1250,
+wv$127.15} 30... d4 {-5.12/34 78s, ev$12-5.12, d$1234, pd$12Bf4, mt$1200:01:18,
+tl$1200:04:34, s$1279432 k$146/s, n$126212658347, pv$12d4 Bf4 Kf6 Bg5+ Ke6 Bh3+ Kf7 Bxc8
+Rc7+ Kb1 Rxc8 Nf5 Rc5 Nxd4 a5 Bf4 Ng6 Rg5 Rc4 Rf5+ Ke8 Be3 a4 Ra5 Ne7 Ra8+ Kf7
+Ra7 Ke8 b3 Rc3 Bg5 Nc8 Rxa4 Rc5 Bf4 Rh5 Nc6 Kf7 Re4 Rh4 Kc2 Nb6 a4 Nd5 Ne5+ Kg7
+Nd3 Nxf4 Rxf4 Rh2+ Kc3 Rh8 b4 Rd8 b5, tb$1222741263, R50$1250, wv$125.12} 31. Bf4
+{+7.75/32 23s, ev$127.75, d$1232, pd$12Kf6, mt$1200:00:22, tl$1200:18:27, s$12121318 k$146/s,
+n$122770429127, pv$12Bf4 Kf6 Nf3 Nxf3 Rxf3 Bf5 Bg3 Kg5 Be5 a5 Bxd4 a4 Kd2 Be4 Re3
+Bh1 Bc4 Kf4 Re6 Rh7 Kc3 Bb7 Rf6+ Kg5 Rf7 Rh3+ Kb4 Bc6 Rf6 Be8 Re6 Bd7 Rd6 Be8
+Rd8 Bc6 Rh8 Rxh8 Bxh8 Kf4 Kc3 Ke4, tb$124037475, R50$1250, wv$127.75} 31... Kf6
+{-5.17/31 27s, ev$12-5.17, d$1231, pd$12Bg5+, mt$1200:00:27, tl$1200:04:12, s$1282402 k$146/s,
+n$122234100065, pv$12Kf6 Bg5+ Ke6 Bh3+ Kf7 Bxc8 Rc7+ Kb1 Rxc8 Nf5 Ra8 Nxd4 a5 Bf4
+Nd7 Rc3 a4 Rc7 Ke7 Kc2 Ra6 Kc3 Ke8 Rc6 Ra5 b4 Rh5 b5 Rh1 Re6+ Kf7 Bg5 Nf8 Re7+
+Kg6 Be3 Kf6 Ra7 Rh3 Kd3 Ng6 Rxa4 Ne5+ Ke4 Rh4+ Bf4 Ng6 Ra6+ Kf7, tb$1213202853,
+R50$1250, wv$125.17} 32. Nf3 {+8.09/34 39s, ev$128.09, d$1234, pd$12Nxf3, mt$1200:00:39,
+tl$1200:17:53, s$12124233 k$146/s, n$124858528671, pv$12Nf3 Nxf3 Rxf3 Be6 Bd6+ Bf5 Bg3 Kg5
+Be5 Re7 Bxd4 Kg4 Rf2 Bc8 b3 Rd7 Be2+ Kg3 Rf3+ Kg2 Rf4 Kh1 Rh4+ Kg2 Rg4+ Kh3 Be5
+Rd5 Rg5 Bb7 Kc2 Rd7 b4 Rf7 a4 a6 Kd2 Bc6 Rg6 Be8 Re6 Bd7 Rh6+ Kg2, tb$129825850,
+R50$1249, wv$128.09} 32... Nxf3 {-5.68/31 33s, ev$12-5.68, d$1231, pd$12Rxf3, mt$1200:00:33,
+tl$1200:03:44, s$1281371 k$146/s, n$122704152280, pv$12Nxf3 Rxf3 Be6 Bd6+ Bf5 Bh2 Kg5 Be5
+a5 Bxd4 Rb4 Bc3 Rh4 Bd3 Bxd3 Rxd3 Kf5 Rd5+ Ke6 Rxa5 Rh2 Bd2 Kd7 Kc2 Kc7 Kd3 Rh1
+Be3 Kb8 Ra7 Rd1+ Kc2 Rd8 Bd4 Rg8 Rg7 Rc8+ Kd3 Rd8 Re7, tb$1215549020, R50$1249,
+wv$125.68} 33. Rxf3 {+8.37/31 26s, ev$128.37, d$1231, pd$12Bg4, mt$1200:00:25,
+tl$1200:17:32, s$12128795 k$146/s, n$123344424962, pv$12Rxf3 Bg4 Ra3 Kf5 Bg3 Kf6 Ra5 Ke7
+Ba6 Rb4 Bd3 Rb7 Be4 Rb6 Rxa7+ Kf6 Bd3 Bc8 Bf2 Rb4 b3 Be6 Ra6 Kf7 Kd2 Bd5 Rd6 Be6
+Bxd4 Rb8 Ra6 Bd5 Bc5 Rh8 b4 Rh2+ Ke3 Bh1 Bf5 Bd5 Bg6+ Kg8 a4, tb$126668928,
+R50$1250, wv$128.37} 33... Be6 {-5.90/32 23s, ev$12-5.90, d$1232, pd$12Bd6+, mt$1200:00:22,
+tl$1200:03:26, s$1283245 k$146/s, n$121886016574, pv$12Be6 Bd6+ Bf5 Bg3 Kg6 Be5 Kg5 b3 Be4
+Rg3+ Kf5 Bxd4 Rc7+ Kb2 Rc2+ Ka3 Kf4 Rg7 Bd5 Bxa7 Rc8 Kb2 Ke5 Rg5+ Kd6 Bd4 Re8
+Bd3 Re1 a4 Rd1 Kc2 Re1 a5 Rh1 Kc3 Rh3 a6, tb$1212887765, R50$1250, wv$125.90} 34. Bd6+
+{+8.65/32 21s, ev$128.65, d$1232, pd$12Bf5, mt$1200:00:21, tl$1200:17:16, s$12129373 k$146/s,
+n$122739863886, pv$12Bd6+ Bf5 Bh2 Kg5 Be5 Re7 Bxd4 Kg4 Rf2 Bc8 b3 Rd7 Be2+ Kg5 Bf6+
+Kg6 Bb5 Rc7+ Kb2 Bf5 Bd4 Rb7 Rg2+ Kh5 Be2+ Kh6 Be3+ Kh7 Bc4 Bg6 Rg4 Rd7 Rh4+ Kg7
+Bd4+ Kf8 Rg4 Ke7 Kc3 Bh5 Rg7+ Kd8 Rxd7+ Kxd7 Bxa7 Kc7 a4 Bg4 Bd3, tb$126342638,
+R50$1250, wv$128.65} 34... Kg5 {-6.08/31 40s, ev$12-6.08, d$1231, pd$12b3, mt$1200:00:39,
+tl$1200:02:51, s$1284603 k$146/s, n$123361397751, pv$12Kg5 b3 a5 Rf4 Bf5 Rxd4 Kf6 Kb2 Rh7
+Bc4 Rg7 Kc3 Rh7 Bf4 Rh3+ Kb2 Rf3 Bc7 Rf2+ Ka3 Kg6 Bxa5 Bb1 Rd2 Rf4 Bd8 Rg4 Kb4
+Kf5 a4 Rg7 a5 Kf4 a6 Kg3, tb$1229700112, R50$1249, wv$126.08} 35. Ra3 {+9.38/32 34s,
+ev$129.38, d$1232, pd$12Rd7, mt$1200:00:33, tl$1200:16:47, s$12132317 k$146/s, n$124486341998,
+pv$12Ra3 Rd7 Ra5+ Kh4 Be5 Rf7 Bb5 Rf5 Bxd4 Bc8 b4 Rf8 Rxa7 Be6 Bd3 Kg4 Kd2 Rd8 Kc3
+Rc8+ Bc5 Kf4 a4 Ke5 a5 Bd5 Re7+ Kf6 Kd2 Ba8 a6 Rd8 a7, tb$1212436301, R50$1249,
+wv$129.38} 35... Rd7 {-6.43/33 16s, ev$12-6.43, d$1233, pd$12Ra5+, mt$1200:00:15,
+tl$1200:02:41, s$1286408 k$146/s, n$121354883906, pv$12Rd7 Ra5+ Kh4 Be5 Rf7 Bb5 Rf5 Bd3 Rf3
+Be4 Re3 Bc6 Kg4 Bxd4 Rh3 Bb5 Kf4 Bxa7 Rh8 Bd3 Rd8 Ra4+ Ke5 Kd2 Rf8 Ra5+ Kf4 Bd4
+Rd8 Bf6 Rg8 Ra4+ Kg3 Bd4 Kf3 Be2+ Kf4 Bc3+ Kg5 Ra5+ Kf4 Be5+ Ke4 Bd3+ Kf3 Bd4
+Rc8 b3 Bg8, tb$1210504481, R50$1248, wv$126.43} 36. Ra5+ {+10.39/30 33s, ev$1210.39,
+d$1230, pd$12Kf6, mt$1200:00:32, tl$1200:16:19, s$12136166 k$146/s, n$124447757760, pv$12Ra5+ Kf6
+Be5+ Kg5 Bd3 Kh4 Kd2 Bg4 Ra4 Kg5 Bxd4 a6 Bxa6 Bf3 Bd3 Bg2 Ra5+ Kf4 Be3+ Kg4 Ra7
+Rd8 Bb6 Rh8 Bc5 Bd5 b4 Kf4 Kc3 Rh3 Bd6+ Kf3 b5 Be4 Bxe4+ Kxe4+ Kc4 Rh1 b6 Rc1+
+Kb3, tb$1212325863, R50$1248, wv$1210.39} 36... Kh4 {-6.66/36 20s, ev$12-6.66, d$1236,
+pd$12Be5, mt$1200:00:19, tl$1200:02:26, s$1288714 k$146/s, n$121762766354, pv$12Kh4 Be5 Rf7 Ba6
+Rf5 Be2 Rf2 Bd3 Rf3 Ra3 Rf7 Ra6 Bc8 Ra5 Rf3 Ba6 Bxa6 Rxa6 d3 Kd2 Kg4 Ra4+ Kg5
+Bd4 Rh3 Be3+ Kf5 Kxd3 Rh1 Ra5+ Ke6 Rxa7 Kf5 Ra5+ Ke6 b4 Re1 Ra7 Rd1+ Bd2 Rf1 b5
+Rf8 Be3 Rb8 b6 Rxb6 Bxb6, tb$1214816268, R50$1247, wv$126.66} 37. Be5 {+11.22/30 31s,
+ev$1211.22, d$1230, pd$12Bg4, mt$1200:00:30, tl$1200:15:53, s$12138559 k$146/s, n$124265278627,
+pv$12Be5 Bg4 Bd3 Bf3 Kd2 Bh1 Bf5 Rf7 Bxd4 Kg3 Be5+ Kh4 Bd3 Rd7 Kc3 Rb7 Ra4+ Kg5 b4
+Bf3 Bd4 Rc7+ Bc5 a5 Rxa5 Rc8 Ra7 Kh4 Kd2 Bd5 Bd4 Kg4 b5 Kf4 Re7 Ra8 Be5+ Kf3 b6
+Rxa2+ Kc3, tb$1213641922, R50$1247, wv$1211.22} 37... Rf7 {-37.22/33 40s, ev$12-37.22,
+d$1233, pd$12Bd3, mt$1200:00:39, tl$1200:01:51, s$1295981 k$146/s, n$123828402173, pv$12Rf7 Bd3
+Bg4 Bxd4 Rd7 Bf2+ Kh3 Kc2 Rf7 Bc5 a6 Rxa6 Rc7 b4 Rf7 Ra7 Rf4 a4 Be6 Rh7+ Kg4 a5
+Rf3 Rg7+ Kh5 Kd2 Bb3 Re7 Ba4 Kc3 Bc6 a6 Ba8 Re5+ Kg4 Re8 Bc6 Re7 Bd5 a7 Rf4 Rg7+
+Kh3 Rh7+ Kg2 b5 Rg4 b6 Rg8, tb$1243812015, R50$1246, wv$1237.22} 38. Bb5 {+12.52/30
+39s, ev$1212.52, d$1230, pd$12Bg4, mt$1200:00:39, tl$1200:15:19, s$12138958 k$146/s,
+n$125469533259, pv$12Bb5 Bg4 Bxd4 a6 Rxa6 Rf5 Bd3 Rd5 Bf2+ Kh5 Kc2 Bh3 Kc3 Rd8 Bd4
+Rf8 Ra7 Kg5 Kd2 Re8 b4 Rd8 Rg7+ Kf4 Rf7+ Kg4 Re7 Kf4 Be5+ Kg5 Rg7+ Kh5 Ke3 Ra8
+b5 Ra5 Bf6 Ra3 Be7, tb$1214155947, R50$1246, wv$1212.52} 38... Rf8 {-39.32/38 61s,
+ev$12-39.32, d$1238, pd$12Bd3, mt$1200:01:01, tl$1200:00:55, s$12125439 k$146/s, n$127694179016,
+pv$12Rf8 Bd3 Rf3 Kd2 Rf2+ Ke1 Rf3 Ke2 Bg4 Kd2 Rf2+ Kc1 Rf7 Bxd4 Rd7 Bf2+ Kh3 Kc2
+Rd8 Rxa7 Kg2 Bb6 Rd6 Bc5 Rd8 b4 Rh8 Rg7 Kf3 Rf7+ Kg2 Kc3 Rh4 a4 Be6 Re7 Bd5 Ra7
+Rh3 Rg7+ Kf3 Rh7 Rg3, tb$1237588941, R50$1245, wv$1239.32} 39. Bxd4 {+14.37/29 21s,
+ev$1214.37, d$1229, pd$12Bd5, mt$1200:00:21, tl$1200:15:03, s$12140653 k$146/s, n$122999573859,
+pv$12Bxd4 Bd5 Bd3 Bc6 Kd2 Kg4 Rxa7 Rd8 Kc3 Be8 Bc5 Rc8 b4 Bc6 a4 Rg8 a5 Kh3 Rh7+
+Kg2 Re7 Ba4 Be4+ Kh3 Rh7+ Kg4 a6 Rc8 Re7 Re8 Rxe8 Bxe8 a7, tb$129271348, R50$1245,
+wv$1214.37} 39... Rf5 {-39.25/31 9.1s, ev$12-39.25, d$1231, pd$12Bxa7, mt$1200:00:09,
+tl$1200:00:50, s$12104205 k$146/s, n$12943477675, pv$12Rf5 Bxa7 Kg5 Bb6 Kf6 Be2 Rf4 Bc7 Rb4
+Be5+ Ke7 Ra7+ Bd7 Bc3 Rf4 Bb5 Ke6 Rxd7 Rf2 Bd4 Rg2 Rg7 Rh2 Bc4+ Kd6 Rg6+ Kd7 Bd3
+Rh4 Bb5+ Kc8 Rg8+ Kc7 Rg7+ Kd6 Rd7+ Ke6 Kc2 Rf4, tb$126880317, R50$1250, wv$1239.25}
+40. b4 {+20.82/28 26s, ev$1220.82, d$1228, pd$12Rd5, mt$1200:00:26, tl$1200:14:41,
+s$12145564 k$146/s, n$123815829634, pv$12b4 Rd5 Bc5 Bh3 Bc4 Rf5 Bd3 Rf3 Kd2 Rxd3+ Kxd3
+Bf1+ Kd2 Kg3 Bd4 Kf4 Rxa7 Bb5 Ra5 Bc6 b5 Be4 Ra7 Bd5 Be5+ Kf5 b6 Be4 b7,
+tb$1214633481, R50$1250, wv$1220.82} 40... Kg3 {-15.58/25 9.8s, ev$12-15.58, d$1225,
+pd$12a4, mt$1200:00:09, tl$1200:00:46, s$1292730 k$146/s, n$12905054304, pv$12Kg3 a4 Rf3 Rxa7
+Kf4 Re7 Bd5 a5 Ba8 Bc5 Ra3 Kd2 Kg5 Bd3 Ra2+ Kc3 Ra1 a6 Bc6 Rf7 Kg4 Rh7 Bf3 Rg7+
+Kh5 Kc2 Re1 Re7 Ra1 Bb5 Rd1 Rh7+ Kg5 Rf7 Bh5 Re7 Ra1 a7 Ra2+ Kc3 Bd1,
+tb$128145979, R50$1250, wv$1215.58} 41. Kd2 {+66.13/30 48s, ev$1266.13, d$1230, pd$12Kf4,
+mt$1200:00:48, tl$1200:13:58, s$12147630 k$146/s, n$127109446381, pv$12Kd2 Kf4 Bd3 Rf8 Rxa7
+Rd8 Bb6 Rd5 Kc3 Rh5 Bd4 Rh3 Re7 Bf5 Be3+ Kg4 b5 Bxd3 Kxd3 Rh8 Bd4 Rf8 Rg7+ Kf5
+b6 Ra8 Kd2 Rc8 b7 Rb8 Rf7+ Kg5 Be5 Rd8+ Kc3 Kg4 Rg7+ Kf3 Rg3+ Kf2 b8$12Q,
+tb$1231593958, R50$1250, wv$1266.13} 41... Rh5 {-39.44/32 8.2s, ev$12-39.44, d$1232,
+pd$12Bc5, mt$1200:00:08, tl$1200:00:43, s$12101932 k$146/s, n$12832076238, pv$12Rh5 Bc5 Bd5 Be2
+Rg5 Rxa7 Rg8 a4 Rd8 Kc3 Re8 Rg7+ Kf4 Bd3 Bc6 Bd6+ Kf3 a5 Re1 Bc5 Kf4 Rf7+ Kg4 a6
+Ra1 Kd2 Rh1 Rg7+ Kf4 Ra7 Ra1 Kc3 Rc1+ Kd4 Rd1 Rf7+ Kg4, tb$1210321691, R50$1249,
+wv$1239.44} 42. Bd3 {+153.07/29 18s, ev$12153.07, d$1229, pd$12Rh4, mt$1200:00:17,
+tl$1200:13:46, s$12158977 k$146/s, n$122817872702, pv$12Bd3 Rh4 Kc3 Rh3 Rxa7 Kg4 Rg7+ Kf4
+Re7 Bf5 Be3+ Kf3 Bxf5 Rh8 Kd3 Rd8+ Bd7 Rg8 Rf7+ Kg3 Bd4 Kh4 Rh7+ Kg5 Rg7+ Kh6
+Rxg8 Kh5 Rg5+ Kh4 Bf2+ Kxg5, tb$1219371557, R50$1249, wv$12153.07} 42... Rh2+
+{-250.00/31 6.3s, ev$12-250.00, d$1231, pd$12Be2, mt$1200:00:06, tl$1200:00:41, s$12108487
+k$146/s, n$12681302624, pv$12Rh2+ Be2 Rh7 Rxa7 Bd7 Bd3 Re7 b5 Rf7 Kc3 Kh4 b6 Kh5 b7 Rf8
+Ra8 Bc6 Rxf8 Bxb7 Rf7 Bc8 Rh7+ Kg5 Be5 Bg4 Rh5+ Bxh5, tb$1213594143, R50$1248,
+wv$12250.00} 43. Kc3 {+153.12/41 23s, ev$12153.12, d$1241, pd$12Rh3, mt$1200:00:23,
+tl$1200:13:27, s$12146023 k$146/s, n$123408923627, pv$12Kc3 Rh3 Rxa7 Kg4 Rg7+ Kf4 Re7 Bf5
+Be3+ Kg4 b5 Bc8 b6 Rh2 b7 Bxb7 Rxb7 Rh3 Bf5+ Kxf5, tb$12106598386, R50$1248,
+wv$12153.12} 43... Rh6 {-250.00/32 2.4s, ev$12-250.00, d$1232, pd$12Rxa7, mt$1200:00:02,
+tl$1200:00:44, s$12119411 k$146/s, n$12288019530, pv$12Rh6 Rxa7 Bd5 a4 Rh1 Bc5 Rc1+ Kd2 Ra1
+a5 Kf4 a6 Be6 Re7 Bc8 a7 Ra3 Be4 Ra2+ Kc3 Ra3+ Kd4 Ra1 a8$12Q Rxa8 Bxa8 Kg5 Kc3
+Ba6 Rg7+ Kf6 Rg6+ Kxg6, tb$122762685, R50$1247, wv$12250.00} 44. Rxa7 {+153.16/35 23s,
+ev$12153.16, d$1235, pd$12Bc8, mt$1200:00:23, tl$1200:13:09, s$12157538 k$146/s, n$123643855093,
+pv$12Rxa7 Bc8 b5 Kf3 b6 Rc6+ Kd2 Rd6 b7 Bxb7 Rxb7 Rxd4, tb$12104206420, R50$1247,
+wv$12153.16} 44... Bd5 {-250.00/35 0.64s, ev$12-250.00, d$1235, pd$12Be5+, mt$1200:00:00,
+tl$1200:00:48, s$12109244 k$146/s, n$1270135241, pv$12Bd5 Be5+ Kf2 Kd2 Rc6 Rg7 Rc8 Be2 Rc2+
+Kxc2 Kxe2 Bd4 Bc4 Kc3 Bb5 Rf7 Ke1 Rb7 Ba4 Re7+ Kf1 b5 Bd1 Re1+ Kg2 Rxd1,
+tb$121434777, R50$1250, wv$12250.00} 45. b5 {+M45/31 17s, ev$12M45, d$1231, pd$12Kf4,
+mt$1200:00:17, tl$1200:12:57, s$12163576 k$146/s, n$122780795236, pv$12b5 Kf4 b6 Rc6+ Kd2 Rc8
+Rd7 Bc6 Rf7+ Kg5 Be5 Re8 Rg7+ Kh4 Bf6+ Kh3 b7 Bxb7 Rxb7 Kg4 Bd4 Rf8 Re7 Kf4 Ke2
+Kg5 Ke3 Rg8 Rf7 Kh5 Be5 Rd8 Bf5 Ra8 Bf4 Ra3+ Kd2 Rxa2+ Kc3 Ra3+ Kb2 Ra7,
+tb$1273002546, R50$1250, wv$12M45} 45... Kg4 {-250.00/27 0.78s, ev$12-250.00, d$1227,
+pd$12b6, mt$1200:00:00, tl$1200:00:52, s$12103180 k$146/s, n$1280790130, pv$12Kg4 b6 Rc6+ Bc5
+Rc8 b7 Bxb7 Rxb7 Kg5 Rc7 Rb8 Rg7+ Kf6 Rg6+ Kf7 Bc4+ Ke8 Rg8+ Kd7 Rxb8,
+tb$121443517, R50$1250, wv$12250.00} 46. Rd7 {+M33/52 28s, ev$12M33, d$1252, pd$12Bh1,
+mt$1200:00:28, tl$1200:12:34, s$12140582 k$146/s, n$123985363144, pv$12Rd7 Bh1 b6 Rh3 b7 Bxb7
+Rxb7 Kf4 Rf7+ Kg4 Kd2 Rh2+ Ke3 Rh3+ Ke4 Kg5 Rg7+ Kh6 Bf6 Kh5 Bg5 Rxd3 Kxd3 Kg4
+Ke4 Kg3 Be3+ Kh4 Kf3 Kh5 Bf4 Kh4 Rh7#, tb$12136882437, R50$1250, wv$12M33} 46... Bf3
+{-250.00/32 0.70s, ev$12-250.00, d$1232, pd$12b6, mt$1200:00:00, tl$1200:00:57, s$12111977
+k$146/s, n$1277936112, pv$12Bf3 b6 Rc6+ Kd2 Rc8 b7 Rf8 Rg7+ Kh5 Be2 Rb8 Bxf3+ Kh6 Rg8
+Rxg8 b8$12Q Rg2+ Bxg2, tb$121867635, R50$1249, wv$12250.00} 47. b6 {+M31/60 14s, ev$12M31,
+d$1260, pd$12Rc6+, mt$1200:00:13, tl$1200:12:25, s$12138416 k$146/s, n$121931046902, pv$12b6 Rc6+
+Kd2 Re6 Rg7+ Kf4 Rf7+ Kg3 b7 Bxb7 Rxb7 Rh6 Rf7 Kg4 Be3 Rh2+ Be2+ Kh3 Ke1 Rg2 Bf2
+Rg8 Kf1 Rh8 Rg7 Kh2 Bf3 Rh5 Bg3+ Kh3 Bg2#, tb$1271933205, R50$1249, wv$12M31} 47...
+Rc6+ {-250.00/35 0.71s, ev$12-250.00, d$1235, pd$12Kd2, mt$1200:00:00, tl$1200:01:01,
+s$1291954 k$146/s, n$1265287762, pv$12Rc6+ Kd2 Rc8 b7 Re8 Be5 Bxb7 Rxb7 Rd8 Rg7+ Kh5 Bf6
+Rd5 Rg5+ Kh6 Bg7+ Kxg5, tb$122727267, R50$1250, wv$12250.00} 48. Kd2 {+M27/67 20s,
+ev$12M27, d$1267, pd$12Re6, mt$1200:00:19, tl$1200:12:10, s$12134490 k$146/s, n$122627937671,
+pv$12Kd2 Re6 Be3 Re8 Rg7+ Kh4 Bf4 Rf8 Ke3 Bd1 b7 Re8+ Be4 Kh5 b8$12Q Rxb8 Bxb8 Kh6
+Be5 Bh5 Kf4 Bg6 Rxg6+ Kh5 Bf5 Kh4 Rh6#, tb$12107180511, R50$1250, wv$12M27} 48... Re6
+{-250.00/35 1.5s, ev$12-250.00, d$1235, pd$12b7, mt$1200:00:01, tl$1200:01:05, s$12144217
+k$146/s, n$12210124728, pv$12Re6 b7 Re8 Be5 Bxb7 Rxb7 Rd8 Rg7+ Kh5 Bf6 Ra8 Be2+ Kh6
+Bg5+ Kxg7, tb$123796810, R50$1249, wv$12250.00} 49. Be3 {+M25/68 22s, ev$12M25, d$1268,
+pd$12Re8, mt$1200:00:22, tl$1200:11:53, s$12133671 k$146/s, n$122953203721, pv$12Be3 Re8 Rg7+
+Kh4 Bf4 Rf8 Ke3 Bd1 b7 Re8+ Kf2 Rf8 b8$12Q Rxb8 Bxb8 Kh5 Bf4 Kh4 Be2 Bxe2 Kxe2 Kh3
+Kf3 Kh4 Rh7#, tb$12128035624, R50$1249, wv$12M25} 49... Bc6 {-250.00/34 1.7s,
+ev$12-250.00, d$1234, pd$12Rg7+, mt$1200:00:01, tl$1200:01:08, s$1294274 k$146/s, n$12158664603,
+pv$12Bc6 Rg7+ Kf3 Rf7+ Kg2 b7 Re8 Rf2+ Kg1 Rf8+ Kh2 Rxe8 Bxb7 Be4 Kh3 Bxb7,
+tb$126450502, R50$1248, wv$12250.00} 50. Rc7 {+M23/64 30s, ev$12M23, d$1264, pd$12Bd5,
+mt$1200:00:29, tl$1200:11:28, s$12131622 k$146/s, n$123904052646, pv$12Rc7 Bd5 b7 Re8 Rg7+
+Kh4 Be2 Bxb7 Bf2+ Kh3 Bf1+ Bg2 Bxg2+ Kh2 Bf3 Rd8+ Ke1 Re8+ Kf1 Re7 Bg3+ Kh3
+Bg2#, tb$12165716571, R50$1248, wv$12M23} 50... Bd5 {-250.00/33 1.3s, ev$12-250.00,
+d$1233, pd$12Rg7+, mt$1200:00:01, tl$1200:01:12, s$1299893 k$146/s, n$12124867277, pv$12Bd5 Rg7+
+Kh4 Bf4 Rxb6 Bf5 Bg8 Rxg8 Rb2+ Ke3 Rb6 Rh8+ Rh6 Rxh6#, tb$124883829, R50$1247,
+wv$12250.00} 51. b7 {+M21/67 50s, ev$12M21, d$1267, pd$12Re8, mt$1200:00:50, tl$1200:10:43,
+s$12124275 k$146/s, n$126254185430, pv$12b7 Re8 Rg7+ Kh4 Be2 Bxb7 Bf2+ Kh3 Bf1+ Bg2 Bxg2+
+Kh2 Bf3 Rd8+ Ke1 Re8+ Kf1 Re7 Bg3+ Kh3 Bg2#, tb$12262544369, R50$1247, wv$12M21} 51...
+Re8 {-250.00/35 0.90s, ev$12-250.00, d$1235, pd$12Rg7+, mt$1200:00:00, tl$1200:01:16,
+s$1298532 k$146/s, n$1289073262, pv$12Re8 Rg7+ Kh4 Bf5 Bxb7 Bf2+ Kh5 Bg6+ Kg4 Bxe8+ Kh3
+Rxb7, tb$123484257, R50$1250, wv$12250.00} 52. Rg7+ {+M19/70 21s, ev$12M19, d$1270,
+pd$12Kh4, mt$1200:00:20, tl$1200:10:27, s$12127448 k$146/s, n$122668781779, pv$12Rg7+ Kh4 Be2
+Bxb7 Bf2+ Kh3 Bf1+ Bg2 Bxg2+ Kh2 Bf3 Rd8+ Ke1 Re8+ Kf1 Re7 Bg3+ Kh3 Bg2#,
+tb$1297055664, R50$1250, wv$12M19} 52... Kh4 {-250.00/32 0.85s, ev$12-250.00, d$1232,
+pd$12Bf5, mt$1200:00:00, tl$1200:01:20, s$12183508 k$146/s, n$12156899719, pv$12Kh4 Bf5 Bxb7
+Bf2+ Kh5 Bg6+ Kg4 Bxe8+ Kh3 Rxb7, tb$121468600, R50$1249, wv$12250.00} 53. Be2
+{+M17/72 21s, ev$12M17, d$1272, pd$12Bxb7, mt$1200:00:20, tl$1200:10:11, s$12127883 k$146/s,
+n$122679285903, pv$12Be2 Bxb7 Bf2+ Kh3 Bf1+ Bg2 Bxg2+ Kh2 Bf3 Rd8+ Ke1 Re8+ Kf1 Re7
+Bg3+ Kh3 Bg2#, tb$1292793732, R50$1249, wv$12M17} 53... Bxb7 {-250.00/44 1.5s,
+ev$12-250.00, d$1244, pd$12Bf2+, mt$1200:00:01, tl$1200:01:23, s$12156817 k$146/s, n$12242910264,
+pv$12Bxb7 Bf2+ Kh3 Bf1+ Bg2 Bxg2+ Kh2 Rh7+ Kxg2, tb$122055373, R50$1248, wv$12250.00}
+54. Bf2+ {+M15/81 20s, ev$12M15, d$1281, pd$12Kh3, mt$1200:00:20, tl$1200:09:56, s$12137715
+k$146/s, n$122784599569, pv$12Bf2+ Kh3 Bf1+ Bg2 Bxg2+ Kh2 Bf3 Rd8+ Ke1 Re8+ Kf1 Re7
+Bg3+ Kh3 Bg2#, tb$1279384163, R50$1250, wv$12M15} 54... Kh3 {-250.00/5 0.002s,
+ev$12-250.00, d$125, pd$12Bf1+, mt$1200:00:00, tl$1200:01:28, s$12859 k$146/s, n$121720, pv$12Kh3
+Bf1+ Bg2 Bxg2+ Kh2 Rh7+ Kxg2, tb$1224, R50$1250, wv$12250.00} 55. Bf1+ {+M13/96 14s,
+ev$12M13, d$1296, pd$12Bg2, mt$1200:00:14, tl$1200:09:47, s$12139241 k$146/s, n$121965531422,
+pv$12Bf1+ Bg2 Bxg2+ Kh2 Bf3 Rd8+ Ke1 Re8+ Kf1 Re7 Bg3+ Kh3 Bg2#, tb$1249728657,
+R50$1249, wv$12M13} 55... Bg2 {-250.00/50 0.99s, ev$12-250.00, d$1250, pd$12Bxg2+,
+mt$1200:00:00, tl$1200:01:32, s$12132485 k$146/s, n$12131292732, pv$12Bg2 Bxg2+ Kh2 Rh7+
+Kxg2, tb$123762000, R50$1249, wv$12250.00} 56. Bxg2+ {+M11/127 9.2s, ev$12M11, d$12127,
+pd$12Kh2, mt$1200:00:09, tl$1200:09:43, s$12132211 k$146/s, n$121215424592, pv$12Bxg2+ Kh2 Bf3
+Rd8+ Ke1 Re8+ Kf1 Re7 Bg3+ Kh3 Bg2#, tb$1232518801, R50$1248, wv$12M11} 56... Kh2
+{-250.00/5 0.001s, ev$12-250.00, d$125, pd$12Rh7+, mt$1200:00:00, tl$1200:01:37, s$12964
+k$146/s, n$12964, pv$12Kh2 Rh7+ Kxg2, tb$1234, R50$1250, wv$12250.00} 57. Bf3 {+M9/127 0.20s,
+ev$12M9, d$12127, pd$12Rd8+, mt$1200:00:00, tl$1200:09:48, s$12144407 k$146/s, n$1229748018,
+pv$12Bf3 Rd8+ Ke1 Re8+ Kf1 Re7 Bg3+ Kh3 Bg2#, tb$121534002, R50$1250, wv$12M9} 57...
+Rd8+ {-250.00/46 1.1s, ev$12-250.00, d$1246, pd$12Rd7, mt$1200:00:01, tl$1200:01:41,
+s$12114217 k$146/s, n$12128951583, pv$12Rd8+ Rd7 Rh8 Rh7+ Rxh7, tb$124352809, R50$1249,
+wv$12250.00} 58. Ke1 {+M7/127 0.016s, ev$12M7, d$12127, pd$12Re8+, mt$1200:00:00,
+tl$1200:09:52, s$1294537 k$146/s, n$121512605, pv$12Ke1 Re8+ Kf1 Re7 Bg3+ Kh3 Bg2#,
+tb$1281872, R50$1249, wv$12M7} 58... Re8+ {-250.00/59 1.5s, ev$12-250.00, d$1259, pd$12Kf1,
+mt$1200:00:01, tl$1200:01:45, s$12113840 k$146/s, n$12173492721, pv$12Re8+ Kf1 Re1+ Kxe1,
+tb$124603745, R50$1248, wv$12250.00} 59. Kf1 {+M5/127 0.007s, ev$12M5, d$12127, pd$12Re7,
+mt$1200:00:00, tl$1200:09:57, s$1250469 k$146/s, n$12403758, pv$12Kf1 Re7 Bg3+ Kh3 Bg2#,
+tb$1224935, R50$1248, wv$12M5} 59... Re1+ {-250.00/91 2.2s, ev$12-250.00, d$1291, pd$12Kxe1,
+mt$1200:00:02, tl$1200:01:47, s$1279278 k$146/s, n$12177742678, pv$12Re1+ Kxe1, tb$121600038,
+R50$1247, wv$12250.00} 60. Kxe1 {+M3/127 0.007s, ev$12M3, d$12127, pd$12Kh3, mt$1200:00:00,
+tl$1200:10:02, s$1213279 k$146/s, n$1279674, pv$12Kxe1 Kh3 Rh7#, tb$1211878, R50$1247, wv$12M3}
+60... Kh3 {-M2/5 0.003s, ev$12-M2, d$125, pd$12Rh7#, mt$1200:00:00, tl$1200:01:52, s$124
+k$146/s, n$1214, pv$12Kh3 Rh7#, tb$125, R50$1250, wv$12M2} 61. Rh7# {+M1/127 0.004s, ev$12M1,
+d$12127, mt$1200:00:00, tl$1200:10:07, s$1242827 k$146/s, n$12214138, pv$12Rh7#, tb$1239, R50$1250,
+wv$12M1, White mates} 1-0
+
+[Event "Adams - Hydra Match"]
+[Site "London ENG"]
+[Date "2005.06.23"]
+[EventDate "?"]
+[Round "3"]
+[Result "1-0"]
+[White "Hydra (Computer)"]
+[Black "Michael Adams"]
+[ECO "C91"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "55"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3
+d6 8.c3 O-O 9.d4 Bg4 10.d5 Na5 11.Bc2 c6 12.h3 Bc8 13.dxc6 Qc7
+14.Nbd2 Qxc6 15.Nf1 Be6 16.Ng5 Bd8 17.Ne3 Bd7 18.a4 h6 19.Nf3
+Rc8 20.axb5 axb5 21.Nh4 Nc4 22.Nxc4 bxc4 23.Ba4 Qc7 24.Bxd7
+Qxd7 25.Nf5 d5 26.Ra6 Qb7 27.Rd6 Be7 28.Bxh6 1-0
+
+[Event "WCCC Pamplona Openclass"]
+[Site "Pamplona"]
+[Date "2009.05.13"]
+[EventDate "?"]
+[Round "6"]
+[Result "1-0"]
+[White "Rybka (Computer)"]
+[Black "Shredder (Computer)"]
+[ECO "C67"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "55"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Qe2 Ng5 6. Nxg5
+Qxg5 7. d4 Qe7 8. dxe5 Nd4 9. Qd3 Qxe5 10. Nc3 Bc5 11. Qd1 Ne6
+12. Re1 Qd4 13. Qf3 O-O 14. Re4 Qd6 15. Rh4 Qe5 16. Bd2 f5
+17. Re1 Qf6 18. Qh3 Qg6 19. Nd5 c6 20. Rxe6 Qxe6 21. Nf4 Qxa2
+22. Rxh7 cxb5 23. g3 Rf6 24. Bc3 Kf7 25. Qh4 Qa1+ 26. Kg2 Qa6
+27. Bxf6 Qxf6 28. Qh5+ 1-0
+
+[Event "nTCEC - Stage 2b"]
+[Site "http://www.tcec-chess.net"]
+[Date "2013.03.25"]
+[EventDate "2013.03.11"]
+[Round "14"]
+[Result "1/2-1/2"]
+[White "Shredder (Computer)"]
+[Black "Gull (Computer)"]
+[ECO "D16"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "104"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bg4 6. e4 Bxf3
+7. gxf3 e6 8. Rg1 Qc7 9. e5 Nd5 10. Bxc4 Nb6 11. Bb3 a5
+12. Be3 Na6 13. Qe2 O-O-O 14. O-O-O g6 15. Kb1 Kb8 16. Ne4 Be7
+17. Bh6 Rd7 18. Nd6 Bxd6 19. exd6 Rxd6 20. Bf4 Nc8 21. Qe5
+Rhd8 22. Qg7 h5 23. Rc1 Nb4 24. Bg3 b6 25. Rcd1 Kb7 26. Be5
+R8d7 27. f4 Qd8 28. f5 exf5 29. Bxd6 Nxd6 30. f3 f4 31. Qe5
+Nf5 32. Qxf4 Nxd4 33. Bc4 Ka7 34. h4 c5 35. Rge1 Rb7 36. Rc1
+f6 37. Rc3 g5 38. hxg5 fxg5 39. Qe5 Rd7 40. Qe4 h4 41. Qg4 Re7
+42. Re4 Qe8 43. Rce3 Rxe4 44. Rxe4 Qxa4 45. Re7+ Kb8 46. Bb3
+Nxb3 47. Qf4+ gxf4 48. Rb7+ Kc8 49. Rc7+ Kd8 50. Rd7+ Ke8
+51. Re7+ Kf8 52. Rf7+ Kg8 1/2-1/2
+
+[Event "nTCEC - Stage 2 - Season 2"]
+[Site "http://www.tcec-chess.net"]
+[Date "2013.09.19"]
+[EventDate "2013.09.17"]
+[Round "2"]
+[Result "0-1"]
+[White "Bouquet (Computer)"]
+[Black "Stockfish (Computer)"]
+[ECO "A25"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "221"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Rb1 a5 6. a3 f5
+7. d3 Nf6 8. Nf3 O-O 9. O-O d6 10. b4 axb4 11. axb4 Qe8 12. b5
+Nd8 13. Nd2 Ne6 14. Bb2 f4 15. Nde4 Nxe4 16. Nxe4 Qe7 17. Qd2
+h5 18. Ra1 Rxa1 19. Rxa1 Bh6 20. Ra7 Kh7 21. Qe1 fxg3 22. hxg3
+h4 23. e3 hxg3 24. fxg3 Ng5 25. Nxg5+ Qxg5 26. Bc1 Qg4 27. Ra2
+Rf6 28. Bd5 Bf5 29. e4 Bc8 30. Rh2 g5 31. Be3 b6 32. Bf2 Kg6
+33. Bc6 Rf8 34. Be3 Be6 35. Bd5 Bd7 36. Rh1 Qf3 37. Rh2 Bg4
+38. Bc6 Bg7 39. Bd5 Bf6 40. Qf2 Be7 41. Qe1 Bd7 42. Rh1 Bc8
+43. Rh2 Bg4 44. Rh1 Bd7 45. Rh2 Kg7 46. Rh1 Bg4 47. Rh2 Bd8
+48. Bc6 Bf6 49. Bb7 Kg6 50. Bd5 Bd8 51. Bc6 Be6 52. Bd5 Bc8
+53. Rh1 Kg7 54. Rh2 Bd7 55. Bc6 Bg4 56. Bb7 Be6 57. Ba8 Be7
+58. Bb7 Bd7 59. Bd5 Bg4 60. Bc6 Bc8 61. Bd5 Bd8 62. Ba8 Kg6
+63. Bc6 Bg4 64. Bd5 Bd7 65. Bb7 Qg4 66. Ba8 d5 67. Bxd5 Be7
+68. Bf2 Rf3 69. Qe2 Rxg3+ 70. Bxg3 Qxg3+ 71. Rg2 Bc5+ 72. Kh1
+Qf4 73. Bc6 Bh3 74. Be8+ Kg7 75. Bh5 Qh4 76. Rh2 Bd4 77. c5
+Bxc5 78. Bf3 Qg3 79. Bg2 Bg4 80. Qd2 Kg6 81. Qc1 Qxd3 82. Rh8
+Be6 83. Qe1 Qb3 84. Kh2 Be3 85. Qe2 Kg7 86. Re8 Bc4 87. Qe1
+Qa3 88. Bf1 Qa2+ 89. Kh1 Bf4 90. Bg2 Qa3 91. Rd8 Bxb5 92. Rd1
+Bc6 93. Qf2 Bxe4 94. Rd7+ Kf8 95. Bxe4 Qh3+ 96. Kg1 Qxd7
+97. Qc2 c5 98. Kf1 g4 99. Bf5 Qd5 100. Be4 Qd4 101. Bb7 Qd7
+102. Qe4 Qd1+ 103. Kf2 g3+ 104. Kg2 Qd2+ 105. Kf3 Kg7 106. Qd5
+Qxd5+ 107. Bxd5 Kf6 108. Ke2 Ke7 109. Bg2 Kd6 110. Bh3 c4
+111. Kf1 0-1
+
+[Event "TCEC - Season 6 - Stage 2"]
+[Site "http://tcec.chessdom.com"]
+[Date "2014.03.17"]
+[EventDate "2014.03.16"]
+[Round "1"]
+[Result "1-0"]
+[White "Critter (Computer)"]
+[Black "Naum (Computer)"]
+[ECO "C04"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "70"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. Bd3 f6
+7. Ng5 Ndxe5 8. dxe5 fxg5 9. Qh5+ g6 10. Bxg6+ Kd7 11. c4 Nxe5
+12. Bc2 Qf6 13. O-O c6 14. cxd5 cxd5 15. Ne4 dxe4 16. Rd1+ Bd6
+17. Bxg5 Qg6 18. Rxd6+ Kxd6 19. Rd1+ Nd3 20. Qh4 e5 21. Bxd3
+exd3 22. Qb4+ Ke6 23. Qc4+ Kf5 24. h4 Qe6 25. Qxd3+ e4 26. Qc3
+Rg8 27. Qc5+ Kg6 28. Rd6 h6 29. Be3 Re8 30. Rxe6+ Bxe6 31. Qe5
+Bxa2 32. Qf4 h5 33. g4 Re7 34. Bd4 Kh7 35. Qf5+ Kg8 1-0
+
+[Event "TCEC - Season 7 - Stage 1a"]
+[Site "http://tcec.chessdom.com"]
+[Date "2014.09.23"]
+[EventDate "2014.09.19"]
+[Round "4"]
+[Result "0-1"]
+[White "Arasan (Computer)"]
+[Black "Critter (Computer)"]
+[ECO "A34"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "76"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. g3 Nxc3 6. bxc3
+g6 7. Bg2 Bg7 8. O-O O-O 9. Qa4 Qb6 10. Qh4 Nc6 11. a4 Bd7
+12. Ba3 Qa5 13. Rfb1 b6 14. Bb2 Rad8 15. Qf4 e5 16. Qc4 Be6
+17. Qh4 h6 18. d3 Rfe8 19. Nd2 Nd4 20. cxd4 Qxd2 21. dxc5 bxc5
+22. Bc6 c4 23. Bxe8 Rxe8 24. Qe4 c3 25. Ba3 Bf5 26. Qd5 c2
+27. Re1 e4 28. Qb5 Re6 29. Bb4 e3 30. Bxd2 exd2 31. Qb4 Rxe2
+32. Rxe2 d1=Q+ 33. Rxd1 cxd1=Q+ 34. Re1 Qxd3 35. Qb8+ Kh7
+36. Qxa7 Qd5 37. Qe3 Bc3 38. g4 Bxe1 0-1
+
+[Event "TCEC Season 7 stage 2"]
+[Site "?"]
+[Date "2014.10.29"]
+[EventDate "?"]
+[Round "5"]
+[Result "1-0"]
+[White "Stockfish (Computer)"]
+[Black "Jonny (Computer)"]
+[ECO "D20"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "120"]
+
+1. d4 d5 2. c4 dxc4 3. e3 Be6 4. Nf3 c6 5. Nbd2 b5 6. a4 Nf6
+7. axb5 cxb5 8. b3 c3 9. Bxb5+ Bd7 10. Bxd7+ Nbxd7 11. Nb1 Rc8
+12. Qc2 Nd5 13. Ba3 e5 14. Bxf8 Kxf8 15. O-O Nb4 16. Qe4 c2
+17. Na3 Nf6 18. Qb7 Nfd5 19. Nxe5 Qc7 20. Qb5 a6 21. Qa4 a5
+22. Nb5 c1=Q 23. Raxc1 Qxc1 24. h3 Qc2 25. Nd6 Rb8 26. e4 Nb6
+27. Qb5 Qc7 28. Ndxf7 Rg8 29. Qxa5 N6d5 30. Qa1 Nf4 31. d5
+Nbd3 32. Qa3+ Qe7 33. d6 Qf6 34. d7+ Qe7 35. Qa5 Nxe5 36. Nxe5
+Qd6 37. Kh2 Ng6 38. f4 Ke7 39. Nc4 Qd4 40. f5 Nf8 41. Rf2 Qxf2
+42. Qe5+ Kxd7 43. Qxb8 Ke7 44. Qe5+ Kd8 45. Qd5+ Ke7 46. Qxg8
+Qf4+ 47. Kg1 Qc1+ 48. Kf2 Qf4+ 49. Ke2 Qxe4+ 50. Ne3 Qe5
+51. Kf3 h6 52. b4 Ke8 53. Qd5 Qf6 54. Qe4+ Kf7 55. b5 Nd7
+56. Qc4+ Ke8 57. Qc8+ Qd8 58. Qxd8+ Kxd8 59. Ke4 Nf8 60. Kd5
+Kc8 1-0
+
+[Event "AlphaZero vs. Stockfish"]
+[Site "?"]
+[Date "2017.12.04"]
+[Round "1"]
+[White "AlphaZero"]
+[Black "Stockfish 8"]
+[Result "1-0"]
+[Board "10"]
+[Whitecountry "ENG"]
+[Whitefideid "deepmind"]
+[Blackcountry "NOR"]
+[Blackfideid "stockfish"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO ""]
+
+1. Nf3 Nf6 2. d4 e6 3. c4 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. d5 exd5 8. Nh4
+c6 9. cxd5 Nxd5 10. Nf5 Nc7 11. e4 d5 12. exd5 Nxd5 13. Nc3 Nxc3 14. Qg4 g6 15.
+Nh6+ Kg7 16. bxc3 Bc8 17. Qf4 Qd6 18. Qa4 g5 19. Re1 Kxh6 20. h4 f6 21. Be3 Bf5
+22. Rad1 Qa3 23. Qc4 b5 24. hxg5+ fxg5 25. Qh4+ Kg6 26. Qh1 Kg7 27. Be4 Bg6 28.
+Bxg6 hxg6 29. Qh3 Bf6 30. Kg2 Qxa2 31. Rh1 Qg8 32. c4 Re8 33. Bd4 Bxd4 34. Rxd4
+Rd8 35. Rxd8 Qxd8 36. Qe6 Nd7 37. Rd1 Nc5 38. Rxd8 Nxe6 39. Rxa8 Kf6 40. cxb5
+cxb5 41. Kf3 Nd4+ 42. Ke4 Nc6 43. Rc8 Ne7 44. Rb8 Nf5 45. g4 Nh6 46. f3 Nf7 47.
+Ra8 Nd6+ 48. Kd5 Nc4 49. Rxa7 Ne3+ 50. Ke4 Nc4 51. Ra6+ Kg7 52. Rc6 Kf7 53. Rc5
+Ke6 54. Rxg5 Kf6 55. Rc5 g5 56. Kd4 1-0
+
+[Event "AlphaZero - Stockfish"]
+[Site "London ENG"]
+[Date "2017.12.04"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "AlphaZero (Computer)"]
+[Black "Stockfish (Computer)"]
+[ECO "C11"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "103"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 cxd4
+7. Nb5 Bb4+ 8. Bd2 Bc5 9. b4 Be7 10. Nbxd4 Nc6 11. c3 a5
+12. b5 Nxd4 13. cxd4 Nb6 14. a4 Nc4 15. Bd3 Nxd2 16. Kxd2 Bd7
+17. Ke3 b6 18. g4 h5 19. Qg1 hxg4 20. Qxg4 Bf8 21. h4 Qe7
+22. Rhc1 g6 23. Rc2 Kd8 24. Rac1 Qe8 25. Rc7 Rc8 26. Rxc8+
+Bxc8 27. Rc6 Bb7 28. Rc2 Kd7 29. Ng5 Be7 30. Bxg6 Bxg5
+31. Qxg5 fxg6 32. f5 Rg8 33. Qh6 Qf7 34. f6 Kd8 35. Kd2 Kd7
+36. Rc1 Kd8 37. Qe3 Qf8 38. Qc3 Qb4 39. Qxb4 axb4 40. Rg1 b3
+41. Kc3 Bc8 42. Kxb3 Bd7 43. Kb4 Be8 44. Ra1 Kc7 45. a5 Bd7
+46. axb6+ Kxb6 47. Ra6+ Kb7 48. Kc5 Rd8 49. Ra2 Rc8+ 50. Kd6
+Be8 51. Ke7 g5 52. hxg5 1-0
+
+[Event "CCC 7: Blitz Bonanza Final (5|2)"]
+[Site "?"]
+[Date "2019.04.06"]
+[Round "1"]
+[White "Leelenstein"]
+[Black "Stockfish"]
+[Result "1-0"]
+[Variation "Winawer, Advance Variation"]
+[TimeControl "300+2"]
+[Termination "normal"]
+[PlyCount "259"]
+[WhiteType "human"]
+[BlackType "human"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 7. Bd2 Qa4 8.
+h4 Ne7 9. Qg4 Kf8 10. h5 h6 11. Rh3 Nbc6 12. Qf4 b6 13. Rf3 Nd8 14. dxc5
+Qxf4 15. Bxf4 bxc5 16. Be3 c4 17. Rh3 f6 18. f4 fxe5 19. fxe5 Nf7 20. Nf3
+Nc6 21. Bf4 Ke7 22. Be2 Rg8 23. O-O-O Bd7 24. Nh4 Kd8 25. Ng6 a5 26. Rf1
+Ne7 27. Bg4 Nxg6 28. hxg6 Nh8 29. Bh5 Kc7 30. Be3 Kc6 31. Rf7 a4 32. Rhf3
+Nxf7 33. gxf7 Rh8 34. Bf2 Raf8 35. Bh4 g5 36. Bf2 Rh7 37. Bd4 Rhh8 38. Rf6
+Kb5 39. Kd2 Kc6 40. Ke3 Kb5 41. Kf3 Kc6 42. Kg4 Bc8 43. Bg6 Bd7 44. Kh5 Kb5
+45. g3 Rb8 46. Rf1 Kc6 47. Rf6 Kb5 48. Rf1 Kc6 49. g4 Rbf8 50. Rb1 Ra8 51.
+Rb4 Ra6 52. Bh7 Rf8 53. Kg6 Ra5 54. Rb6+ Kc7 55. Kg7 Raa8 56. Bc5 Rfc8 57.
+Rd6 Rcb8 58. Bg6 Rh8 59. Kf6 Rab8 60. Ra6 Rbc8 61. Ra7+ Kc6 62. Bd6 Rcd8
+63. Rxa4 h5 64. gxh5 g4 65. Rb4 g3 66. Rb1 Bc8 67. Rg1 d4 68. Be4+ Kb5 69.
+a4+ Ka6 70. Rxg3 d3 71. cxd3 Bd7 72. dxc4 Rc8 73. Rg7 Rcd8 74. c5 Rc8 75.
+Bd3+ Ka5 76. Rg4 Bc6 77. Rb4 Bd5 78. Rb6 Kxa4 79. c6 Bxc6 80. Rb4+ Ka3 81.
+Rb6+ Ka2 82. Bb1+ Ka1 83. Bg6 Bf3 84. c4 Ka2 85. Ra6+ Kb2 86. Rb6+ Kc3 87.
+c5 Ra8 88. c6 Rh6 89. Bb4+ Kd4 90. c7 Rhh8 91. Rd6+ Kc4 92. Rxe6 Kxb4 93.
+Rd6 Rhc8 94. e6 Kc5 95. Rd3 Be2 96. Rc3+ Kb4 97. Rc2 Bg4 98. e7 Bd7 99. h6
+Kb3 100. Rc5 Rh8 101. h7 Rac8 102. Be4 Kb4 103. Rc1 Ka5 104. Ke5 Bg4 105.
+Ra1+ Kb6 106. Rb1+ Ka5 107. Rb7 Rce8 108. c8=Q Rxc8 109. f8=Q Rcxf8 110.
+exf8=Q Rxf8 111. Rg7 Re8+ 112. Kf6 Bc8 113. Rg8 Re6+ 114. Kg5 Rxe4 115.
+h8=Q Rg4+ 116. Kh5 Rxg8 117. Qxg8 Ba6 118. Qb3 Bf1 119. Qa2+ Kb4 120. Qb1+
+Ka3 121. Qxf1 Kb4 122. Kg4 Kc5 123. Qd3 Kb4 124. Kf5 Kc5 125. Ke5 Kc6 126.
+Qd5+ Kc7 127. Qb5 Kd8 128. Kd6 Kc8 129. Qb3 Kd8 130. Qb8# 1-0
+
+[Event "CCC 7: Blitz Bonanza Final (5|2)"]
+[Site "?"]
+[Date "2019.04.12"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Antifish"]
+[Result "0-1"]
+[ECO "C07"]
+[GameDuration "00:18:07"]
+[GameEndTime "2019-04-12T07:08:05.461 PDT"]
+[GameStartTime "2019-04-12T06:49:57.716 PDT"]
+[Opening "French"]
+[PlyCount "246"]
+[TimeControl "300+2"]
+[Variation "Tarrasch, Open Variation"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 Nf6 5. e5 Nfd7 6. c3 Nc6 7. Bd3 cxd4 8. cxd4
+Qb6 9. Nb3 a5 10. a4 Bb4+ 11. Kf1 f6 12. Be3 Qc7 13. Nh4 fxe5 14. Qh5+ Kd8 15.
+Ng6 Nf6 16. Qh4 exd4 17. Nxd4 Rg8 18. Nb5 Qb8 19. Bb6+ Kd7 20. Bc7 Qxc7 21. Nxc7
+Kxc7 22. Nf4 e5 23. Ne2 Be6 24. Rc1 Rad8 25. f3 d4 26. h3 Bd5 27. Bb5 Kb8 28.
+Qg3 Bd6 29. Qe1 Nb4 30. Ng3 Ka8 31. Kg1 Bb8 32. Rd1 g5 33. Rd3 h5 34. Ne4 Rdf8
+35. Kh2 g4 36. Rg1 Nh7 37. Rf1 gxh3 38. g3 Ng5 39. Ra3 Ne6 40. Bd7 h4 41. g4 Nf4
+42. Bf5 d3 43. Qxh4 Nc2 44. Rd1 Nxa3 45. bxa3 Bc6 46. Qe7 Rd8 47. Qf7 Rh8 48.
+Qb3 Bc7 49. Qf7 Kb8 50. Qb3 Rh6 51. Rd2 Bd5 52. Qd1 Rc6 53. Rb2 Bc4 54. Ng3 Bb6
+55. Rd2 Ba6 56. Be4 Rc3 57. Rb2 Rdc8 58. Rxb6 Rc2+ 59. Kh1 Rc1 60. Rb1 d2 61.
+Kh2 Rxd1 62. Rxd1 Rd8 63. Bc2 Ng2 64. Ne4 Ne3 65. Kxh3 Nxd1 66. Bxd1 Bd3 67. Nf2
+Bg6 68. Kg2 Kc7 69. Kf1 Kd6 70. Ke2 Ke7 71. Bb3 Kf6 72. Bd1 Kg5 73. Ke3 Kh4 74.
+Ke2 Kg3 75. Ke3 Rc8 76. g5 Rc3+ 77. Kxd2 Rxa3 78. Ke1 Kf4 79. Nh3+ Ke3 80. Nf2
+Ra1 81. Ne4 Bh5 82. Nf2 Be8 83. Ng4+ Kf4 84. Nf2 Kxg5 85. Kd2 Bxa4 86. Be2 Bc6
+87. Bc4 Ra4 88. Be6 Kf6 89. Bb3 Rd4+ 90. Ke3 Rb4 91. Ng4+ Ke7 92. Bg8 Kd6 93.
+Kd2 Bxf3 94. Ne3 Kc5 95. Kc1 Rh4 96. Be6 Rh2 97. Nc2 Be4 98. Ne3 Kd4 99. Ng4
+Rc2+ 100. Kd1 Rc6 101. Bd7 Rc7 102. Bb5 Bc6 103. Bxc6 Rxc6 104. Ke2 a4 105. Ne3
+a3 106. Nf5+ Ke4 107. Ng3+ Kd5 108. Kd3 a2 109. Nf5 a1=Q 110. Ne7+ Ke6 111. Nxc6
+bxc6 112. Kc2 e4 113. Kd2 c5 114. Kc2 c4 115. Kd2 c3+ 116. Ke3 c2 117. Kxe4 c1=Q
+118. Kf3 Qf4+ 119. Kxf4 Qe1 120. Kf3 Kf5 121. Kg2 Kg4 122. Kh2 Kf3 123. Kh3 Qg3#
+0-1
+
+[Event "King's Indian Double Round Robin Tournament"]
+[Site "https://lichess.org/study/H8Ew2Qum/oRSofrHG"]
+[Date "2021.09.22"]
+[Round "1"]
+[White "AnMon"]
+[Black "Stockfish"]
+[Result "0-1"]
+[TimeControl "1500+10"]
+[Termination "normal"]
+[UTCDate "2021.09.23"]
+[UTCTime "22:32:44"]
+[Variant "Standard"]
+[ECO "E97"]
+[Opening "King's Indian Defense: Orthodox Variation, Modern System"]
+[Annotator "https://lichess.org/@/Musicrafter12"]
+
+1. d4  1... Nf6  2. c4  2... g6  3. Nc3  3... Bg7  4. e4  4... d6  5. Nf3  5... O-O  6. Be2  6... e5  7. O-O  7... Nc6  8. d5  8... Ne7  { End of book } 9. Nd2  9... a5  10. a3  10... Nd7  11. Rb1  11... f5  12. b4  12... Kh8  13. f3  13... b6  { A rare concept, but understandable. Black is simply trying to clamp down on c5 really hard. In my own study of the KID for myself, I've seen this b6 idea many times. } 14. Nb3  14... axb4  15. axb4  15... Ng8  16. exf5?! $146  { In principle, capturing the f-pawn is not really the greatest idea. From a human point of view, white should be reluctant to play this way unless clear gain is derived from black's slightly loosened kingside. Instead, the g-file just becomes an avenue for attack. } 16... gxf5  17. Be3  17... Bh6  { One of those times when trading off the KID bishop is a good idea. It rectifies the bad knight on g8 (part of the point of Ng8 was to facilitate this very trade), and really, black's DSB is worse than white's in this position from a positional point of view. } 18. Bxh6  18... Nxh6  19. Bd3  19... Rg8  20. Qd2  20... f4  21. Ra1  21... Rb8  22. Nb5  22... Nf6  23. Ra7  23... Rg7  24. Qc2  24... Nhg4!!  { A bolt from the blue. AnMon did not register this move at all until it hit. Even after accepting the sacrifice, AnMon was convinced that it could successfully defend and even thought it was slightly better for a while, but Stockfish had understood the dynamics better and/or seen further. } 25. fxg4  25... Nxg4  26. Qe2  (26. Rf3 { Apparently more resilient, but most humans would be reluctant to play this too in view of } 26... Ne3 { whereupon sacrificing the exchange back is basically forced because of the double threat to win the queen two different ways! } 27. Rxe3 fxe3 28. Qe2 Bh3 29. g3 Qg5 30. Rxc7 Rf8 31. Rxg7 Kxg7 32. Nxd6 Rf2 { A sample line. Black's pieces don't superficially appear to be that active at first, but they just seem to fly into the action! }) 26... Qh4  27. h3  27... Ne3  { An octopus } 28. Rxc7  28... Rxc7  29. Nxc7  29... Bxh3  30. Be4  (30. gxh3 Rg8+ 31. Kh1 Rg3 32. Rf3 Qxh3+ 33. Qh2 Rxf3 34. Qxh3 Rxh3+ 35. Kg1 Nxd5 36. Nxd5 Rxd3 { THREE PASSED PAWNS, PUSH EM BABY }) 30... Rg8  31. Rf2  31... Bg4!  { A nice finesse. The queen has to keep applying pressure to the e3 octopus, or else black has f3 and crashes through on g2, so it has a very limited choice of squares. } 32. Qe1  (32. Qa2 { for example } 32... f3! 33. Ne6 Nxg2) 32... Bf5  33. Bf3  (33. Bxf5 { can't take because then g2 collapses } 33... Rxg2+) 33... Nxg2!  { Boom! } 34. Bxg2  34... Rxg2+!  { BOOM! } 35. Kxg2  { Black is down 6 points of material! But the attack is too strong. Black continues with all checks and regains some material along the way. } 35... Bh3+  36. Kh1  36... Bg4+  37. Kg2  37... Qg3+  38. Kf1  38... Bh3+  39. Ke2  39... Qe3+  40. Kd1  40... Bg4+  41. Re2  41... Qxb3+  { Got one piece back } 42. Kc1  42... Qa3+  43. Kd2  43... Qb2+  44. Kd1  44... Qb1+  45. Kd2  45... Qb2+  { Repeating the position once before finding the winning continuation } 46. Kd1  46... e4!  { Facilitating checks from d3. } 47. Nb5  47... Qb1+  48. Kd2  48... Qd3+  { Forces the king away from the rook } 49. Kc1  49... Bxe2  { Black is now clearly winning, being up material with a continuing attack and two dangerous connected passed pawns } 50. Nc3  50... Qxc4  51. Qxe2  { Humans would probably try something else first, but AnMon cooperatively allows unfavorable simplifications, as engines are apt to do. It is beyond obvious white is without hope, but the game continuation simplifies things. } 51... Qxc3+  52. Kd1  52... e3!  53. Qc2  { Black's mating net forces the swap of queens, after which white is simply entering a dead lost pure pawn ending. } 53... Qxc2+  54. Kxc2  54... e2  55. Kd2  55... f3  56. Ke1  56... h5  57. b5  { Both engines agreed white was sufficiently lost, so the game was automatically adjudicated here as a win for black. } 0-1
+
+[Event "CCC 16 Rapid: Main (15|3)"]
+[Site "?"]
+[Date "2021.11.06"]
+[Round "1"]
+[White "Dragon"]
+[Black "Koivisto"]
+[Result "1-0"]
+[ECO "E60"]
+[GameDuration "00:34:46"]
+[GameEndTime "2021-11-07T00:25:50.834 PDT"]
+[GameStartTime "2021-11-06T23:51:04.411 PDT"]
+[Opening "King's Indian defense"]
+[PlyCount "151"]
+[TimeControl "900+3"]
+
+1. d4 Nf6 2. c4 g6 3. f3 Bg7 4. e4 d6 5. Nc3 O-O 6. Be3 Nfd7 7. Qd2 e5 8. d5 f5
+9. O-O-O Na6 10. g4 fxg4 11. fxg4 Nac5 12. b4 Na6 13. a3 Nf6 14. h3 Nb8 15. Be2
+a5 16. b5 Nbd7 17. Nf3 Nc5 18. Bxc5 dxc5 19. d6 Qxd6 20. Qxd6 cxd6 21. Rxd6 Ne8
+22. Rb6 Bf6 23. Rd1 Nc7 24. g5 Bd8 25. h4 Ne6 26. Rxd8 Rxd8 27. Nd5 Nf4 28. Kd2
+Kg7 29. Ke3 Rf8 30. Nf6 Nxe2 31. Kxe2 Rf7 32. Rd6 Bh3 33. Ke3 Rc8 34. Nxe5 Re7
+35. Kf4 Be6 36. a4 Rf8 37. Ke3 Rc8 38. h5 gxh5 39. Nxh5+ Kh8 40. g6 Kg8 41. Kf4
+h6 42. Ke3 Kh8 43. Rd1 Rce8 44. b6 Rc8 45. Rg1 Rg7 46. Nxg7 Kxg7 47. Rd1 Re8 48.
+Nf7 Kxg6 49. Nd6 Rb8 50. Rg1+ Kh7 51. Rf1 h5 52. Rf6 Bg4 53. Kf4 Rh8 54. e5 Rg8
+55. e6 Bxe6 56. Rxe6 h4 57. Re7+ Kh6 58. Nf5+ Kg6 59. Rxb7 Rf8 60. Rg7+ Kf6 61.
+b7 h3 62. Rc7 h2 63. Rc8 h1=Q 64. Rxf8+ Kg6 65. b8=Q Qf1+ 66. Ke5 Qe2+ 67. Kd5
+Qd3+ 68. Kc6 Qf3+ 69. Kc7 Qf4+ 70. Nd6 Kg5 71. Rg8+ Kf6 72. Qb2+ Qd4 73. Qg2 Qh4
+74. Qg7+ Ke6 75. Re8+ Qe7+ 76. Rxe7# 1-0
+
+[Event "CCC 16 Rapid: Main (15|3)"]
+[Site "?"]
+[Date "2021.11.05"]
+[Round "1"]
+[White "Dragon"]
+[Black "Komodo"]
+[Result "1-0"]
+[ECO "A40"]
+[GameDuration "00:32:28"]
+[GameEndTime "2021-11-05T02:02:06.399 PDT"]
+[GameStartTime "2021-11-05T01:29:37.704 PDT"]
+[Opening "Queen's pawn"]
+[PlyCount "125"]
+[TimeControl "900+3"]
+[Variation "English defense"]
+
+1. d4 b6 2. e4 Bb7 3. Bd3 e6 4. Nf3 c5 5. c3 Nf6 6. Qe2 d5 7. e5 Nfd7 8. O-O Nc6
+9. h4 h6 10. h5 Be7 11. Na3 a6 12. Bb1 Qc7 13. Nc2 a5 14. Re1 Ba6 15. Qd1 cxd4
+16. cxd4 b5 17. a3 Qb6 18. Bf4 Rc8 19. Bg3 a4 20. Ne3 Na5 21. Bc2 Bb7 22. Nh4
+Nc4 23. Nef5 exf5 24. Nxf5 Nf8 25. Nd6+ Kd7 26. Qf3 Ne6 27. Qxf7 Rcf8 28. Qg6
+Bxd6 29. exd6 Rf6 30. Bf5 Rxg6 31. hxg6 Re8 32. Rxe6 Rxe6 33. Re1 Qxd4 34. Rxe6
+Nxd6 35. Rxd6+ Ke8 36. Bd7+ Ke7 37. Bh3 b4 38. Kh2 h5 39. Re6+ Kd8 40. axb4 Bc8
+41. Rd6+ Ke8 42. Bxc8 h4 43. Re6+ Kd8 44. Be5 Qxb4 45. Rc6 Qb5 46. Rc7 d4 47.
+Bf4 d3 48. Bg4 Qb4 49. Rd7+ Ke8 50. Bg5 Qb8+ 51. f4 d2 52. Rxd2 a3 53. bxa3 h3
+54. Bd7+ Kf8 55. Bxh3 Qc7 56. Rd8+ Qxd8 57. Bxd8 Kg8 58. Bh4 Kh8 59. a4 Kg8 60.
+a5 Kf8 61. a6 Kg8 62. a7 Kf8 63. a8=Q# 1-0
+
+[Event "CCC 16 Rapid: Main (15|3)"]
+[Site "?"]
+[Date "2021.11.05"]
+[Round "1"]
+[White "Dragon"]
+[Black "Stoofvlees"]
+[Result "1-0"]
+[ECO "B29"]
+[GameDuration "00:20:02"]
+[GameEndTime "2021-11-05T22:51:57.788 PDT"]
+[GameStartTime "2021-11-05T22:31:55.045 PDT"]
+[Opening "Sicilian"]
+[PlyCount "61"]
+[TimeControl "900+3"]
+[Variation "Nimzovich-Rubinstein Variation"]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 d5 4. Bb5+ Bd7 5. e5 d4 6. exf6 dxc3 7. fxg7 cxd2+ 8.
+Qxd2 Bxg7 9. a4 Nc6 10. O-O Nd4 11. Nxd4 cxd4 12. Qg5 Bf6 13. Qh6 Bxb5 14. Re1
+Rg8 15. Qxf6 Bd7 16. Qh4 h6 17. g3 Bc6 18. Qf6 d3 19. Ra3 dxc2 20. Rae3 e6 21.
+Rxe6+ fxe6 22. Qxe6+ Kf8 23. b3 Rg5 24. Ba3+ Rc5 25. Qf5+ Kg7 26. Bb2+ Re5 27.
+Bxe5+ Kg8 28. Qg6+ Kf8 29. Bg7+ Kg8 30. Bxh6+ Kh8 31. Qg7# 1-0
+
+[Event "CCC 16 Rapid: Main (15|3)"]
+[Site "?"]
+[Date "2021.11.04"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stoofvlees"]
+[Result "1-0"]
+[ECO "A48"]
+[GameDuration "00:21:35"]
+[GameEndTime "2021-11-04T07:21:06.657 PDT"]
+[GameStartTime "2021-11-04T06:59:31.063 PDT"]
+[Opening "King's Indian"]
+[PlyCount "97"]
+[TimeControl "900+3"]
+[Variation "East Indian defense"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 c6 5. Qd2 Bf5 6. Ne5 Nfd7 7. f3 Bg7 8. e4
+Be6 9. Nxd7 Nxd7 10. exd5 cxd5 11. Nb5 O-O 12. h4 Qb6 13. O-O-O Rac8 14. h5 Rc6
+15. Na3 Rfc8 16. g4 a6 17. c3 Qa5 18. Kb1 Rxc3 19. bxc3 Qxa3 20. Rc1 Nb6 21. Qb2
+Qa5 22. Bd2 Rc6 23. Ka1 Na4 24. Qxb7 Nxc3 25. Rxc3 Rxc3 26. Qb8+ Bc8 27. Bc4 Qd8
+28. Bxc3 dxc4 29. Qf4 h6 30. hxg6 fxg6 31. Rb1 a5 32. Rb8 a4 33. Kb2 a3+ 34. Kc1
+Qd7 35. Ra8 h5 36. Qb8 Kh7 37. Qxc8 Qd5 38. gxh5 Qxf3 39. hxg6+ Kh6 40. Bd2+
+Kxg6 41. Qe6+ Kh7 42. Qg8+ Kg6 43. Ra6+ e6 44. Rxe6+ Kf5 45. Qf7+ Bf6 46. Qxf6+
+Kg4 47. Qg5+ Kh3 48. Rh6+ Qh5 49. Rxh5# 1-0
+
+[Event "CCC 16 Rapid: Finals (15|3)"]
+[Site "?"]
+[Date "2021.11.21"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "A05"]
+[GameDuration "00:35:45"]
+[GameEndTime "2021-11-21T15:56:45.762 PST"]
+[GameStartTime "2021-11-21T15:21:00.079 PST"]
+[Opening "Reti Opening"]
+[PlyCount "173"]
+[TimeControl "900+3"]
+
+1. Nf3 Nf6 2. g3 c5 3. Bg2 Nc6 4. O-O e5 5. c4 d5 6. Qa4 Bd6 7. Ng5 Bd7 8. cxd5
+Nb4 9. Qd1 Qe7 10. Nc3 h6 11. Nge4 Nxe4 12. Bxe4 f5 13. Bg2 g5 14. a3 Na6 15. e4
+f4 16. Qh5+ Kd8 17. d3 Rg8 18. Bd2 Kc7 19. b4 Raf8 20. b5 Nb8 21. Qd1 h5 22. Qa4
+f3 23. Qa5+ Kc8 24. Bh1 Bh3 25. Qxa7 Bxf1 26. Rxf1 Nd7 27. Na4 g4 28. Rc1 Rf6
+29. b6 Bb8 30. Qa5 Kd8 31. Nxc5 Nxc5 32. Rxc5 Ke8 33. h4 Kf7 34. Rc4 Qd7 35. a4
+Kg6 36. Bg5 Rf7 37. Bc1 Kh7 38. Qd2 Rg6 39. a5 Bd6 40. Qc3 Rfg7 41. Bb2 Re7 42.
+Qb3 Qd8 43. Bc3 Qd7 44. a6 bxa6 45. Rc6 Bb8 46. Qc4 Re8 47. Kh2 Qe7 48. Bb4 Qd7
+49. d6 a5 50. Ba3 a4 51. Qd5 Rg7 52. d4 Qe6 53. Qxe6 Rxe6 54. d7 Rxd7 55. Rxe6
+exd4 56. Re8 d3 57. Rxb8 d2 58. b7 d1=Q 59. Rh8+ Kxh8 60. b8=Q+ Kh7 61. Qe5 Rg7
+62. Bb2 Qd7 63. Qxh5+ Kg8 64. Bxg7 Kxg7 65. e5 a3 66. Qg5+ Kh7 67. Qe3 Qa4 68.
+e6 a2 69. e7 a1=Q 70. e8=Q Qxe8 71. Qxe8 Qd4 72. Bxf3 gxf3 73. Qf7+ Kh8 74. Qxf3
+Qe5 75. h5 Kh7 76. Kh3 Qe6+ 77. g4 Kg7 78. Kh4 Qd6 79. Qf5 Qh2+ 80. Kg5 Qh1 81.
+Qd7+ Kg8 82. f4 Qg2 83. Qe8+ Kh7 84. Qg6+ Kh8 85. Kh6 Qc6 86. Qxc6 Kg8 87. Qe8#
+1-0
+
+[Event "TCEC Season 21 - VVLTC Bonus"]
+[Site "https://tcec-chess.com"]
+[Date "2021.08.14"]
+[Round "3.1"]
+[White "Stockfish 14_202108051641"]
+[Black "LCZero 0.28-dev+_69722-vf2"]
+[Result "*"]
+[WhiteElo "3639"]
+[BlackElo "3623"]
+[ECO "B07"]
+[GameDuration "10:02:57"]
+[GameEndTime "2021-08-14T19:10:32.640 UTC"]
+[GameStartTime "2021-08-14T09:07:34.741 UTC"]
+[Opening "Pirc"]
+[PlyCount "109"]
+[TerminationDetails "White mates"]
+[TimeControl "21600+60"]
+[Variation "Ufimtsev-Pytel variation"]
+[Annotator "archive"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 c6 4.f4 Qa5 5.Bd3 e5 6.Nf3 Nbd7 7.O-O Be7 8.Kh1 Qc7 9.Qe2 O-O 10.dxe5 dxe5 11.a4 b6 12.Bd2 a6 13.f5 Bb7 14.g4 b5 15.Rae1 Rad8 16.g5 Nh5 17.f6 Bd6 18.fxg7 Nxg7 19.Nh4 Nc5 20.Rf3 Kh8 21.Ref1 Bc8 22.Nf5 Nxd3 23.cxd3 b4 24.Nxg7 bxc3 25.Bxc3 Kxg7 26.Rf6 Be6 27.Qh5 Qe7 28.d4 Rd7 29.Qh6+ Kg8 30.d5 Bxd5 31.exd5 Bb8 32.b4 Rxd5 33.g6 hxg6 34.R6f3 Bd6 35.Rh3 f6 36.Qxg6+ Qg7 37.Qf5 Kf7 38.Rh7 Qxh7 39.Qxh7+ Ke6 40.Qb7 c5 41.bxc5 Rxc5 42.Qb3+ Ke7 43.Bb4 Rfc8 44.Rd1 R8c7 45.Qd3 Rc1 46.Bxd6+ Kf7 47.Bxc7 Rxd1+ 48.Qxd1 Kg6 49.Qd7 Kg5 50.Kg2 Kf4 51.Kf2 Kg5 52.Qh7 Kg4 53.h3+ Kf4 54.Qh4+ Kf5 55.Qg4# *
+
+[Event "TCEC Cup 9 Quarterfinal"]
+[Site "https://tcec-chess.com"]
+[Date "2021.10.25"]
+[Round "1.43"]
+[White "KomodoDragon 2.5.1"]
+[Black "Igel 3.0.10"]
+[Result "*"]
+[WhiteElo "3595"]
+[BlackElo "3509"]
+[ECO "D85"]
+[GameDuration "01:11:12"]
+[GameEndTime "2021-10-24T22:58:19.849 UTC"]
+[GameStartTime "2021-10-24T21:47:07.754 UTC"]
+[Opening "Gruenfeld"]
+[PlyCount "155"]
+[Termination "adjudication"]
+[TerminationDetails "SyzygyTB"]
+[TimeControl "1800+5"]
+[Variation "exchange variation"]
+[Annotator "archive"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 c5 7.Bb5+ Bd7 8.Bxd7+ Nxd7 9.Nf3 Bg7 10.h4 Qa5 11.Bd2 h6 12.a4 O-O 13.O-O e6 14.Qe2 Rfc8 15.Rfe1 Qc7 16.a5 a6 17.Reb1 Rcb8 18.e5 b5 19.Re1 Rc8 20.Bf4 cxd4 21.cxd4 Qc3 22.Qe4 Qc6 23.Qe3 Qc3 24.Bxh6 Qxe3 25.Bxe3 Nb8 26.g4 Nc6 27.h5 Nb4 28.Rab1 Nc2 29.Re2 Rab8 30.hxg6 fxg6 31.Ne1 Na3 32.Rb3 Bf8 33.Ng2 Rc6 34.Nh4 Kf7 35.Kg2 Be7 36.Bh6 Rg8 37.Rf3+ Ke8 38.Rf6 Bxf6 39.exf6 Kf7 40.Nf3 Kxf6 41.Bg5+ Kg7 42.d5 exd5 43.Re7+ Kh8 44.Nd4 Rgc8 45.Ne6 Kg8 46.Rg7+ Kh8 47.Rxg6 Kh7 48.Rg7+ Kh8 49.Re7 Kg8 50.Bf6 R8c7 51.Nxc7 Rxf6 52.Rd7 Nc4 53.Kg3 d4 54.Rxd4 Nxa5 55.Rd8+ Rf8 56.Rd5 Rf6 57.f4 Nb7 58.Re5 Rc6 59.Nd5 Kf8 60.g5 Nd6 61.Kg4 a5 62.Ne7 Rc7 63.Nf5 Nc4 64.Rxb5 Kf7 65.Nh6+ Ke6 66.f5+ Kd6 67.g6 Kc6 68.Rb1 Rg7 69.Kh5 Ne5 70.Ng4 Nd3 71.f6 Rg8 72.f7 Nf4+ 73.Kg5 Ne6+ 74.Kf6 Rxg6+ 75.Kxg6 Nf8+ 76.Kf5 Kc7 77.Ra1 Kb6 78.Rxa5 *
+
+[Event "TCEC Season 21 - Swiss 2"]
+[Site "https://tcec-chess.com"]
+[Date "2021.11.14"]
+[Round "3.22"]
+[White "Stockfish 14.1_20211101"]
+[Black "Winter 0.9.7"]
+[Result "*"]
+[WhiteElo "3637"]
+[BlackElo "3407"]
+[ECO "B17"]
+[GameDuration "01:20:23"]
+[GameEndTime "2021-11-13T20:43:08.320 UTC"]
+[GameStartTime "2021-11-13T19:22:44.732 UTC"]
+[Opening "Caro-Kann"]
+[PlyCount "109"]
+[TerminationDetails "White mates"]
+[TimeControl "2700+7"]
+[Variation "Steinitz variation"]
+[Annotator "archive"]
+
+1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Ng5 e6 7.Qe2 Nb6 8.Bd3 Nbd5 9.a3 Bd6 10.N1f3 h6 11.Ne4 Nxe4 12.Bxe4 b5 13.O-O O-O 14.Re1 Bb7 15.Bd3 Nf6 16.h3 Qc7 17.b4 a5 18.Rb1 axb4 19.axb4 Ra2 20.Ne5 Qe7 21.Bd2 Rfa8 22.Ng4 Nd5 23.Nxh6+ gxh6 24.Qg4+ Kf8 25.Bxh6+ Ke8 26.Bg5 Qd7 27.c4 bxc4 28.Bxc4 Rc2 29.Bb3 Rc3 30.Bxd5 cxd5 31.Bf6 Bf8 32.h4 Rc2 33.h5 Raa2 34.Bh4 Rd2 35.Rb3 Ra7 36.b5 Ra8 37.Rf3 Bc8 38.Qg5 Ba6 39.Qxd2 Qxb5 40.Qf4 Qd7 41.h6 Bd3 42.Rxd3 Qd6 43.Qf6 Be7 44.Qh8+ Bf8 45.Qg8 Kd7 46.Qxf7+ Be7 47.Rb1 Rf8 48.Rb7+ Kc8 49.Qxe7 Qxe7 50.Rxe7 e5 51.Rc3+ Kb8 52.Bg3 Rf5 53.h7 Rh5 54.Bxe5+ Rxe5 55.h8=R# *
+
+[Event "TCEC Season 21 - Swiss 2"]
+[Site "https://tcec-chess.com"]
+[Date "2021.12.05"]
+[Round "10.33"]
+[White "Winter 0.9.7"]
+[Black "RubiChess 2.3-dev-TCECcup9"]
+[Result "*"]
+[WhiteElo "3407"]
+[BlackElo "3478"]
+[ECO "A04"]
+[GameDuration "01:37:48"]
+[GameEndTime "2021-12-04T20:58:42.506 UTC"]
+[GameStartTime "2021-12-04T19:20:53.734 UTC"]
+[Opening "Reti opening"]
+[PlyCount "122"]
+[TerminationDetails "Black mates"]
+[TimeControl "2700+7"]
+[Annotator "archive"]
+
+1.Nf3 e6 2.d4 d5 3.g3 c6 4.Bg2 Bd6 5.O-O Nd7 6.Nbd2 f5 7.c4 Ngf6 8.Qc2 O-O 9.Ne1 b6 10.Nd3 Ba6 11.b4 Rc8 12.a4 Ne4 13.c5 Bb8 14.Rb1 Qe7 15.Nf3 bxc5 16.bxc5 g5 17.Nd2 Nxd2 18.Qxd2 f4 19.Bb2 Nf6 20.Ne5 Qg7 21.Rfe1 Qh6 22.Rf1 Rce8 23.g4 Ne4 24.Qc2 Qh4 25.Ba1 Bxe5 26.dxe5 h5 27.f3 hxg4 28.fxe4 Kg7 29.Qd2 Rh8 30.h3 Ref8 31.Bd4 gxh3 32.Bf3 g4 33.Kh1 g3 34.Bf2 Rb8 35.Rbc1 Rb3 36.Rg1 Rh6 37.exd5 cxd5 38.Be1 Rxf3 39.exf3 Bf1 40.Rxf1 g2+ 41.Kh2 gxf1=N+ 42.Kh1 Nxd2 43.Bxh4 Rxh4 44.c6 Rh8 45.c7 Rc8 46.Rg1+ Kh6 47.Rd1 Nxf3 48.Rd3 Nxe5 49.Rxh3+ Kg5 50.Rh7 f3 51.Kh2 Kf4 52.Kh3 Ke3 53.Rh6 f2 54.Rf6 Rxc7 55.a5 Rg7 56.Kh4 Nf3+ 57.Kh5 f1=Q 58.Rxe6+ Kd4 59.Kh6 Qg2 60.Re4+ dxe4 61.a6 Qg6# *
+
+[Event "TCEC Season 21 - Swiss 2"]
+[Site "https://tcec-chess.com"]
+[Date "2021.11.22"]
+[Round "6.19"]
+[White "Stoofvlees II a18"]
+[Black "Drofa 3.2.10"]
+[Result "*"]
+[WhiteElo "3529"]
+[BlackElo "3173"]
+[ECO "B42"]
+[GameDuration "01:31:09"]
+[GameEndTime "2021-11-22T07:43:09.197 UTC"]
+[GameStartTime "2021-11-22T06:11:59.742 UTC"]
+[Opening "Sicilian"]
+[PlyCount "94"]
+[Termination "adjudication"]
+[TerminationDetails "SyzygyTB"]
+[TimeControl "2700+7"]
+[Variation "Kan, 5.Bd3"]
+[Annotator "archive"]
+
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3 Nc6 6.Be3 Qc7 7.O-O Nf6 8.Nc3 h5 9.h3 b5 10.Nb3 Bb7 11.f4 d6 12.Qe2 Rc8 13.a4 b4 14.Nb5 axb5 15.axb5 Nd8 16.b6 Qb8 17.Bb5+ Nd7 18.Bxd7+ Kxd7 19.f5 e5 20.Ra7 Nc6 21.Rfa1 Ke7 22.Qb5 Kd8 23.Kh2 f6 24.c4 bxc3 25.bxc3 h4 26.c4 Nxa7 27.Rxa7 Bc6 28.Qa6 Bxe4 29.Na5 Bxf5 30.b7 d5 31.Ra8 Qxa8 32.bxa8=Q Rxa8 33.Qxa8+ Ke7 34.Qxd5 Ke8 35.c5 Ke7 36.Nb7 Ke8 37.c6 g5 38.Qf3 Be6 39.Qxf6 Rh6 40.Qxg5 e4 41.Bc5 Bxc5 42.Qxh6 Ke7 43.Nxc5 Bf5 44.Qxh4+ Kd6 45.Nxe4+ Kc7 46.Qe7+ Kxc6 47.Qb7+ Kxb7 *
+
+[Event "CCC 17 Bullet: Qualification (2|1)"]
+[Site "?"]
+[Date "2022.04.10"]
+[Round "1"]
+[White "Stoofvlees"]
+[Black "Igel"]
+[Result "1-0"]
+[ECO "A01"]
+[GameDuration "00:07:21"]
+[GameEndTime "2022-04-10T04:37:39.156 PDT"]
+[GameStartTime "2022-04-10T04:30:17.855 PDT"]
+[Opening "Nimzovich-Larsen attack"]
+[PlyCount "157"]
+[TimeControl "120+1"]
+[Variation "Modern Variation"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 d5 {All of these moves were mandatory.} 4. Bb5 Bd6 5.
+f4 f6 (5... exf4 6. Bxg7 +-) 6. Qh5+ g6 7. Qh4 exf4 8. Nf3 {a first sacrifice}
+(8. exf4 Qe7+ 9. Ne2) 8... fxe3 {greedy} 9. O-O Bd7 (9... exd2 10. Nbxd2 Bd7 11.
+Rae1+ Kf7 12. c4) 10. Nc3 Nce7 11. dxe3 c6 12. Bd3 Qc7 13. e4 O-O-O 14. exd5
+cxd5 15. Kh1!! {such a computer move} 15... h5 16. a4 {Igel - \"-0.97\"} 16...
+a6 17. b4 g5 {Igel - \"-1.14\" Stoofvlees - \"+.33\"} (17... Nh6) 18. Qf2 Bxb4
+{greedier} 19. Nb5!! {Stoofvlees - \"+1.12\" a first piece sacrifice to open the
+a-file in the long term.} 19... axb5 20. axb5 b6 {virtually forced.} 21. Ra6
+{Prparing to double, and of course, the b-pawn is a target.} 21... Kb7 22. Bd4
+Nc8 (22... Bc5 23. Rfa1 Nc8 24. c3 Re8 25. Ra8 Nge7 26. Qa2 +-) 23. c3 Ba5
+(23... Bc5 24. Rfa1 +-) 24. c4 g4 25. Rxa5 {a second piece sacrifice and a
+double offering - as Tal once noted, the opponent can only accept one sacrifice
+at a time.} 25... bxa5 (25... gxf3 26. Raa1 fxg2+ 27. Qxg2 Re8 28. Qa2 +-) 26.
+b6 Qd6 27. c5 {Stoofvlees - \"-1.26\" and Igel - \"-3.07\"} 27... Qc6 28. Nd2 a4
+29. Nb3!! {a third piece sacrifice!} 29... axb3 30. Ra1 Nd6 31. Ra7+ Kb8 32.
+cxd6 Qc1+ 33. Bf1 Nh6 34. Qe2 Qc6 35. Qa6 b2 36. Qa2 {Igel - \"2.47\"} (36. Bxb2
+Rde8) 36... b1=Q (36... Nf5 37. b7 +-) 37. Qxb1 Nf5 38. b7 {Technically another
+piece sacrifice?} 38... Nxd6 (38... Nxd4 39. Ra8#) 39. Ra6 {basically trapping
+the queen.} 39... Nxb7 (39... Qxb7 40. Rb6 Bc8 41. Ba6 Qxb6 42. Qxb6+ Nb7 43.
+Be3) 40. Rxc6 Bxc6 41. Bxf6 Kc7 42. Kg1 (42. Bxh8 Rxh8 43. Qg6 {also plus minus,
+but White need not cash in yet.}) 42... Rh6 43. Bg5 Rdd6 44. Bf4 Re6 45. Qa1 Re4
+46. Bg3 Ra4 47. Qh8 Kb6 48. Bxd6 Nxd6 49. Qxh5 Nc4 (49... Re4) 50. Qxg4 Ne3 51.
+Qe6 Nxf1 52. Kxf1 Kb5 53. Qd6 Re4 54. g3 Re8 55. h4 Rh8 56. Qf6 Rh7 57. g4 Kc5
+58. h5 Bb5+ 59. Kf2 Bd3 60. Ke3 Be4 61. Qf8+ Kc4 62. h6 Kb3 63. g5 Rb7 64. Qd6
+Rh7 65. Kd4 Rh8 66. g6 Rxh6 67. Qb8+ Kc2 68. g7 Bh7 69. g8=Q Bxg8 70. Qxg8 Rd6
+71. Qf8 Rd7 72. Qf5+ Kd1 73. Qxd7 Ke1 74. Kxd5 Kf1 75. Ke4 Kg2 76. Qg4+ Kf2 77.
+Kd3 Kf1 78. Ke3 Ke1 79. Qe2# 1-0
+
+[Event "CCC 17 Blitz: Semifinals (5|5)"]
+[Site "?"]
+[Date "2022.06.22"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "B42"]
+[Annotator "Rafael Leitao"]
+[PlyCount "143"]
+[EventDate "2022.??.??"]
+[EventType "blitz"]
+[TimeControl "300+5"]
+
+{The main idea of this game, in my view, is patience. Funny to say such a thing
+in a computer's game. But it's a key factor to play chess on a supreme level.
+Don't be in a hurry, just reinforce your position all the time while trying to
+restrict your opponent's counterplay. Stockfish will do this in different stages
+of this game.} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 {The Paulsen Variaton of
+the Sicilian Defense. It's one of the most flexibel Sicilians: it can transpose
+to a Taimanov, to the Scheveningen or develop a life of its own. It's not the
+most popular of Sicilian's at top level.} 5. Bd3 {5.Nc3 and 5.c4 are also very
+popular.} 5... Nf6 (5... Bc5 {is an important move:} 6. Nb3 {And now both
+retreats are possible.} 6... Ba7 (6... Be7 7. Qg4 g6)) 6. O-O Qc7 7. Qe2 d6 8.
+c4 g6 {Black allows White to build the sctructure known as \"The Maroczy Bind\".
+These positions are also known as \"The Hedgehog\" - they are very solid for
+Black and once White tries to attack he might get hurt by the hedgehog quills.
+It is well established that White gets a small advantage in these positions, but
+Black's position is not without chances. Computers are fond of a space
+advantage, so I suppose Stockfish was pretty \"happy\" here.} 9. Nc3 Bg7 10. Rd1
+O-O 11. Be3 (11. Nf3 {is the main human move. Play might continue:} 11... Nc6
+12. h3 Nd7 13. Be3 $14) 11... b6 12. f3 Bb7 13. Rac1 Nbd7 {The Hedghehog is all
+about patience. The most important thing for White is to prevent the typical
+pawn breaks b6-b5 or d6-d5. Once this is achieved, comes the question: how to
+break Black's position? It will probably be necessary to advance the pawns at
+some point, either on the queenside or on the kingside, but it's important to be
+very careful when doing that. Sometimes a human player gets bored with all the
+necessary maneuvers and start action too quickly. Obviously this does not happen
+with Stockfish in this game.} 14. Qd2 $1 {I like this move a lot. White prepares
+to move the bispo to f1 and the queen can support the pressure on the d6 pawn or
+maybe some Be3-h6 in the future.} 14... Rfe8 (14... Ne5 15. Bf1 Nxc4 $2 16. Bxc4
+Qxc4 17. Nd5 $18) 15. Bf1 Rac8 16. Kh1 {A new move at this position, but we will
+get a transposition later on.} (16. Ndb5 $5 {Remember what I said about
+patience? This is the move of a creative player that doesn't like all the
+necessary maneuvring. But it's not all that bad.} 16... axb5 17. Nxb5 Qb8 (17...
+Qc6 $6 18. Nxd6 Bf8 19. Nxe8 Rxe8 20. Kh1 e5 21. b4 $16 {1-0 (41)
+Cordovil,J-Moiseev,O ICCF corr 1982; The rook + 2 pawns are much stronger than 2
+knight in this position.}) 18. Nxd6 Bf8 (18... Bc6 $1 {This is the best move.
+The idea is to place the bispon on a4 after White's b2-b4. and stop the pawn
+storm.} 19. b4 Ba4 $1 20. Re1 Bf8 21. Nxe8 Nxe8 {with a complicated position.})
+19. Nxe8 Rxe8 20. b4 $16 {0-1 (51) Zhornik,N (2302)-Kruglyakov,P (2066)
+Simferopol 2003}) 16... Qb8 17. Nc2 Bf8 18. Bf4 Ne5 19. Bg5 Ned7 20. a3 {A new
+move. What's the point of it? Hard to say. Maybe play b2-b4 at some point with
+the pawn defended, so Black has no d6-d5 idea (with a possible threat on the
+b4-pawn). I think the computer just see that Black has no counterplay for now
+and improves the tiniest details of the position.} (20. Ne3 h6 21. Bh4 Bc6 22.
+a3 g5 $5 23. Bg3 Ne5 24. b4 Bb7 25. Rc2 (25. Na4 $14) 25... Nh5 26. Bf2 Nf6 $14
+{1/2-1/2 (34) Rodriguez Cespedes,A (2540)-Strikovic,A (2450) New York 1988})
+(20. Qf4 Nh5 21. Qh4 $6 (21. Qd2) 21... Ne5 $1 22. b3 $6 (22. Na3) 22... b5 $1
+23. f4 $6 h6 $1 24. Bf6 Nxf6 25. fxe5 Nh7 26. exd6 Bxd6 $19 {0-1 (56) Lederman,L
+(2410)-Popov,L (2465) Skara 1980}) 20... Nh5 21. Be3 Nhf6 22. Bf4 Ne5 23. b3
+Nfd7 24. Nd4 Ba8 25. h3 {A human plan is to retreat the bishop to h2 and then
+play f4 at some point. But Stockfish is not in a hurry.} 25... Red8 26. Qe3 Re8
+27. Rc2 $1 {The rook will be better on the d-file.} 27... Qc7 28. Bh2 h6 {The
+beginning of an active plan that will backfire. Black could play some random
+waiting move and wait until white starts to push the pawns.} 29. Rcd2 Nf6 30.
+Be2 {Patience again! A human player probably would not resist playng f4 here or
+on the next move.} (30. f4 Nc6 31. Nf3 {and now play gets sharp.} 31... Na5 32.
+e5 dxe5 33. fxe5 Nh5 $1 34. Rd7 Qc5 $1 35. Nd4 Qxa3 {This looks scary for Black
+but a computer is never afraid.}) 30... Nfd7 31. Bg3 {It might be interesting to
+point out in the video that this is a move probably no human would play.} (31.
+f4 {Who could resist this?} 31... Nc6 32. e5 $5 {And now play gets tactical.}
+32... Nxd4 (32... dxe5 $2 33. Nxe6 Rxe6 34. Rxd7 Qb8 35. Nd5 $18) (32... d5 $5
+33. f5 $1 Nxd4 34. Qxd4 gxf5 35. Nxd5 $1 exd5 36. e6 Qd8 37. exd7 Qxd7 38. Bf3
+$44) 33. Rxd4 d5 $1 34. Ne4 $1 dxe4 35. Rxd7 Qc5 36. Qg3 Qxa3 37. h4 $1 {And I
+have a feeling White's attack is just too strong. For instance:} 37... Bc6 38.
+h5 $1 Bxd7 39. hxg6 {White is threatening to take on f7 followed by Bh5+.} 39...
+f5 40. exf6 {In a human game this looks crushing, but the computer finds
+defensive resources.} 40... Qb2 $1 41. f7+ Kg7 42. fxe8=Q Bxe8 $16) 31... g5
+{Leela finally loses patience. The problem is White may play f4-e5 at any
+moment.} (31... Kh7 32. f4 $1 Nc6 33. e5 $1 Nxd4 (33... d5) 34. Rxd4 d5 {White
+has many tempting moves here.} 35. Ne4 $5 (35. b4 $16) (35. Be1 $16 Bc5 36. cxd5
+Bxd4 37. Rxd4 {deadly compensation.})) 32. f4 $1 {Finally some action!} 32...
+gxf4 33. Bxf4 Kh7 34. Nf3 $1 {Underming the knight's position.} 34... Qc5 35.
+Rd4 $1 {The strongest. Sacrificing a pawn.} (35. Nxe5 Qxe3 36. Bxe3 Nxe5 37.
+Bxb6 Rb8 38. Rxd6 $1 (38. c5 Nd7 $1 (38... dxc5 39. Bc7)) 38... Bxd6 39. Rxd6
+{This also looks very good for human's eyes.} 39... Rec8 $14) 35... Qxa3 36. Qf2
+{Threatening 37.Nxe5. Just look at this queen on a3, out of play!} 36... Bc6
+(36... Qxb3 37. Nxe5 {and White wins by force.} 37... Nxe5 (37... dxe5 38. Rxd7
+exf4 39. Rxf7+ Bg7 (39... Kg8 40. Qxf4 Qxc3 41. Rdd7 $18) 40. Rxg7+ Kxg7 41.
+Rd7+ Kg8 42. Qxf4 $18) 38. Bxe5 dxe5 39. Qxf7+ Bg7 40. Rd7 Rg8 41. Qxe6 {there
+are other winning moves.} 41... Qxc3 42. Rxg7+ Rxg7 43. Qf5+ Kh8 (43... Rg6 44.
+Rd7+ $18) 44. Qxc8+ Rg8 45. Qe6 $18) 37. Nd5 $3 {A totally unexpected blow! This
+is another instance of a move no human would play, especially because taking on
+e5 was so tempting.} (37. Nxe5 Nxe5 (37... dxe5 $2 38. Rxd7 Bxd7 (38... exf4 39.
+Rxf7+ Bg7 40. Qxf4 $18) 39. Bxe5 $18) 38. Bxe5 dxe5 39. Qxf7+ Kh8 $8 (39... Bg7
+$2 40. Rd6 $1 $18) 40. R4d3 Qe7 41. Qf2 $16) 37... Bg7 (37... exd5 38. exd5 {Now
+the e2-bishop is ready to join the party.} 38... Bb7 39. Nxe5 dxe5 (39... Nxe5
+40. Bxe5 Rxe5 41. Qxf7+ Bg7 42. Bd3+ Kh8 43. Rg4 Rg8 44. Qg6 $18) 40. Bc1 $1 $18
+{the simplest.} 40... Qe7 41. Bd3+ Kh8 42. Qf5 f6 43. Rh4 {with a decisive
+attack.}) 38. Bc1 $3 {Retreating the bishop to free the f4-square for the
+knight. Moves retreating pieces are notorously difficult for human players.}
+38... Qa2 (38... Qxb3 39. Nxe5 Nxe5 (39... dxe5 40. R4d3 Qc2 41. Bxh6 $1 Bxh6
+(41... Kxh6 42. Qh4+ Kg6 43. Rg3#) 42. Qxf7+ Kh8 43. Qg6 $18) 40. Nf6+ Kh8 41.
+Rxd6 {followed by Nh5 with a winning attack.} (41. Nh5 $18)) 39. Nxe5 Nxe5
+(39... dxe5 40. R4d2 Qxb3 41. Rd3 $1 {An important move keeping the queen out of
+the game!} (41. Qxf7 Qg3 $1) 41... Qc2 42. Bxh6 $1 {The same idea again.} 42...
+Bxh6 43. Qxf7+ Kh8 44. Qg6 $18) 40. Nf4 $1 {The knight now might go to h5.}
+40... Rg8 (40... Qxb3 41. Nh5 $18) 41. Qe3 $1 {Another move I find very hard to
+play. Difficult to resist the temptation to land the knight on h5 immediately.}
+(41. Nh5 Bh8 $1 {followed by Rg6. White is still much better, but the move in
+the game is much cleaner.}) 41... Bf8 (41... Bh8 {Black has no time for this
+now.} 42. Nxe6 fxe6 $2 43. Qxh6#) 42. Rf1 Rc7 43. Bd1 {Just unbelievable. White
+is never in a hurry in this game.} 43... Rb7 44. Rd2 Qa5 45. Bb2 {Stockfish
+calmly improves his pieces and reinforce the attack.} 45... Be7 46. Bc2 {The
+bishop's are pointing directly to Black's king.} 46... Be8 {As I say to my
+students: White must have a win here, otherwisechess has no logic.} 47. Rd5 $1
+{Here it is! Another piece is sacrificed on the d5-square!} 47... b5 (47... exd5
+48. Bxe5 $1 {The cleanest.} (48. exd5+ Ng6 $1 49. Bxg6+ fxg6 50. Ne6 { still should be easy winning for White.}) 48... dxe5 49. exd5+ Kh8 50.
+Ne6 $1 $18 ) 48. c5 $1 {Now white is totally winning.} 48... Qc7
+49. Qd2 {Another calm move!} (49. cxd6 Qxc2 (49... Bxd6 50. Nh5 $1 Rg6 (50...
+exd5 51. Nf6+ Kg7 52. Qg3+ $18) 51. Nf6+ Rxf6 52. Rxf6 $18) 50. Rd2 $1 $18)
+49... exd5 {The sacrifice is finally accepted.} 50. exd5+ Rg6 (50... Kh8 51. Ne6
+$1 $18 ) (50... Ng6 51. c6 $18) 51. Bxg6+ fxg6 52. Ne6 Qb8 53. c6
+Ra7 54. Bd4 {White is a whole piece down, but he has a monster knight on e6, a
+passed protected pawn on c6, the f-file and a powerful attack. Black's pieces
+are too passive.} 54... Rc7 (54... Ra8 55. Qe3 $18  (55. Qf4
+$18)) 55. Qe1 {Again a retreating move! Other moves are also winning, but it's
+nice to see this pattern.} (55. Qe3) (55. Qf4) 55... Rc8 56. Bxe5 dxe5 57. c7 $1
+Rxc7 58. Qxe5 {Now is really a right time to resign.} 58... Bd6 59. Qxd6 Rb7 60.
+Qf8 a5 61. Nc5 Rg7 62. Ne4 Qe5 63. Nf6+ Qxf6 64. Rxf6 Bd7 65. Rf7 Rxf7 66. Qxf7+
+Kh8 67. Qxd7 a4 68. Qe8+ Kg7 69. Qe7+ Kh8 70. d6 Kg8 71. d7 Kh8 72. d8=Q#
+ 1-0
+
+[Event "CCC Rapid 2021: Main League (15|3)"]
+[Site "?"]
+[Date "2021.02.01"]
+[Round "1"]
+[White "Komodo"]
+[Black "Stoofvlees"]
+[Result "1-0"]
+[ECO "B33"]
+[GameDuration "00:20:47"]
+[GameEndTime "2021-02-01T03:57:37.977 PST"]
+[GameStartTime "2021-02-01T03:36:50.799 PST"]
+[Opening "Sicilian defense"]
+[PlyCount "69"]
+[TimeControl "900+3"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 e6 7. Be3 Be7 8. Qe2
+Bd7 9. O-O-O Rc8 10. f3 O-O 11. Bb3 Na5 12. Kb1 a6 13. g4 b5 14. a3 Rb8 15. h4
+Nxb3 16. Nxb3 Qc7 17. h5 Rfc8 18. g5 Ne8 19. g6 a5 20. e5 b4 21. gxh7+ Kh8 22.
+h6 g6 23. exd6 Nxd6 24. Bd4+ Kxh7 25. Nd5 exd5 26. Qe5 Qxc2+ 27. Ka2 Qxb3+ 28.
+Kxb3 a4+ 29. Ka2 b3+ 30. Ka1 Rg8 31. Qg7+ Rxg7 32. hxg7+ Bh3 33. Rxh3+ Bh4 34.
+Rxh4+ Kg8 35. Rh8# 1-0
+
+[Event "CCC 18 Rapid: Challenger (15|3)"]
+[Site "?"]
+[Date "2022.08.28"]
+[Round "1"]
+[White "Dragon"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "A04"]
+[GameDuration "00:21:11"]
+[GameEndTime "2022-08-28T05:33:35.240 PDT"]
+[GameStartTime "2022-08-28T05:12:24.120 PDT"]
+[Opening "Reti Opening"]
+[PlyCount "77"]
+[TimeControl "900+3"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. O-O Bg7 5. d3 d5 6. Nbd2 d4 7. Nb3 Qd6 8. Nfd2
+b6 9. Nc4 Qd7 10. a4 e5 11. f4 Nge7 12. Nxe5 Nxe5 13. Bxa8 Ng4 14. h3 Ne3 15.
+Bxe3 dxe3 16. Qc1 Qe6 17. Rf3 Qxh3 18. Rxe3 Be6 19. Qf1 Qf5 20. Be4 Qf6 21. Rd1
+Qxb2 22. d4 O-O 23. dxc5 bxc5 24. Kh2 Nf5 25. Bxf5 Bxf5 26. Nxc5 Qxc2 27. Nd7
+Rc8 28. Qh1 Qxa4 29. Qb7 Qc4 30. Qxa7 Qc2 31. Rd6 Bg4 32. Qa6 Qc1 33. Re7 Bf8
+34. Rxg6+ Bg7 35. Rxg7+ Kh8 36. Rxh7+ Kxh7 37. Rxf7+ Kh8 38. Qh6+ Kg8 39. Qh7#
+1-0
+
+[Event "TCEC Season 23 - Chess Bonus"]
+[Site "https://tcec-chess.com"]
+[Date "2022.08.11"]
+[Round "2.18"]
+[White "Stockfish dev16_202208061357"]
+[Black "Winter 0.9.9"]
+[Result "1-0"]
+[Annotator "archive"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. d4 Bf6 10. Re1 Nf5 11. c3 c6 12. Nd2 d5 13. Nf3 Nd6 14. Bf4 Bf5 15.
+a4 a5 16. h3 h6 17. Qb3 Be4 18. Ne5 Re8 19. Re2 Bg5 20. Bg3 Bh4 21. Bh2 Re7 22.
+Rae1 Bg5 23. Qa3 Rc8 24. c4 Nf5 25. Rd1 Nh4 26. c5 Ng6 27. Qb3 Nf8 28. Ree1 Ra8
+29. Bd3 Bxd3 30. Qxd3 Qe8 31. Bg3 Ng6 32. Qc3 Bf6 33. f4 Nf8 34. f5 Nd7 35. Kh2
+Nf8 36. Qb3 Rc8 37. Rd3 Ra8 38. Qd1 Nd7 39. Rde3 Qd8 40. Bf4 Bh4 41. g3 Bf6 42.
+Qg4 Kh8 43. Kg2 Bxe5 44. dxe5 f6 45. exf6 Nxf6 46. Rxe7 Nxg4 47. hxg4 d4 48. Bd6
+d3 49. g5 hxg5 50. Rh1+ Kg8 51. f6 gxf6 52. Reh7 Qe8 53. Rh8+ Kf7 54. Rxe8 Rxe8
+55. Rd1 Re2+ 56. Kf3 Rxb2 57. Rxd3 Rb4 58. Ra3 Rc4 59. Re3 Rb4 60. Re7+ Kg6 61.
+Re4 Rb3+ 62. Re3 Rb1 63. g4 Rh1 64. Re6 Rf1+ 65. Kg2 Rc1 66. Be5 Kh7 67. Rxf6
+Rxc5 68. Rf5 Kg6 69. Kf3 Rc4 70. Rf6+ Kh7 71. Rf7+ Kg6 72. Rg7+ Kh6 73. Rxb7
+Rxa4 74. Rb3 Rb4 75. Rxb4 axb4 76. Ke4 Kg6 77. Bd4 b3 78. Ke5 c5 79. Bb2 Kf7 80.
+Kf5 c4 81. Kxg5  1-0

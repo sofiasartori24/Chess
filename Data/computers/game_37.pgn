@@ -1,0 +1,27 @@
+[Event "CCC 16 Rapid: Main (15|3)"]
+[Site "?"]
+[Date "2021.11.05"]
+[Round "1"]
+[White "Dragon"]
+[Black "Komodo"]
+[Result "1-0"]
+[ECO "A40"]
+[GameDuration "00:32:28"]
+[GameEndTime "2021-11-05T02:02:06.399 PDT"]
+[GameStartTime "2021-11-05T01:29:37.704 PDT"]
+[Opening "Queen's pawn"]
+[PlyCount "125"]
+[TimeControl "900+3"]
+[Variation "English defense"]
+
+1. d4 b6 2. e4 Bb7 3. Bd3 e6 4. Nf3 c5 5. c3 Nf6 6. Qe2 d5 7. e5 Nfd7 8. O-O
+Nc6 9. h4 h6 10. h5 Be7 11. Na3 a6 12. Bb1 Qc7 13. Nc2 a5 14. Re1 Ba6 15. Qd1
+cxd4 16. cxd4 b5 17. a3 Qb6 18. Bf4 Rc8 19. Bg3 a4 20. Ne3 Na5 21. Bc2 Bb7 22.
+Nh4 Nc4 23. Nef5 exf5 24. Nxf5 Nf8 25. Nd6+ Kd7 26. Qf3 Ne6 27. Qxf7 Rcf8 28.
+Qg6 Bxd6 29. exd6 Rf6 30. Bf5 Rxg6 31. hxg6 Re8 32. Rxe6 Rxe6 33. Re1 Qxd4 34.
+Rxe6 Nxd6 35. Rxd6+ Ke8 36. Bd7+ Ke7 37. Bh3 b4 38. Kh2 h5 39. Re6+ Kd8 40.
+axb4 Bc8 41. Rd6+ Ke8 42. Bxc8 h4 43. Re6+ Kd8 44. Be5 Qxb4 45. Rc6 Qb5 46. Rc7
+d4 47. Bf4 d3 48. Bg4 Qb4 49. Rd7+ Ke8 50. Bg5 Qb8+ 51. f4 d2 52. Rxd2 a3 53.
+bxa3 h3 54. Bd7+ Kf8 55. Bxh3 Qc7 56. Rd8+ Qxd8 57. Bxd8 Kg8 58. Bh4 Kh8 59. a4
+Kg8 60. a5 Kf8 61. a6 Kg8 62. a7 Kf8 63. a8=Q# 1-0
+

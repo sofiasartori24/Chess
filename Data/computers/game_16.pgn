@@ -1,0 +1,27 @@
+[Event "More Chesse-Play: Stockfish vs Lc0 vs Stockfish+NNUE (3|2)"]
+[Site "Chess.com"]
+[Date "2020.07.25"]
+[Round "413"]
+[White "Lc0"]
+[Black "Stockfish NNUE"]
+[Result "0-1"]
+[ECO "E98"]
+[GameDuration "00:08:24"]
+[GameEndTime "2020-07-25T17:32:07.285 PDT"]
+[GameStartTime "2020-07-25T17:23:42.694 PDT"]
+[Opening "King's Indian"]
+[PlyCount "122"]
+[TimeControl "180+2"]
+[Variation "Orthodox, Aronin-Taimanov, 9.Ne1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. b4 Nf6 14. c5 Ng6 15. a4 h5
+16. c6 Kh8 17. cxb7 Bxb7 18. Kh1 Bc8 19. Nb5 a6 20. Na7 g4 21. Nxc8 g3 22. Bg1
+Qxc8 23. b5 Nh7 24. a5 h4 25. b6 h3 26. Qc2 Ng5 27. Ra2 hxg2+ 28. Nxg2 Qh3 29.
+Bxa6 Rxa6 30. b7 Rb8 31. Qxc7 Rxb7 32. Qxb7 Rxa5 33. Rc2 Rc5 34. Qb2 Rxc2 35.
+Qxc2 Kh7 36. Qe2 Qh5 37. Qa6 Nh3 38. Qb6 Kh6 39. Ne1 Bf6 40. Qb2 Bd8 41. Qa2
+Nxg1 42. Rxg1 Ba5 43. Qb2 Bxe1 44. Rxe1 Nh4 45. Re2 Qxf3+ 46. Kg1 Qd3 47. hxg3
+Qxg3+ 48. Kf1 Qh3+ 49. Kf2 Qg2+ 50. Ke1 Nf3+ 51. Kd1 Qf1+ 52. Kc2 Qxe2+ 53. Kc3
+Qxb2+ 54. Kxb2 Nd4 55. Kb1 f3 56. Kb2 f2 57. Kc3 f1=Q 58. Kb2 Qe2+ 59. Kc3 Qc2+
+60. Kb4 Qb3+ 61. Ka5 Qb5# 0-1
+

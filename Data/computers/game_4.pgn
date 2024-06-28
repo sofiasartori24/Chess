@@ -1,0 +1,29 @@
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.06"]
+[Round "1"]
+[White "Lc0"]
+[Black "Stockfish"]
+[Result "1-0"]
+[ECO "D86"]
+[GameDuration "00:27:52"]
+[GameEndTime "2020-08-06T00:46:59.662 PDT"]
+[GameStartTime "2020-08-06T00:19:07.096 PDT"]
+[Opening "Gruenfeld"]
+[PlyCount "147"]
+[TimeControl "600+5"]
+[Variation "Exchange, Simagin's improved Variation"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8.
+Ne2 Nc6 9. O-O b6 10. Bg5 Na5 11. Bd3 c5 12. Rc1 cxd4 13. cxd4 Qd7 14. Qc2 e6
+15. Qc7 Qxc7 16. Rxc7 Bb7 17. h4 Rfc8 18. Rfc1 Bf8 19. e5 Bc6 20. Rxc8 Rxc8 21.
+Ba6 Rb8 22. Bd2 Bd5 23. Rc7 Bxa2 24. h5 Bb3 25. Nc3 Bb4 26. h6 Kf8 27. f3 Ra8
+28. Kf2 Be7 29. Ne4 Bd8 30. Nf6 Bxf6 31. exf6 Kg8 32. Bb5 Bd5 33. Bxa5 bxa5 34.
+Ba4 a6 35. Rc5 Rb8 36. Rxa5 Bb7 37. Rc5 Kf8 38. Rc7 a5 39. Ke3 Bd5 40. Rc5 Ra8
+41. Kf4 Bb7 42. Ke5 Rd8 43. Rxa5 g5 44. Bc2 Bd5 45. Bxh7 Bb3 46. Ra7 Rd5+ 47.
+Ke4 Rd8 48. Ke3 e5 49. dxe5 Re8 50. f4 gxf4+ 51. Kxf4 Bd5 52. g4 Rb8 53. Kg5
+Re8 54. Kf4 Rb8 55. Kg5 Re8 56. Rc7 Ba2 57. Kf4 Rd8 58. g5 Rb8 59. Ra7 Bd5 60.
+Bf5 Kg8 61. e6 Bxe6 62. Bxe6 Kh7 63. Bd5 Kh8 64. Ra8 Rxa8 65. Bxa8 Kg8 66. h7+
+Kh8 67. g6 fxg6 68. f7 g5+ 69. Kxg5 Kxh7 70. f8=R Kg7 71. Rf1 Kh8 72. Kh6 Kg8
+73. Bd5+ Kh8 74. Rf8# 1-0
+

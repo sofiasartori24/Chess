@@ -1,0 +1,25 @@
+[Event "January 30 Early 2024"]
+[Site "?"]
+[Date "2024.01.30"]
+[Round "6"]
+[White "Carlsen, Magnus"]
+[Black "Agmanov, Zhandos"]
+[Result "1-0"]
+[Board "6"]
+[TimeControl "180+1"]
+[WhiteFideId "1503014"]
+[BlackFideId "13708309"]
+[WhiteElo "3290"]
+[BlackElo "2881"]
+[WhiteTeam "NOR"]
+[BlackTeam "KAZ"]
+[WhiteClock "0:02:24"]
+[BlackClock "0:02:48"]
+
+1. h4 { [%clk 0:02:47] } 1... d5 { [%clk 0:02:58] } 2. Nf3 { [%clk 0:02:45] }
+2... Nf6 { [%clk 0:02:58] } 3. e3 { [%clk 0:02:44] } 3... c5 { [%clk 0:02:55] }
+4. d4 { [%clk 0:02:41] } 4... cxd4 { [%clk 0:02:54] } 5. exd4
+{ [%clk 0:02:41] } 5... Nc6 { [%clk 0:02:54] } 6. c4 { [%clk 0:02:40] } 6...
+Bg4 { [%clk 0:02:54] } 7. cxd5 { [%clk 0:02:24] } 7... Bxf3 { [%clk 0:02:48] }
+1-0
+

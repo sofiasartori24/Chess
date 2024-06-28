@@ -1,0 +1,30 @@
+[Event "CCC 16 Rapid: Finals (15|3)"]
+[Site "?"]
+[Date "2021.11.21"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "A05"]
+[GameDuration "00:35:45"]
+[GameEndTime "2021-11-21T15:56:45.762 PST"]
+[GameStartTime "2021-11-21T15:21:00.079 PST"]
+[Opening "Reti Opening"]
+[PlyCount "173"]
+[TimeControl "900+3"]
+
+1. Nf3 Nf6 2. g3 c5 3. Bg2 Nc6 4. O-O e5 5. c4 d5 6. Qa4 Bd6 7. Ng5 Bd7 8. cxd5
+Nb4 9. Qd1 Qe7 10. Nc3 h6 11. Nge4 Nxe4 12. Bxe4 f5 13. Bg2 g5 14. a3 Na6 15.
+e4 f4 16. Qh5+ Kd8 17. d3 Rg8 18. Bd2 Kc7 19. b4 Raf8 20. b5 Nb8 21. Qd1 h5 22.
+Qa4 f3 23. Qa5+ Kc8 24. Bh1 Bh3 25. Qxa7 Bxf1 26. Rxf1 Nd7 27. Na4 g4 28. Rc1
+Rf6 29. b6 Bb8 30. Qa5 Kd8 31. Nxc5 Nxc5 32. Rxc5 Ke8 33. h4 Kf7 34. Rc4 Qd7
+35. a4 Kg6 36. Bg5 Rf7 37. Bc1 Kh7 38. Qd2 Rg6 39. a5 Bd6 40. Qc3 Rfg7 41. Bb2
+Re7 42. Qb3 Qd8 43. Bc3 Qd7 44. a6 bxa6 45. Rc6 Bb8 46. Qc4 Re8 47. Kh2 Qe7 48.
+Bb4 Qd7 49. d6 a5 50. Ba3 a4 51. Qd5 Rg7 52. d4 Qe6 53. Qxe6 Rxe6 54. d7 Rxd7
+55. Rxe6 exd4 56. Re8 d3 57. Rxb8 d2 58. b7 d1=Q 59. Rh8+ Kxh8 60. b8=Q+ Kh7
+61. Qe5 Rg7 62. Bb2 Qd7 63. Qxh5+ Kg8 64. Bxg7 Kxg7 65. e5 a3 66. Qg5+ Kh7 67.
+Qe3 Qa4 68. e6 a2 69. e7 a1=Q 70. e8=Q Qxe8 71. Qxe8 Qd4 72. Bxf3 gxf3 73. Qf7+
+Kh8 74. Qxf3 Qe5 75. h5 Kh7 76. Kh3 Qe6+ 77. g4 Kg7 78. Kh4 Qd6 79. Qf5 Qh2+
+80. Kg5 Qh1 81. Qd7+ Kg8 82. f4 Qg2 83. Qe8+ Kh7 84. Qg6+ Kh8 85. Kh6 Qc6 86.
+Qxc6 Kg8 87. Qe8# 1-0
+

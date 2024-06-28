@@ -1,0 +1,28 @@
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.07"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "A49"]
+[GameDuration "00:28:55"]
+[GameEndTime "2020-08-07T17:51:49.552 PDT"]
+[GameStartTime "2020-08-07T17:22:54.331 PDT"]
+[Opening "King's Indian"]
+[PlyCount "138"]
+[TimeControl "600+5"]
+[Variation "Fianchetto without c4"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d5 5. O-O O-O 6. c4 c6 7. cxd5 cxd5 8. Ne5
+Ne4 9. Nc3 Bf5 10. Bf4 Nxc3 11. bxc3 Nc6 12. Qb3 e6 13. Qxb7 Nxe5 14. Bxe5 Bxe5
+15. dxe5 Qa5 16. c4 Rab8 17. Qe7 dxc4 18. Qh4 Bc2 19. Qxc4 Rfc8 20. Qd4 Rb5 21.
+f4 Rb4 22. Qe3 Ra4 23. Rfc1 Rc3 24. Qd2 Qc5+ 25. Kf1 Rd4 26. Qe1 h5 27. Qf2 a5
+28. Kg1 Qb4 29. a3 Qc4 30. Bf1 Rd8 31. a4 Kg7 32. Qe1 Qc5+ 33. Qf2 Qb4 34. Qe1
+Rdc8 35. Bh3 h4 36. Bg2 R8c4 37. Ba8 h3 38. Kf1 Rc8 39. Bh1 R8c5 40. Ra2 Qd4
+41. Raa1 Be4 42. Rd1 Qc4 43. Kf2 g5 44. Qf1 g4 45. Bxe4 Qxe4 46. Ra2 Rd5 47.
+Raa1 Rd4 48. f5 exf5 49. e6 Rb4 50. Ra2 Qxe6 51. Kg1 f4 52. Qe1 Re3 53. Kf1
+Qxa2 54. Qd2 Qe6 55. Qd8 Re5 56. Qd6 Qf5 57. Qd3 Qf6 58. gxf4 Rxf4+ 59. Ke1 Re6
+60. Rb1 Rd4 61. Qg3 Qf5 62. Rc1 Qd5 63. Qf2 Rd2 64. Qf1 Qd3 65. Qxf7+ Kxf7 66.
+Rc7+ Kf6 67. Rf7+ Kxf7 68. Kf2 Rexe2+ 69. Kg1 Qb1# 0-1
+

@@ -1,0 +1,191 @@
+[Event "CCC 17 Blitz: Semifinals (5|5)"]
+[Site "?"]
+[Date "2022.06.22"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "B42"]
+[Annotator "Rafael Leitao"]
+[PlyCount "143"]
+[EventDate "2022.??.??"]
+[EventType "blitz"]
+[TimeControl "300+5"]
+
+{ The main idea of this game, in my view, is patience. Funny to say such a thing
+in a computer's game. But it's a key factor to play chess on a supreme level.
+Don't be in a hurry, just reinforce your position all the time while trying to
+restrict your opponent's counterplay. Stockfish will do this in different stages
+of this game. }
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6
+{ The Paulsen Variaton of
+the Sicilian Defense. It's one of the most flexibel Sicilians: it can transpose
+to a Taimanov, to the Scheveningen or develop a life of its own. It's not the
+most popular of Sicilian's at top level. }
+5. Bd3 { 5.Nc3 and 5.c4 are also very
+popular. } 5... Nf6 ( 5... Bc5
+{ is an important move: } 6. Nb3 { And now both
+retreats are possible. } 6...
+Ba7 ( 6... Be7 7. Qg4 g6 ) ) 6. O-O Qc7 7. Qe2 d6 8. c4 g6
+{ Black allows White to build the sctructure known as \"The Maroczy Bind\".
+These positions are also known as \"The Hedgehog\" - they are very solid for
+Black and once White tries to attack he might get hurt by the hedgehog quills.
+It is well established that White gets a small advantage in these positions, but
+Black's position is not without chances. Computers are fond of a space
+advantage, so I suppose Stockfish was pretty \"happy\" here. }
+9. Nc3 Bg7 10. Rd1 O-O 11. Be3 ( 11. Nf3
+{ is the main human move. Play might continue: } 11... Nc6 12. h3 Nd7 13. Be3
+$14 ) 11... b6 12. f3 Bb7 13. Rac1 Nbd7
+{ The Hedghehog is all
+about patience. The most important thing for White is to prevent the typical
+pawn breaks b6-b5 or d6-d5. Once this is achieved, comes the question: how to
+break Black's position? It will probably be necessary to advance the pawns at
+some point, either on the queenside or on the kingside, but it's important to be
+very careful when doing that. Sometimes a human player gets bored with all the
+necessary maneuvers and start action too quickly. Obviously this does not happen
+with Stockfish in this game. }
+14. Qd2 $1
+{ I like this move a lot. White prepares
+to move the bispo to f1 and the queen can support the pressure on the d6 pawn or
+maybe some Be3-h6 in the future. }
+14... Rfe8 ( 14... Ne5 15. Bf1 Nxc4 $2 16. Bxc4 Qxc4 17. Nd5 $18 ) 15. Bf1 Rac8
+16. Kh1
+{ A new move at this position, but we will
+get a transposition later on. } (
+16. Ndb5 $5
+{ Remember what I said about
+patience? This is the move of a creative player that doesn't like all the
+necessary maneuvring. But it's not all that bad. }
+16... axb5 17. Nxb5 Qb8 ( 17... Qc6 $6 18. Nxd6 Bf8 19. Nxe8 Rxe8 20. Kh1 e5
+21. b4 $16
+{ 1-0 (41)
+Cordovil,J-Moiseev,O ICCF corr 1982; The rook + 2 pawns are much stronger than 2
+knight in this position. }
+) 18. Nxd6 Bf8 ( 18... Bc6 $1
+{ This is the best move.
+The idea is to place the bispon on a4 after White's b2-b4. and stop the pawn
+storm. }
+19. b4 Ba4 $1 20. Re1 Bf8 21. Nxe8 Nxe8 { with a complicated position. } ) 19.
+Nxe8 Rxe8 20. b4 $16
+{ 0-1 (51) Zhornik,N (2302)-Kruglyakov,P (2066)
+Simferopol 2003 } ) 16... Qb8
+17. Nc2 Bf8 18. Bf4 Ne5 19. Bg5 Ned7 20. a3
+{ A new
+move. What's the point of it? Hard to say. Maybe play b2-b4 at some point with
+the pawn defended, so Black has no d6-d5 idea (with a possible threat on the
+b4-pawn). I think the computer just see that Black has no counterplay for now
+and improves the tiniest details of the position. }
+( 20. Ne3 h6 21. Bh4 Bc6 22. a3 g5 $5 23. Bg3 Ne5 24. b4 Bb7 25. Rc2 ( 25. Na4
+$14 ) 25... Nh5 26. Bf2 Nf6 $14
+{ 1/2-1/2 (34) Rodriguez Cespedes,A (2540)-Strikovic,A (2450) New York 1988 } )
+( 20. Qf4 Nh5 21. Qh4 $6 ( 21. Qd2 ) 21... Ne5 $1 22. b3 $6 ( 22. Na3 ) 22...
+b5 $1 23. f4 $6 h6 $1 24. Bf6 Nxf6 25. fxe5 Nh7 26. exd6 Bxd6 $19
+{ 0-1 (56) Lederman,L
+(2410)-Popov,L (2465) Skara 1980 } ) 20... Nh5 21. Be3
+Nhf6 22. Bf4 Ne5 23. b3 Nfd7 24. Nd4 Ba8 25. h3
+{ A human plan is to retreat the bishop to h2 and then
+play f4 at some point. But Stockfish is not in a hurry. }
+25... Red8 26. Qe3 Re8 27. Rc2 $1 { The rook will be better on the d-file. }
+27... Qc7 28. Bh2 h6
+{ The
+beginning of an active plan that will backfire. Black could play some random
+waiting move and wait until white starts to push the pawns. }
+29. Rcd2 Nf6 30. Be2
+{ Patience again! A human player probably would not resist playng f4 here or
+on the next move. }
+( 30. f4 Nc6 31. Nf3 { and now play gets sharp. } 31... Na5 32. e5 dxe5 33.
+fxe5 Nh5 $1 34. Rd7 Qc5 $1 35. Nd4 Qxa3
+{ This looks scary for Black
+but a computer is never afraid. } ) 30... Nfd7 31.
+Bg3
+{ It might be interesting to
+point out in the video that this is a move probably no human would play. }
+( 31. f4 { Who could resist this? } 31... Nc6 32. e5 $5
+{ And now play gets tactical. } 32... Nxd4 ( 32... dxe5 $2 33. Nxe6 Rxe6 34.
+Rxd7 Qb8 35. Nd5 $18 ) ( 32... d5 $5 33. f5 $1 Nxd4 34. Qxd4 gxf5 35. Nxd5 $1
+exd5 36. e6 Qd8 37. exd7 Qxd7 38. Bf3 $44 ) 33. Rxd4 d5 $1 34. Ne4 $1 dxe4 35.
+Rxd7 Qc5 36. Qg3 Qxa3 37. h4 $1
+{ And I
+have a feeling White's attack is just too strong. For instance: } 37...
+Bc6 38. h5 $1 Bxd7 39. hxg6
+{ White is threatening to take on f7 followed by Bh5+. } 39... f5 40. exf6
+{ In a human game this looks crushing, but the computer finds
+defensive resources. }
+40... Qb2 $1 41. f7+ Kg7 42. fxe8=Q Bxe8 $16 ) 31... g5
+{ Leela finally loses patience. The problem is White may play f4-e5 at any
+moment. }
+( 31... Kh7 32. f4 $1 Nc6 33. e5 $1 Nxd4 ( 33... d5 ) 34. Rxd4 d5
+{ White
+has many tempting moves here. } 35. Ne4 $5 ( 35. b4 $16 ) ( 35. Be1 $16
+Bc5 36. cxd5 Bxd4 37. Rxd4 { deadly compensation. } ) ) 32. f4 $1
+{ Finally some action! } 32... gxf4 33. Bxf4 Kh7 34. Nf3 $1
+{ Underming the knight's position. } 34... Qc5 35. Rd4 $1
+{ The strongest. Sacrificing a pawn. } ( 35. Nxe5 Qxe3 36. Bxe3 Nxe5 37. Bxb6
+Rb8 38. Rxd6 $1 ( 38. c5 Nd7 $1 ( 38... dxc5 39. Bc7 ) ) 38... Bxd6 39. Rxd6
+{ This also looks very good for human's eyes. } 39... Rec8 $14 ) 35... Qxa3 36.
+Qf2 { Threatening 37.Nxe5. Just look at this queen on a3, out of play! } 36...
+Bc6 ( 36... Qxb3 37. Nxe5 { and White wins by force. } 37... Nxe5 ( 37... dxe5
+38. Rxd7 exf4 39. Rxf7+ Bg7 ( 39... Kg8 40. Qxf4 Qxc3 41. Rdd7 $18 ) 40. Rxg7+
+Kxg7 41. Rd7+ Kg8 42. Qxf4 $18 ) 38. Bxe5 dxe5 39. Qxf7+ Bg7 40. Rd7 Rg8 41.
+Qxe6 { there
+are other winning moves. } 41... Qxc3 42. Rxg7+ Rxg7 43. Qf5+ Kh8
+( 43... Rg6 44. Rd7+ $18 ) 44. Qxc8+ Rg8 45. Qe6 $18 ) 37. Nd5 $3
+{ A totally unexpected blow! This
+is another instance of a move no human would play, especially because taking on
+e5 was so tempting. }
+( 37. Nxe5 Nxe5 ( 37... dxe5 $2 38. Rxd7 Bxd7 ( 38... exf4 39. Rxf7+ Bg7 40.
+Qxf4 $18 ) 39. Bxe5 $18 ) 38. Bxe5 dxe5 39. Qxf7+ Kh8 $8 ( 39... Bg7 $2 40. Rd6
+$1 $18 ) 40. R4d3 Qe7 41. Qf2 $16 ) 37... Bg7 ( 37... exd5 38. exd5
+{ Now
+the e2-bishop is ready to join the party. } 38... Bb7 39. Nxe5 dxe5 (
+39... Nxe5 40. Bxe5 Rxe5 41. Qxf7+ Bg7 42. Bd3+ Kh8 43. Rg4 Rg8 44. Qg6 $18 )
+40. Bc1 $1 $18 { the simplest. } 40... Qe7 41. Bd3+ Kh8 42. Qf5 f6 43. Rh4
+{ with a decisive
+attack. } ) 38. Bc1 $3
+{ Retreating the bishop to free the f4-square for the
+knight. Moves retreating pieces are notorously difficult for human players. }
+38... Qa2 ( 38... Qxb3 39. Nxe5 Nxe5 ( 39... dxe5 40. R4d3 Qc2 41. Bxh6 $1 Bxh6
+( 41... Kxh6 42. Qh4+ Kg6 43. Rg3# ) 42. Qxf7+ Kh8 43. Qg6 $18 ) 40. Nf6+ Kh8
+41. Rxd6 { followed by Nh5 with a winning attack. } ( 41. Nh5 $18 ) ) 39. Nxe5
+Nxe5 ( 39... dxe5 40. R4d2 Qxb3 41. Rd3 $1
+{ An important move keeping the queen out of
+the game! } ( 41. Qxf7 Qg3 $1 )
+41... Qc2 42. Bxh6 $1 { The same idea again. } 42... Bxh6 43. Qxf7+ Kh8 44. Qg6
+$18 ) 40. Nf4 $1 { The knight now might go to h5. } 40... Rg8 ( 40... Qxb3 41.
+Nh5 $18 ) 41. Qe3 $1
+{ Another move I find very hard to
+play. Difficult to resist the temptation to land the knight on h5 immediately. }
+( 41. Nh5 Bh8 $1
+{ followed by Rg6. White is still much better, but the move in
+the game is much cleaner. }
+) 41... Bf8 ( 41... Bh8 { Black has no time for this
+now. } 42. Nxe6 fxe6 $2
+43. Qxh6# ) 42. Rf1 Rc7 43. Bd1
+{ Just unbelievable. White
+is never in a hurry in this game. } 43... Rb7 44.
+Rd2 Qa5 45. Bb2
+{ Stockfish
+calmly improves his pieces and reinforce the attack. } 45... Be7
+46. Bc2 { The
+bishop's are pointing directly to Black's king. } 46... Be8
+{ As I say to my
+students: White must have a win here, otherwisechess has no logic. }
+47. Rd5 $1 { Here it is! Another piece is sacrificed on the d5-square! } 47...
+b5 ( 47... exd5 48. Bxe5 $1 { The cleanest. } ( 48. exd5+ Ng6 $1 49. Bxg6+ fxg6
+50. Ne6 { still should be easy winning for White. } ) 48... dxe5 49. exd5+ Kh8
+50. Ne6 $1 $18 ) 48. c5 $1 { Now white is totally winning. } 48... Qc7 49. Qd2
+{ Another calm move! } ( 49. cxd6 Qxc2 ( 49... Bxd6 50. Nh5 $1 Rg6 ( 50... exd5
+51. Nf6+ Kg7 52. Qg3+ $18 ) 51. Nf6+ Rxf6 52. Rxf6 $18 ) 50. Rd2 $1 $18 ) 49...
+exd5 { The sacrifice is finally accepted. } 50. exd5+ Rg6 ( 50... Kh8 51. Ne6
+$1 $18 ) ( 50... Ng6 51. c6 $18 ) 51. Bxg6+ fxg6 52. Ne6 Qb8 53. c6 Ra7 54. Bd4
+{ White is a whole piece down, but he has a monster knight on e6, a
+passed protected pawn on c6, the f-file and a powerful attack. Black's pieces
+are too passive. }
+54... Rc7 ( 54... Ra8 55. Qe3 $18 ( 55. Qf4 $18 ) ) 55. Qe1
+{ Again a retreating move! Other moves are also winning, but it's
+nice to see this pattern. }
+( 55. Qe3 ) ( 55. Qf4 ) 55... Rc8 56. Bxe5 dxe5 57. c7 $1 Rxc7 58. Qxe5
+{ Now is really a right time to resign. } 58... Bd6 59. Qxd6 Rb7 60. Qf8 a5 61.
+Nc5 Rg7 62. Ne4 Qe5 63. Nf6+ Qxf6 64. Rxf6 Bd7 65. Rf7 Rxf7 66. Qxf7+ Kh8 67.
+Qxd7 a4 68. Qe8+ Kg7 69. Qe7+ Kh8 70. d6 Kg8 71. d7 Kh8 72. d8=Q# 1-0
+

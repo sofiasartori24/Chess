@@ -1,0 +1,32 @@
+[Event "Stockfish+NNUE vs Lc0 (3|2)"]
+[Site "?"]
+[Date "2020.07.20"]
+[Round "1"]
+[White "Stockfish NNUE"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "C23"]
+[GameDuration "00:07:25"]
+[GameEndTime "2020-07-20T23:31:32.703 PDT"]
+[GameStartTime "2020-07-20T23:24:07.249 PDT"]
+[Opening "Bishop's Opening"]
+[PlyCount "103"]
+[TimeControl "180+2"]
+[Variation "Calabrese counter-gambit"]
+
+1. e4 e5 2. Bc4 f5 3. d4 exd4 4. Nh3 Nf6 ( 4... fxe4 5. Qh5+ g6 6. Qe5+ ) 5. e5
+Ng4 6. O-O Nc6 ( 6... Nxe5 7. Re1 Nc6 8. f4 ) 7. Re1 Be7 8. Bb3 ( 8. Nd2 Ncxe5
+9. Bb3 ) 8... Ngxe5 9. Nd2 a5 10. Nf3 d6 ( 10... Nxf3+ 11. Qxf3 d6 12. Ng5 )
+11. a4 Kf8 12. Nxd4 Nxd4 13. Qxd4 Bf6 14. Qe3 c6 15. Bd2 h6 16. Rad1 g5 17. Qg3
+f4 18. Nxf4 $3 gxf4 19. Bxf4 Qe7 20. h3 $3 ( 20. Rxd6 $2 Qxd6 $19 ) ( 20. Bxh6+
+$2 Ke8 21. f4 Bh4 $13 ) ( 20. Rxe5 $2 Bxe5 21. Rxd6 Qxd6 22. Bxe5 Qd1# ) 20...
+h5 21. Rxe5 Bxe5 ( 21... dxe5 22. Bh6+ Rxh6 ( 22... Bg7 23. Rd8+ Qxd8 24. Qxg7+
+Ke8 25. Qf7# ) 23. Qg8# ) 22. Rxd6 $3 Bxf4 ( 22... Qxd6 23. Bxe5 Qd1+ 24. Kh2
+$18 ) ( 22... Bxd6 23. Bxd6 $18 ) 23. Qxf4+ Ke8 ( 23... Kg7 24. Qd4+ Kh7 25.
+Qd3+ Kg7 26. Qg6+ Kf8 27. Rd8+ $1 Qxd8 28. Qf7# ) 24. Bf7+ $1 Qxf7 25. Qe5+ Be6
+( 25... Kf8 26. Qxh8+ Ke7 27. Qd8# ) 26. Rxe6+ Kd7 27. Qd6+ Kc8 28. Re7 Qxe7
+29. Qxe7 Kb8 30. Qe5+ Ka7 31. Qxa5+ Kb8 32. Qe5+ Ka7 33. Qd4+ Ka6 34. Qc5 b6
+35. Qxc6 Rac8 36. Qb5+ Ka7 37. a5 bxa5 38. Qxa5+ Kb7 39. b4 Rxc2 40. Qb5+ $1
+Kc7 41. Qe5+ Kb6 42. Qxh8 h4 43. Qb8+ Kc6 44. Qc8+ Kd6 45. Qxc2 Kd5 46. b5 Ke5
+47. Qc6 Kf5 48. b6 Ke5 49. b7 Kd4 50. b8=Q Kd3 51. Qd8+ Ke2 52. Qe4# 1-0
+

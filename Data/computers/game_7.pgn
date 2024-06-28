@@ -1,0 +1,35 @@
+[Event "AlphaZero Simulation Match (10|5)"]
+[Site "?"]
+[Date "2020.08.07"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Lc0"]
+[Result "0-1"]
+[ECO "B24"]
+[GameDuration "00:35:36"]
+[GameEndTime "2020-08-07T14:24:01.448 PDT"]
+[GameStartTime "2020-08-07T13:48:25.045 PDT"]
+[Opening "Sicilian"]
+[PlyCount "228"]
+[TimeControl "600+5"]
+[Variation "Closed"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. d3 d6 5. Bg2 Bg7 6. Bg5 Rb8 7. a4 a6 8. Nge2 b5
+9. axb5 axb5 10. O-O b4 11. Na4 Nf6 12. c3 O-O 13. d4 cxd4 14. cxd4 Ba6 15. Re1
+e5 16. dxe5 Nxe5 17. Nf4 h6 18. Bxf6 Qxf6 19. Nd5 Qd8 20. Bf1 Bc8 21. Rc1 Be6
+22. Be2 g5 23. b3 f5 24. exf5 Rxf5 25. Nc7 Bf7 26. Na6 Rb7 27. N4c5 Rb6 28. Nd3
+Nxd3 29. Qxd3 Rd5 30. Qf3 Re5 31. Red1 d5 32. Bf1 Re7 33. Bh3 Rf6 34. Qd3 Qa5
+35. Bf1 Re8 36. Rd2 Kh8 37. Rc5 Qb6 38. Ra2 Bg6 39. Qxd5 Rd6 40. Qc4 Rd4 41.
+Qb5 Qxb5 42. Bxb5 Red8 43. Rc1 Bf7 44. Bf1 Bf8 45. Rb2 g4 46. Rbb1 Rd2 47. Rc7
+Bd5 48. Nc5 Bd6 49. Rd7 Rxd7 50. Nxd7 Bf3 51. Rc1 Rb2 52. Bc4 Kg7 53. Be6 h5
+54. Kf1 h4 55. Bc4 h3 56. Ra1 Bc7 57. Ke1 Bd8 58. Kf1 Rc2 59. Re1 Rd2 60. Be6
+Rd6 61. Kg1 Be2 62. Bf5 Rd2 63. Rc1 Bf6 64. Nc5 Bb2 65. Rb1 Bd4 66. Ne6+ Kf6
+67. Nxd4 Rxd4 68. Bh7 Rd2 69. Rc1 Ke5 70. Bg6 Kd4 71. Bf5 Ra2 72. Bh7 Rb2 73.
+Bg8 Kd3 74. Ra1 Kd2 75. Bf7 Bd1 76. Be6 Bxb3 77. Bxg4 Ra2 78. Rf1 Bc4 79. Rd1+
+Kc2 80. f4 b3 81. Rd7 Kc3 82. Bxh3 Ra5 83. Bg2 Ra1+ 84. Kf2 Ra2+ 85. Kg1 Rd2
+86. Rxd2 Kxd2 87. Be4 b2 88. Bb1 Kc1 89. Bg6 Bb3 90. Kg2 Bc2 91. f5 b1=Q 92. f6
+Be4+ 93. Kh3 Bg2+ 94. Kxg2 Qxg6 95. Kf3 Qxf6+ 96. Ke4 Qf2 97. g4 Qxh2 98. g5
+Kd2 99. Kf5 Qd6 100. g6 Ke3 101. g7 Qd5+ 102. Kg6 Kf4 103. Kh7 Qh5+ 104. Kg8
+Kf5 105. Kf8 Kf6 106. g8=N+ Kg6 107. Ke8 Kg7+ 108. Kd7 Kxg8 109. Kc6 Qa5 110.
+Kd7 Kf7 111. Kd6 Qb5 112. Kc7 Ke7 113. Kc8 Kd6 114. Kd8 Qb8# 0-1
+

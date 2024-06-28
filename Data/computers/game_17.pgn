@@ -1,0 +1,17 @@
+[Event "TCEC 19 Superfinal"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "18"]
+[White "Stockfish 12"]
+[Black "Leela"]
+[Result "1-0"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. g4 h6 7. h4 a6 8. Nxc6
+bxc6 9. Qd3 Nf6 10. g5 hxg5 11. Bxg5 Qb6 12. O-O-O a5 13. Qf3 Bd7 14. Bc4 Rb8
+15. Bb3 c5 16. h5 a4 17. Nxa4 Qa5 18. Bxf6 gxf6 19. Nc3 Qb6 20. Qd3 Ke7 21. a3
+Bh6+ 22. Kb1 Rhc8 23. Qc4 Rc6 24. Rhe1 Rc7 25. Rd3 Bf4 26. Nd5+ exd5 27. exd5+
+Be5 28. Qh4 Kd8 29. Rxe5 dxe5 30. Rf3 Kc8 31. h6 Kb7 32. Bc4 Ba4 33. Rxf6 Qa5
+34. Qe4 Bb5 35. d6+ Bc6 36. Qxe5 Re8 37. Qf5 Rd7 38. Rxf7 Qd8 39. Rg7 Kb6 40.
+b4 cxb4 41. axb4 Rxg7 42. Qc5+ Kb7 43. hxg7 Re1+ 44. Kb2 Qf6+ 45. c3 Qxg7 46.
+b5 Be4 47. Bd5+ Bxd5 48. Qxd5+ Ka7 1-0
+

@@ -1,0 +1,35 @@
+[Event "TCEC Cup 9 Quarterfinal"]
+[Site "https://tcec-chess.com"]
+[Date "2021.10.25"]
+[Round "1.43"]
+[White "KomodoDragon 2.5.1"]
+[Black "Igel 3.0.10"]
+[Result "*"]
+[WhiteElo "3595"]
+[BlackElo "3509"]
+[ECO "D85"]
+[GameDuration "01:11:12"]
+[GameEndTime "2021-10-24T22:58:19.849 UTC"]
+[GameStartTime "2021-10-24T21:47:07.754 UTC"]
+[Opening "Gruenfeld"]
+[PlyCount "155"]
+[Termination "adjudication"]
+[TerminationDetails "SyzygyTB"]
+[TimeControl "1800+5"]
+[Variation "exchange variation"]
+[Annotator "archive"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Bb5+ Bd7 8.
+Bxd7+ Nxd7 9. Nf3 Bg7 10. h4 Qa5 11. Bd2 h6 12. a4 O-O 13. O-O e6 14. Qe2 Rfc8
+15. Rfe1 Qc7 16. a5 a6 17. Reb1 Rcb8 18. e5 b5 19. Re1 Rc8 20. Bf4 cxd4 21.
+cxd4 Qc3 22. Qe4 Qc6 23. Qe3 Qc3 24. Bxh6 Qxe3 25. Bxe3 Nb8 26. g4 Nc6 27. h5
+Nb4 28. Rab1 Nc2 29. Re2 Rab8 30. hxg6 fxg6 31. Ne1 Na3 32. Rb3 Bf8 33. Ng2 Rc6
+34. Nh4 Kf7 35. Kg2 Be7 36. Bh6 Rg8 37. Rf3+ Ke8 38. Rf6 Bxf6 39. exf6 Kf7 40.
+Nf3 Kxf6 41. Bg5+ Kg7 42. d5 exd5 43. Re7+ Kh8 44. Nd4 Rgc8 45. Ne6 Kg8 46.
+Rg7+ Kh8 47. Rxg6 Kh7 48. Rg7+ Kh8 49. Re7 Kg8 50. Bf6 R8c7 51. Nxc7 Rxf6 52.
+Rd7 Nc4 53. Kg3 d4 54. Rxd4 Nxa5 55. Rd8+ Rf8 56. Rd5 Rf6 57. f4 Nb7 58. Re5
+Rc6 59. Nd5 Kf8 60. g5 Nd6 61. Kg4 a5 62. Ne7 Rc7 63. Nf5 Nc4 64. Rxb5 Kf7 65.
+Nh6+ Ke6 66. f5+ Kd6 67. g6 Kc6 68. Rb1 Rg7 69. Kh5 Ne5 70. Ng4 Nd3 71. f6 Rg8
+72. f7 Nf4+ 73. Kg5 Ne6+ 74. Kf6 Rxg6+ 75. Kxg6 Nf8+ 76. Kf5 Kc7 77. Ra1 Kb6
+78. Rxa5 *
+

@@ -1,0 +1,30 @@
+[Event "TCEC Season 21 - Swiss 2"]
+[Site "https://tcec-chess.com"]
+[Date "2021.11.14"]
+[Round "3.22"]
+[White "Stockfish 14.1_20211101"]
+[Black "Winter 0.9.7"]
+[Result "*"]
+[WhiteElo "3637"]
+[BlackElo "3407"]
+[ECO "B17"]
+[GameDuration "01:20:23"]
+[GameEndTime "2021-11-13T20:43:08.320 UTC"]
+[GameStartTime "2021-11-13T19:22:44.732 UTC"]
+[Opening "Caro-Kann"]
+[PlyCount "109"]
+[TerminationDetails "White mates"]
+[TimeControl "2700+7"]
+[Variation "Steinitz variation"]
+[Annotator "archive"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Bc4 Ngf6 6. Ng5 e6 7. Qe2 Nb6 8.
+Bd3 Nbd5 9. a3 Bd6 10. N1f3 h6 11. Ne4 Nxe4 12. Bxe4 b5 13. O-O O-O 14. Re1 Bb7
+15. Bd3 Nf6 16. h3 Qc7 17. b4 a5 18. Rb1 axb4 19. axb4 Ra2 20. Ne5 Qe7 21. Bd2
+Rfa8 22. Ng4 Nd5 23. Nxh6+ gxh6 24. Qg4+ Kf8 25. Bxh6+ Ke8 26. Bg5 Qd7 27. c4
+bxc4 28. Bxc4 Rc2 29. Bb3 Rc3 30. Bxd5 cxd5 31. Bf6 Bf8 32. h4 Rc2 33. h5 Raa2
+34. Bh4 Rd2 35. Rb3 Ra7 36. b5 Ra8 37. Rf3 Bc8 38. Qg5 Ba6 39. Qxd2 Qxb5 40.
+Qf4 Qd7 41. h6 Bd3 42. Rxd3 Qd6 43. Qf6 Be7 44. Qh8+ Bf8 45. Qg8 Kd7 46. Qxf7+
+Be7 47. Rb1 Rf8 48. Rb7+ Kc8 49. Qxe7 Qxe7 50. Rxe7 e5 51. Rc3+ Kb8 52. Bg3 Rf5
+53. h7 Rh5 54. Bxe5+ Rxe5 55. h8=R# *
+

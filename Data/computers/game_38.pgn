@@ -1,0 +1,22 @@
+[Event "CCC 16 Rapid: Main (15|3)"]
+[Site "?"]
+[Date "2021.11.05"]
+[Round "1"]
+[White "Dragon"]
+[Black "Stoofvlees"]
+[Result "1-0"]
+[ECO "B29"]
+[GameDuration "00:20:02"]
+[GameEndTime "2021-11-05T22:51:57.788 PDT"]
+[GameStartTime "2021-11-05T22:31:55.045 PDT"]
+[Opening "Sicilian"]
+[PlyCount "61"]
+[TimeControl "900+3"]
+[Variation "Nimzovich-Rubinstein Variation"]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 d5 4. Bb5+ Bd7 5. e5 d4 6. exf6 dxc3 7. fxg7 cxd2+
+8. Qxd2 Bxg7 9. a4 Nc6 10. O-O Nd4 11. Nxd4 cxd4 12. Qg5 Bf6 13. Qh6 Bxb5 14.
+Re1 Rg8 15. Qxf6 Bd7 16. Qh4 h6 17. g3 Bc6 18. Qf6 d3 19. Ra3 dxc2 20. Rae3 e6
+21. Rxe6+ fxe6 22. Qxe6+ Kf8 23. b3 Rg5 24. Ba3+ Rc5 25. Qf5+ Kg7 26. Bb2+ Re5
+27. Bxe5+ Kg8 28. Qg6+ Kf8 29. Bg7+ Kg8 30. Bxh6+ Kh8 31. Qg7# 1-0
+

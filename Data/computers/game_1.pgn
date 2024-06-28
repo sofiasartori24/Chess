@@ -1,0 +1,418 @@
+[Event "CCC13: Semifinals (10|5)"]
+[Site "?"]
+[Date "2020.04.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Komodo"]
+[Result "1-0"]
+[ECO "A63"]
+[Annotator "Rensch, Daniel"]
+[PlyCount "261"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2019.09.13"]
+[TimeControl "600+5"]
+
+{ In perhaps the most instructive (mindblowing?) endgame of the year to date, our
+friendly neighborhood Fish defeated the dragon in the 13th edition of
+Chess.com's Computer Chess Championship. I have analyzed the endgame below for
+my blog here, and you can enjoy Grandaster Dejan Bojkov's notes (with a few of
+my own comments sprinkled in) before move 43. }
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 c5 7. d5 e6 8. O-O
+exd5 9. cxd5 Re8 10. Re1 a6 11. a4 Nbd7 12. Bf4 (
+{ Two top grandmasters recently discussed the consequences of the
+line: } 12.
+e4 Ng4 13. Nd2 Nge5 14. Re3 Nb6 15. Qf1 a5 16. h3 c4 17. Kh2 Bd7 18. f4 Nd3 19.
+Nxc4 Nxc1 20. Rxc1 Nxc4 21. Qxc4 Qb6
+{ Ding,L (2805)-Navara,D (2734)
+Prague 2019 } ) 12... Ng4 13. a5 Nde5 14. Ne4
+h6 15. Qc1 g5 16. Bxe5 Nxe5 17. Nxe5 Bxe5 18. Nd2 Qf6
+{ N A novelty upon (not-suprisingly) an email game. } (
+{ An
+earlier, also engine-generated game saw: } 18... Bd7 19. Nc4 Qe7 20. Ra3
+Bg7 21. Re3 Qf8 22. Rb3 Bb5 23. e4 Rab8 24. Bh3 Bd4 25. Bf5 Qe7
+{ and eventually ended in
+a draw, Malchev,E (2437)-Fischer,W (2439) ICCF email 2018 }
+) 19. Nc4 Bd7 20. Ra3 ( 20. Nb6
+{ only pushes the bishop to a better position: } 20... Bb5 ) 20... Bb5 21. Nxe5
+Rxe5
+{ The opening is over and Black seemingly cannot complain of the
+outcome. In the Benoni the trades give Black enough room to maneuver and here he
+(sorry, it) can easily build kingside blockade. }
+22. e4 Rae8 23. Rae3 { White's
+play is on the kingside, therefore: } 23... g4
+$1 24. h3 ( { The opening of the
+opposite wing only helps Black: } 24. b4 cxb4
+25. Qb1 Rc8 26. Qxb4 Rc2 ) 24... h5 25. Qc3
+{ Now both sides prepare for the opening of the f-file. } 25... Qg7 26. h4 (
+{ Not much is changed after: } 26. Kh2 R8e7 ) 26... R8e7 27. Kh2
+{ A curious
+position. Black does not have such a large choice as it seems. }
+27... Qh8 ( { To
+start with, he cannot move the rooks: } 27... Re8 $6 28. b4
+cxb4 29. Qxb4 Qf6 30. f4 gxf3 31. Rxf3 Qe7 32. Qd2
+{ is advantageous for the first player as Black lost
+stability on the kingside. }
+) (
+{ More interesting seems the human approach to
+clarify things once and for all with: }
+27... f5 $5 28. exf5 Rxe3 29. fxe3 Qxc3 30. bxc3 Kf7
+{ White won a pawn, but after: } 31. e4 Kf6
+{ followed by Kf6-e5 and
+Re7-f7 the position seems a fortress to me. } ) (
+27... Kh8
+{ is not as good as the
+game move as the pawn on h5 is not sufficiently defended in the line: }
+28. f4 gxf3 29. Bxf3 ) 28. Qd2 Qg7 29. Qc3 Qh8 30. Qd2
+{ Now that is interesting!
+Stockfish repeats the moves once, like a human being. Is he trying to win some
+time on his clock? Or frustrate his opponent?? }
+30... Qg7 31. Qd1 f5
+{ And Black
+does not stand the pressure and starts attacking! This is what I would have
+written maybe, had this been played by mere mortals. }
+32. Qc1 ( { Not yet: } 32. exf5 $6 Rxe3 33. fxe3 Qxb2 ) 32... fxe4 33. Rxe4
+Rxe4 ( { More accurate than } 33... Bd3 34. Rxe5 Rxe5 35. Qd2 (
+{ Not much yields: } 35. Rxe5 Qxe5 36. Qh6 Kf7
+{ as the
+squares around the king are well defended. } ) 35... Bb5 36. Rxe5 Qxe5
+37. Qh6
+{ and without the black bishop on the b1-h7 diagonal this is unpleasant for
+Black. }
+) 34. Rxe4 Rxe4 35. Bxe4 Qe5 36. Qf4 $1 { A very clever decision. } (
+{ Nothing
+promises: } 36. f3 Be2 ) 36... Qxf4 37. gxf4
+{ The endgame is difficult for Black
+as the majority of his pawns are fixed on light squares and can be attacked.
+This is far more imporatnt than the double f-pawn that White created himself. }
+37... Be8 ( 37... Bc4 $2 { loses instantly to: } 38. Bg6 Bxd5 39. Bxh5 ) 38.
+Bf5 { Eyeing the queenside pawns. } ( { Weaker would be: } 38. f3 gxf3 39. Bxf3
+Kg7 ) 38... Bf7 39. f3 $1 ( { The moves cannot be transposed as in the line: }
+39. Be6 Bxe6 40. dxe6 d5 41. Kg3 d4
+{ The g4 pawn is a huge obstruction for the white pieces.
+In particular: } 42.
+f3 $2 { Loses to: } 42... d3 43. Kf2 g3+ $1 ) 39... gxf3 (
+{ Just as
+before, the endgame: } 39... Bxd5 40. fxg4 hxg4 41. Kg3
+{ favors White thanks to
+his more active king. } ) 40. Be6
+{ Now White can offer the swap of the bishops. } 40... f2 (
+{ As the pawn endgame after: } 40... Bxe6 41. dxe6 d5 42. Kg3
+{ Is lost
+for the second player due to White's better quality pawns: } 42...
+Kf8 43. Kxf3 Ke7 44. f5 Kf6 45. Kf4 d4 46. Ke4 Ke7 47. b4 $1 ) 41. Kg2 Kg7 42.
+Kxf2 Kf6
+{ Please
+note that much of the comments and notes previous to this move 43 should be
+attributed to GM Dejan Bojkov. }
+43. f5
+{ You could argue the beginning of the
+\"instruction\" starts here. Stockfish and Komodo do what computers do best for
+the better part of the next 50 moves: completely confuse us! I must admit that
+as a fan of the CCC and these high level computer battles, I often begin to
+\"tune out\" during this stage of things since, normally speaking, it's merely
+nothing more than their \"contempt\" for the draw forcing them to play on (for
+those who don't speak computer, \"contempt\" is something we, as human
+programmers, have often built into computers, and even Neural Nets, that makes
+them HATE draws more than anything, so unless they see a clear reason they are
+losing, they will amost always keep playing and avoid repetitions). }
+43... Be8 44. Ke3 Ke5 45. Bc8 Bb5 ( { The a-pawn marches through in the line: }
+45... Kxd5 $2 46. Bxb7+ Ke5 47. Bxa6 Kxf5 48. Bb7 { and wins. } ) 46. f6 $1
+{ The b7-pawn is a
+sitting duck. It is much more important to gain space for the king. Regardless
+of whether the endgame is \"certainly winning\" at this point yet or not, this
+is already an instructive takeaway for viewers and fans. }
+( 46. Bxb7 $2 Kxf5 47. Kf3 Ke5
+{ should be a draw since not only are the d5 and h5 pawns equally weak,
+most importantly Black's king has not surrendered any critical ground. }
+) 46... Kxf6 47. Kf4 Be2 48. Bxb7 Bc4 49. Bc6 Bf1 50. Be8 Be2 51. Ke3
+{ Strange for
+Stockfish to return his more active king's position by giving back the
+e5-square. While much analysis of this game suggests that Black wants to keep
+the king close to the h5-pawn anyway at this point (ie, explaining Komodo's
+choice to go ...Kg7 instead of ...Ke5 when given the chance), I'm not sure it
+really makes sense. }
+51... Bg4 52. Ba4 { The bishop is transferred to the f1-a6
+diagonal. } (
+{ Note that tricks with } 52. Bb5 $4 { are too soon after } 52... axb5 53. a6
+Bc8 54. a7 Bb7 { and Black wins. } ) 52... Kg7 $5
+{ The king hangs around the
+h5 pawn, however, as my notes to 52...Ke5 suggest, it was no worse a move. }
+( 52... Ke5
+{ Would have been better, in my mind, since the worst that can happen
+to Komodo is a transposition to the game after }
+53. Bb3 Kf6 ( 53... Bd7 54. Bc4 Bc8 55. Be2 ) 54. Bc4 Bc8 55. Be2 Kg6
+{ where Stockfish (we think?) is still
+winning if/when the engine finds the idea it did in the game (#spoileralert ie,
+trade off the b2-pawn for the c5-pawn and then when the time is right, sacrifice
+the d5-pawn all together), but still, other than Komodo himself not wanting to
+repeat moves either, I can't really say that 52...Kg7 was any more than
+52...Ke5. }
+) 53. Be8 ( 53. Bb3 Kg6 54. Bc4 Bc8 { defending both weaknesses. } ) 53... Kf6
+54. Ba4 Kg6 55. Bc6 Bc8 56. Be8+ Kh6 57. Kf4 Bg4 58. Bc6 Kg6 59. Ke3 Bc8 60.
+Be8+ Kh6 61. Kf4 Bg4 62. Ba4 Kg6 63. Ke3 Bh3 64. Be8+ Kh6 65. Ba4
+{ And if were
+still watching this game with ANY excitement live, that's likely a sign of you
+being bored out of your mind -- #stayhome #staysane #COVID19 -- or that you're a
+profit of the highest level and should consider telling people's fortunes for a
+living... But seriously, what gives? The pressure has improved by precisely zero
+margin over the last dozen or so moves, and any attempts to call Stockfish's
+play \"brilliant\" are \"result-bias\" purely because we know the outcome. It
+seems at this time very hard for White to justify that Black's two pawn
+weaknesses (ie a6 and h5) could ever really be worth much more than White's
+d5-pawn. }
+65... Kg7 66. Kf4 Kf6 67. Bd1 Kg6 68. Be2 Bc8
+{ Ultimately White comes
+back to this set-up. But how to improve further? } 69.
+Bd3+ Kf6 70. Be2 Kg6 71. Bd3+ Kf6 72. Bf1
+{ While some might claim the three-step maneuver was usedr to
+force zugzwang here, it's not really the case when Black still has useful
+moves. }
+72... Kg6 73. Be2 { Yay! Zugzwang, right!? } 73... Bb7 { No! Stumped
+again! }
+74. Bd3+ Kf6 75. Be2 (
+{ One key point to be made early, is that
+sacrificing the d5-pawn as a means of entry (ie, the game idea... sorry for the
+spoilers!) isn't possible without the plan that preceeded it (ie, trading off b2
+for c5) in view of }
+75. Bf5 Bxd5 76. Bd3 c4 $1 { and Black is doing just fine! } ) 75... Kg6 76.
+Ke4 Bc8 77. Ke3 Bb7 78. Ke4 Bc8 79. Ke3
+{ Where is this king going?
+Has the computer's own contempt for contempt finally caught up with the
+position? }
+79... Bb7 80. Kd2 $1
+{ Finally, progress (or a bluff!?) is revealed! On
+the one hand, I will still admit I viewed the idea of trading b4 for c5 as
+further contempt at its best. More maneuvers will lead to three-fold repetition
+(or maybe even a 50-move draw at some point), so a pawn exchange that opens no
+new avenues can hardly be seen as real progress to the unbiased critic.
+Regardless, the plan is set in motion and we will not have a draw for now at
+least... }
+80... Bc8 (
+{ It's good to remind everyone why d5 is not capturable,
+with the variation }
+80... Bxd5 81. Bxa6 Kf5 82. Bc8+ Kf4 83. a6 Bc4 ( 83... Kg3 84. Bb7 ) 84. Bb7 (
+{ NOT } 84. a7 Bd5 { !!! And Black is holding all roads to a8! } ) 84... Bxa6
+85. Bxa6 Kg3 86. Ke3 d5 87. Be2 Kxh4 88. Kf4 d4 89. Bf1
+{ is a fun
+Zugzwang where Black loses! } ) 81. Kc3 Kh6 82. b4
+{ Ok, you can trade these...But
+how does this help you? The weaknesses are defended, the position is blocked... }
+82... cxb4+ 83. Kxb4 Kg6 84. Kb3 Bb7 ( 84... Kf5 $1 85. Bxh5 Ke5 86. Kc3 ( 86.
+Bf3 $6 Kf4 87. Be2 Ke5 88. h5 $2 Kf6 ( 88... Kxd5 89. h6 Bf5 90. Bxa6 { wins. }
+) 89. Kc3 Kg5 90. Kd4 Kh6 91. Ke4 Kg5 92. Bf3 Bf5+ 93. Kd4 Bc8 94. Ke3 Bd7 95.
+Be2 Bc8 96. Kd3 Kh6 97. Ke4 Kg5 98. Ke3 Kf5 99. Kf3 Kg5 100. Ke4 Bf5+ 101. Kd4
+Bc8 102. Kc3 Kh6 103. Kd2 Kg5 104. Ke3 ) 86... Kxd5 87. Bg6 Ke5 88. h5 d5 89.
+h6 Kf6 90. Bd3 Bb7 91. Kd4 { wins in similar fashion as to the game! } ) 85.
+Kc4 Bc8 86. Kb3 Bb7 87. Kc3 Kh6 88. Bd3 Kg7 89. Kd4 Bc8 90. Be2 Kg6 91. Bd3+
+Kg7 92. Be2 Kg6 93. Kd3 Kh6 94. Ke4 Kg6 95. Kf4
+{ Only with hindsight is it fair to say that Black is in
+Zugzwang here... and we will discuss more on that soon after the brilliant 99th
+move! However, the question remains (that I'm not sure I can totally answer) as
+to whether there was ever a way -- perhaps much, MUCH earlier??? -- to prevent
+this incoming doom. While my initial evaluation was surely this must have been a
+draw, yet having reviewed it now for longer than I should, I'm not sure Komodo
+was ever fully capable or preventing White's plan. }
+95... Bb7 ( { Not } 95... Kh6 { since } 96. Bd3 $1 Bb7 97. Kf5 { is easy. } )
+96. Bd3+ Kf6 97. Bc4
+{ and if you needed
+any other reason to understand WHY we (the world!) were all shocked when move
+99.!! came to the board, White had repeated yet again here... what else were we
+to expect!? }
+97... Bc8 98. Bd3 Bb7 99. Bf5 $3
+{ Bananas. Pure bananas. As many
+said, if you were watching this game live, you might only suspect the contempt
+for a draw pushed SF on. But indeed, the idea is more brilliant than just
+passing time, running up the Chess.com Server bill at the CCC! After many, many
+hours I'm here to proclaim with certainty: White is winning here and infact,
+White was likely winning this endgame the entire time. }
+99... Bxd5 { What else to
+do? } 100. Bd3 Bb7
+{ The only difference between this position and what we've been
+watching is that the d5-pawn is now gone! How brilliant is that!? Somehow, by
+true miracle, White ONLY wins because the d5-pawn has left the board. }
+101. Bc4 { Now another fine zugzwang play starts. } 101... Kg6 ( 101... Bc8
+{ would soon lead
+to the same. } ) ( 101... d5 102. Be2 Kg6 103. Ke5 ) 102. Be2
+{ To highlight Black's
+difficulties: The king wants to stay on g6 in order to both guard h5 and prevent
+Kf5, but doing so while also keeping the pawn on d6 (to guard entry via e5) and
+the bishop on b7 (to prevent White's next move) is impossible. }
+102... Bc8 ( 102... Kf6 { Doesn't hold any better after } 103. Bxh5 Bc8 104.
+Be2 Bb7 105. Bd3 Bc8 106. h5 ( 106. Ke4 Bb7+ 107. Kd4 Kg7 108. Be4 $1
+{ (the pawn endgame is winning
+now) } 108... Bc8 109. Bc6
+{ and Black's pieces have too many tasks: Defending a6,
+preventing Kd5-d6 and eyeing the h-pawn. }
+) 106... Bb7 107. h6 Bc8 108. Ke3 Bb7 109. Kd4 Kf7 110. Be4 Bc8 111. Bc6 (
+{ Not } 111. Kd5 Bb7+ $1 112. Kd4 Bc8 ) 111... Kg6 112. Kd5 Kxh6 113. Kxd6
+{ wins. } ) 103. Bf3 $1
+{ This forces the black bishop out
+of the c8-a6 diagonal. } ( 103. Ke4 $6
+{ does not work: } 103... Bb7+ 104. Kd4 Kh6 $1 { and White no longer has Kf5. }
+) 103... Bf5 ( { Sitting tight here fails to } 103... Kh6 104. Be4 $1
+{ where after } 104... Be6 105. Bd3 Bc8 106. Ke4 $1
+{ Black can't deal
+with the threat of Kd5 without allowing the king to enter into f5. }
+106... Bb7+ ( 106... Kg6 107. Kd5+ { winning d6 and then a6 soon after. } )
+107. Kf5 { wins. } ) 104. Ke3 Bc8 105. Kd4 Bg4 (
+{ While I obviously respected Komodo's \"depth\" when
+making the decision to immediately abandon the \"blockade ship\" with the
+approach taken in the game (ie, run your king as fast as you can to the
+queenside), I had to anlayze as deeply as I could (to prove to my own weak,
+feeble human brain) that just \"sitting tight\" was indeed losing for Black. The
+complicated variations below (and my teaching concepts in the video) hopefully
+shed some light on just why Black was already lost here. }
+105... Kh6
+{ is the
+most stubborn way to say \"prove the pawn sac\", and already puts White in a
+\"must find\" only move that wins situation (see notes to all moves that are NOT
+16.Bc6!). The variations below show the delicate nature of White's advantage,
+and prove that with the feature of \"rook pawns\" being present, even when it
+looks easy, Black still has some stalemate tricks. }
+106. Bc6 $1
+{ is key, and needs
+to be played now. White is threatening to bring the king to d5, and Black is a
+tempo behind because 106...Kf5 is not possible! Trying to get there through g6
+allows }
+( 106. Be2 $2 Bb7 $1 { and Black is holding both a6 and the d5-square. } ) (
+106. Kd5 $4 Bb7+ { and Black wins the bishop on f3. } ) ( 106. Be4 $6
+{ doesn't lose the
+advantage, but also doesn't make progress after } 106... Kg7
+107. Bf3 Kh6 ) 106... Kg6 ( 106... Be6 107. Bb7 { wins a6. } ) (
+{ Though note that with this idea of
+running the black king BACK to the queenside to setup a rook-pawn drawn king and
+pawn endgame, White has to follow one key line to win with: }
+106... Bg4 107. Bb7 Be2 108. Bc8 Kg6 109. Kd5 Kf6 110. Kxd6
+{ the Black king is forbidden perfectly
+from both f5 and e5! Still, it's tricky after }
+110... Bd3 111. Kc5 Ke5 112. Kb6 Kd5 113. Bb7+ Kd6 { when only } 114. Bf3 $1
+{ is winning! Taking a6 was again a draw,
+but now, Black is overworked. } )
+107. Be8+ $1
+{ and the Black king must go back. The
+variations are still crazy complex however, and I tried to illustrate a few key
+points here: }
+107... Kh6 108. Kd5 Bg4 109. Kxd6 Be2
+{ Note that in this line,
+Black has officially estbalished the bishop on its ideal post: guarding both a6
+and h5. Impatient technique can still lead to a draw in some variations below. }
+110. Ke5 $1
+{ is not the only winning move, but to me, illustrates the key winning
+idea in the most clear way: centralize the king and make Black choose which pawn
+he wants to part with! If the Black king retreats in variations below, White is
+often marching King-f5-g5 and then winning h5. If Black stays put, White now has
+the time (with the powerful king) to play Bishop d7-c8 and only THEN run the
+White king BACK to b6 to win a6. }
+( { A rushed variation like this can show
+Black's drawing attempt after: } 110.
+Kc5 $6 Kg7 $1 111. Kb6 $4 (
+{ And to win, White
+might have to find the counter-intuitive retreaing king idea of }
+111. Kd4 Kf6 112. Ke3 $1 Ke7 $1 113. Kxe2 $4 ( { Though } 113. Bg6 $1 Bg4 114.
+Bd3 Bc8 115. Be2 { does
+still win. } ) 113... Kxe8
+{ Black has long range opposition and holds the
+draw! } ) 111... Kf6 112. Bd7
+Ke5 113. Bc8 Kd5 $1 114. Bxa6 Bxa6 115. Kxa6 Kc6 { draw! } ) ( 110. Bc6
+{ is also winning, but only with the same idea after } 110... Kg6
+{ of king centralization with } 111. Ke5
+{ and with Be8 check coming, it's
+similar to other variations where White wins. }
+) ( 110. Bd7 Kg6 111. Bc8 ( 111. Ke5 $1
+{ is still key to winning! Keep the Black king improsined until your bishop
+is on the ideal square of c8: guarding f5 and attacking a6! }
+111... Kf7 112. Bf5 ( { Not } 112. Kf5 Bg4+ ) 112... Ke7 113. Be4 Kd7 114. Kf4
+Kd6 115. Kg5 Kc5 116. Bg6 Kb4 117. Bxh5 Bc4 118. Bg4 Bf7 119. Bf5 Kxa5 120. Bg6
+Bg8 121. h5 Kb4 122. Kf6 ( 122. h6 a5 123. Kf6 a4 124. Kg7 a3 125. Bb1 Kb3 126.
+Kxg8 Kb2 127. h7 Kxb1 128. h8=Q a2 { is also still a draw! } ) 122... a5 123.
+Kg7 Be6 124. h6 a4 125. h7 { and White wins. } ) 111... Kf6 112. Kc6 ( 112. Kc5
+Ke5 113. Bb7 Ke6 114. Kd4 Kd6 115. Ke3 Bc4 116. Bf3 Kc5 117. Bxh5 Kb4
+{ and it's likely a race that leads to a
+tie for first! } ) 112... Ke5 113. Kb6
+Kd5
+{ but here Black is drawing because the
+bishop maintains protection over h5! }
+114. Bb7+ Kd6 115. Bc8 Kd5 { and how to
+make progress? } ) 110... Bf1 (
+{ Note that } 110... Bd3 { doesn't help after } 111. Kf6 Be2 112. Bc6 $1 Bd3
+113. Bd5 ( 113. Bb7 Be2 114. Bc8 Bd3 115. Ke5 Kg6 116. Kd4 Bf1 117. Kc5 Kf6
+118. Kb6 Ke5 119. Bxa6 ) 113... Be2 114. Bb7 Bd3 115. Ke5 Kg6 116. Kd4 Bf1 117.
+Kc5 { see 1110...Bf1 line for how White is winning. } ) 111. Bc6 Be2 112. Bb7
+{ And Black is faced with another tough question: Keep the king
+where he is and try to maintain the f1-a6 diagonal with the bishop (see how
+112...Bf1 loses below) or try to bring the king to the queenside now, risking
+Kf5-g5 and winning h5. }
+112... Kg7 ( 112... Bf1
+{ Now White has improved much from
+a few moves ago: The bishop is on b7 hitting a6, and the White king is close
+enough to reach a6 before the Black king gets counterplay! }
+113. Kd4 $1 Kg6 114. Kc5 Kf5 115. Kb6
+{ and now White is actually threatening to take a6 because there
+are no stalemate tricks of trapping the White king on the a-file. }
+( { Also
+winning is } 115. Bf3 Kf4 116. Bxh5 Kg3 117. Kb6 Kxh4 118. Bf3 Kg3
+119. Bb7 Kf4 120. Bxa6
+{ if you really wanted to get rid of the h-pawns first. } ) 115... Kg4 116.
+Bxa6 Bg2 117. Bc8+ Kxh4 118. a6 { followed by Bb7 is lights out! } ) 113. Kf5
+Bb5 114. Kg5 Be2 115. Be4 Kf7 116. Bg6+ Ke6 117. Bxh5
+{ easily wins as Black is
+way behind in the race to reach a5. } ) (
+{ First, the obvious failing to any move
+that takes away the \"skewer threat\" on b7 is just losing because the d5-pawn
+no longer stands in White's way. }
+105... Bd7 { or any more that is NOT ...Be6
+allows Kd5! } 106. Kd5
+{ d6 falls, a6 is not far behind it, and it's game over. } 106... Bg4 ( 106...
+Kf5 107. Bxh5 { is too much for Black. } ) ( 106... Bc8 107. Kxd6 Bg4 108. Be4+
+Kf6 109. Bd3 Bc8 110. Kc7 { wins. } ) 107. Be4+ ) ( 105... Be6
+{ along
+with ...Bf5 allows } 106. Bb7 { winning a6 and the game. } ) 106. Be4+
+( { Note that } 106. Bb7
+{ allows Black's bishop the ideal \"defend both pawns\" diagonal with } 106...
+Be2 $1
+{ and further aggressive attempts by White might go too far, for
+example } 107.
+Be4+ Kf6 108. Kd5 Ke7 109. Kc6 Ke6 110. Kb6 d5
+{ and suddenly the
+tables have turned! } ) 106... Kf7 ( 106... Bf5 107. Bb7
+{ is winning. } ) ( 106... Kh6 107. Bd3 $1 Bc8 108. Kd5 Kg7 109. Kxd6 Kf6 110.
+Kc7 { and a6 falls. } ) 107. Bd3 $1
+{ The most valuable Black pawn drops and with it Komodo's hopes. } ( 107. Kd5
+$2 { allows } 107... Ke7 108. Bd3 Kd7 $1 109. Bxa6 Bf3+ 110. Kd4 Kc6
+{ and Black is more
+active than in the game. This is probably a draw. } )
+107... Ke8 (
+{ Perhaps the
+most key line to illustrate the \"purpose\" of the d5-pawn sacrifice is seen
+after }
+107... Bc8 108. Kd5 $1 ( { Also winning is } 108. Be2 Kg6 109. Kd5
+{ where d6
+and a6 will fall soon, and the bishop on e2 prevents the Black king from coming
+up without dropping the h-pawn. }
+) 108... Ke7 109. Kc6 { and the pawn will soon
+fall anyway. } 109... d5 110.
+Kc7 $1 { Full entry! } 110... Bg4 111. Bxa6
+{ and with
+White's king shielding the Black king from the queenside, the a-pawn is too
+strong. }
+) 108. Bxa6 Kd8 109. Ke4 Kc7 110. Bb5 Kb8 111. Kf4 Kc7 112. Be8 d5 (
+{ Sitting tight isn't an option with the h5-pawn falling. For example, } 112...
+Kb8 113. Kg5 d5 114. Bxh5 { and the white king is the square of the pawn. }
+114... Bc8 115. Be2 { and the h-pawn marches. } ) 113. Ke5 Bf3 114. Bb5 Kb7
+115. Kd6 Kb8 116. Kc6
+{ Threatening mate after Kc6-b6, followed by a5 pawn-march and Bb5-c6. } 116...
+Ka7 ( { Doesn't help after } 116... d4+ 117. Kc5 Kc7 118. Kxd4 Kd6
+{ Yay!
+I've achieved opposition... } 119. a6
+{ Uhoh, now I have to go back and stop the
+pawn... } 119... Kc7 120. Kc5 Bg4
+121. Bc6 Bc8 122. a7 { wins. } ) 117. Bd3 Kb8 118. Kb6 Be4 119. Bb5 d4 120. a6
+d3 (
+{ Keeping the bishop on the long diagonal doesn't
+help either, since you can't maintain both the protection of h1-a8 and the
+h-pawn at the same time. For example, }
+120... Bg2 121. a7+ Ka8 122. Be2 { and
+h5-falls. } ) 121. a7+ Ka8 122. Ba6 d2
+123. Be2 d1=N 124. Bxd1 Bb7 125. Bxh5 Bc6 126. Bd1 Bh1 127. h5 Bg2 128. h6 Bh1
+129. h7 Bd5 130. h8=Q+ Bg8 131. Qxg8# 1-0
+

@@ -1,0 +1,30 @@
+[Event "TCEC Season 21 - Swiss 2"]
+[Site "https://tcec-chess.com"]
+[Date "2021.12.05"]
+[Round "10.33"]
+[White "Winter 0.9.7"]
+[Black "RubiChess 2.3-dev-TCECcup9"]
+[Result "*"]
+[WhiteElo "3407"]
+[BlackElo "3478"]
+[ECO "A04"]
+[GameDuration "01:37:48"]
+[GameEndTime "2021-12-04T20:58:42.506 UTC"]
+[GameStartTime "2021-12-04T19:20:53.734 UTC"]
+[Opening "Reti opening"]
+[PlyCount "122"]
+[TerminationDetails "Black mates"]
+[TimeControl "2700+7"]
+[Annotator "archive"]
+
+1. Nf3 e6 2. d4 d5 3. g3 c6 4. Bg2 Bd6 5. O-O Nd7 6. Nbd2 f5 7. c4 Ngf6 8. Qc2
+O-O 9. Ne1 b6 10. Nd3 Ba6 11. b4 Rc8 12. a4 Ne4 13. c5 Bb8 14. Rb1 Qe7 15. Nf3
+bxc5 16. bxc5 g5 17. Nd2 Nxd2 18. Qxd2 f4 19. Bb2 Nf6 20. Ne5 Qg7 21. Rfe1 Qh6
+22. Rf1 Rce8 23. g4 Ne4 24. Qc2 Qh4 25. Ba1 Bxe5 26. dxe5 h5 27. f3 hxg4 28.
+fxe4 Kg7 29. Qd2 Rh8 30. h3 Ref8 31. Bd4 gxh3 32. Bf3 g4 33. Kh1 g3 34. Bf2 Rb8
+35. Rbc1 Rb3 36. Rg1 Rh6 37. exd5 cxd5 38. Be1 Rxf3 39. exf3 Bf1 40. Rxf1 g2+
+41. Kh2 gxf1=N+ 42. Kh1 Nxd2 43. Bxh4 Rxh4 44. c6 Rh8 45. c7 Rc8 46. Rg1+ Kh6
+47. Rd1 Nxf3 48. Rd3 Nxe5 49. Rxh3+ Kg5 50. Rh7 f3 51. Kh2 Kf4 52. Kh3 Ke3 53.
+Rh6 f2 54. Rf6 Rxc7 55. a5 Rg7 56. Kh4 Nf3+ 57. Kh5 f1=Q 58. Rxe6+ Kd4 59. Kh6
+Qg2 60. Re4+ dxe4 61. a6 Qg6# *
+

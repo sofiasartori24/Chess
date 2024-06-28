@@ -1,0 +1,54 @@
+[Event "King's Indian Double Round Robin Tournament"]
+[Site "https://lichess.org/study/H8Ew2Qum/oRSofrHG"]
+[Date "2021.09.22"]
+[Round "1"]
+[White "AnMon"]
+[Black "Stockfish"]
+[Result "0-1"]
+[TimeControl "1500+10"]
+[Termination "normal"]
+[UTCDate "2021.09.23"]
+[UTCTime "22:32:44"]
+[Variant "Standard"]
+[ECO "E97"]
+[Opening "King's Indian Defense: Orthodox Variation, Modern System"]
+[Annotator "https://lichess.org/@/Musicrafter12"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 { End of book } 9. Nd2 a5 10. a3 Nd7 11. Rb1 f5 12. b4 Kh8 13. f3 b6
+{ A rare concept, but understandable. Black is simply trying to clamp down on c5 really hard. In my own study of the KID for myself, I've seen this b6 idea many times. }
+14. Nb3 axb4 15. axb4 Ng8 16. exf5 $6 $146
+{ In principle, capturing the f-pawn is not really the greatest idea. From a human point of view, white should be reluctant to play this way unless clear gain is derived from black's slightly loosened kingside. Instead, the g-file just becomes an avenue for attack. }
+16... gxf5 17. Be3 Bh6
+{ One of those times when trading off the KID bishop is a good idea. It rectifies the bad knight on g8 (part of the point of Ng8 was to facilitate this very trade), and really, black's DSB is worse than white's in this position from a positional point of view. }
+18. Bxh6 Nxh6 19. Bd3 Rg8 20. Qd2 f4 21. Ra1 Rb8 22. Nb5 Nf6 23. Ra7 Rg7 24.
+Qc2 Nhg4 $3
+{ A bolt from the blue. AnMon did not register this move at all until it hit. Even after accepting the sacrifice, AnMon was convinced that it could successfully defend and even thought it was slightly better for a while, but Stockfish had understood the dynamics better and/or seen further. }
+25. fxg4 Nxg4 26. Qe2 ( 26. Rf3
+{ Apparently more resilient, but most humans would be reluctant to play this too in view of }
+26... Ne3
+{ whereupon sacrificing the exchange back is basically forced because of the double threat to win the queen two different ways! }
+27. Rxe3 fxe3 28. Qe2 Bh3 29. g3 Qg5 30. Rxc7 Rf8 31. Rxg7 Kxg7 32. Nxd6 Rf2
+{ A sample line. Black's pieces don't superficially appear to be that active at first, but they just seem to fly into the action! }
+) 26... Qh4 27. h3 Ne3 { An octopus } 28. Rxc7 Rxc7 29. Nxc7 Bxh3 30. Be4 ( 30.
+gxh3 Rg8+ 31. Kh1 Rg3 32. Rf3 Qxh3+ 33. Qh2 Rxf3 34. Qxh3 Rxh3+ 35. Kg1 Nxd5
+36. Nxd5 Rxd3 { THREE PASSED PAWNS, PUSH EM BABY } ) 30... Rg8 31. Rf2 Bg4 $1
+{ A nice finesse. The queen has to keep applying pressure to the e3 octopus, or else black has f3 and crashes through on g2, so it has a very limited choice of squares. }
+32. Qe1 ( 32. Qa2 { for example } 32... f3 $1 33. Ne6 Nxg2 ) 32... Bf5 33. Bf3
+( 33. Bxf5 { can't take because then g2 collapses } 33... Rxg2+ ) 33... Nxg2 $1
+{ Boom! } 34. Bxg2 Rxg2+ $1 { BOOM! } 35. Kxg2
+{ Black is down 6 points of material! But the attack is too strong. Black continues with all checks and regains some material along the way. }
+35... Bh3+ 36. Kh1 Bg4+ 37. Kg2 Qg3+ 38. Kf1 Bh3+ 39. Ke2 Qe3+ 40. Kd1 Bg4+ 41.
+Re2 Qxb3+ { Got one piece back } 42. Kc1 Qa3+ 43. Kd2 Qb2+ 44. Kd1 Qb1+ 45. Kd2
+Qb2+ { Repeating the position once before finding the winning continuation }
+46. Kd1 e4 $1 { Facilitating checks from d3. } 47. Nb5 Qb1+ 48. Kd2 Qd3+
+{ Forces the king away from the rook } 49. Kc1 Bxe2
+{ Black is now clearly winning, being up material with a continuing attack and two dangerous connected passed pawns }
+50. Nc3 Qxc4 51. Qxe2
+{ Humans would probably try something else first, but AnMon cooperatively allows unfavorable simplifications, as engines are apt to do. It is beyond obvious white is without hope, but the game continuation simplifies things. }
+51... Qxc3+ 52. Kd1 e3 $1 53. Qc2
+{ Black's mating net forces the swap of queens, after which white is simply entering a dead lost pure pawn ending. }
+53... Qxc2+ 54. Kxc2 e2 55. Kd2 f3 56. Ke1 h5 57. b5
+{ Both engines agreed white was sufficiently lost, so the game was automatically adjudicated here as a win for black. }
+0-1
+

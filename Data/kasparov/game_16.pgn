@@ -1,0 +1,30 @@
+[Event "Grand Chess Tour Croatia Rapid & Blitz 2021"]
+[Site "?"]
+[Date "2021.07.10"]
+[Round "18"]
+[White "Kasparov, Garry"]
+[Black "Nepomniachtchi, Ian"]
+[Result "0-1"]
+[WhiteFideId "4100018"]
+[BlackFideId "4168119"]
+[WhiteElo "2801"]
+[BlackElo "2807"]
+[TimeControl "300+1"]
+[WhiteClock "0:01:52"]
+[BlackClock "0:03:51"]
+
+1. d4 { [%clk 0:00:00] } 1... Nf6 { [%clk 0:05:02] } 2. c4 { [%clk 0:00:02] }
+2... e6 { [%clk 0:05:07] } 3. Nc3 { [%clk 0:00:02] } 3... Bb4
+{ [%clk 0:05:07] } 4. Nf3 { [%clk 0:00:02] } 4... d5 { [%clk 0:05:07] } 5. cxd5
+{ [%clk 0:00:01] } 5... exd5 { [%clk 0:05:07] } 6. Bf4 { [%clk 0:00:01] } 6...
+Ne4 { [%clk 0:05:00] } 7. Rc1 { [%clk 0:00:01] } 7... Nd7 { [%clk 0:05:00] } 8.
+e3 { [%clk 0:00:00] } 8... g5 { [%clk 0:05:01] } 9. Bg3 { [%clk 0:02:34] } 9...
+h5 { [%clk 0:04:59] } 10. Qb3 { [%clk 0:02:34] } 10... Bxc3+ { [%clk 0:04:39] }
+11. bxc3 { [%clk 0:02:34] } 11... c6 { [%clk 0:04:36] } 12. Nd2
+{ [%clk 0:02:11] } 12... Nxd2 { [%clk 0:04:33] } 13. Kxd2 { [%clk 0:02:12] }
+13... h4 { [%clk 0:04:35] } 14. Bd6 { [%clk 0:02:07] } 14... Qf6
+{ [%clk 0:04:35] } 15. Ba3 { [%clk 0:01:41] } 15... Qxf2+ { [%clk 0:04:32] }
+16. Be2 { [%clk 0:01:42] } 16... Nf6 { [%clk 0:04:31] } 17. Qb4
+{ [%clk 0:01:41] } 17... Ne4+ { [%clk 0:04:20] } 18. Kd1 { [%clk 0:01:52] }
+18... c5 { [%clk 0:03:51] } 0-1
+

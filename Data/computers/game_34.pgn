@@ -1,0 +1,37 @@
+[Event "CCC 7: Blitz Bonanza Final (5|2)"]
+[Site "?"]
+[Date "2019.04.12"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Antifish"]
+[Result "0-1"]
+[ECO "C07"]
+[GameDuration "00:18:07"]
+[GameEndTime "2019-04-12T07:08:05.461 PDT"]
+[GameStartTime "2019-04-12T06:49:57.716 PDT"]
+[Opening "French"]
+[PlyCount "246"]
+[TimeControl "300+2"]
+[Variation "Tarrasch, Open Variation"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 Nf6 5. e5 Nfd7 6. c3 Nc6 7. Bd3 cxd4 8.
+cxd4 Qb6 9. Nb3 a5 10. a4 Bb4+ 11. Kf1 f6 12. Be3 Qc7 13. Nh4 fxe5 14. Qh5+ Kd8
+15. Ng6 Nf6 16. Qh4 exd4 17. Nxd4 Rg8 18. Nb5 Qb8 19. Bb6+ Kd7 20. Bc7 Qxc7 21.
+Nxc7 Kxc7 22. Nf4 e5 23. Ne2 Be6 24. Rc1 Rad8 25. f3 d4 26. h3 Bd5 27. Bb5 Kb8
+28. Qg3 Bd6 29. Qe1 Nb4 30. Ng3 Ka8 31. Kg1 Bb8 32. Rd1 g5 33. Rd3 h5 34. Ne4
+Rdf8 35. Kh2 g4 36. Rg1 Nh7 37. Rf1 gxh3 38. g3 Ng5 39. Ra3 Ne6 40. Bd7 h4 41.
+g4 Nf4 42. Bf5 d3 43. Qxh4 Nc2 44. Rd1 Nxa3 45. bxa3 Bc6 46. Qe7 Rd8 47. Qf7
+Rh8 48. Qb3 Bc7 49. Qf7 Kb8 50. Qb3 Rh6 51. Rd2 Bd5 52. Qd1 Rc6 53. Rb2 Bc4 54.
+Ng3 Bb6 55. Rd2 Ba6 56. Be4 Rc3 57. Rb2 Rdc8 58. Rxb6 Rc2+ 59. Kh1 Rc1 60. Rb1
+d2 61. Kh2 Rxd1 62. Rxd1 Rd8 63. Bc2 Ng2 64. Ne4 Ne3 65. Kxh3 Nxd1 66. Bxd1 Bd3
+67. Nf2 Bg6 68. Kg2 Kc7 69. Kf1 Kd6 70. Ke2 Ke7 71. Bb3 Kf6 72. Bd1 Kg5 73. Ke3
+Kh4 74. Ke2 Kg3 75. Ke3 Rc8 76. g5 Rc3+ 77. Kxd2 Rxa3 78. Ke1 Kf4 79. Nh3+ Ke3
+80. Nf2 Ra1 81. Ne4 Bh5 82. Nf2 Be8 83. Ng4+ Kf4 84. Nf2 Kxg5 85. Kd2 Bxa4 86.
+Be2 Bc6 87. Bc4 Ra4 88. Be6 Kf6 89. Bb3 Rd4+ 90. Ke3 Rb4 91. Ng4+ Ke7 92. Bg8
+Kd6 93. Kd2 Bxf3 94. Ne3 Kc5 95. Kc1 Rh4 96. Be6 Rh2 97. Nc2 Be4 98. Ne3 Kd4
+99. Ng4 Rc2+ 100. Kd1 Rc6 101. Bd7 Rc7 102. Bb5 Bc6 103. Bxc6 Rxc6 104. Ke2 a4
+105. Ne3 a3 106. Nf5+ Ke4 107. Ng3+ Kd5 108. Kd3 a2 109. Nf5 a1=Q 110. Ne7+ Ke6
+111. Nxc6 bxc6 112. Kc2 e4 113. Kd2 c5 114. Kc2 c4 115. Kd2 c3+ 116. Ke3 c2
+117. Kxe4 c1=Q 118. Kf3 Qf4+ 119. Kxf4 Qe1 120. Kf3 Kf5 121. Kg2 Kg4 122. Kh2
+Kf3 123. Kh3 Qg3# 0-1
+

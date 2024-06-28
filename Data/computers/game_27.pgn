@@ -1,0 +1,32 @@
+[Event "nTCEC - Stage 2 - Season 2"]
+[Site "http://www.tcec-chess.net"]
+[Date "2013.09.19"]
+[Round "2"]
+[White "Bouquet (Computer)"]
+[Black "Stockfish (Computer)"]
+[Result "0-1"]
+[EventDate "2013.09.17"]
+[ECO "A25"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "221"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Rb1 a5 6. a3 f5 7. d3 Nf6 8. Nf3 O-O
+9. O-O d6 10. b4 axb4 11. axb4 Qe8 12. b5 Nd8 13. Nd2 Ne6 14. Bb2 f4 15. Nde4
+Nxe4 16. Nxe4 Qe7 17. Qd2 h5 18. Ra1 Rxa1 19. Rxa1 Bh6 20. Ra7 Kh7 21. Qe1 fxg3
+22. hxg3 h4 23. e3 hxg3 24. fxg3 Ng5 25. Nxg5+ Qxg5 26. Bc1 Qg4 27. Ra2 Rf6 28.
+Bd5 Bf5 29. e4 Bc8 30. Rh2 g5 31. Be3 b6 32. Bf2 Kg6 33. Bc6 Rf8 34. Be3 Be6
+35. Bd5 Bd7 36. Rh1 Qf3 37. Rh2 Bg4 38. Bc6 Bg7 39. Bd5 Bf6 40. Qf2 Be7 41. Qe1
+Bd7 42. Rh1 Bc8 43. Rh2 Bg4 44. Rh1 Bd7 45. Rh2 Kg7 46. Rh1 Bg4 47. Rh2 Bd8 48.
+Bc6 Bf6 49. Bb7 Kg6 50. Bd5 Bd8 51. Bc6 Be6 52. Bd5 Bc8 53. Rh1 Kg7 54. Rh2 Bd7
+55. Bc6 Bg4 56. Bb7 Be6 57. Ba8 Be7 58. Bb7 Bd7 59. Bd5 Bg4 60. Bc6 Bc8 61. Bd5
+Bd8 62. Ba8 Kg6 63. Bc6 Bg4 64. Bd5 Bd7 65. Bb7 Qg4 66. Ba8 d5 67. Bxd5 Be7 68.
+Bf2 Rf3 69. Qe2 Rxg3+ 70. Bxg3 Qxg3+ 71. Rg2 Bc5+ 72. Kh1 Qf4 73. Bc6 Bh3 74.
+Be8+ Kg7 75. Bh5 Qh4 76. Rh2 Bd4 77. c5 Bxc5 78. Bf3 Qg3 79. Bg2 Bg4 80. Qd2
+Kg6 81. Qc1 Qxd3 82. Rh8 Be6 83. Qe1 Qb3 84. Kh2 Be3 85. Qe2 Kg7 86. Re8 Bc4
+87. Qe1 Qa3 88. Bf1 Qa2+ 89. Kh1 Bf4 90. Bg2 Qa3 91. Rd8 Bxb5 92. Rd1 Bc6 93.
+Qf2 Bxe4 94. Rd7+ Kf8 95. Bxe4 Qh3+ 96. Kg1 Qxd7 97. Qc2 c5 98. Kf1 g4 99. Bf5
+Qd5 100. Be4 Qd4 101. Bb7 Qd7 102. Qe4 Qd1+ 103. Kf2 g3+ 104. Kg2 Qd2+ 105. Kf3
+Kg7 106. Qd5 Qxd5+ 107. Bxd5 Kf6 108. Ke2 Ke7 109. Bg2 Kd6 110. Bh3 c4 111. Kf1
+0-1
+

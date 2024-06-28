@@ -1,0 +1,35 @@
+[Event "Stockfish+NNUE vs Lc0 (3|2)"]
+[Site "?"]
+[Date "2020.07.21"]
+[Round "1"]
+[White "Stockfish NNUE"]
+[Black "Lc0"]
+[Result "1-0"]
+[ECO "E73"]
+[GameDuration "00:12:46"]
+[GameEndTime "2020-07-21T08:21:46.010 PDT"]
+[GameStartTime "2020-07-21T08:08:59.668 PDT"]
+[Opening "King's Indian"]
+[PlyCount "221"]
+[TimeControl "180+2"]
+[Variation "Semi-Averbakh system"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Be3 Nc6 7. Nf3 e5 8. d5
+Ne7 9. Nd2 Ne8 10. Qb3 f5 11. f3 c5 12. g4 Bf6 13. O-O-O f4 14. Bf2 g5 15. h4
+gxh4 16. Bxh4 Bxh4 17. Rxh4 Ng6 18. Rh6 Nh8 19. Rdh1 Rf7 20. Bd1 Rg7 21. Qa3
+Nf7 22. R6h4 a6 23. Ba4 Nf6 24. Kb1 Ng5 25. Qb3 Nf7 26. Qd1 Rg6 27. Nb3 Rb8 28.
+Nc1 Qa5 29. Qc2 Kf8 30. a3 Ng5 31. Nb3 Qc7 32. Qe2 Nf7 33. Nc1 Qa5 34. Nb3 Qc7
+35. Nd2 h6 36. Kc2 Bd7 37. Bxd7 Nxd7 38. Qf1 Kg7 39. R4h2 Kh7 40. b3 Nf6 41.
+Qa1 b6 42. a4 a5 43. Nb5 Qe7 44. Rh4 Kg7 45. Qf1 Kf8 46. Nb1 Kg7 47. Kb2 Rh8
+48. R1h2 Rb8 49. N1a3 Qd7 50. Nc2 Rg8 51. Ne1 Kf8 52. Nd3 Ke7 53. Nf2 Kd8 54.
+Qe2 Kc8 55. Nd3 Kb7 56. Qf1 Rh8 57. Rg2 Rhg8 58. Rhh2 Ne8 59. Rh3 Ng5 60. Rh1
+Nf7 61. Ne1 Rg5 62. Rgh2 Nf6 63. Ng2 Kb8 64. Ka3 Qd8 65. Nh4 h5 66. gxh5 Nxh5
+67. Qh3 Ng7 68. Rg2 Rxg2 69. Nxg2 Ng5 70. Qg4 Ne8 71. Ne1 Nc7 72. Rg1 Nxb5+ 73.
+axb5 Rg7 74. Qh5 Ka7 75. Rg4 Qg8 76. Nd3 Kb7 77. Qh6 Rg6 78. Rxg5 Rxg5 79. Qxd6
+Qe8 80. Qc6+ Qxc6 81. bxc6+ Kc7 82. Ka4 Rh5 83. Kb5 Rg5 84. Nb2 Rg8 85. Na4 Rb8
+86. Nc3 Rg8 87. Ka4 Rg1 88. Nb5+ Kd8 89. Nd6 Kc7 90. Nf7 Rb1 91. Nxe5 Ra1+ 92.
+Kb5 Ra3 93. Nd7 Rxb3+ 94. Ka6 a4 95. e5 Rd3 96. Nxb6 a3 97. Na8+ Kc8 98. d6 a2
+99. Nb6+ Kd8 100. c7+ Ke8 101. c8=Q+ Kf7 102. Qd7+ Kg6 103. Qa4 Rd2 104. d7
+Rxd7 105. Nxd7 Kf5 106. Qxa2 Ke6 107. Qc2 Kxd7 108. Qh7+ Kd8 109. e6 Ke8 110.
+Qd7+ Kf8 111. Qf7# 1-0
+
